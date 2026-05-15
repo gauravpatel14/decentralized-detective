@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory n0:key="app_language_section" n0:order="1"
+      xmlns:n0="http://schemas.android.com/apk/res/android">
+        <org.chromium.chrome.browser.language.settings.LanguageItemPickerPreference n0:key="app_language_preference" />
+    </PreferenceCategory>
+    <PreferenceCategory n1:title="@string/APKTOOL_RENAMED_0x7f1406ae" n1:key="content_languages_section" n1:order="2" n2:APKTOOL_RENAMED_0x7f05002f="true"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <org.chromium.chrome.browser.language.settings.ContentLanguagesPreference n1:layout="@layout/APKTOOL_RENAMED_0x7f0e01a3" n1:key="content_languages_preference" n1:widgetLayout="@layout/APKTOOL_RENAMED_0x7f0e001e" />
+    </PreferenceCategory>
+    <PreferenceCategory n3:title="@string/APKTOOL_RENAMED_0x7f1406c1" n3:key="translation_settings_section" n3:order="3" n4:APKTOOL_RENAMED_0x7f05002f="true" n4:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n3:key="translate_switch" n3:summaryOn="@string/APKTOOL_RENAMED_0x7f1406b8" n3:summaryOff="@string/APKTOOL_RENAMED_0x7f1406b8" n4:APKTOOL_RENAMED_0x7f05002f="false" n4:APKTOOL_RENAMED_0x7f050031="true" />
+        <PreferenceCategory n3:layout="@layout/APKTOOL_RENAMED_0x7f0e0249" n3:key="translation_advanced_settings_section" n4:APKTOOL_RENAMED_0x7f05002f="true" n4:APKTOOL_RENAMED_0x7f050031="false" n4:APKTOOL_RENAMED_0x7f0502c5="0">
+            <org.chromium.chrome.browser.language.settings.LanguageItemPickerPreference n3:title="@string/APKTOOL_RENAMED_0x7f1406c0" n3:key="translate_settings_target_language" n4:APKTOOL_RENAMED_0x7f05002f="false" n4:APKTOOL_RENAMED_0x7f050031="false" />
+            <org.chromium.chrome.browser.language.settings.LanguageItemListPreference n3:title="@string/APKTOOL_RENAMED_0x7f1406ba" n3:key="translate_settings_always_languages" n4:APKTOOL_RENAMED_0x7f05002f="false" n4:APKTOOL_RENAMED_0x7f050031="false" />
+            <org.chromium.chrome.browser.language.settings.LanguageItemListPreference n3:title="@string/APKTOOL_RENAMED_0x7f1406bc" n3:key="translate_settings_never_languages" n4:APKTOOL_RENAMED_0x7f05002f="false" n4:APKTOOL_RENAMED_0x7f050031="false" />
+        </PreferenceCategory>
+    </PreferenceCategory>
+</PreferenceScreen>

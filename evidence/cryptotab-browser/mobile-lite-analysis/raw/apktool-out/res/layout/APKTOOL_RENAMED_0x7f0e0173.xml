@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.bookmarks.ImprovedBookmarkFolderView n0:id="@id/improved_bookmark_folder_view" n0:layout_width="wrap_content" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n0:layout_width="wrap_content" n0:layout_height="wrap_content">
+        <FrameLayout n0:id="@id/no_image_placeholder_background" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0802e4" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0802e4" n1:APKTOOL_RENAMED_0x7f05030e="parent" n1:APKTOOL_RENAMED_0x7f050322="parent" n1:APKTOOL_RENAMED_0x7f050326="parent" n1:APKTOOL_RENAMED_0x7f05032c="parent"
+          xmlns:n1="http://schemas.android.com/apk/res-auto">
+            <ImageView n0:layout_gravity="left|top" n0:id="@id/no_image_placeholder_image" n0:layout_width="24.0dp" n0:layout_height="24.0dp" n0:layout_marginLeft="14.0dp" n0:layout_marginTop="14.0dp" n0:src="@drawable/APKTOOL_RENAMED_0x7f090252" n0:scaleType="center" n0:importantForAccessibility="no" n1:APKTOOL_RENAMED_0x7f050573="?APKTOOL_RENAMED_0x7f05014e" />
+        </FrameLayout>
+        <ImageView n0:id="@id/primary_image" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0802e4" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0802e4" n0:scaleType="fitCenter" n0:importantForAccessibility="no" n0:clipToOutline="true" n2:APKTOOL_RENAMED_0x7f05030e="parent" n2:APKTOOL_RENAMED_0x7f050322="parent" n2:APKTOOL_RENAMED_0x7f050326="parent" n2:APKTOOL_RENAMED_0x7f05032c="parent"
+          xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n0:id="@id/secondary_image_container" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0802e3" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0802e2" n3:APKTOOL_RENAMED_0x7f050326="parent" n3:APKTOOL_RENAMED_0x7f05032c="parent"
+          xmlns:n3="http://schemas.android.com/apk/res-auto">
+            <ImageView n0:layout_gravity="right|top" n0:id="@id/secondary_image" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0802e2" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0802e2" n0:scaleType="fitCenter" n0:importantForAccessibility="no" n0:clipToOutline="true" />
+        </FrameLayout>
+        <View n0:id="@id/child_count_container" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0802e3" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0802e3" n4:APKTOOL_RENAMED_0x7f05030e="parent" n4:APKTOOL_RENAMED_0x7f050326="parent"
+          xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n0:id="@id/child_count_background_one_image" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0802e2" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0802e2" n5:APKTOOL_RENAMED_0x7f05030e="parent" n5:APKTOOL_RENAMED_0x7f050326="parent"
+          xmlns:n5="http://schemas.android.com/apk/res-auto">
+            <View n0:layout_gravity="top" n0:id="@id/child_count_background_one_image_top" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0802e2" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0802e1" />
+            <View n0:layout_gravity="bottom" n0:id="@id/child_count_background_one_image_bot" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0802e2" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0802e1" />
+        </FrameLayout>
+        <View n0:id="@id/child_count_background_two_images" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0802e2" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0802e2" n6:APKTOOL_RENAMED_0x7f05030e="parent" n6:APKTOOL_RENAMED_0x7f050326="parent"
+          xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <TextView n0:gravity="center" n0:id="@id/child_count_text" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0802e2" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0802e2" n7:APKTOOL_RENAMED_0x7f05030e="parent" n7:APKTOOL_RENAMED_0x7f050326="parent"
+          xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</org.chromium.chrome.browser.bookmarks.ImprovedBookmarkFolderView>

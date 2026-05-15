@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <org.chromium.ui.widget.TextViewWithClickableSpans n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150344" n0:id="@id/dialog_title" n0:paddingBottom="8.0dp" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:paddingStart="16.0dp" n0:paddingEnd="16.0dp"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <org.chromium.ui.widget.TextViewWithClickableSpans n1:textAppearance="@style/APKTOOL_RENAMED_0x7f150344" n1:id="@id/not_found_message" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <FrameLayout n2:id="@id/container" n2:layout_width="match_parent" n2:layout_height="100.0dp"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <ProgressBar n2:layout_gravity="center" n2:id="@id/progress" n2:layout_width="24.0dp" n2:layout_height="24.0dp" n2:indeterminate="true" />
+        <ListView n2:layout_gravity="top" n2:id="@id/items" n2:visibility="gone" n2:layout_width="match_parent" n2:layout_height="wrap_content" n2:fadeScrollbars="false" />
+    </FrameLayout>
+    <View style="@style/APKTOOL_RENAMED_0x7f150141" />
+</merge>

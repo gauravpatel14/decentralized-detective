@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:id="@id/title" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f0802d6" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f0802d6" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140875" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f0802d5" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f0802d5" style="@style/APKTOOL_RENAMED_0x7f1501f1" />
+    <org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout n0:id="@id/radio_button_group" n0:focusableInTouchMode="true" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription n0:id="@id/radio_button_chrome_ntp" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n1:APKTOOL_RENAMED_0x7f05044f="@string/APKTOOL_RENAMED_0x7f140873"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithEditText n0:enabled="false" n0:id="@id/radio_button_uri_edit" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:hint="@string/APKTOOL_RENAMED_0x7f140874" n0:inputType="textUri" />
+    </org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout>
+</LinearLayout>

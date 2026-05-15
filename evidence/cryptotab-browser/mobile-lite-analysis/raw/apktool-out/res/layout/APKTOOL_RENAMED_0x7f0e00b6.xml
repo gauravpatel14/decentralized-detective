@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <RelativeLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:id="@id/checkbox_container" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080541" n0:layout_alignParentStart="true"
+      xmlns:n0="http://schemas.android.com/apk/res/android">
+        <CheckBox n0:id="@id/checkbox" n0:background="@null" n0:focusable="false" n0:clickable="false" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_centerVertical="true" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150344" n0:id="@id/primary" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_centerVertical="true" n0:layout_toEndOf="@id/checkbox" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n0:id="@id/description" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_below="@id/primary" n0:layout_alignStart="@id/primary" />
+    </RelativeLayout>
+</merge>

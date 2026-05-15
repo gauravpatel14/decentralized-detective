@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <group n0:id="@id/PAGE_MENU" n0:visible="false"
+      xmlns:n0="http://schemas.android.com/apk/res/android">
+        <item n0:id="@id/icon_row_menu_id" n0:title="@null">
+            <menu>
+                <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f090372" n0:id="@id/forward_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f140c82" />
+                <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f09052e" n0:id="@id/bookmark_this_page_id" n0:title="@string/APKTOOL_RENAMED_0x7f14017d" n0:titleCondensed="@string/APKTOOL_RENAMED_0x7f14072e" />
+                <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f09024d" n0:id="@id/offline_page_id" n0:title="@string/APKTOOL_RENAMED_0x7f14053c" n0:titleCondensed="@string/APKTOOL_RENAMED_0x7f140732" />
+                <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f0900ec" n0:id="@id/info_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f14017f" n0:titleCondensed="@string/APKTOOL_RENAMED_0x7f14074c" />
+                <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f0900f2" n0:id="@id/reload_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f14015e" n0:titleCondensed="@string/APKTOOL_RENAMED_0x7f140b1b" />
+            </menu>
+        </item>
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f090405" n0:id="@id/update_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f14075e" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f0901de" n0:id="@id/new_tab_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f140745" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f0903bb" n0:id="@id/new_incognito_tab_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f140744" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f09033a" n0:id="@id/new_window_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f140746" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f090343" n0:id="@id/move_to_other_window_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f140743" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f09036e" n0:id="@id/manage_all_windows_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f140742" />
+        <item n0:id="@id/divider_line_id" n0:title="@null" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f090285" n0:id="@id/open_history_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f14073b" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f0901de" n0:id="@id/tinker_tank_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f14075c" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f0904ef" n0:id="@id/quick_delete_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f140750" />
+        <item n0:id="@id/quick_delete_divider_line_id" n0:title="@null" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f0903c2" n0:id="@id/downloads_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f140733" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f0900f4" n0:id="@id/all_bookmarks_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f14072f" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f090180" n0:id="@id/recent_tabs_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f140752" />
+        <item n0:id="@id/divider_line_id" n0:title="@null" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f0903b0" n0:id="@id/page_zoom_id" n0:title="@string/APKTOOL_RENAMED_0x7f1408ec" />
+        <item n0:id="@id/share_row_menu_id" n0:title="@null">
+            <menu>
+                <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f090372" n0:id="@id/share_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f140759" />
+                <item n0:id="@id/direct_share_menu_id" n0:title="@null" />
+            </menu>
+        </item>
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f090499" n0:id="@id/enable_price_tracking_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f140554" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f09049a" n0:id="@id/disable_price_tracking_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f1404ed" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f09024f" n0:id="@id/find_in_page_id" n0:title="@string/APKTOOL_RENAMED_0x7f140735" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f09038e" n0:id="@id/translate_id" n0:title="@string/APKTOOL_RENAMED_0x7f14075d" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f090357" n0:id="@id/readaloud_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f140740" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f0901df" n0:id="@id/add_to_homescreen_id" n0:title="@string/APKTOOL_RENAMED_0x7f14072c" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f09028d" n0:id="@id/install_webapp_id" n0:title="@string/APKTOOL_RENAMED_0x7f14073c" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f0901df" n0:id="@id/universal_install" n0:title="@string/APKTOOL_RENAMED_0x7f14072c" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f090344" n0:id="@id/open_webapk_id" n0:title="@string/APKTOOL_RENAMED_0x7f14074b" />
+        <item n0:id="@id/request_desktop_site_row_menu_id" n0:title="@null">
+            <menu>
+                <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f090223" n0:id="@id/request_desktop_site_id" n0:title="@string/APKTOOL_RENAMED_0x7f140753" />
+                <item n0:id="@id/request_desktop_site_check_id" n0:title="@null" n0:checkable="true" />
+            </menu>
+        </item>
+        <item n0:id="@id/auto_dark_web_contents_row_menu_id" n0:title="@null">
+            <menu>
+                <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f0901f7" n0:id="@id/auto_dark_web_contents_id" n0:title="@string/APKTOOL_RENAMED_0x7f14072d" />
+                <item n0:id="@id/auto_dark_web_contents_check_id" n0:title="@null" n0:checkable="true" />
+            </menu>
+        </item>
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f090350" n0:id="@id/paint_preview_show_id" n0:title="@string/APKTOOL_RENAMED_0x7f14074e" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f090286" n0:id="@id/get_image_descriptions_id" n0:title="@string/APKTOOL_RENAMED_0x7f140739" />
+        <item n0:id="@id/divider_line_id" n0:title="@null" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f0904f1" n0:id="@id/reader_mode_prefs_id" n0:title="@string/APKTOOL_RENAMED_0x7f140751" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f090514" n0:id="@id/preferences_id" n0:title="@string/APKTOOL_RENAMED_0x7f140757" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f0901c9" n0:id="@id/help_id" n0:visible="false" n0:title="@string/APKTOOL_RENAMED_0x7f14073a" />
+        <item n0:id="@id/managed_by_divider_line_id" n0:title="@null" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f0901f8" n0:id="@id/managed_by_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f1406fd" />
+    </group>
+    <group n1:id="@id/OVERVIEW_MODE_MENU" n1:visible="false"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <item n1:icon="@drawable/APKTOOL_RENAMED_0x7f0901de" n1:id="@id/new_tab_menu_id" n1:title="@string/APKTOOL_RENAMED_0x7f140745" />
+        <item n1:icon="@drawable/APKTOOL_RENAMED_0x7f0903bb" n1:id="@id/new_incognito_tab_menu_id" n1:title="@string/APKTOOL_RENAMED_0x7f140744" />
+        <item n1:icon="@drawable/APKTOOL_RENAMED_0x7f0900e9" n1:id="@id/close_all_tabs_menu_id" n1:title="@string/APKTOOL_RENAMED_0x7f140731" />
+        <item n1:icon="@drawable/APKTOOL_RENAMED_0x7f0900e9" n1:id="@id/close_all_incognito_tabs_menu_id" n1:title="@string/APKTOOL_RENAMED_0x7f140730" />
+        <item n1:icon="@drawable/APKTOOL_RENAMED_0x7f0901de" n1:id="@id/tinker_tank_menu_id" n1:title="@string/APKTOOL_RENAMED_0x7f14075c" />
+        <item n1:icon="@drawable/APKTOOL_RENAMED_0x7f09036d" n1:id="@id/menu_select_tabs" n1:title="@string/APKTOOL_RENAMED_0x7f140756" />
+        <item n1:icon="@drawable/APKTOOL_RENAMED_0x7f0904ef" n1:id="@id/quick_delete_menu_id" n1:title="@string/APKTOOL_RENAMED_0x7f140750" />
+        <item n1:icon="@drawable/APKTOOL_RENAMED_0x7f090514" n1:id="@id/preferences_id" n1:title="@string/APKTOOL_RENAMED_0x7f140757" />
+    </group>
+    <group n2:id="@id/TABLET_EMPTY_MODE_MENU" n2:visible="false"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <item n2:icon="@drawable/APKTOOL_RENAMED_0x7f0901de" n2:id="@id/new_tab_menu_id" n2:title="@string/APKTOOL_RENAMED_0x7f140745" />
+        <item n2:icon="@drawable/APKTOOL_RENAMED_0x7f0903bb" n2:id="@id/new_incognito_tab_menu_id" n2:title="@string/APKTOOL_RENAMED_0x7f140744" />
+        <item n2:icon="@drawable/APKTOOL_RENAMED_0x7f090514" n2:id="@id/preferences_id" n2:title="@string/APKTOOL_RENAMED_0x7f140757" />
+        <item n2:icon="@drawable/APKTOOL_RENAMED_0x7f0904ef" n2:id="@id/quick_delete_menu_id" n2:title="@string/APKTOOL_RENAMED_0x7f140750" />
+    </group>
+</menu>

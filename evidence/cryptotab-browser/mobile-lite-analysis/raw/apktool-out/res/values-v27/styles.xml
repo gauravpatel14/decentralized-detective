@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_RENAMED_0x7f1500d4" parent="@style/APKTOOL_RENAMED_0x7f15006b">
+        <item name="android:navigationBarColor">?APKTOOL_RENAMED_0x7f050165</item>
+        <item name="android:windowLightNavigationBar">@bool/APKTOOL_RENAMED_0x7f060006</item>
+        <item name="android:navigationBarDividerColor">?APKTOOL_RENAMED_0x7f05016e</item>
+    </style>
+    <style name="APKTOOL_RENAMED_0x7f1500d5" parent="@style/APKTOOL_RENAMED_0x7f15006d">
+        <item name="android:navigationBarColor">?APKTOOL_RENAMED_0x7f050165</item>
+        <item name="android:windowLightNavigationBar">@bool/APKTOOL_RENAMED_0x7f060006</item>
+        <item name="android:navigationBarDividerColor">?APKTOOL_RENAMED_0x7f05016e</item>
+    </style>
+    <style name="APKTOOL_RENAMED_0x7f150165" parent="@style/APKTOOL_RENAMED_0x7f15006c">
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <style name="APKTOOL_RENAMED_0x7f1503a8" parent="@style/APKTOOL_RENAMED_0x7f15006c">
+        <item name="android:navigationBarColor">?APKTOOL_RENAMED_0x7f050165</item>
+        <item name="android:windowLightNavigationBar">@bool/APKTOOL_RENAMED_0x7f060006</item>
+        <item name="android:navigationBarDividerColor">?APKTOOL_RENAMED_0x7f05016e</item>
+    </style>
+    <style name="APKTOOL_RENAMED_0x7f1503ad" parent="@style/APKTOOL_RENAMED_0x7f15006e">
+        <item name="android:navigationBarDividerColor">?APKTOOL_RENAMED_0x7f05016e</item>
+    </style>
+    <style name="APKTOOL_RENAMED_0x7f1503b1" parent="@style/APKTOOL_RENAMED_0x7f150070">
+        <item name="android:navigationBarColor">?APKTOOL_RENAMED_0x7f050165</item>
+        <item name="android:windowLightNavigationBar">@bool/APKTOOL_RENAMED_0x7f060006</item>
+        <item name="android:navigationBarDividerColor">?APKTOOL_RENAMED_0x7f05016e</item>
+    </style>
+    <style name="APKTOOL_RENAMED_0x7f150418" parent="@style/APKTOOL_RENAMED_0x7f150097">
+        <item name="android:navigationBarColor">?APKTOOL_RENAMED_0x7f050165</item>
+        <item name="android:windowLightNavigationBar">@bool/APKTOOL_RENAMED_0x7f060006</item>
+        <item name="android:navigationBarDividerColor">?APKTOOL_RENAMED_0x7f05016e</item>
+    </style>
+</resources>

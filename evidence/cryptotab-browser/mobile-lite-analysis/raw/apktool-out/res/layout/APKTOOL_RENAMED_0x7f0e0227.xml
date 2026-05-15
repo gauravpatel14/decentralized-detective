@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center" n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:fillViewport="true"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:layout_gravity="top" n0:id="@id/credential_favicon" n0:background="@drawable/APKTOOL_RENAMED_0x7f0903d6" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080149" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080149" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f080148" n0:scaleType="center" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f080147" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f080147" />
+    <LinearLayout n0:gravity="start" n0:layout_gravity="top" n0:orientation="vertical" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f08014e" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f08014d" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="1.0">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:id="@id/credential_origin" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layoutDirection="ltr" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/compromised_username" n0:layout_width="wrap_content" n0:layout_height="wrap_content" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n0:id="@id/compromised_reason" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f08014f" />
+        <org.chromium.ui.widget.ButtonCompat n0:id="@id/credential_change_button" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f080146" n0:text="@string/APKTOOL_RENAMED_0x7f140909" n0:drawablePadding="@dimen/APKTOOL_RENAMED_0x7f080144" n0:drawableStart="@drawable/APKTOOL_RENAMED_0x7f090484" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f080145" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f080143" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/credential_change_hint" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f080146" n0:text="@string/APKTOOL_RENAMED_0x7f14090a" />
+    </LinearLayout>
+    <org.chromium.ui.listmenu.ListMenuButton n0:layout_gravity="top" n0:id="@id/credential_menu_button" n0:background="@null" n0:layout_width="wrap_content" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08014c" n0:src="@drawable/APKTOOL_RENAMED_0x7f0902ac" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f14077e" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f08014b" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f08014a" n1:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.chromium.components.browser_ui.settings.CardPreference n0:key="browser_state_indicator" n1:APKTOOL_RENAMED_0x7f050031="false" n1:APKTOOL_RENAMED_0x7f0502cd="false"
+      xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n2:key="safety_hub_description" n2:summary="@string/APKTOOL_RENAMED_0x7f140b94" n3:APKTOOL_RENAMED_0x7f05002f="false"
+      xmlns:n2="http://schemas.android.com/apk/res/android" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <PreferenceCategory n4:title="@string/APKTOOL_RENAMED_0x7f140bc1" n4:key="safety_modules"
+      xmlns:n4="http://schemas.android.com/apk/res/android">
+        <org.chromium.chrome.browser.safety_hub.SafetyHubExpandablePreference n4:title="@string/APKTOOL_RENAMED_0x7f140b8d" n4:key="update_check" />
+        <org.chromium.chrome.browser.safety_hub.SafetyHubExpandablePreference n4:title="@string/APKTOOL_RENAMED_0x7f140b80" n4:key="passwords_account" />
+        <org.chromium.chrome.browser.safety_hub.SafetyHubExpandablePreference n4:title="@string/APKTOOL_RENAMED_0x7f140bc0" n4:key="safe_browsing" />
+        <org.chromium.chrome.browser.safety_hub.SafetyHubExpandablePreference n4:title="@string/APKTOOL_RENAMED_0x7f140bb0" n4:key="permissions" />
+        <org.chromium.chrome.browser.safety_hub.SafetyHubExpandablePreference n4:title="@string/APKTOOL_RENAMED_0x7f140ba9" n4:key="notifications_review" />
+    </PreferenceCategory>
+    <org.chromium.chrome.browser.safety_hub.SafetyHubExpandablePreferenceCategory n5:title="@string/APKTOOL_RENAMED_0x7f140bc8" n5:key="safety_tips" n6:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto">
+        <Preference n5:icon="@drawable/APKTOOL_RENAMED_0x7f090503" n5:title="@string/APKTOOL_RENAMED_0x7f140bc7" n5:key="safety_tips_safety_tools" n5:summary="@string/APKTOOL_RENAMED_0x7f140bc6" n6:APKTOOL_RENAMED_0x7f050031="false" />
+        <Preference n5:icon="@drawable/APKTOOL_RENAMED_0x7f090503" n5:title="@string/APKTOOL_RENAMED_0x7f140bc3" n5:key="safety_tips_incognito" n5:summary="@string/APKTOOL_RENAMED_0x7f140bc2" n6:APKTOOL_RENAMED_0x7f050031="false" />
+        <Preference n5:icon="@drawable/APKTOOL_RENAMED_0x7f090503" n5:title="@string/APKTOOL_RENAMED_0x7f140bc5" n5:key="safety_tips_safe_browsing" n5:summary="@string/APKTOOL_RENAMED_0x7f140bc4" n6:APKTOOL_RENAMED_0x7f050031="false" />
+    </org.chromium.chrome.browser.safety_hub.SafetyHubExpandablePreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:layout_gravity="center_vertical" n0:id="@id/branding_icon" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0801af" n0:layout_height="wrap_content" n0:src="@drawable/APKTOOL_RENAMED_0x7f090142" n0:importantForAccessibility="no" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f0801ae" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f0801ad" n1:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <TextView n0:ellipsize="middle" n0:gravity="start|center" n0:id="@id/branding_text" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:text="@string/APKTOOL_RENAMED_0x7f140e48" />
+</LinearLayout>

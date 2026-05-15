@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:background="@drawable/APKTOOL_RENAMED_0x7f09051e" n0:paddingTop="20.0dp" n0:paddingBottom="12.0dp" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e010d" />
+    <org.chromium.ui.widget.TextViewWithClickableSpans n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/status" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="12.0dp" n0:paddingStart="16.0dp" n0:paddingEnd="16.0dp" />
+    <org.chromium.ui.widget.ButtonCompat n0:layout_gravity="end" n0:id="@id/positive" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="6.0dp" n0:paddingStart="16.0dp" n0:paddingEnd="16.0dp" n0:layout_marginEnd="12.0dp" style="@style/APKTOOL_RENAMED_0x7f15016c" />
+</LinearLayout>

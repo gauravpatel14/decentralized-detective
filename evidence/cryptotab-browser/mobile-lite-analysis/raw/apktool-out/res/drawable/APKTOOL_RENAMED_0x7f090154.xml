@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item n0:gravity="center" n0:id="@id/color_picker_item_outer_layer" n0:height="@dimen/APKTOOL_RENAMED_0x7f080134" n0:width="@dimen/APKTOOL_RENAMED_0x7f080134"
+      xmlns:n0="http://schemas.android.com/apk/res/android">
+        <shape n0:shape="oval">
+            <solid n0:color="?APKTOOL_RENAMED_0x7f05014c" />
+        </shape>
+    </item>
+    <item n1:gravity="center" n1:id="@id/color_picker_item_selection_layer" n1:left="@dimen/APKTOOL_RENAMED_0x7f080138" n1:top="@dimen/APKTOOL_RENAMED_0x7f080138" n1:right="@dimen/APKTOOL_RENAMED_0x7f080138" n1:bottom="@dimen/APKTOOL_RENAMED_0x7f080138"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <shape n1:shape="oval">
+            <solid n1:color="?APKTOOL_RENAMED_0x7f05014c" />
+        </shape>
+    </item>
+    <item n2:gravity="center" n2:id="@id/color_picker_item_inner_layer" n2:left="@dimen/APKTOOL_RENAMED_0x7f080137" n2:top="@dimen/APKTOOL_RENAMED_0x7f080137" n2:right="@dimen/APKTOOL_RENAMED_0x7f080137" n2:bottom="@dimen/APKTOOL_RENAMED_0x7f080137"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <shape n2:shape="oval">
+            <solid n2:color="?APKTOOL_RENAMED_0x7f05014c" />
+        </shape>
+    </item>
+</layer-list>

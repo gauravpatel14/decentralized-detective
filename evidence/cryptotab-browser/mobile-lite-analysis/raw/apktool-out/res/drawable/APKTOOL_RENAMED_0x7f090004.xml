@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gradient n0:angle="0.0" n0:type="linear" n0:tileMode="mirror" n0:startX="0.0" n0:startY="0.0" n0:endX="100.0" n0:endY="100.0"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <item n0:color="@android:color/transparent" n0:offset="0.0" />
+    <item n0:color="?APKTOOL_RENAMED_0x7f050156" n0:offset="0.5" />
+    <item n0:color="?APKTOOL_RENAMED_0x7f050171" n0:offset="1.0" />
+</gradient>

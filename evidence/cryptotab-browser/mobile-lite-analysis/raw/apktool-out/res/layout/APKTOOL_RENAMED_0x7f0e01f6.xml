@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.feed.sections.SectionHeaderView n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:gravity="center" n0:orientation="horizontal" n0:id="@id/main_content" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f08029b" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f0807ee" n0:layoutDirection="locale" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f080292">
+        <ImageView n0:id="@id/section_status_indicator" n0:visibility="invisible" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f08028f" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08028f" n0:src="@drawable/APKTOOL_RENAMED_0x7f090398" n0:scaleType="centerInside" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f08028e" n1:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070114"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="1.0">
+            <com.google.android.material.tabs.TabLayout n0:layout_gravity="center" n0:id="@id/tab_list_view" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080296" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f080299" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080299" style="@style/APKTOOL_RENAMED_0x7f1501b2" />
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502cc" n0:layout_gravity="center_vertical" n0:id="@id/header_title" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="12.0dp" n0:layout_marginBottom="12.0dp" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f08029a" />
+        </FrameLayout>
+        <org.chromium.ui.listmenu.ListMenuButton n0:id="@id/header_menu" n0:background="@drawable/APKTOOL_RENAMED_0x7f090567" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080293" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080541" n0:src="@drawable/APKTOOL_RENAMED_0x7f0902ac" n0:scaleType="centerInside" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140187" n0:paddingEnd="8.0dp" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f080290" n2:APKTOOL_RENAMED_0x7f0503bf="@dimen/APKTOOL_RENAMED_0x7f080291" n2:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f0701e6"
+          xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</org.chromium.chrome.browser.feed.sections.SectionHeaderView>

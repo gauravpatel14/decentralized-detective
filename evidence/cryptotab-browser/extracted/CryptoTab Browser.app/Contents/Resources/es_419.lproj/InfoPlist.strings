@@ -1,0 +1,9 @@
+"Chromium Shortcut" = "Acceso directo de CryptoTab Browser";
+CFBundleGetInfoString = "CryptoTab Browser 127.0.6533.100, Copyright 2024 Los autores de CryptoTab Browser. Todos los derechos reservados.";
+NSBluetoothAlwaysUsageDescription = "Una vez que CryptoTab Browser tenga acceso, los sitios web podrán solicitarte acceso.";
+NSBluetoothPeripheralUsageDescription = "Una vez que CryptoTab Browser tenga acceso, los sitios web podrán solicitarte acceso.";
+NSCameraUsageDescription = "Una vez que CryptoTab Browser tenga acceso, los sitios web podrán solicitarte acceso.";
+NSHumanReadableCopyright = "Copyright 2024 Los autores de CryptoTab Browser. Todos los derechos reservados.";
+NSLocationUsageDescription = "Una vez que CryptoTab Browser tenga acceso, los sitios web podrán solicitarte acceso.";
+NSMicrophoneUsageDescription = "Una vez que CryptoTab Browser tenga acceso, los sitios web podrán solicitarte acceso.";
+NSWebBrowserPublicKeyCredentialUsageDescription = "Una vez que CryptoTab Browser tenga acceso, los sitios web podrán solicitarte acceso.";

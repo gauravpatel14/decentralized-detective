@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set>
+    <set n0:ordering="sequentially"
+      xmlns:n0="http://schemas.android.com/apk/res/android">
+        <objectAnimator n0:interpolator="@interpolator/APKTOOL_RENAMED_0x7f0d0006" n0:duration="183" n0:valueFrom="2.0" n0:valueTo="2.0" n0:valueType="floatType" n0:propertyName="strokeWidth" />
+        <objectAnimator n0:interpolator="@interpolator/APKTOOL_RENAMED_0x7f0d0006" n0:duration="16" n0:valueFrom="2.0" n0:valueTo="18.0" n0:valueType="floatType" n0:propertyName="strokeWidth" />
+        <objectAnimator n0:interpolator="@interpolator/APKTOOL_RENAMED_0x7f0d0006" n0:duration="300" n0:valueFrom="18.0" n0:valueTo="2.0" n0:valueType="floatType" n0:propertyName="strokeWidth" />
+    </set>
+</set>

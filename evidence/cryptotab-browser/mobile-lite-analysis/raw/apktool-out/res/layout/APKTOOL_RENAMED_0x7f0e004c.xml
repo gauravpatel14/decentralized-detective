@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center_horizontal" n0:orientation="vertical" n0:paddingLeft="@dimen/APKTOOL_RENAMED_0x7f08063f" n0:paddingRight="@dimen/APKTOOL_RENAMED_0x7f08063f" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f08063f" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="8.0dp" n0:importantForAccessibility="no" n1:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f09018f"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <ImageView n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="24.0dp" n0:layout_marginBottom="16.0dp" n0:src="@drawable/APKTOOL_RENAMED_0x7f0900b1" n0:importantForAccessibility="no" />
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502d1" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="8.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f14096f" />
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:gravity="center_horizontal" n0:id="@id/account_storage_settings_link" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="24.0dp" />
+    <org.chromium.ui.widget.ButtonCompat n0:id="@id/account_storage_notice_button" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f14096a" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+</LinearLayout>

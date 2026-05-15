@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:textDirection="locale"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:ellipsize="end" n0:id="@id/subtitle" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:maxLines="1" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f080211" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f080211" />
+    <org.chromium.components.browser_ui.widget.FadingEdgeScrollView n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_marginTop="4.0dp" n0:layout_weight="1.0" n0:fadeScrollbars="false">
+        <LinearLayout n0:orientation="vertical" n0:paddingBottom="12.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <RelativeLayout n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f080211">
+                <Space n0:id="@id/no_header_space" n0:layout_width="match_parent" n0:layout_height="20.0dp" />
+                <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150348" n0:id="@id/header_new" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="12.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f14031c" n0:layout_below="@id/no_header_space" n0:layout_toStartOf="@id/edit_button" />
+                <org.chromium.ui.widget.TextViewWithLeading n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:id="@id/details_new" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="3.0dp" n0:layout_marginBottom="12.0dp" n0:layout_below="@id/header_new" n0:layout_toStartOf="@id/edit_button" n1:APKTOOL_RENAMED_0x7f05034b="@dimen/APKTOOL_RENAMED_0x7f080864"
+                  xmlns:n1="http://schemas.android.com/apk/res-auto" />
+                <org.chromium.ui.widget.ChromeImageButton n0:id="@id/edit_button" n0:background="?APKTOOL_RENAMED_0x7f05048a" n0:padding="@dimen/APKTOOL_RENAMED_0x7f08006f" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080070" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080070" n0:scaleType="fitCenter" n0:layout_alignBaseline="@id/details_new" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140307" n0:baseline="32.0dp" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f080071" n0:layout_alignParentEnd="true" n2:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f090192" n2:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129"
+                  xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            </RelativeLayout>
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/header_old" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="12.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f14031d" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f080211" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f080211" />
+            <org.chromium.ui.widget.TextViewWithLeading n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:id="@id/details_old" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="3.0dp" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f080211" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f080211" n3:APKTOOL_RENAMED_0x7f05034b="@dimen/APKTOOL_RENAMED_0x7f080864"
+              xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </org.chromium.components.browser_ui.widget.FadingEdgeScrollView>
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/autofill_address_profile_prompt_source_notice" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="12.0dp" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f080211" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f080071" n0:breakStrategy="balanced" />
+</LinearLayout>

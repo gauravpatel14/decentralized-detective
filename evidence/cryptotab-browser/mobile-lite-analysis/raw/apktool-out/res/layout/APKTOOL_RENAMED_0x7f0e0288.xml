@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:orientation="vertical" n0:background="?APKTOOL_RENAMED_0x7f050165" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.tabs.TabLayout n0:id="@id/tab_layout" n0:layout_width="match_parent" n0:layout_height="wrap_content" n1:APKTOOL_RENAMED_0x7f0504fb="center" n1:APKTOOL_RENAMED_0x7f050502="true" n1:APKTOOL_RENAMED_0x7f05050b="20.0dp" n1:APKTOOL_RENAMED_0x7f05050c="20.0dp" style="@style/APKTOOL_RENAMED_0x7f15025d"
+      xmlns:n1="http://schemas.android.com/apk/res-auto">
+        <com.google.android.material.tabs.TabItem n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140adb" />
+    </com.google.android.material.tabs.TabLayout>
+    <org.chromium.ui.widget.ChromeImageButton n0:id="@id/close_button" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080889" n0:src="@drawable/APKTOOL_RENAMED_0x7f0900e8" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140422" n2:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129" style="@style/APKTOOL_RENAMED_0x7f150497"
+      xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <androidx.viewpager.widget.ViewPager n0:id="@id/qrcode_view_pager" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:layout_below="@id/tab_layout" />
+</RelativeLayout>

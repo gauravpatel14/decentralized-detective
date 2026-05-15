@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <LinearLayout n0:layout_gravity="end|center" n0:orientation="horizontal" n0:id="@id/url_action_container" n0:layout_width="wrap_content" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08088d" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f08035e"
+      xmlns:n0="http://schemas.android.com/apk/res/android">
+        <org.chromium.ui.widget.ChromeImageButton n0:id="@id/delete_button" n0:visibility="invisible" n0:src="@drawable/APKTOOL_RENAMED_0x7f0900ea" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401da" style="@style/APKTOOL_RENAMED_0x7f15018a" />
+        <org.chromium.ui.widget.ChromeImageButton n0:id="@id/mic_button" n0:visibility="invisible" n0:src="@drawable/APKTOOL_RENAMED_0x7f0902a8" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401e3" style="@style/APKTOOL_RENAMED_0x7f15018a" />
+        <org.chromium.ui.widget.ChromeImageButton n0:id="@id/lens_camera_button" n0:visibility="gone" n0:src="@drawable/APKTOOL_RENAMED_0x7f0903d1" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f14015d" style="@style/APKTOOL_RENAMED_0x7f15018a" />
+        <org.chromium.ui.widget.ChromeImageButton n0:id="@id/bookmark_button" n0:visibility="gone" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f14017d" style="@style/APKTOOL_RENAMED_0x7f15018a" />
+        <org.chromium.ui.widget.ChromeImageButton n0:id="@id/save_offline_button" n0:visibility="gone" n0:src="@drawable/APKTOOL_RENAMED_0x7f09024d" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f14053c" n0:nextFocusForward="@id/menu_button" style="@style/APKTOOL_RENAMED_0x7f15018a" />
+    </LinearLayout>
+</merge>

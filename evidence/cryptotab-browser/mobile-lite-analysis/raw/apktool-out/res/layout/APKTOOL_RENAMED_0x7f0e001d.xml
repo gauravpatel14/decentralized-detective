@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:id="@id/language_item" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f080233" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f080233" n0:layout_marginStart="0.0dp" style="@style/APKTOOL_RENAMED_0x7f150180"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.ui.widget.ChromeImageView n0:id="@id/icon_view" n0:importantForAccessibility="no" n1:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129" style="@style/APKTOOL_RENAMED_0x7f150184"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n0:layout_gravity="center_vertical" n0:orientation="vertical" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="1.0">
+        <TextView n0:id="@id/title" n0:layout_width="match_parent" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f1501f1" />
+        <TextView n0:id="@id/description" n0:layout_width="match_parent" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f1501eb" />
+    </LinearLayout>
+    <org.chromium.ui.listmenu.ListMenuButton n0:id="@id/more" n0:background="@null" n0:layout_width="wrap_content" n0:layout_height="match_parent" n0:src="@drawable/APKTOOL_RENAMED_0x7f0902ac" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f0801cb" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f0801cb" n2:APKTOOL_RENAMED_0x7f0503bf="@dimen/APKTOOL_RENAMED_0x7f0806fb" n2:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129"
+      xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

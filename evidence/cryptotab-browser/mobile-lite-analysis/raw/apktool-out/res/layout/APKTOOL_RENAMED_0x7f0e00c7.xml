@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout n0:id="@id/confirm_oma_download" n0:stretchColumns="1" style="@style/APKTOOL_RENAMED_0x7f150004"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:gravity="start" n0:padding="3.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140855" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:gravity="start" n0:id="@id/oma_download_name" n0:padding="3.0dp" />
+    </TableRow>
+    <TableRow>
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:gravity="start" n0:padding="3.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140859" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:gravity="start" n0:id="@id/oma_download_vendor" n0:padding="3.0dp" />
+    </TableRow>
+    <TableRow>
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:gravity="start" n0:padding="3.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140857" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:gravity="start" n0:id="@id/oma_download_size" n0:padding="3.0dp" />
+    </TableRow>
+    <TableRow>
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:gravity="start" n0:padding="3.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140858" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:gravity="start" n0:id="@id/oma_download_type" n0:padding="3.0dp" />
+    </TableRow>
+    <TableRow>
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:gravity="start" n0:padding="3.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140852" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:gravity="start" n0:id="@id/oma_download_description" n0:padding="3.0dp" />
+    </TableRow>
+</TableLayout>

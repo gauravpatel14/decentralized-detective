@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <org.chromium.chrome.browser.toolbar.menu_button.MenuButton n0:id="@id/menu_button_wrapper" n0:layout_width="wrap_content" n0:layout_height="wrap_content"
+      xmlns:n0="http://schemas.android.com/apk/res/android">
+        <org.chromium.ui.widget.ChromeImageButton n0:layout_gravity="center" n0:id="@id/menu_button" n0:src="@drawable/APKTOOL_RENAMED_0x7f0902ac" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401e0" n1:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129" style="@style/APKTOOL_RENAMED_0x7f150499"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        <ImageView n0:layout_gravity="center" n0:id="@id/menu_badge" n0:background="@drawable/APKTOOL_RENAMED_0x7f090567" n0:visibility="invisible" n0:src="@drawable/APKTOOL_RENAMED_0x7f0900cc" n0:importantForAccessibility="no" style="@style/APKTOOL_RENAMED_0x7f150499" />
+    </org.chromium.chrome.browser.toolbar.menu_button.MenuButton>
+</merge>

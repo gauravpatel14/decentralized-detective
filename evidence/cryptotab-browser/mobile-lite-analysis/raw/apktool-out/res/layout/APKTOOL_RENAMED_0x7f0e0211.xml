@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.download.dialogs.OpenDownloadCustomView n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f150004">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150266" n0:id="@id/title" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080221" />
+        <CheckBox n0:id="@id/auto_open_checkbox" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f08021e" n0:text="@string/APKTOOL_RENAMED_0x7f140861" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f08021d" style="@style/APKTOOL_RENAMED_0x7f150162" />
+    </LinearLayout>
+</org.chromium.chrome.browser.download.dialogs.OpenDownloadCustomView>

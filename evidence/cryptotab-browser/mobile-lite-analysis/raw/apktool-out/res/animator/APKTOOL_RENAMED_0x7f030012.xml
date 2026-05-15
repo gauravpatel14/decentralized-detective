@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set>
+    <objectAnimator n0:interpolator="?APKTOOL_RENAMED_0x7f0503e3" n0:duration="?APKTOOL_RENAMED_0x7f0503de" n0:startOffset="0" n0:valueFrom="1.0" n0:valueTo="0.0" n0:valueType="floatType" n0:propertyName="opacity"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <objectAnimator n1:interpolator="?APKTOOL_RENAMED_0x7f0503e3" n1:duration="?APKTOOL_RENAMED_0x7f0503d8" n1:startOffset="0" n1:valueFrom="1.0" n1:valueTo="0.4" n1:valueType="floatType" n1:propertyName="scale"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+</set>

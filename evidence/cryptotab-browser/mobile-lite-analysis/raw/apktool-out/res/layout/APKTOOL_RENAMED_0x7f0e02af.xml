@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout n0:id="@id/control_container" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.ui.AsyncViewStub n0:id="@id/omnibox_results_container_stub" n0:background="@android:color/white" n0:layout_width="match_parent" n0:layout_height="wrap_content" n1:APKTOOL_RENAMED_0x7f0502fa="@layout/APKTOOL_RENAMED_0x7f0e0210" n1:APKTOOL_RENAMED_0x7f0502fe="@id/toolbar"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n0:id="@id/toolbar" n0:background="@drawable/APKTOOL_RENAMED_0x7f090507" n0:clickable="true" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08088e" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f08088a" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f08088a">
+        <org.chromium.chrome.browser.searchwidget.SearchActivityLocationBarLayout n0:layout_gravity="center_vertical" n0:id="@id/search_location_bar" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f080363" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080363" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f080355" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f08034c" />
+    </FrameLayout>
+    <FrameLayout n0:id="@id/bottom_container" n0:layout_width="match_parent" n0:layout_height="match_parent" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

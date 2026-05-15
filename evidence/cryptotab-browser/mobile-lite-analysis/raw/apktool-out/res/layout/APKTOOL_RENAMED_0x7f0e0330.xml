@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ScrollView n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_weight="1.0" n0:requiresFadingEdge="vertical">
+        <LinearLayout n0:orientation="vertical" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f0807d8" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f0807d8" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f0807d8">
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502d1" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="10.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140d02" />
+            <org.chromium.components.browser_ui.widget.MaterialSwitchWithText n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:gravity="start|center" n0:id="@id/fre_uma_dialog_switch" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="12.0dp" n0:checked="true" n0:text="@string/APKTOOL_RENAMED_0x7f140e61" n0:lineSpacingMultiplier="1.2" />
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15035a" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="8.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140cfe" />
+            <org.chromium.ui.widget.TextViewWithLeading n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="16.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140cfd" n1:APKTOOL_RENAMED_0x7f05034b="@dimen/APKTOOL_RENAMED_0x7f080866"
+              xmlns:n1="http://schemas.android.com/apk/res-auto" />
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15035a" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="8.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140d01" />
+            <org.chromium.ui.widget.TextViewWithLeading n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/fre_uma_dialog_second_section_text" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140d00" n2:APKTOOL_RENAMED_0x7f05034b="@dimen/APKTOOL_RENAMED_0x7f080866"
+              xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </ScrollView>
+    <org.chromium.ui.widget.ButtonCompat n0:ellipsize="end" n0:layout_gravity="end" n0:id="@id/fre_uma_dialog_dismiss_button" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0807d7" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f0807d7" n0:text="@string/APKTOOL_RENAMED_0x7f1404f9" n0:singleLine="true" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f0807d8" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+</LinearLayout>

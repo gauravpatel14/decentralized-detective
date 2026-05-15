@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n0:orderingFromXml="false"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.chrome.browser.sync.settings.SyncPromoPreference n0:key="sync_promo" n0:order="0" />
+    <PreferenceCategory n0:title="@string/APKTOOL_RENAMED_0x7f1409e6" n0:key="account_and_google_services_section" n0:order="1" n1:APKTOOL_RENAMED_0x7f0502cd="false"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.chrome.browser.sync.settings.SignInPreference n0:title="@string/APKTOOL_RENAMED_0x7f140cc6" n0:key="sign_in" n0:order="2" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n0:layout="@layout/APKTOOL_RENAMED_0x7f0e0023" n0:title="@string/APKTOOL_RENAMED_0x7f140d6d" n0:key="manage_sync" n0:order="3" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n0:icon="@drawable/APKTOOL_RENAMED_0x7f09025d" n0:layout="@layout/APKTOOL_RENAMED_0x7f0e0023" n0:title="@string/APKTOOL_RENAMED_0x7f1409de" n0:key="google_services" n0:order="4" n0:fragment="org.chromium.chrome.browser.sync.settings.GoogleServicesSettings" n2:APKTOOL_RENAMED_0x7f0502cd="false"
+      xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <PreferenceCategory n0:title="@string/APKTOOL_RENAMED_0x7f1409e8" n0:key="basics_section" n0:order="5" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n0:title="@string/APKTOOL_RENAMED_0x7f140be9" n0:key="search_engine" n0:order="6" n0:fragment="org.chromium.chrome.browser.search_engines.settings.SearchEngineSettings" />
+    <org.chromium.chrome.browser.password_manager.settings.PasswordsPreference n0:title="@string/APKTOOL_RENAMED_0x7f14094b" n0:key="passwords" n0:order="7" n0:fragment="org.chromium.chrome.browser.password_manager.settings.PasswordSettings" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n0:title="@string/APKTOOL_RENAMED_0x7f1402fb" n0:key="autofill_payment_methods" n0:order="8" n0:fragment="org.chromium.chrome.browser.autofill.settings.AutofillPaymentMethodsFragment" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n0:title="@string/APKTOOL_RENAMED_0x7f1402a4" n0:key="autofill_addresses" n0:order="9" n0:fragment="org.chromium.chrome.browser.autofill.settings.AutofillProfilesFragment" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n0:key="plus_addresses" n0:order="10" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n0:title="@string/APKTOOL_RENAMED_0x7f1402f1" n0:key="autofill_options" n0:order="11" n0:fragment="org.chromium.chrome.browser.autofill.options.AutofillOptionsFragment" />
+    <Preference n0:title="@string/APKTOOL_RENAMED_0x7f1409e1" n0:key="privacy" n0:order="12" n0:fragment="org.chromium.chrome.browser.privacy.settings.PrivacySettings" />
+    <Preference n0:title="@string/APKTOOL_RENAMED_0x7f1409e5" n0:key="safety_check" n0:order="13" n0:fragment="org.chromium.chrome.browser.safety_check.SafetyCheckSettingsFragment" />
+    <Preference n0:title="@string/APKTOOL_RENAMED_0x7f1409e5" n0:key="safety_hub" n0:order="14" n0:fragment="org.chromium.chrome.browser.safety_hub.SafetyHubFragment" />
+    <Preference n0:title="@string/APKTOOL_RENAMED_0x7f1409e0" n0:key="notifications" n0:order="15" />
+    <Preference n0:title="@string/APKTOOL_RENAMED_0x7f140dda" n0:key="ui_theme" n0:order="16" n0:fragment="org.chromium.chrome.browser.night_mode.settings.ThemeSettingsFragment" />
+    <PreferenceCategory n0:title="@string/APKTOOL_RENAMED_0x7f1409e7" n0:key="advanced_section" n0:order="17" />
+    <Preference n0:title="@string/APKTOOL_RENAMED_0x7f140dcf" n0:key="tabs" n0:order="18" n0:fragment="org.chromium.chrome.browser.tasks.tab_management.TabsSettings" />
+    <Preference n0:title="@string/APKTOOL_RENAMED_0x7f140877" n0:key="homepage" n0:order="19" n0:fragment="org.chromium.chrome.browser.homepage.settings.HomepageSettings" />
+    <Preference n0:title="@string/APKTOOL_RENAMED_0x7f140613" n0:key="home_modules_config" n0:order="20" n0:fragment="org.chromium.chrome.browser.magic_stack.HomeModulesConfigSettings" />
+    <Preference n0:title="@string/APKTOOL_RENAMED_0x7f140ded" n0:key="toolbar_shortcut" n0:order="21" n0:fragment="org.chromium.chrome.browser.toolbar.adaptive.settings.AdaptiveToolbarSettingsFragment" n3:APKTOOL_RENAMED_0x7f0502cd="false"
+      xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <Preference n0:title="@string/APKTOOL_RENAMED_0x7f1409dd" n0:key="accessibility" n0:order="22" n0:fragment="org.chromium.chrome.browser.accessibility.settings.AccessibilitySettings" />
+    <Preference n0:title="@string/APKTOOL_RENAMED_0x7f1409eb" n0:key="content_settings" n0:order="23" n0:fragment="org.chromium.components.browser_ui.site_settings.SiteSettings" />
+    <Preference n0:title="@string/APKTOOL_RENAMED_0x7f1406ac" n0:key="languages" n0:order="24" n0:fragment="org.chromium.chrome.browser.language.settings.LanguageSettings" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n0:title="@string/APKTOOL_RENAMED_0x7f140733" n0:key="downloads" n0:order="25" n0:fragment="org.chromium.chrome.browser.download.settings.DownloadSettings" />
+    <Preference n0:title="Developer options" n0:key="developer" n0:order="26" n0:fragment="org.chromium.chrome.browser.tracing.settings.DeveloperSettings" />
+    <Preference n0:title="@string/APKTOOL_RENAMED_0x7f1409dc" n0:key="about_chrome" n0:order="27" n0:fragment="org.chromium.chrome.browser.about_settings.AboutChromeSettings" />
+</PreferenceScreen>

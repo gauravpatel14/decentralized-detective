@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.chromium.chrome.browser.sync.settings.CentralAccountCardPreference n0:key="central_account_card" n1:APKTOOL_RENAMED_0x7f0502cd="true"
+      xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.chrome.browser.sync.settings.IdentityErrorCardPreference n2:key="identity_error_card" n3:APKTOOL_RENAMED_0x7f0502cd="false"
+      xmlns:n2="http://schemas.android.com/apk/res/android" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.chrome.browser.sync.settings.BatchUploadCardPreference n4:key="batch_upload_card" n5:APKTOOL_RENAMED_0x7f0502cd="false"
+      xmlns:n4="http://schemas.android.com/apk/res/android" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <PreferenceCategory n6:title="@string/APKTOOL_RENAMED_0x7f140208" n6:key="account_section_header"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n7:icon="@drawable/APKTOOL_RENAMED_0x7f0901f9" n7:title="@string/APKTOOL_RENAMED_0x7f140c60" n7:key="settings_sync_disabled_by_administrator" n8:APKTOOL_RENAMED_0x7f0502cd="false"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n9:persistent="false" n9:title="@string/APKTOOL_RENAMED_0x7f140209" n9:key="account_section_history_toggle"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n10:persistent="false" n10:title="@string/APKTOOL_RENAMED_0x7f140206" n10:key="account_section_bookmarks_toggle"
+      xmlns:n10="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n11:persistent="false" n11:title="@string/APKTOOL_RENAMED_0x7f14020c" n11:key="account_section_reading_list_toggle"
+      xmlns:n11="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n12:persistent="false" n12:title="@string/APKTOOL_RENAMED_0x7f140205" n12:key="account_section_addresses_toggle"
+      xmlns:n12="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n13:persistent="false" n13:title="@string/APKTOOL_RENAMED_0x7f14020a" n13:key="account_section_passwords_toggle"
+      xmlns:n13="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n14:persistent="false" n14:title="@string/APKTOOL_RENAMED_0x7f14020b" n14:key="account_section_payments_toggle"
+      xmlns:n14="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n15:persistent="false" n15:title="@string/APKTOOL_RENAMED_0x7f14020d" n15:key="account_section_settings_toggle"
+      xmlns:n15="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n16:selectable="false" n16:key="account_section_footer" n16:summary="@string/APKTOOL_RENAMED_0x7f140207"
+      xmlns:n16="http://schemas.android.com/apk/res/android" />
+    <PreferenceCategory n17:title="@string/APKTOOL_RENAMED_0x7f1401f7" n17:key="account_advanced_header"
+      xmlns:n17="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n18:title="@string/APKTOOL_RENAMED_0x7f140cbe" n18:key="google_activity_controls" n18:summary="@string/APKTOOL_RENAMED_0x7f140cbd"
+      xmlns:n18="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n19:title="@string/APKTOOL_RENAMED_0x7f140d6f" n19:key="encryption"
+      xmlns:n19="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n20:title="@string/APKTOOL_RENAMED_0x7f1401fd" n20:key="account_data_dashboard" n20:summary="@string/APKTOOL_RENAMED_0x7f1401fc"
+      xmlns:n20="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n21:title="@string/APKTOOL_RENAMED_0x7f1406fc" n21:key="manage_your_google_account"
+      xmlns:n21="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n22:title="@string/APKTOOL_RENAMED_0x7f1401f8" n22:key="account_android_device_accounts"
+      xmlns:n22="http://schemas.android.com/apk/res/android" />
+    <org.chromium.chrome.browser.ui.signin.SignoutButtonPreference n23:key="sign_out_button"
+      xmlns:n23="http://schemas.android.com/apk/res/android" />
+</PreferenceScreen>

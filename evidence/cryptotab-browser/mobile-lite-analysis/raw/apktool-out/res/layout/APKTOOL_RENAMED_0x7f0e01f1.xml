@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.gesturenav.NavigationSheetView n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ListView n0:id="@id/navigation_entries" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f08063b" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f08063a" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:divider="@null" n0:dividerHeight="0.0dp" />
+</org.chromium.chrome.browser.gesturenav.NavigationSheetView>

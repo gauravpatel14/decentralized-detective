@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:descendantFocusability="blocksDescendants" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080056"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:layout_gravity="center" n0:id="@id/start_icon" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f08005a" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08005a" n0:importantForAccessibility="no" n0:layout_marginHorizontal="@dimen/APKTOOL_RENAMED_0x7f08005f" n0:layout_marginVertical="@dimen/APKTOOL_RENAMED_0x7f08005f" />
+    <LinearLayout n0:orientation="vertical" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="1.0" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f08005f">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:ellipsize="end" n0:id="@id/title" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:singleLine="true" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:ellipsize="end" n0:id="@id/description" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

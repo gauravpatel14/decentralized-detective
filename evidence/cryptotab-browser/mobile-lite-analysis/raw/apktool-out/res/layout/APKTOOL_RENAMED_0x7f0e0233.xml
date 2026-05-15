@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:id="@id/payments_open_editor_pencil_button" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f14099f"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <View n0:layout_gravity="center_vertical" n0:layout_width="1.0dp" n0:layout_height="48.0dp" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f08023f" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f08023f" style="@style/APKTOOL_RENAMED_0x7f15049a" />
+    <org.chromium.ui.widget.ChromeImageView n0:layout_gravity="center_vertical" n0:layout_width="24.0dp" n0:layout_height="24.0dp" n0:src="@drawable/APKTOOL_RENAMED_0x7f090235" n0:importantForAccessibility="no" n1:APKTOOL_RENAMED_0x7f050573="?APKTOOL_RENAMED_0x7f05014c"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

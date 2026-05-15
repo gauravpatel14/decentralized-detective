@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n0:layout_width="match_parent" n0:layout_height="match_parent" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f0806c8" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f0806c8"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <include layout="@layout/APKTOOL_RENAMED_0x7f0e02da" />
+        <LinearLayout n0:orientation="horizontal" n0:id="@id/username_layout" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="8.0dp" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080280">
+            <LinearLayout n0:orientation="vertical" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="1.0">
+                <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n0:id="@id/username_label" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140933" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f080198" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f080198" />
+                <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:id="@id/username" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f080198" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f080198" />
+            </LinearLayout>
+            <org.chromium.ui.widget.ChromeImageButton n0:layout_gravity="center" n0:id="@id/copy_username_button" n0:background="?APKTOOL_RENAMED_0x7f05048a" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140928" n1:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f090216" n1:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129" style="?android:buttonStyleSmall"
+              xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080197" n0:text="@string/APKTOOL_RENAMED_0x7f14092d" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f080198" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f080198" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:id="@id/password" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f0806c9" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f080198" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f080198" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_RENAMED_0x7f150061" parent="@style/APKTOOL_RENAMED_0x7f15005f" />
+    <style name="APKTOOL_RENAMED_0x7f150068" parent="@style/APKTOOL_RENAMED_0x7f150066" />
+    <style name="APKTOOL_RENAMED_0x7f150075" parent="@style/APKTOOL_RENAMED_0x7f150074" />
+    <style name="APKTOOL_RENAMED_0x7f15007b" parent="@style/APKTOOL_RENAMED_0x7f15007a" />
+    <style name="APKTOOL_RENAMED_0x7f150085" parent="@style/APKTOOL_RENAMED_0x7f150083" />
+    <style name="APKTOOL_RENAMED_0x7f15008f" parent="@style/APKTOOL_RENAMED_0x7f15008d" />
+    <style name="APKTOOL_RENAMED_0x7f150419" parent="@style/APKTOOL_RENAMED_0x7f150443">
+        <item name="android:backgroundDimAmount">0.65</item>
+    </style>
+</resources>

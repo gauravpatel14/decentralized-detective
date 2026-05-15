@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector n0:height="24.0dp" n0:width="24.0dp" n0:viewportWidth="24.0" n0:viewportHeight="24.0"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <path n0:fillColor="@color/APKTOOL_RENAMED_0x7f0704a4" n0:pathData="M12,12m-11.75,-0a11.75,11.75 0,1 0,23.5 -0a11.75,11.75 0,1 0,-23.5 -0" n0:strokeColor="@color/APKTOOL_RENAMED_0x7f07049e" n0:strokeWidth="0.5" n0:fillType="nonZero" />
+    <group>
+        <clip-path n0:pathData="M12,9.06l-4.4733,4.4667l0.9467,0.9467l3.5267,-3.5333l3.5267,3.5333l0.9467,-0.9467z" />
+        <path n0:fillColor="@color/APKTOOL_RENAMED_0x7f0704a0" n0:pathData="M4,20l16,-0l0,-16l-16,-0z" n0:strokeColor="@color/APKTOOL_RENAMED_0x7f07007d" n0:strokeWidth="1.0" n0:fillType="evenOdd" />
+    </group>
+</vector>

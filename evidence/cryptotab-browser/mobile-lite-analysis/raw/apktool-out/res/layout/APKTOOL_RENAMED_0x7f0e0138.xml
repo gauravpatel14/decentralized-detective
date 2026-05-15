@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:layout_width="wrap_content" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <View n0:id="@id/separator" n0:layout_width="1.0dp" n0:layout_height="match_parent" style="@style/APKTOOL_RENAMED_0x7f15049a" />
+    <org.chromium.ui.widget.ChromeImageButton n0:id="@id/expand_arrow" n0:background="?android:selectableItemBackground" n0:layout_width="wrap_content" n0:layout_height="match_parent" n0:src="@drawable/APKTOOL_RENAMED_0x7f090243" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f14016f" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f08077a" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f08077d" n1:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

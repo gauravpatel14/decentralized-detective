@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:id="@id/send_tab_to_self_feature_unavailable_prompt" n0:paddingBottom="16.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080541"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:id="@id/empty_state_image" n0:paddingTop="16.0dp" n0:paddingBottom="24.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:contentDescription="@null" n1:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f090519"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15029b" n0:ellipsize="end" n0:gravity="center" n0:paddingBottom="16.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140c10" n0:includeFontPadding="false" n0:paddingStart="32.0dp" n0:paddingEnd="32.0dp" />
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150344" n0:ellipsize="end" n0:gravity="center" n0:id="@id/empty_state_label" n0:paddingBottom="16.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140c06" n0:includeFontPadding="false" n0:paddingStart="32.0dp" n0:paddingEnd="32.0dp" />
+    <org.chromium.chrome.browser.share.send_tab_to_self.ManageAccountDevicesLinkView n0:gravity="center" n0:layout_gravity="center" n0:id="@id/manage_account_devices_link" n0:paddingBottom="16.0dp" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n2:APKTOOL_RENAMED_0x7f0504a1="false"
+      xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

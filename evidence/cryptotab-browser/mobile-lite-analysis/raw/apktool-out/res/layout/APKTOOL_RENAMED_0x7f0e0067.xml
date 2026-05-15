@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:layout_width="wrap_content" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:id="@id/card_icon" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:scaleType="fitCenter" n0:layout_centerVertical="true" n0:importantForAccessibility="no" n0:layout_alignParentStart="true" />
+    <include n0:id="@id/card_name_and_number_container" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_toEndOf="@id/card_icon" layout="@layout/APKTOOL_RENAMED_0x7f0e0064" />
+    <TextView n0:id="@id/card_label" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_below="@id/card_name_and_number_container" n0:layout_toEndOf="@id/card_icon" />
+</RelativeLayout>

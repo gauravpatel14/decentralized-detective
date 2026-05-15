@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector n0:drawable="@drawable/APKTOOL_RENAMED_0x7f0900c3"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <target n0:name="circle" n0:animation="@drawable/APKTOOL_RENAMED_0x7f090005" />
+    <target n0:name="square" n0:animation="@drawable/APKTOOL_RENAMED_0x7f090006" />
+    <target n0:name="arc" n0:animation="@drawable/APKTOOL_RENAMED_0x7f090007" />
+</animated-vector>

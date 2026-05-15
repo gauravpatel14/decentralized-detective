@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center" n0:orientation="vertical" n0:id="@android:id/background" n0:background="@drawable/APKTOOL_RENAMED_0x7f0904e0" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080751" n0:clipToOutline="true"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:gravity="center_vertical" n0:layout_gravity="center" n0:orientation="horizontal" n0:id="@id/quick_action_search_widget_search_bar_container" n0:background="@drawable/APKTOOL_RENAMED_0x7f0904e5" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080755" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080753" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140adf" n0:layout_marginHorizontal="@dimen/APKTOOL_RENAMED_0x7f080752">
+        <ImageView n0:id="@id/quick_action_search_widget_icon" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080758" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080758" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f080756" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080756" n0:src="@mipmap/app_icon" n0:importantForAccessibility="no" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f080756" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f080757" />
+        <TextView n0:gravity="center_vertical" n0:id="@id/search_bar" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:hint="@string/APKTOOL_RENAMED_0x7f140adf" n0:singleLine="true" n0:importantForAccessibility="no" n0:textAlignment="viewStart" style="@style/APKTOOL_RENAMED_0x7f15032c" />
+    </LinearLayout>
+    <LinearLayout n0:layout_gravity="center" n0:orientation="horizontal" n0:id="@id/quick_action_button_container" n0:layout_width="wrap_content" n0:layout_height="wrap_content">
+        <ImageButton n0:id="@id/voice_search_quick_action_button" n0:src="@drawable/APKTOOL_RENAMED_0x7f0902a8" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401e3" n0:layout_marginHorizontal="@dimen/APKTOOL_RENAMED_0x7f08074d" style="@style/APKTOOL_RENAMED_0x7f1501f6" />
+        <ImageButton n0:id="@id/incognito_quick_action_button" n0:src="@drawable/APKTOOL_RENAMED_0x7f0903bb" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f14037b" n0:layout_marginHorizontal="@dimen/APKTOOL_RENAMED_0x7f08074d" style="@style/APKTOOL_RENAMED_0x7f1501f6" />
+        <ImageButton n0:id="@id/lens_quick_action_button" n0:src="@drawable/APKTOOL_RENAMED_0x7f0903d1" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f14015d" n0:layout_marginHorizontal="@dimen/APKTOOL_RENAMED_0x7f08074d" style="@style/APKTOOL_RENAMED_0x7f1501f6" />
+        <ImageButton n0:id="@id/dino_quick_action_button" n0:src="@drawable/APKTOOL_RENAMED_0x7f09022a" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401a3" n0:layout_marginHorizontal="@dimen/APKTOOL_RENAMED_0x7f08074d" style="@style/APKTOOL_RENAMED_0x7f1501f6" />
+    </LinearLayout>
+</LinearLayout>

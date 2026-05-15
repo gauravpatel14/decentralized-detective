@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.ntp.IncognitoDescriptionView n0:gravity="start" n0:orientation="vertical" n0:id="@id/new_tab_incognito_container" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f080514"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:id="@id/new_tab_incognito_icon" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:src="@drawable/APKTOOL_RENAMED_0x7f0903bd" n1:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f0704f4"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502d4" n0:id="@id/new_tab_incognito_title" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f1407f6" />
+    <org.chromium.ui.widget.TextViewWithClickableSpans n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150358" n0:id="@id/new_tab_incognito_subtitle" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:lineSpacingExtra="@dimen/APKTOOL_RENAMED_0x7f080513" />
+    <LinearLayout n0:gravity="start" n0:orientation="horizontal" n0:id="@id/new_tab_incognito_bulletpoints_container" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="12.0dp">
+        <org.chromium.ui.widget.TextViewWithLeading n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150358" n0:id="@id/new_tab_incognito_features" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n2:APKTOOL_RENAMED_0x7f05034b="@dimen/APKTOOL_RENAMED_0x7f080866"
+          xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.ui.widget.TextViewWithLeading n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150358" n0:id="@id/new_tab_incognito_warning" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n3:APKTOOL_RENAMED_0x7f05034b="@dimen/APKTOOL_RENAMED_0x7f080866"
+          xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <org.chromium.ui.widget.TextViewWithLeading n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502de" n0:gravity="center_vertical" n0:id="@id/learn_more" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080541" n0:text="@string/APKTOOL_RENAMED_0x7f1406c9" n4:APKTOOL_RENAMED_0x7f05034b="@dimen/APKTOOL_RENAMED_0x7f080866"
+      xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <ViewStub n0:id="@id/cookie_card_stub" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="12.0dp" />
+</org.chromium.chrome.browser.ntp.IncognitoDescriptionView>

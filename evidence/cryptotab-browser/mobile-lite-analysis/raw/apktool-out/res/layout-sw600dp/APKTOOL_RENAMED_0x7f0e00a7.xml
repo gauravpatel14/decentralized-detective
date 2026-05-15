@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n0:scrollbars="none" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:fillViewport="true"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:gravity="center" n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <TextView n0:textSize="36.0sp" n0:gravity="center_horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginLeft="24.0dp" n0:layout_marginTop="-104.0dp" n0:layout_marginRight="24.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140399" />
+        <RelativeLayout n0:layout_gravity="center_horizontal" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginLeft="24.0dp" n0:layout_marginTop="52.0dp" n0:layout_marginRight="24.0dp" n0:layoutDirection="ltr">
+            <ImageView n0:layout_gravity="center" n0:id="@id/spinner" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_centerInParent="true" n0:layout_centerVertical="true" n0:contentDescription="@null" />
+            <ImageView n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:src="@drawable/APKTOOL_RENAMED_0x7f090298" n0:layout_centerInParent="true" n0:layout_centerVertical="true" n0:contentDescription="@null" />
+        </RelativeLayout>
+        <TextView n0:textSize="24.0sp" n0:layout_gravity="center_horizontal" n0:id="@id/status_text" n0:padding="0.0px" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="4.0dp" n0:layout_marginBottom="16.0dp" />
+    </LinearLayout>
+</ScrollView>

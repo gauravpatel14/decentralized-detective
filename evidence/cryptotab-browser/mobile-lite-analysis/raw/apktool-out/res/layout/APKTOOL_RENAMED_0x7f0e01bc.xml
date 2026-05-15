@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n0:id="@id/main_scroll_view" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:id="@id/main_view" n0:paddingTop="5.0dp" n0:paddingBottom="5.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingStart="6.0dp" n0:paddingEnd="6.0dp" n0:layout_marginStart="16.0dp" n0:layout_marginEnd="16.0dp">
+        <TextView n0:id="@id/unimportant_site_data_description" n0:text="@string/APKTOOL_RENAMED_0x7f140d5a" style="@style/APKTOOL_RENAMED_0x7f150190" />
+        <LinearLayout n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:baselineAligned="true">
+            <TextView n0:id="@id/unimportant_site_data_size_prefix" n0:layout_width="0.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140d5b" n0:layout_weight="1.0" style="@style/APKTOOL_RENAMED_0x7f150191" />
+            <TextView n0:id="@id/unimportant_site_data_storage_size_text" style="@style/APKTOOL_RENAMED_0x7f150191" />
+        </LinearLayout>
+        <Button n0:id="@id/clear_unimportant_site_data_storage" n0:text="@string/APKTOOL_RENAMED_0x7f140d52" style="@style/APKTOOL_RENAMED_0x7f15018f" />
+        <TextView n0:id="@id/site_data_description" n0:text="@string/APKTOOL_RENAMED_0x7f140d57" style="@style/APKTOOL_RENAMED_0x7f150190" />
+        <LinearLayout n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:baselineAligned="true">
+            <TextView n0:id="@id/site_data_size_prefix" n0:layout_width="0.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140d58" n0:layout_weight="1.0" style="@style/APKTOOL_RENAMED_0x7f150191" />
+            <TextView n0:id="@id/site_data_storage_size_text" style="@style/APKTOOL_RENAMED_0x7f150191" />
+        </LinearLayout>
+        <Button n0:id="@id/manage_site_data_storage" n0:text="@string/APKTOOL_RENAMED_0x7f140d54" style="@style/APKTOOL_RENAMED_0x7f15018f" />
+        <TextView n0:id="@id/all_storage_description" n0:paddingTop="12.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140d4f" style="@style/APKTOOL_RENAMED_0x7f150190" />
+        <Button n0:id="@id/clear_all_data" n0:text="@string/APKTOOL_RENAMED_0x7f140d50" style="@style/APKTOOL_RENAMED_0x7f15018f" />
+    </LinearLayout>
+</ScrollView>

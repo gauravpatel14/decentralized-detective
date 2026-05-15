@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n0:layout_width="match_parent" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f1501e9"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:gravity="center_horizontal" n0:orientation="vertical" n0:id="@id/central_account_card" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <FrameLayout n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="8.0dp">
+            <ImageView n0:layout_gravity="center" n0:id="@id/central_account_image" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0807fd" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0807fd" n0:scaleType="fitCenter" n0:importantForAccessibility="no" />
+        </FrameLayout>
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:gravity="center" n0:id="@id/central_account_primary_text" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:textAlignment="center" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n0:gravity="center" n0:id="@id/central_account_secondary_text" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:textAlignment="center" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <com.google.android.material.textfield.TextInputLayout n0:id="@id/credit_card_number_label" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0806f7" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f0806f3" n0:labelFor="@id/credit_card_number_edit" n1:APKTOOL_RENAMED_0x7f05021b="@style/APKTOOL_RENAMED_0x7f1502c7"
+      xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto">
+        <EditText n0:id="@id/credit_card_number_edit" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080541" n0:hint="@string/APKTOOL_RENAMED_0x7f1402c4" n0:digits="0123456789- " n0:inputType="phone" n0:imeOptions="flagNoExtractUi" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView n2:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n2:id="@id/credit_card_expiration_label" n2:layout_width="match_parent" n2:layout_height="wrap_content" n2:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0806f8" n2:text="@string/APKTOOL_RENAMED_0x7f1402bd" n2:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f0806f6" n2:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f0806f6" n2:labelFor="@id/credit_card_expiration_month"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <LinearLayout n3:orientation="horizontal" n3:id="@id/credit_card_expiration_spinner_container" n3:layout_width="match_parent" n3:layout_height="wrap_content" n3:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0806f8" n3:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f0806f1" n3:baselineAligned="false" n3:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f0806f6" n3:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f0806f6"
+      xmlns:n3="http://schemas.android.com/apk/res/android">
+        <LinearLayout n3:orientation="vertical" n3:id="@id/credit_card_expiration_month" n3:layout_width="0.0dp" n3:layout_height="wrap_content" n3:layout_weight="1.0" n3:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f08023f">
+            <androidx.appcompat.widget.AppCompatSpinner n3:id="@id/autofill_credit_card_editor_month_spinner" n3:layout_width="match_parent" n3:layout_height="wrap_content" n3:minHeight="@dimen/APKTOOL_RENAMED_0x7f080541" />
+            <View style="@style/APKTOOL_RENAMED_0x7f1501ea" />
+        </LinearLayout>
+        <LinearLayout n3:orientation="vertical" n3:layout_width="0.0dp" n3:layout_height="wrap_content" n3:layout_weight="1.0">
+            <androidx.appcompat.widget.AppCompatSpinner n3:id="@id/autofill_credit_card_editor_year_spinner" n3:layout_width="match_parent" n3:layout_height="wrap_content" n3:minHeight="@dimen/APKTOOL_RENAMED_0x7f080541" />
+            <View style="@style/APKTOOL_RENAMED_0x7f1501ea" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout n4:id="@id/credit_card_expiration_and_cvc_layout" n4:layout_width="match_parent" n4:layout_height="wrap_content"
+      xmlns:n4="http://schemas.android.com/apk/res/android">
+        <LinearLayout n4:orientation="vertical" n4:id="@id/credit_card_expiration_layout" n4:layout_width="wrap_content" n4:layout_height="wrap_content">
+            <TextView n4:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n4:id="@id/credit_card_expiration_month_and_year_label" n4:layout_width="match_parent" n4:layout_height="wrap_content" n4:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0806f8" n4:text="@string/APKTOOL_RENAMED_0x7f1402bd" n4:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f0806f6" n4:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f0806f6" n4:labelFor="@id/expiration_month_and_year" />
+            <EditText n4:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n4:gravity="start" n4:id="@id/expiration_month_and_year" n4:layout_width="match_parent" n4:layout_height="wrap_content" n4:minHeight="@dimen/APKTOOL_RENAMED_0x7f080541" n4:hint="@string/APKTOOL_RENAMED_0x7f1402be" n4:width="@dimen/APKTOOL_RENAMED_0x7f080345" n4:maxLength="5" n4:digits="0123456789/" n4:inputType="number" n4:imeOptions="actionNext" />
+        </LinearLayout>
+        <LinearLayout n4:orientation="vertical" n4:id="@id/credit_card_security_code_layout" n4:layout_width="wrap_content" n4:layout_height="wrap_content" n4:layout_toStartOf="@id/cvc_hint_image">
+            <TextView n4:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n4:id="@id/credit_card_security_code_label" n4:layout_width="match_parent" n4:layout_height="wrap_content" n4:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0806f8" n4:text="@string/APKTOOL_RENAMED_0x7f1402c5" n4:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f0806f6" n4:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f0806f6" n4:labelFor="@id/cvc" />
+            <EditText n4:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n4:gravity="start" n4:id="@id/cvc" n4:layout_width="match_parent" n4:layout_height="wrap_content" n4:minHeight="@dimen/APKTOOL_RENAMED_0x7f080541" n4:hint="@string/APKTOOL_RENAMED_0x7f1402ed" n4:width="@dimen/APKTOOL_RENAMED_0x7f080342" n4:inputType="number" n4:imeOptions="actionNext" />
+        </LinearLayout>
+        <ImageView n4:id="@id/cvc_hint_image" n4:layout_width="wrap_content" n4:layout_height="wrap_content" n4:src="@drawable/APKTOOL_RENAMED_0x7f090176" n4:layout_centerInParent="true" n4:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f080343" n4:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f080344" n4:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <com.google.android.material.textfield.TextInputLayout n5:id="@id/credit_card_name_label" n5:layout_width="match_parent" n5:layout_height="wrap_content" n5:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0806f8" n5:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f0806f3" n5:labelFor="@id/credit_card_name_edit"
+      xmlns:n5="http://schemas.android.com/apk/res/android">
+        <EditText n5:id="@id/credit_card_name_edit" n5:layout_width="match_parent" n5:layout_height="wrap_content" n5:minHeight="@dimen/APKTOOL_RENAMED_0x7f080541" n5:hint="@string/APKTOOL_RENAMED_0x7f1402c2" n5:inputType="textCapWords" n5:imeOptions="flagNoExtractUi" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e0063" />
+    <com.google.android.material.textfield.TextInputLayout n6:id="@id/credit_card_nickname_label" n6:layout_width="match_parent" n6:layout_height="wrap_content" n6:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0806f4" n6:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f0806f3" n6:labelFor="@id/credit_card_nickname_edit" n7:APKTOOL_RENAMED_0x7f0501a4="25" n7:APKTOOL_RENAMED_0x7f050216="true"
+      xmlns:n6="http://schemas.android.com/apk/res/android" xmlns:n7="http://schemas.android.com/apk/res-auto">
+        <EditText n6:id="@id/credit_card_nickname_edit" n6:layout_width="match_parent" n6:layout_height="wrap_content" n6:minHeight="@dimen/APKTOOL_RENAMED_0x7f080541" n6:hint="@string/APKTOOL_RENAMED_0x7f1402c3" n6:maxLength="25" n6:inputType="textCapWords" n6:imeOptions="flagNoExtractUi" />
+    </com.google.android.material.textfield.TextInputLayout>
+</merge>

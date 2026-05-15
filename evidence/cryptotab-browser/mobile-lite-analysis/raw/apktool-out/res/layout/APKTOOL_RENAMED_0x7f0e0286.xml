@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:layout_gravity="center_horizontal" n0:orientation="vertical" n0:layout_width="wrap_content" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout n0:id="@id/radio_button_layout" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080736">
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription n0:id="@id/radio_sign_in_or_sync" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n1:APKTOOL_RENAMED_0x7f0501c8="@string/APKTOOL_RENAMED_0x7f140959" n1:APKTOOL_RENAMED_0x7f05044f="@string/APKTOOL_RENAMED_0x7f140958"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription n0:id="@id/radio_password_export" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n2:APKTOOL_RENAMED_0x7f05044f="@string/APKTOOL_RENAMED_0x7f140954"
+          xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout>
+    <org.chromium.ui.widget.ButtonCompat n0:ellipsize="end" n0:layout_gravity="center_horizontal" n0:id="@id/password_migration_next_button" n0:descendantFocusability="blocksDescendants" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080734" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080733" n0:text="@string/APKTOOL_RENAMED_0x7f140952" n0:singleLine="true" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+    <org.chromium.ui.widget.ButtonCompat n0:ellipsize="end" n0:layout_gravity="center_horizontal" n0:id="@id/password_migration_cancel_button" n0:descendantFocusability="blocksDescendants" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080736" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080733" n0:text="@string/APKTOOL_RENAMED_0x7f14094f" n0:singleLine="true" style="@style/APKTOOL_RENAMED_0x7f15037f" />
+</LinearLayout>

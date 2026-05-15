@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:id="@id/sb_enhanced_sheet_updated" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginHorizontal="@dimen/APKTOOL_RENAMED_0x7f080074">
+        <TextView n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0800b7" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f0800b6" n0:text="@string/APKTOOL_RENAMED_0x7f140a50" style="@style/APKTOOL_RENAMED_0x7f1502d1" />
+        <org.chromium.chrome.browser.privacy_guide.PrivacyGuideExplanationHeading n0:layout_width="match_parent" n0:layout_height="wrap_content" n1:APKTOOL_RENAMED_0x7f050581="@string/APKTOOL_RENAMED_0x7f140a6a"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.chrome.browser.privacy_guide.PrivacyGuideExplanationItem n0:layout_width="match_parent" n0:layout_height="wrap_content" n2:APKTOOL_RENAMED_0x7f0502a9="@drawable/APKTOOL_RENAMED_0x7f09021f" n2:APKTOOL_RENAMED_0x7f0502af="?APKTOOL_RENAMED_0x7f05014c" n2:APKTOOL_RENAMED_0x7f0504ee="@string/APKTOOL_RENAMED_0x7f140b57"
+          xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.chrome.browser.privacy_guide.PrivacyGuideExplanationItem n0:layout_width="match_parent" n0:layout_height="wrap_content" n3:APKTOOL_RENAMED_0x7f0502a9="@drawable/APKTOOL_RENAMED_0x7f09022e" n3:APKTOOL_RENAMED_0x7f0502af="?APKTOOL_RENAMED_0x7f05014c" n3:APKTOOL_RENAMED_0x7f0504ee="@string/APKTOOL_RENAMED_0x7f140b5d"
+          xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.chrome.browser.privacy_guide.PrivacyGuideExplanationItem n0:layout_width="match_parent" n0:layout_height="wrap_content" n4:APKTOOL_RENAMED_0x7f0502a9="@drawable/APKTOOL_RENAMED_0x7f090282" n4:APKTOOL_RENAMED_0x7f0502af="?APKTOOL_RENAMED_0x7f05014c" n4:APKTOOL_RENAMED_0x7f0504ee="@string/APKTOOL_RENAMED_0x7f140b5b"
+          xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.chrome.browser.privacy_guide.PrivacyGuideExplanationItem n0:layout_width="match_parent" n0:layout_height="wrap_content" n5:APKTOOL_RENAMED_0x7f0502a9="@drawable/APKTOOL_RENAMED_0x7f090292" n5:APKTOOL_RENAMED_0x7f0502af="?APKTOOL_RENAMED_0x7f05014c" n5:APKTOOL_RENAMED_0x7f0504ee="@string/APKTOOL_RENAMED_0x7f140b55"
+          xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.chrome.browser.privacy_guide.PrivacyGuideExplanationItem n0:layout_width="match_parent" n0:layout_height="wrap_content" n6:APKTOOL_RENAMED_0x7f0502a9="@drawable/APKTOOL_RENAMED_0x7f0903a4" n6:APKTOOL_RENAMED_0x7f0502af="?APKTOOL_RENAMED_0x7f05014c" n6:APKTOOL_RENAMED_0x7f0504ee="@string/APKTOOL_RENAMED_0x7f140b53"
+          xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.chrome.browser.privacy_guide.PrivacyGuideExplanationHeading n0:layout_width="match_parent" n0:layout_height="wrap_content" n7:APKTOOL_RENAMED_0x7f050581="@string/APKTOOL_RENAMED_0x7f140a65"
+          xmlns:n7="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.chrome.browser.privacy_guide.PrivacyGuideExplanationItem n0:layout_width="match_parent" n0:layout_height="wrap_content" n8:APKTOOL_RENAMED_0x7f0502a9="@drawable/APKTOOL_RENAMED_0x7f090295" n8:APKTOOL_RENAMED_0x7f0502af="?APKTOOL_RENAMED_0x7f05014c" n8:APKTOOL_RENAMED_0x7f0504ee="@string/APKTOOL_RENAMED_0x7f140b59"
+          xmlns:n8="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.chrome.browser.privacy_guide.PrivacyGuideExplanationItem n0:layout_width="match_parent" n0:layout_height="wrap_content" n9:APKTOOL_RENAMED_0x7f0502a9="@drawable/APKTOOL_RENAMED_0x7f0901db" n9:APKTOOL_RENAMED_0x7f0502af="?APKTOOL_RENAMED_0x7f05014c" n9:APKTOOL_RENAMED_0x7f0504ee="@string/APKTOOL_RENAMED_0x7f140b58"
+          xmlns:n9="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.chrome.browser.privacy_guide.PrivacyGuideExplanationItem n0:layout_width="match_parent" n0:layout_height="wrap_content" n10:APKTOOL_RENAMED_0x7f0502a9="@drawable/APKTOOL_RENAMED_0x7f09037d" n10:APKTOOL_RENAMED_0x7f0502af="?APKTOOL_RENAMED_0x7f05014c" n10:APKTOOL_RENAMED_0x7f0504ee="@string/APKTOOL_RENAMED_0x7f140b51"
+          xmlns:n10="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</ScrollView>

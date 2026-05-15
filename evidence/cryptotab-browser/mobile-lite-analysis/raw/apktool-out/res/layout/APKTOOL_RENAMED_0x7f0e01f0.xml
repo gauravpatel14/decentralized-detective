@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:background="?APKTOOL_RENAMED_0x7f05048a" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f080635" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f080635"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <FrameLayout n0:layout_width="wrap_content" n0:layout_height="match_parent">
+        <View n0:layout_gravity="center" n0:id="@id/favicon_bg" n0:background="@drawable/APKTOOL_RENAMED_0x7f090169" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080636" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080636" />
+        <ImageView n0:layout_gravity="center" n0:id="@id/favicon_img" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0801c5" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0801c5" />
+    </FrameLayout>
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:gravity="center_vertical" n0:id="@id/entry_title" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080637" n0:singleLine="true" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f080635" />
+</LinearLayout>

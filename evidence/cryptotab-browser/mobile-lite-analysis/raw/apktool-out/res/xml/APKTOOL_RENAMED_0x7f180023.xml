@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.chromium.chrome.browser.about_settings.HyperlinkPreference n0:title="@string/APKTOOL_RENAMED_0x7f14086b" n0:key="open_source_license" n1:APKTOOL_RENAMED_0x7f0505ad="@string/APKTOOL_RENAMED_0x7f14086c"
+      xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.chrome.browser.about_settings.HyperlinkPreference n2:title="@string/APKTOOL_RENAMED_0x7f1405d7" n2:key="google_terms_of_service" n3:APKTOOL_RENAMED_0x7f0505ad="@string/APKTOOL_RENAMED_0x7f1405d8"
+      xmlns:n2="http://schemas.android.com/apk/res/android" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.chrome.browser.about_settings.HyperlinkPreference n4:title="@string/APKTOOL_RENAMED_0x7f140a6b" n4:key="privacy_policy" n5:APKTOOL_RENAMED_0x7f0505ad="@string/APKTOOL_RENAMED_0x7f1405d4"
+      xmlns:n4="http://schemas.android.com/apk/res/android" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector n0:height="@dimen/APKTOOL_RENAMED_0x7f080614" n0:width="@dimen/APKTOOL_RENAMED_0x7f080614" n0:viewportWidth="@integer/APKTOOL_RENAMED_0x7f0c0051" n0:viewportHeight="@integer/APKTOOL_RENAMED_0x7f0c0051"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <group n0:name="@string/APKTOOL_RENAMED_0x7f1407df" n0:pivotX="@integer/APKTOOL_RENAMED_0x7f0c0050" n0:pivotY="@integer/APKTOOL_RENAMED_0x7f0c0050">
+        <path n0:name="@string/APKTOOL_RENAMED_0x7f1407e2" n0:fillColor="#ffffffff" n0:pathData="@string/APKTOOL_RENAMED_0x7f1407e3" />
+    </group>
+</vector>

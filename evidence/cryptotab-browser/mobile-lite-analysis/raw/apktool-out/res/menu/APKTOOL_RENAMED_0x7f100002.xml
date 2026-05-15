@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <group n0:id="@id/normal_menu_group"
+      xmlns:n0="http://schemas.android.com/apk/res/android">
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f09024e" n0:id="@id/normal_options_submenu" n0:title="@string/APKTOOL_RENAMED_0x7f140d45" n1:APKTOOL_RENAMED_0x7f05049e="ifRoom"
+          xmlns:n1="http://schemas.android.com/apk/res-auto">
+            <menu>
+                <group n0:id="@id/sort_opts" n0:checkableBehavior="single">
+                    <item n0:id="@id/sort_by_manual" n0:title="@string/APKTOOL_RENAMED_0x7f140d3d" />
+                    <item n0:id="@id/sort_by_newest" n0:title="@string/APKTOOL_RENAMED_0x7f140d3f" />
+                    <item n0:id="@id/sort_by_oldest" n0:title="@string/APKTOOL_RENAMED_0x7f140d41" />
+                    <item n0:id="@id/sort_by_last_opened" n0:title="@string/APKTOOL_RENAMED_0x7f140d3b" />
+                    <item n0:id="@id/sort_by_alpha" n0:title="@string/APKTOOL_RENAMED_0x7f140d39" />
+                    <item n0:id="@id/sort_by_reverse_alpha" n0:title="@string/APKTOOL_RENAMED_0x7f140d43" />
+                </group>
+                <group n0:id="@id/view_opts" n0:checkableBehavior="single">
+                    <item n0:id="@id/visual_view" n0:title="@string/APKTOOL_RENAMED_0x7f140e81" />
+                    <item n0:id="@id/compact_view" n0:title="@string/APKTOOL_RENAMED_0x7f140451" />
+                </group>
+            </menu>
+        </item>
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f0903f3" n0:id="@id/edit_menu_id" n0:visible="false" n0:title="@string/APKTOOL_RENAMED_0x7f14054e" n2:APKTOOL_RENAMED_0x7f0502af="@color/APKTOOL_RENAMED_0x7f070128" n2:APKTOOL_RENAMED_0x7f05049e="ifRoom"
+          xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f0903f0" n0:id="@id/create_new_folder_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f1404ac" n3:APKTOOL_RENAMED_0x7f0502af="@color/APKTOOL_RENAMED_0x7f070128" n3:APKTOOL_RENAMED_0x7f05049e="ifRoom"
+          xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f0903ef" n0:id="@id/close_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f140365" n4:APKTOOL_RENAMED_0x7f0502af="@color/APKTOOL_RENAMED_0x7f070128" n4:APKTOOL_RENAMED_0x7f05049e="ifRoom"
+          xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </group>
+    <group n5:id="@id/selection_mode_menu_group" n5:visible="false"
+      xmlns:n5="http://schemas.android.com/apk/res/android">
+        <item n5:icon="@drawable/APKTOOL_RENAMED_0x7f0903f3" n5:id="@id/selection_mode_edit_menu_id" n5:title="@string/APKTOOL_RENAMED_0x7f14054d" n6:APKTOOL_RENAMED_0x7f0502af="@color/APKTOOL_RENAMED_0x7f070128" n6:APKTOOL_RENAMED_0x7f05049e="ifRoom"
+          xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <item n5:icon="@drawable/APKTOOL_RENAMED_0x7f0903f2" n5:id="@id/selection_mode_move_menu_id" n5:title="@string/APKTOOL_RENAMED_0x7f140367" n7:APKTOOL_RENAMED_0x7f0502af="@color/APKTOOL_RENAMED_0x7f070128" n7:APKTOOL_RENAMED_0x7f05049e="ifRoom"
+          xmlns:n7="http://schemas.android.com/apk/res-auto" />
+        <item n5:icon="@drawable/APKTOOL_RENAMED_0x7f0903f1" n5:id="@id/selection_mode_delete_menu_id" n5:title="@string/APKTOOL_RENAMED_0x7f140366" n8:APKTOOL_RENAMED_0x7f0502af="@color/APKTOOL_RENAMED_0x7f070128" n8:APKTOOL_RENAMED_0x7f05049e="ifRoom"
+          xmlns:n8="http://schemas.android.com/apk/res-auto" />
+        <item n5:id="@id/selection_open_in_new_tab_id" n5:title="@string/APKTOOL_RENAMED_0x7f140473" n9:APKTOOL_RENAMED_0x7f05049e="never"
+          xmlns:n9="http://schemas.android.com/apk/res-auto" />
+        <item n5:id="@id/selection_open_in_incognito_tab_id" n5:title="@string/APKTOOL_RENAMED_0x7f140471" n10:APKTOOL_RENAMED_0x7f05049e="never"
+          xmlns:n10="http://schemas.android.com/apk/res-auto" />
+        <item n5:id="@id/reading_list_mark_as_read_id" n5:title="@string/APKTOOL_RENAMED_0x7f140b04" n11:APKTOOL_RENAMED_0x7f05049e="never"
+          xmlns:n11="http://schemas.android.com/apk/res-auto" />
+        <item n5:id="@id/reading_list_mark_as_unread_id" n5:title="@string/APKTOOL_RENAMED_0x7f140b05" n12:APKTOOL_RENAMED_0x7f05049e="never"
+          xmlns:n12="http://schemas.android.com/apk/res-auto" />
+    </group>
+</menu>

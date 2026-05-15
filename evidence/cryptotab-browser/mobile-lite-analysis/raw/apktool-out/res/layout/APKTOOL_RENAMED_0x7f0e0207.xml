@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n0:id="@id/icon_group" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080645" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080644"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:id="@id/icon" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f080642" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080642" n0:scaleType="centerInside" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f080642" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f080642" />
+    <ImageView n0:layout_gravity="end|bottom" n0:id="@id/right_icon" n0:visibility="gone" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080648" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080648" n0:layout_marginBottom="8.0dp" n0:scaleType="centerInside" n0:layout_marginEnd="8.0dp" />
+</FrameLayout>

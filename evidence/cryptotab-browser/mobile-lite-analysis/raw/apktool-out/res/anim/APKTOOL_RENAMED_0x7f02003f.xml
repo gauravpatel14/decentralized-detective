@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set n0:ordering="sequentially"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <set n0:ordering="together">
+        <objectAnimator n0:duration="0" n0:valueFrom="1" n0:valueTo="1" n0:propertyName="scaleX" />
+        <objectAnimator n0:duration="0" n0:valueFrom="1" n0:valueTo="1" n0:propertyName="scaleY" />
+        <objectAnimator n0:duration="0" n0:valueFrom="0" n0:valueTo="0" n0:propertyName="translateX" />
+        <objectAnimator n0:duration="0" n0:valueFrom="0" n0:valueTo="0" n0:propertyName="translateY" />
+    </set>
+    <objectAnimator n0:duration="700" n0:valueFrom="0" n0:valueTo="0" n0:valueType="floatType" n0:propertyName="translateX" />
+    <set n0:ordering="together">
+        <objectAnimator n0:duration="300" n0:valueFrom="0.75" n0:valueTo="1" n0:propertyName="scaleX" />
+        <objectAnimator n0:duration="300" n0:valueFrom="0.75" n0:valueTo="1" n0:propertyName="scaleY" />
+    </set>
+    <objectAnimator n0:duration="1300" n0:valueFrom="0" n0:valueTo="0" n0:propertyName="translateX" />
+    <set n0:ordering="together">
+        <objectAnimator n0:duration="300" n0:valueFrom="0" n0:valueTo="-230" n0:propertyName="translateX" />
+        <objectAnimator n0:duration="300" n0:valueFrom="0" n0:valueTo="70" n0:propertyName="translateY" />
+    </set>
+</set>

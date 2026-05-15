@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e0025" />
+    <androidx.recyclerview.widget.RecyclerView n0:scrollbarStyle="outsideOverlay" n0:id="@id/account_picker_account_list" n0:scrollbars="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="8.0dp" n0:requiresFadingEdge="vertical" n0:layout_marginStart="24.0dp" n0:layout_marginEnd="24.0dp" />
+</LinearLayout>

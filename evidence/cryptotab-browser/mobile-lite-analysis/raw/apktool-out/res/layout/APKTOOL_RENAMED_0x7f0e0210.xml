@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n0:id="@id/omnibox_results_container" n0:visibility="gone" n0:descendantFocusability="blocksDescendants" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:importantForAccessibility="yes"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.chrome.browser.omnibox.suggestions.OmniboxSuggestionsDropdown n0:id="@id/omnibox_suggestions_dropdown" n0:visibility="gone" n0:clipToPadding="false" n0:layout_width="match_parent" n0:layout_height="match_parent" />
+</FrameLayout>

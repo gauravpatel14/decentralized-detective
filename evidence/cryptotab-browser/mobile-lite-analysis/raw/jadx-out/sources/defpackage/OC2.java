@@ -1,0 +1,80 @@
+package defpackage;
+
+import java.util.Iterator;
+import java.util.ListIterator;
+import java.util.NoSuchElementException;
+
+/* JADX INFO: compiled from: chromium-ChromePublic.aab-stable-260119 */
+/* JADX INFO: loaded from: classes.dex */
+public final class OC2 implements ListIterator, Iterator {
+    public final int t;
+    public int u;
+    public final AbstractC0760hD2 v;
+
+    public OC2(AbstractC0760hD2 abstractC0760hD2, int i) {
+        int size = abstractC0760hD2.size();
+        f23.b(i, size);
+        this.t = size;
+        this.u = i;
+        this.v = abstractC0760hD2;
+    }
+
+    public final Object a(int i) {
+        return this.v.get(i);
+    }
+
+    @Override // java.util.ListIterator
+    public final void add(Object obj) {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override // java.util.ListIterator, java.util.Iterator
+    public final boolean hasNext() {
+        return this.u < this.t;
+    }
+
+    @Override // java.util.ListIterator
+    public final boolean hasPrevious() {
+        return this.u > 0;
+    }
+
+    @Override // java.util.ListIterator, java.util.Iterator
+    public final Object next() {
+        if (!hasNext()) {
+            throw new NoSuchElementException();
+        }
+        int i = this.u;
+        this.u = i + 1;
+        return a(i);
+    }
+
+    @Override // java.util.ListIterator
+    public final int nextIndex() {
+        return this.u;
+    }
+
+    @Override // java.util.ListIterator
+    public final Object previous() {
+        if (!hasPrevious()) {
+            throw new NoSuchElementException();
+        }
+        int i = this.u - 1;
+        this.u = i;
+        return a(i);
+    }
+
+    @Override // java.util.ListIterator
+    public final int previousIndex() {
+        return this.u - 1;
+    }
+
+    @Override // java.util.ListIterator, java.util.Iterator
+    public final void remove() {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override // java.util.ListIterator
+    public final void set(Object obj) {
+        throw new UnsupportedOperationException();
+    }
+}

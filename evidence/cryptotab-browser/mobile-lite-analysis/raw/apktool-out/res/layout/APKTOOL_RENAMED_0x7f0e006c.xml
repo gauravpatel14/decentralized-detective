@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:focusable="true" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <EditText n0:gravity="center_horizontal" n0:id="@id/cc_month_edit" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:hint="@string/APKTOOL_RENAMED_0x7f1402d8" n0:width="50.0sp" n0:maxLength="2" n0:inputType="number" n0:imeOptions="actionNext" />
+    <TextView n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f1402d9" />
+    <EditText n0:gravity="center_horizontal" n0:id="@id/cc_year_edit" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:hint="@string/APKTOOL_RENAMED_0x7f1402da" n0:width="50.0sp" n0:maxLength="2" n0:inputType="number" n0:imeOptions="actionDone" />
+</LinearLayout>

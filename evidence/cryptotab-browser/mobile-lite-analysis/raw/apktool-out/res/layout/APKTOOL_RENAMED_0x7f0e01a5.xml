@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.signin.LegacySyncPromoView n0:id="@id/legacy_sync_promo_view_frame_layout" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.components.browser_ui.widget.MaterialCardViewNoShadow n0:id="@id/card_view" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f08032b" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f08032b" style="@style/APKTOOL_RENAMED_0x7f1501a9">
+        <LinearLayout n0:orientation="vertical" n0:padding="@dimen/APKTOOL_RENAMED_0x7f08032a" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:id="@id/title" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="8.0dp" />
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:gravity="center" n0:id="@id/description" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:lineSpacingExtra="6.0sp" />
+            <LinearLayout n0:gravity="center_vertical" n0:layout_gravity="end" n0:orientation="horizontal" n0:layout_width="wrap_content" n0:layout_height="wrap_content">
+                <org.chromium.ui.widget.ButtonCompat n0:id="@id/sign_in" n0:layout_width="wrap_content" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f15016c" />
+            </LinearLayout>
+        </LinearLayout>
+    </org.chromium.components.browser_ui.widget.MaterialCardViewNoShadow>
+    <ViewStub n0:layout_gravity="center" n0:id="@id/recent_tab_empty_state_view_stub" n0:padding="@dimen/APKTOOL_RENAMED_0x7f0800c8" n0:layout="@layout/APKTOOL_RENAMED_0x7f0e0134" n0:layout_width="match_parent" n0:layout_height="match_parent" />
+</org.chromium.chrome.browser.signin.LegacySyncPromoView>

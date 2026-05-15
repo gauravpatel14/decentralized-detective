@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e009a" />
+    <ScrollView n0:id="@id/scroll_view" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_below="@id/handlebar">
+        <RelativeLayout n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:textDirection="locale">
+            <ImageView n0:id="@id/webauthn_incognito_confirmation_imageview" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:src="@drawable/APKTOOL_RENAMED_0x7f0905a1" n0:scaleType="centerInside" n0:importantForAccessibility="no" n0:paddingVertical="16.0dp" />
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150266" n0:gravity="center" n0:id="@id/webauthn_incognito_confirmation_heading" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="4.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140eb6" n0:layout_below="@id/webauthn_incognito_confirmation_imageview" n0:layout_centerHorizontal="true" n0:layout_marginHorizontal="24.0dp" />
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:gravity="center" n0:id="@id/webauthn_incognito_confirmation_body" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="16.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140eb1" n0:layout_below="@id/webauthn_incognito_confirmation_heading" n0:layout_centerHorizontal="true" n0:layout_marginHorizontal="24.0dp" />
+            <org.chromium.components.browser_ui.widget.DualControlLayout n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="24.0dp" n0:layout_marginBottom="24.0dp" n0:layout_below="@id/webauthn_incognito_confirmation_body" n0:layout_marginHorizontal="24.0dp" n1:APKTOOL_RENAMED_0x7f050093="apart"
+              xmlns:n1="http://schemas.android.com/apk/res-auto">
+                <org.chromium.ui.widget.ButtonCompat n0:id="@id/continue_button" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140eb2" style="@style/APKTOOL_RENAMED_0x7f15037f" />
+                <org.chromium.ui.widget.ButtonCompat n0:id="@id/cancel_button" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f1403ae" style="@style/APKTOOL_RENAMED_0x7f15037f" />
+            </org.chromium.components.browser_ui.widget.DualControlLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:layout_gravity="start|top" n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="?android:listPreferredItemHeightSmall"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.ui.widget.ChromeImageButton n0:id="@id/button_one" style="@style/APKTOOL_RENAMED_0x7f1501b9" />
+    <org.chromium.ui.widget.ChromeImageButton n0:id="@id/button_two" style="@style/APKTOOL_RENAMED_0x7f1501b9" />
+    <org.chromium.ui.widget.ChromeImageButton n0:id="@id/button_three" style="@style/APKTOOL_RENAMED_0x7f1501b9" />
+    <org.chromium.ui.widget.ChromeImageButton n0:id="@id/button_four" style="@style/APKTOOL_RENAMED_0x7f1501b9" />
+    <org.chromium.ui.widget.ChromeImageButton n0:id="@id/button_five" style="@style/APKTOOL_RENAMED_0x7f1501b9" />
+</LinearLayout>

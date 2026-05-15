@@ -1,0 +1,9 @@
+"Chromium Shortcut" = "Njia ya Mkato ya CryptoTab Browser";
+CFBundleGetInfoString = "CryptoTab Browser 127.0.6533.100, Hakimiliki 2024 Wasanidi wa CryptoTab Browser. Haki zote zimehifadhiwa.";
+NSBluetoothAlwaysUsageDescription = "CryptoTab Browser itakapopata idhini, tovuti zitaweza kukuomba idhini ya kufikia.";
+NSBluetoothPeripheralUsageDescription = "CryptoTab Browser itakapopata idhini, tovuti zitaweza kukuomba idhini ya kufikia.";
+NSCameraUsageDescription = "CryptoTab Browser itakapopata idhini, tovuti zitaweza kukuomba idhini ya kufikia.";
+NSHumanReadableCopyright = "Hakimiliki 2024 Wasanidi wa CryptoTab Browser. Haki zote zimehifadhiwa.";
+NSLocationUsageDescription = "CryptoTab Browser itakapopata idhini, tovuti zitaweza kukuomba idhini ya kufikia.";
+NSMicrophoneUsageDescription = "CryptoTab Browser itakapopata idhini, tovuti zitaweza kukuomba idhini ya kufikia.";
+NSWebBrowserPublicKeyCredentialUsageDescription = "CryptoTab Browser itakapopata idhini, tovuti zitaweza kukuomba idhini ya kufikia.";

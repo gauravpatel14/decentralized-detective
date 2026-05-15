@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="start" n0:layout_gravity="center_vertical" n0:orientation="vertical" n0:layout_width="wrap_content" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:textSize="20.0sp" n0:textColor="#33b5e5" n0:gravity="start" n0:paddingTop="5.0dp" n0:paddingBottom="5.0dp" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140de9" n0:paddingStart="5.0dp" n0:paddingEnd="5.0dp" />
+    <View n0:background="#33b5e5" n0:paddingTop="5.0dp" n0:paddingBottom="5.0dp" n0:layout_width="match_parent" n0:layout_height="2.0dp" />
+    <LinearLayout n0:gravity="center" n0:layout_gravity="center_horizontal" n0:orientation="horizontal" n0:layout_width="wrap_content" n0:layout_height="wrap_content">
+        <NumberPicker n0:textSize="12.0sp" n0:id="@id/hour" n0:focusable="true" n0:focusableInTouchMode="true" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="0.2" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401d5" n0:layout_marginStart="4.0dp" n0:layout_marginEnd="4.0dp" />
+        <TextView n0:textSize="12.0sp" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140de5" />
+        <NumberPicker n0:textSize="12.0sp" n0:id="@id/minute" n0:focusable="true" n0:focusableInTouchMode="true" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="0.2" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401d7" n0:layout_marginStart="4.0dp" n0:layout_marginEnd="4.0dp" />
+        <TextView n0:textSize="12.0sp" n0:id="@id/second_colon" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140de6" />
+        <NumberPicker n0:textSize="12.0sp" n0:id="@id/second" n0:focusable="true" n0:focusableInTouchMode="true" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="0.2" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401d8" n0:layout_marginStart="4.0dp" n0:layout_marginEnd="4.0dp" />
+        <TextView n0:textSize="12.0sp" n0:id="@id/second_dot" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140de8" />
+        <NumberPicker n0:textSize="12.0sp" n0:id="@id/milli" n0:focusable="true" n0:focusableInTouchMode="true" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="0.2" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401d6" n0:layout_marginStart="4.0dp" n0:layout_marginEnd="4.0dp" />
+        <NumberPicker n0:textSize="12.0sp" n0:id="@id/ampm" n0:focusable="true" n0:focusableInTouchMode="true" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="0.2" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401d4" n0:layout_marginStart="4.0dp" n0:layout_marginEnd="4.0dp" />
+    </LinearLayout>
+</LinearLayout>

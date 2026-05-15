@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <Space style="@style/APKTOOL_RENAMED_0x7f150142" />
+    <org.chromium.components.browser_ui.widget.DualControlLayout n0:id="@id/button_bar" n0:background="?APKTOOL_RENAMED_0x7f050165" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f08023e" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f08023e" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f0806f6" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f0806f6" n1:APKTOOL_RENAMED_0x7f050093="end" n1:APKTOOL_RENAMED_0x7f05044e="@string/APKTOOL_RENAMED_0x7f1404f9" n1:APKTOOL_RENAMED_0x7f050482="@string/APKTOOL_RENAMED_0x7f1403ae" n1:APKTOOL_RENAMED_0x7f0504c4="@dimen/APKTOOL_RENAMED_0x7f0802fa"
+      xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />
+</merge>

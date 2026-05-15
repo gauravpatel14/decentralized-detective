@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.tabs.TabLayout n0:id="@id/tabs" n0:layout_width="match_parent" n0:layout_height="wrap_content" n1:APKTOOL_RENAMED_0x7f05050b="5.0dp" n1:APKTOOL_RENAMED_0x7f05050c="5.0dp" style="@style/APKTOOL_RENAMED_0x7f15025d"
+      xmlns:n1="http://schemas.android.com/apk/res-auto">
+        <com.google.android.material.tabs.TabItem n0:id="@id/files_tab" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140514" />
+        <com.google.android.material.tabs.TabItem n0:id="@id/prefetch_tab" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140512" />
+    </com.google.android.material.tabs.TabLayout>
+    <FrameLayout n0:id="@id/content_container" n0:paddingTop="16.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_below="@id/tabs" />
+    <ImageView n0:layout_below="@id/tabs" n0:importantForAccessibility="no" style="@style/APKTOOL_RENAMED_0x7f15025a" />
+</RelativeLayout>

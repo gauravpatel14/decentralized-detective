@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item n0:top="@dimen/APKTOOL_RENAMED_0x7f08054c" n0:bottom="@dimen/APKTOOL_RENAMED_0x7f08054c"
+      xmlns:n0="http://schemas.android.com/apk/res/android">
+        <shape n0:shape="rectangle" n0:top="@dimen/APKTOOL_RENAMED_0x7f08054c" n0:bottom="@dimen/APKTOOL_RENAMED_0x7f08054c">
+            <solid n0:color="@color/APKTOOL_RENAMED_0x7f0700ce" />
+            <size n0:height="@dimen/APKTOOL_RENAMED_0x7f08054b" n0:width="@dimen/APKTOOL_RENAMED_0x7f08054b" />
+            <corners n0:radius="@dimen/APKTOOL_RENAMED_0x7f08054a" />
+        </shape>
+    </item>
+</layer-list>

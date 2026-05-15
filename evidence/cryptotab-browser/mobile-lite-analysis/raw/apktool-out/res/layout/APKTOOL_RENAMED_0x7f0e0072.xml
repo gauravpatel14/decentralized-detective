@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="wrap_content" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ViewStub n0:id="@id/title_with_icon_stub" n0:inflatedId="@id/title_with_icon" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+    <RelativeLayout n0:gravity="center" n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <FrameLayout n0:id="@id/progress_bar_layout" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f08071d" n0:layout_alignParentTop="true" n0:layout_centerHorizontal="true">
+            <ProgressBar n0:id="@id/progress_bar" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080097" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080097" n0:indeterminate="true" />
+            <ImageView n0:id="@id/confirmation_icon" n0:visibility="gone" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080097" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080097" n0:src="@drawable/APKTOOL_RENAMED_0x7f09013d" />
+        </FrameLayout>
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150348" n0:gravity="center" n0:id="@id/message" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f08071b" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f08071c" n0:layout_below="@id/progress_bar_layout" n0:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

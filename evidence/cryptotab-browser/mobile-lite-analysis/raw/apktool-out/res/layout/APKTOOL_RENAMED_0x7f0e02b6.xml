@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.search_resumption.SearchResumptionModuleView n0:orientation="vertical" n0:id="@id/search_resumption_module_layout" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n0:gravity="start|center" n0:id="@id/search_resumption_module_header" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f0807a3" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f0807a3" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140bec" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f0807a2" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f0807a2">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150338" n0:id="@id/header_text" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140beb" n0:singleLine="true" n0:textAlignment="viewStart" n0:layout_toStartOf="@id/header_option" n0:layout_alignParentStart="true" />
+        <ImageView n0:id="@id/header_option" n0:layout_width="wrap_content" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0807a6" n0:src="@drawable/APKTOOL_RENAMED_0x7f090241" n0:layout_centerVertical="true" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140062" n0:layout_alignParentEnd="true" n1:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070128"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+    <org.chromium.chrome.browser.search_resumption.SearchResumptionTileContainerView n0:orientation="vertical" n0:id="@id/search_resumption_module_tiles_container" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f0807a4" n0:baselineAligned="false" />
+</org.chromium.chrome.browser.search_resumption.SearchResumptionModuleView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout n0:gravity="top" n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:id="@id/__arcore_messageText" n0:padding="24.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f14013c" />
+    <LinearLayout n0:gravity="end" n0:orientation="horizontal" n0:padding="4.0dp" n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <Button n0:id="@id/__arcore_cancelButton" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f14013a" style="@android:style/Widget.Material.Light.Button.Borderless.Colored" />
+        <Button n0:id="@id/__arcore_continueButton" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f14013b" style="@android:style/Widget.Material.Light.Button.Borderless.Colored" />
+    </LinearLayout>
+</android.widget.LinearLayout>

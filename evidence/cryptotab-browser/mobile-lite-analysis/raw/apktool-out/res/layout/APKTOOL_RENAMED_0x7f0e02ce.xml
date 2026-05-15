@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:id="@id/tiles_count_container" n0:background="@drawable/APKTOOL_RENAMED_0x7f0904fc" n0:focusable="false" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0807c6" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0807c6" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f0807c8"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150344" n0:gravity="center" n0:id="@id/tiles_count" n0:layout_width="match_parent" n0:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.magic_stack.HomeModulesRecyclerView n0:id="@id/home_modules_recycler_view" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n1:APKTOOL_RENAMED_0x7f050348="scroll"
+  xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />

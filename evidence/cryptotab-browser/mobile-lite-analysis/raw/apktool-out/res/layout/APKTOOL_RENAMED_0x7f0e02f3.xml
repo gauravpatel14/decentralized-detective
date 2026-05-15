@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.tasks.tab_management.TabGroupListView n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView n0:id="@id/tab_group_list_recycler_view" n0:layout_width="match_parent" n0:layout_height="match_parent" />
+    <include n0:layout_width="match_parent" n0:layout_height="match_parent" layout="@layout/APKTOOL_RENAMED_0x7f0e0134" />
+</org.chromium.chrome.browser.tasks.tab_management.TabGroupListView>

@@ -1,0 +1,9 @@
+"Chromium Shortcut" = "CryptoTab Browser-pikanäppäin";
+CFBundleGetInfoString = "CryptoTab Browser 127.0.6533.100, Copyright 2024 The CryptoTab Browser Authors. Kaikki oikeudet pidätetään.";
+NSBluetoothAlwaysUsageDescription = "Kun CryptoTab Browserilla on käyttöoikeus, sivustot voivat pyytää sitä sinulta.";
+NSBluetoothPeripheralUsageDescription = "Kun CryptoTab Browserilla on käyttöoikeus, sivustot voivat pyytää sitä sinulta.";
+NSCameraUsageDescription = "Kun CryptoTab Browserilla on käyttöoikeus, sivustot voivat pyytää sitä sinulta.";
+NSHumanReadableCopyright = "Copyright 2024 The CryptoTab Browser Authors. Kaikki oikeudet pidätetään.";
+NSLocationUsageDescription = "Kun CryptoTab Browserilla on käyttöoikeus, sivustot voivat pyytää sitä sinulta.";
+NSMicrophoneUsageDescription = "Kun CryptoTab Browserilla on käyttöoikeus, sivustot voivat pyytää sitä sinulta.";
+NSWebBrowserPublicKeyCredentialUsageDescription = "Kun CryptoTab Browserilla on käyttöoikeus, sivustot voivat pyytää sitä sinulta.";

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center_vertical" n0:layout_gravity="end" n0:id="@id/features" n0:layout_width="wrap_content" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:id="@id/usage_text" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" />
+    <include n0:visibility="gone" layout="@layout/APKTOOL_RENAMED_0x7f0e024a" />
+</LinearLayout>

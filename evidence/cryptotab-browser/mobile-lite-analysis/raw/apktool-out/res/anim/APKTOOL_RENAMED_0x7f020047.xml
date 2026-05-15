@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set>
+    <translate n0:interpolator="@interpolator/APKTOOL_RENAMED_0x7f0d0007" n0:duration="@integer/APKTOOL_RENAMED_0x7f0c0029" n0:fromYDelta="0.0" n0:toYDelta="20.000004%p"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <alpha n1:interpolator="@interpolator/APKTOOL_RENAMED_0x7f0d0007" n1:duration="@integer/APKTOOL_RENAMED_0x7f0c0028" n1:fromAlpha="1.0" n1:toAlpha="0.0"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+</set>

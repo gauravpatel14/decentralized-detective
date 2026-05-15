@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.ui.signin.fullscreen_signin.FullscreenSigninView n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:id="@id/fre_logo" n0:layout_width="wrap_content" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0802b5" n0:src="@drawable/APKTOOL_RENAMED_0x7f0901a9" n0:layout_centerVertical="true" n0:importantForAccessibility="no" n0:layout_marginStart="90.0dp" n0:layout_marginEnd="70.0dp" n0:layout_alignParentStart="true" />
+    <ScrollView n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_marginTop="24.0dp" n0:fillViewport="true" n0:layout_above="@id/fre_footer_viewgroup" n0:layout_alignParentTop="true" n0:fadeScrollbars="false" n0:layout_marginEnd="24.0dp" n0:layout_toEndOf="@id/fre_logo">
+        <LinearLayout n0:gravity="center_vertical" n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502d1" n0:textStyle="bold" n0:gravity="start" n0:id="@id/title" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f1405bf" n0:lineSpacingMultiplier="1.2" n0:paddingStart="24.0dp" />
+            <org.chromium.ui.widget.TextViewWithLeading n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:gravity="start" n0:id="@id/subtitle" n0:paddingTop="4.0dp" n0:paddingBottom="14.0dp" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140cf9" n0:paddingStart="24.0dp" n1:APKTOOL_RENAMED_0x7f05034b="@dimen/APKTOOL_RENAMED_0x7f080866"
+              xmlns:n1="http://schemas.android.com/apk/res-auto" />
+            <FrameLayout n0:id="@id/fre_browser_managed_by" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="16.0dp">
+                <include n0:gravity="start" n0:id="@id/privacy_disclaimer" n0:layout_width="wrap_content" n0:layout_height="wrap_content" layout="@layout/APKTOOL_RENAMED_0x7f0e0156" />
+            </FrameLayout>
+            <ProgressBar n0:layout_gravity="center_horizontal" n0:id="@id/fre_native_and_policy_load_progress_spinner" n0:layout_width="32.0dp" n0:layout_height="32.0dp" n0:layout_marginTop="20.0dp" n0:layout_marginBottom="50.0dp" n0:alpha="0.0" style="@style/APKTOOL_RENAMED_0x7f1504d6" />
+            <include layout="@layout/APKTOOL_RENAMED_0x7f0e0157" />
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout n0:id="@id/fre_footer_viewgroup" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_alignParentBottom="true" n0:layout_toEndOf="@id/fre_logo">
+        <org.chromium.ui.widget.TextViewWithClickableSpans n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n0:gravity="center_horizontal" n0:id="@id/signin_fre_footer" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140cf6" n0:layout_marginHorizontal="24.0dp" n0:layout_marginVertical="16.0dp" n2:APKTOOL_RENAMED_0x7f05034b="@dimen/APKTOOL_RENAMED_0x7f080868"
+          xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <FrameLayout n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="120.0dp" n0:layout_alignParentBottom="true" n0:layout_marginEnd="60.0dp" n0:layout_toEndOf="@id/fre_logo">
+        <ProgressBar n0:layout_gravity="center_horizontal" n0:id="@id/fre_signin_progress_spinner" n0:visibility="gone" n0:layout_width="32.0dp" n0:layout_height="32.0dp" style="@style/APKTOOL_RENAMED_0x7f1504d6" />
+        <TextView n0:layout_gravity="center_horizontal" n0:id="@id/fre_signin_progress_text" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="50.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f1405bd" style="@style/APKTOOL_RENAMED_0x7f150355" />
+    </FrameLayout>
+</org.chromium.chrome.browser.ui.signin.fullscreen_signin.FullscreenSigninView>

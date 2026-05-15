@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:background="?APKTOOL_RENAMED_0x7f05048a" n0:paddingTop="8.0dp" n0:paddingBottom="8.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingStart="24.0dp" n0:paddingEnd="24.0dp"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:id="@id/account_image" n0:layout_width="48.0dp" n0:layout_height="48.0dp" n0:layout_marginEnd="16.0dp" />
+    <LinearLayout n0:orientation="vertical" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="1.0">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:gravity="top" n0:id="@id/account_text_primary" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:textDirection="locale" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:gravity="top" n0:id="@id/account_text_secondary" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:textDirection="locale" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector n0:drawable="@drawable/APKTOOL_RENAMED_0x7f0903ce"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <target n0:name="hovered_card" n0:animation="@anim/APKTOOL_RENAMED_0x7f02003b" />
+    <target n0:name="selected_card" n0:animation="@anim/APKTOOL_RENAMED_0x7f02003c" />
+    <target n0:name="selected_card_rectangle" n0:animation="@anim/APKTOOL_RENAMED_0x7f02003d" />
+    <target n0:name="touch_point_background" n0:animation="@anim/APKTOOL_RENAMED_0x7f020041" />
+    <target n0:name="touch_point" n0:animation="@anim/APKTOOL_RENAMED_0x7f02003f" />
+    <target n0:name="touch_point_circle" n0:animation="@anim/APKTOOL_RENAMED_0x7f02003e" />
+    <target n0:name="touch_point_background_circle" n0:animation="@anim/APKTOOL_RENAMED_0x7f020040" />
+</animated-vector>

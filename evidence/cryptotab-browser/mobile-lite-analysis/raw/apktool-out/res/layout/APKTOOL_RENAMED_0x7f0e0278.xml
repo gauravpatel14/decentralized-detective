@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center" n0:orientation="vertical" n0:id="@id/progress_bar_overlay" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ProgressBar n0:id="@id/progress_bar" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080097" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080097" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f08071f" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f08071e" />
+    <ImageView n0:id="@id/confirmation_icon" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080097" n0:src="@drawable/APKTOOL_RENAMED_0x7f09013d" />
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15035a" n0:id="@id/progress_bar_message" n0:layout_width="wrap_content" n0:layout_height="wrap_content" />
+</LinearLayout>

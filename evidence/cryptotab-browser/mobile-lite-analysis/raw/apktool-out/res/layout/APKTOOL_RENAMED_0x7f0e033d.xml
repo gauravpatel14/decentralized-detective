@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:id="@id/webapp_splash_screen_layout" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f0808e2"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:id="@id/webapp_splash_screen_icon" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:scaleType="centerInside" n0:adjustViewBounds="true" n0:maxWidth="@dimen/APKTOOL_RENAMED_0x7f0808df" n0:maxHeight="@dimen/APKTOOL_RENAMED_0x7f0808df" n0:layout_centerInParent="true" />
+    <TextView n0:id="@id/webapp_splash_screen_name" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f0808e1" n0:layout_alignParentBottom="true" n0:layout_centerHorizontal="true" style="@style/APKTOOL_RENAMED_0x7f15049d" />
+</RelativeLayout>

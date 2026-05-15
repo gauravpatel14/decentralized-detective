@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n0:background="@drawable/APKTOOL_RENAMED_0x7f090174" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.chrome.browser.customtabs.features.partialcustomtab.CustomTabDragBar n0:id="@id/drag_bar" n0:background="@drawable/APKTOOL_RENAMED_0x7f090174" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0801a2" n0:importantForAccessibility="no" />
+    <ImageView n0:layout_gravity="center|top" n0:id="@id/drag_handle" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f0801a0" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f08019e" n0:focusable="true" n0:clickable="true" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:src="@drawable/APKTOOL_RENAMED_0x7f09018f" n0:tint="?APKTOOL_RENAMED_0x7f05016e" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140167" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f08019f" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f08019f" />
+</FrameLayout>

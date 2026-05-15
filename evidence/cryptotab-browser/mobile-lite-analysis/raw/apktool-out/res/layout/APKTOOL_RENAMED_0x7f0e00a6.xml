@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:overScrollMode="ifContentScrolls"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:gravity="start" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginLeft="16.0dp" n0:layout_marginTop="16.0dp" n0:layout_marginRight="16.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f1403a4" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:gravity="start" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginLeft="16.0dp" n0:layout_marginRight="16.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f1403a5" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:gravity="start" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginLeft="16.0dp" n0:layout_marginTop="16.0dp" n0:layout_marginRight="16.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f14038b" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:gravity="start" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginLeft="16.0dp" n0:layout_marginRight="16.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f14038c" />
+        <org.chromium.ui.widget.ButtonCompat n0:layout_gravity="end" n0:id="@id/unlink_button" n0:focusable="true" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_margin="16.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f1403a0" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<restrictions>
+    <restriction n0:description="@string/APKTOOL_RENAMED_0x7f140034" n0:title="@string/APKTOOL_RENAMED_0x7f140035" n0:key="CloudManagementEnrollmentToken" n0:restrictionType="string"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <restriction n1:description="@string/APKTOOL_RENAMED_0x7f140000" n1:entries="@array/APKTOOL_RENAMED_0x7f040000" n1:title="@string/APKTOOL_RENAMED_0x7f140001" n1:key="AccessControlAllowMethodsInCORSPreflightSpecConformant" n1:entryValues="@array/APKTOOL_RENAMED_0x7f040001" n1:restrictionType="bool"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <restriction n2:description="@string/APKTOOL_RENAMED_0x7f140002" n2:entries="@array/APKTOOL_RENAMED_0x7f040002" n2:title="@string/APKTOOL_RENAMED_0x7f140003" n2:key="AccessibilityPerformanceFilteringAllowed" n2:entryValues="@array/APKTOOL_RENAMED_0x7f040003" n2:restrictionType="bool"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <restriction n3:description="@string/APKTOOL_RENAMED_0x7f140004" n3:entries="@array/APKTOOL_RENAMED_0x7f040004" n3:title="@string/APKTOOL_RENAMED_0x7f140005" n3:key="AdditionalDnsQueryTypesEnabled" n3:entryValues="@array/APKTOOL_RENAMED_0x7f040005" n3:restrictionType="bool"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <restriction n4:description="@string/APKTOOL_RENAMED_0x7f140006" n4:title="@string/APKTOOL_RENAMED_0x7f140007" n4:key="AllHttpAuthSchemesAllowedForOrigins" n4:restrictionType="string"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <restriction n5:description="@string/APKTOOL_RENAMED_0x7f140008" n5:entries="@array/APKTOOL_RENAMED_0x7f040006" n5:title="@string/APKTOOL_RENAMED_0x7f140009" n5:key="AllowBackForwardCacheForCacheControlNoStorePageEnabled" n5:entryValues="@array/APKTOOL_RENAMED_0x7f040007" n5:restrictionType="bool"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <restriction n6:description="@string/APKTOOL_RENAMED_0x7f14000a" n6:entries="@array/APKTOOL_RENAMED_0x7f040008" n6:title="@string/APKTOOL_RENAMED_0x7f14000b" n6:key="AllowWebAuthnWithBrokenTlsCerts" n6:entryValues="@array/APKTOOL_RENAMED_0x7f040009" n6:restrictionType="bool"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <restriction n7:description="@string/APKTOOL_RENAMED_0x7f14000c" n7:title="@string/APKTOOL_RENAMED_0x7f14000d" n7:key="AllowedDomainsForApps" n7:restrictionType="string"
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+    <restriction n8:description="@string/APKTOOL_RENAMED_0x7f14000e" n8:entries="@array/APKTOOL_RENAMED_0x7f04000a" n8:title="@string/APKTOOL_RENAMED_0x7f14000f" n8:key="AlternateErrorPagesEnabled" n8:entryValues="@array/APKTOOL_RENAMED_0x7f04000b" n8:restrictionType="bool"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+    <restriction n9:description="@string/APKTOOL_RENAMED_0x7f140010" n9:title="@string/APKTOOL_RENAMED_0x7f140011" n9:key="AuthAndroidNegotiateAccountType" n9:restrictionType="string"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+    <restriction n10:description="@string/APKTOOL_RENAMED_0x7f140012" n10:title="@string/APKTOOL_RENAMED_0x7f140013" n10:key="AuthNegotiateDelegateAllowlist" n10:restrictionType="string"
+      xmlns:n10="http://schemas.android.com/apk/res/android" />
+    <restriction n11:description="@string/APKTOOL_RENAMED_0x7f140014" n11:title="@string/APKTOOL_RENAMED_0x7f140015" n11:key="AuthSchemes" n11:restrictionType="string"
+      xmlns:n11="http://schemas.android.com/apk/res/android" />
+    <restriction n12:description="@string/APKTOOL_RENAMED_0x7f140016" n12:title="@string/APKTOOL_RENAMED_0x7f140017" n12:key="AuthServerAllowlist" n12:restrictionType="string"
+      xmlns:n12="http://schemas.android.com/apk/res/android" />
+    <restriction n13:description="@string/APKTOOL_RENAMED_0x7f140018" n13:entries="@array/APKTOOL_RENAMED_0x7f04000c" n13:title="@string/APKTOOL_RENAMED_0x7f140019" n13:key="AutofillAddressEnabled" n13:entryValues="@array/APKTOOL_RENAMED_0x7f04000d" n13:restrictionType="bool"
+      xmlns:n13="http://schemas.android.com/apk/res/android" />
+    <restriction n14:description="@string/APKTOOL_RENAMED_0x7f14001a" n14:entries="@array/APKTOOL_RENAMED_0x7f04000e" n14:title="@string/APKTOOL_RENAMED_0x7f14001b" n14:key="AutofillCreditCardEnabled" n14:entryValues="@array/APKTOOL_RENAMED_0x7f04000f" n14:restrictionType="bool"
+      xmlns:n14="http://schemas.android.com/apk/res/android" />
+    <restriction n15:description="@string/APKTOOL_RENAMED_0x7f14001c" n15:entries="@array/APKTOOL_RENAMED_0x7f040010" n15:title="@string/APKTOOL_RENAMED_0x7f14001d" n15:key="BackForwardCacheEnabled" n15:entryValues="@array/APKTOOL_RENAMED_0x7f040011" n15:restrictionType="bool"
+      xmlns:n15="http://schemas.android.com/apk/res/android" />
+    <restriction n16:description="@string/APKTOOL_RENAMED_0x7f14001e" n16:entries="@array/APKTOOL_RENAMED_0x7f040012" n16:title="@string/APKTOOL_RENAMED_0x7f14001f" n16:key="BeforeunloadEventCancelByPreventDefaultEnabled" n16:entryValues="@array/APKTOOL_RENAMED_0x7f040013" n16:restrictionType="bool"
+      xmlns:n16="http://schemas.android.com/apk/res/android" />
+    <restriction n17:description="@string/APKTOOL_RENAMED_0x7f140020" n17:entries="@array/APKTOOL_RENAMED_0x7f040014" n17:title="@string/APKTOOL_RENAMED_0x7f140021" n17:key="BlockThirdPartyCookies" n17:entryValues="@array/APKTOOL_RENAMED_0x7f040015" n17:restrictionType="bool"
+      xmlns:n17="http://schemas.android.com/apk/res/android" />
+    <restriction n18:description="@string/APKTOOL_RENAMED_0x7f140022" n18:entries="@array/APKTOOL_RENAMED_0x7f040016" n18:title="@string/APKTOOL_RENAMED_0x7f140023" n18:key="BrowserSignin" n18:entryValues="@array/APKTOOL_RENAMED_0x7f040017" n18:restrictionType="choice"
+      xmlns:n18="http://schemas.android.com/apk/res/android" />
+    <restriction n19:description="@string/APKTOOL_RENAMED_0x7f140024" n19:title="@string/APKTOOL_RENAMED_0x7f140025" n19:key="BrowsingDataLifetime" n19:restrictionType="string"
+      xmlns:n19="http://schemas.android.com/apk/res/android" />
+    <restriction n20:description="@string/APKTOOL_RENAMED_0x7f140026" n20:entries="@array/APKTOOL_RENAMED_0x7f040018" n20:title="@string/APKTOOL_RENAMED_0x7f140027" n20:key="BuiltInDnsClientEnabled" n20:entryValues="@array/APKTOOL_RENAMED_0x7f040019" n20:restrictionType="bool"
+      xmlns:n20="http://schemas.android.com/apk/res/android" />
+    <restriction n21:description="@string/APKTOOL_RENAMED_0x7f140028" n21:entries="@array/APKTOOL_RENAMED_0x7f04001a" n21:title="@string/APKTOOL_RENAMED_0x7f140029" n21:key="CORSNonWildcardRequestHeadersSupport" n21:entryValues="@array/APKTOOL_RENAMED_0x7f04001b" n21:restrictionType="bool"
+      xmlns:n21="http://schemas.android.com/apk/res/android" />
+    <restriction n22:description="@string/APKTOOL_RENAMED_0x7f14002a" n22:entries="@array/APKTOOL_RENAMED_0x7f04001c" n22:title="@string/APKTOOL_RENAMED_0x7f14002b" n22:key="CSSCustomStateDeprecatedSyntaxEnabled" n22:entryValues="@array/APKTOOL_RENAMED_0x7f04001d" n22:restrictionType="bool"
+      xmlns:n22="http://schemas.android.com/apk/res/android" />
+    <restriction n23:description="@string/APKTOOL_RENAMED_0x7f14002c" n23:title="@string/APKTOOL_RENAMED_0x7f14002d" n23:key="CertificateTransparencyEnforcementDisabledForCas" n23:restrictionType="string"
+      xmlns:n23="http://schemas.android.com/apk/res/android" />
+    <restriction n24:description="@string/APKTOOL_RENAMED_0x7f14002e" n24:title="@string/APKTOOL_RENAMED_0x7f14002f" n24:key="CertificateTransparencyEnforcementDisabledForUrls" n24:restrictionType="string"
+      xmlns:n24="http://schemas.android.com/apk/res/android" />
+    <restriction n25:description="@string/APKTOOL_RENAMED_0x7f140030" n25:entries="@array/APKTOOL_RENAMED_0x7f04001e" n25:title="@string/APKTOOL_RENAMED_0x7f140031" n25:key="ChromeForTestingAllowed" n25:entryValues="@array/APKTOOL_RENAMED_0x7f04001f" n25:restrictionType="bool"
+      xmlns:n25="http://schemas.android.com/apk/res/android" />
+    <restriction n26:description="@string/APKTOOL_RENAMED_0x7f140032" n26:entries="@array/APKTOOL_RENAMED_0x7f040020" n26:title="@string/APKTOOL_RENAMED_0x7f140033" n26:key="ChromeVariations" n26:entryValues="@array/APKTOOL_RENAMED_0x7f040021" n26:restrictionType="choice"
+      xmlns:n26="http://schemas.android.com/apk/res/android" />
+    <restriction n27:description="@string/APKTOOL_RENAMED_0x7f140036" n27:entries="@array/APKTOOL_RENAMED_0x7f040022" n27:title="@string/APKTOOL_RENAMED_0x7f140037" n27:key="CloudPolicyOverridesPlatformPolicy" n27:entryValues="@array/APKTOOL_RENAMED_0x7f040023" n27:restrictionType="bool"
+      xmlns:n27="http://schemas.android.com/apk/res/android" />
+    <restriction n28:description="@string/APKTOOL_RENAMED_0x7f140038" n28:entries="@array/APKTOOL_RENAMED_0x7f040024" n28:title="@string/APKTOOL_RENAMED_0x7f140039" n28:key="CloudUserPolicyMerge" n28:entryValues="@array/APKTOOL_RENAMED_0x7f040025" n28:restrictionType="bool"
+      xmlns:n28="http://schemas.android.com/apk/res/android" />
+    <restriction n29:description="@string/APKTOOL_RENAMED_0x7f14003a" n29:entries="@array/APKTOOL_RENAMED_0x7f040026" n29:title="@string/APKTOOL_RENAMED_0x7f14003b" n29:key="CloudUserPolicyOverridesCloudMachinePolicy" n29:entryValues="@array/APKTOOL_RENAMED_0x7f040027" n29:restrictionType="bool"
+      xmlns:n29="http://schemas.android.com/apk/res/android" />
+    <restriction n30:description="@string/APKTOOL_RENAMED_0x7f14003c" n30:entries="@array/APKTOOL_RENAMED_0x7f040028" n30:title="@string/APKTOOL_RENAMED_0x7f14003d" n30:key="ComponentUpdatesEnabled" n30:entryValues="@array/APKTOOL_RENAMED_0x7f040029" n30:restrictionType="bool"
+      xmlns:n30="http://schemas.android.com/apk/res/android" />
+    <restriction n31:description="@string/APKTOOL_RENAMED_0x7f14003e" n31:entries="@array/APKTOOL_RENAMED_0x7f04002a" n31:title="@string/APKTOOL_RENAMED_0x7f14003f" n31:key="ContextualSearchEnabled" n31:entryValues="@array/APKTOOL_RENAMED_0x7f04002b" n31:restrictionType="bool"
+      xmlns:n31="http://schemas.android.com/apk/res/android" />
+    <restriction n32:description="@string/APKTOOL_RENAMED_0x7f140040" n32:title="@string/APKTOOL_RENAMED_0x7f140041" n32:key="CookiesAllowedForUrls" n32:restrictionType="string"
+      xmlns:n32="http://schemas.android.com/apk/res/android" />
+    <restriction n33:description="@string/APKTOOL_RENAMED_0x7f140042" n33:title="@string/APKTOOL_RENAMED_0x7f140043" n33:key="CookiesBlockedForUrls" n33:restrictionType="string"
+      xmlns:n33="http://schemas.android.com/apk/res/android" />
+    <restriction n34:description="@string/APKTOOL_RENAMED_0x7f140044" n34:title="@string/APKTOOL_RENAMED_0x7f140045" n34:key="CookiesSessionOnlyForUrls" n34:restrictionType="string"
+      xmlns:n34="http://schemas.android.com/apk/res/android" />
+    <restriction n35:description="@string/APKTOOL_RENAMED_0x7f140046" n35:entries="@array/APKTOOL_RENAMED_0x7f04002c" n35:title="@string/APKTOOL_RENAMED_0x7f140047" n35:key="DataUrlInSvgUseEnabled" n35:entryValues="@array/APKTOOL_RENAMED_0x7f04002d" n35:restrictionType="bool"
+      xmlns:n35="http://schemas.android.com/apk/res/android" />
+    <restriction n36:description="@string/APKTOOL_RENAMED_0x7f140048" n36:entries="@array/APKTOOL_RENAMED_0x7f04002e" n36:title="@string/APKTOOL_RENAMED_0x7f140049" n36:key="DefaultCookiesSetting" n36:entryValues="@array/APKTOOL_RENAMED_0x7f04002f" n36:restrictionType="choice"
+      xmlns:n36="http://schemas.android.com/apk/res/android" />
+    <restriction n37:description="@string/APKTOOL_RENAMED_0x7f14004a" n37:entries="@array/APKTOOL_RENAMED_0x7f040030" n37:title="@string/APKTOOL_RENAMED_0x7f14004b" n37:key="DefaultGeolocationSetting" n37:entryValues="@array/APKTOOL_RENAMED_0x7f040031" n37:restrictionType="choice"
+      xmlns:n37="http://schemas.android.com/apk/res/android" />
+    <restriction n38:description="@string/APKTOOL_RENAMED_0x7f14004c" n38:entries="@array/APKTOOL_RENAMED_0x7f040032" n38:title="@string/APKTOOL_RENAMED_0x7f14004d" n38:key="DefaultJavaScriptJitSetting" n38:entryValues="@array/APKTOOL_RENAMED_0x7f040033" n38:restrictionType="choice"
+      xmlns:n38="http://schemas.android.com/apk/res/android" />
+    <restriction n39:description="@string/APKTOOL_RENAMED_0x7f14004e" n39:entries="@array/APKTOOL_RENAMED_0x7f040034" n39:title="@string/APKTOOL_RENAMED_0x7f14004f" n39:key="DefaultJavaScriptSetting" n39:entryValues="@array/APKTOOL_RENAMED_0x7f040035" n39:restrictionType="choice"
+      xmlns:n39="http://schemas.android.com/apk/res/android" />
+    <restriction n40:description="@string/APKTOOL_RENAMED_0x7f140050" n40:entries="@array/APKTOOL_RENAMED_0x7f040036" n40:title="@string/APKTOOL_RENAMED_0x7f140051" n40:key="DefaultPopupsSetting" n40:entryValues="@array/APKTOOL_RENAMED_0x7f040037" n40:restrictionType="choice"
+      xmlns:n40="http://schemas.android.com/apk/res/android" />
+    <restriction n41:description="@string/APKTOOL_RENAMED_0x7f140052" n41:title="@string/APKTOOL_RENAMED_0x7f140053" n41:key="DefaultSearchProviderAlternateURLs" n41:restrictionType="string"
+      xmlns:n41="http://schemas.android.com/apk/res/android" />
+    <restriction n42:description="@string/APKTOOL_RENAMED_0x7f140054" n42:entries="@array/APKTOOL_RENAMED_0x7f040038" n42:title="@string/APKTOOL_RENAMED_0x7f140055" n42:key="DefaultSearchProviderEnabled" n42:entryValues="@array/APKTOOL_RENAMED_0x7f040039" n42:restrictionType="bool"
+      xmlns:n42="http://schemas.android.com/apk/res/android" />
+    <restriction n43:description="@string/APKTOOL_RENAMED_0x7f140056" n43:title="@string/APKTOOL_RENAMED_0x7f140057" n43:key="DefaultSearchProviderEncodings" n43:restrictionType="string"
+      xmlns:n43="http://schemas.android.com/apk/res/android" />
+    <restriction n44:description="@string/APKTOOL_RENAMED_0x7f140058" n44:title="@string/APKTOOL_RENAMED_0x7f14005b" n44:key="DefaultSearchProviderImageURL" n44:restrictionType="string"
+      xmlns:n44="http://schemas.android.com/apk/res/android" />
+    <restriction n45:description="@string/APKTOOL_RENAMED_0x7f140059" n45:title="@string/APKTOOL_RENAMED_0x7f14005a" n45:key="DefaultSearchProviderImageURLPostParams" n45:restrictionType="string"
+      xmlns:n45="http://schemas.android.com/apk/res/android" />
+    <restriction n46:description="@string/APKTOOL_RENAMED_0x7f14005c" n46:title="@string/APKTOOL_RENAMED_0x7f14005d" n46:key="DefaultSearchProviderName" n46:restrictionType="string"
+      xmlns:n46="http://schemas.android.com/apk/res/android" />
+    <restriction n47:description="@string/APKTOOL_RENAMED_0x7f14005e" n47:title="@string/APKTOOL_RENAMED_0x7f140061" n47:key="DefaultSearchProviderSearchURL" n47:restrictionType="string"
+      xmlns:n47="http://schemas.android.com/apk/res/android" />
+    <restriction n48:description="@string/APKTOOL_RENAMED_0x7f14005f" n48:title="@string/APKTOOL_RENAMED_0x7f140060" n48:key="DefaultSearchProviderSearchURLPostParams" n48:restrictionType="string"
+      xmlns:n48="http://schemas.android.com/apk/res/android" />
+    <restriction n49:description="@string/APKTOOL_RENAMED_0x7f140062" n49:title="@string/APKTOOL_RENAMED_0x7f140065" n49:key="DefaultSearchProviderSuggestURL" n49:restrictionType="string"
+      xmlns:n49="http://schemas.android.com/apk/res/android" />
+    <restriction n50:description="@string/APKTOOL_RENAMED_0x7f140063" n50:title="@string/APKTOOL_RENAMED_0x7f140064" n50:key="DefaultSearchProviderSuggestURLPostParams" n50:restrictionType="string"
+      xmlns:n50="http://schemas.android.com/apk/res/android" />
+    <restriction n51:description="@string/APKTOOL_RENAMED_0x7f140066" n51:entries="@array/APKTOOL_RENAMED_0x7f04003a" n51:title="@string/APKTOOL_RENAMED_0x7f140067" n51:key="DefaultSensorsSetting" n51:entryValues="@array/APKTOOL_RENAMED_0x7f04003b" n51:restrictionType="choice"
+      xmlns:n51="http://schemas.android.com/apk/res/android" />
+    <restriction n52:description="@string/APKTOOL_RENAMED_0x7f140068" n52:entries="@array/APKTOOL_RENAMED_0x7f04003c" n52:title="@string/APKTOOL_RENAMED_0x7f140069" n52:key="DefaultThirdPartyStoragePartitioningSetting" n52:entryValues="@array/APKTOOL_RENAMED_0x7f04003d" n52:restrictionType="choice"
+      xmlns:n52="http://schemas.android.com/apk/res/android" />
+    <restriction n53:description="@string/APKTOOL_RENAMED_0x7f14006a" n53:entries="@array/APKTOOL_RENAMED_0x7f04003e" n53:title="@string/APKTOOL_RENAMED_0x7f14006b" n53:key="DefaultWebBluetoothGuardSetting" n53:entryValues="@array/APKTOOL_RENAMED_0x7f04003f" n53:restrictionType="choice"
+      xmlns:n53="http://schemas.android.com/apk/res/android" />
+    <restriction n54:description="@string/APKTOOL_RENAMED_0x7f14006c" n54:entries="@array/APKTOOL_RENAMED_0x7f040040" n54:title="@string/APKTOOL_RENAMED_0x7f14006d" n54:key="DefaultWebUsbGuardSetting" n54:entryValues="@array/APKTOOL_RENAMED_0x7f040041" n54:restrictionType="choice"
+      xmlns:n54="http://schemas.android.com/apk/res/android" />
+    <restriction n55:description="@string/APKTOOL_RENAMED_0x7f14006e" n55:entries="@array/APKTOOL_RENAMED_0x7f040042" n55:title="@string/APKTOOL_RENAMED_0x7f14006f" n55:key="DisableAuthNegotiateCnameLookup" n55:entryValues="@array/APKTOOL_RENAMED_0x7f040043" n55:restrictionType="bool"
+      xmlns:n55="http://schemas.android.com/apk/res/android" />
+    <restriction n56:description="@string/APKTOOL_RENAMED_0x7f140070" n56:entries="@array/APKTOOL_RENAMED_0x7f040044" n56:title="@string/APKTOOL_RENAMED_0x7f140071" n56:key="DisableSafeBrowsingProceedAnyway" n56:entryValues="@array/APKTOOL_RENAMED_0x7f040045" n56:restrictionType="bool"
+      xmlns:n56="http://schemas.android.com/apk/res/android" />
+    <restriction n57:description="@string/APKTOOL_RENAMED_0x7f140072" n57:entries="@array/APKTOOL_RENAMED_0x7f040046" n57:title="@string/APKTOOL_RENAMED_0x7f140073" n57:key="DnsOverHttpsMode" n57:entryValues="@array/APKTOOL_RENAMED_0x7f040047" n57:restrictionType="choice"
+      xmlns:n57="http://schemas.android.com/apk/res/android" />
+    <restriction n58:description="@string/APKTOOL_RENAMED_0x7f140074" n58:title="@string/APKTOOL_RENAMED_0x7f140075" n58:key="DnsOverHttpsTemplates" n58:restrictionType="string"
+      xmlns:n58="http://schemas.android.com/apk/res/android" />
+    <restriction n59:description="@string/APKTOOL_RENAMED_0x7f140076" n59:entries="@array/APKTOOL_RENAMED_0x7f040048" n59:title="@string/APKTOOL_RENAMED_0x7f140077" n59:key="DomainReliabilityAllowed" n59:entryValues="@array/APKTOOL_RENAMED_0x7f040049" n59:restrictionType="bool"
+      xmlns:n59="http://schemas.android.com/apk/res/android" />
+    <restriction n60:description="@string/APKTOOL_RENAMED_0x7f140078" n60:entries="@array/APKTOOL_RENAMED_0x7f04004a" n60:title="@string/APKTOOL_RENAMED_0x7f140079" n60:key="EditBookmarksEnabled" n60:entryValues="@array/APKTOOL_RENAMED_0x7f04004b" n60:restrictionType="bool"
+      xmlns:n60="http://schemas.android.com/apk/res/android" />
+    <restriction n61:description="@string/APKTOOL_RENAMED_0x7f14007a" n61:title="@string/APKTOOL_RENAMED_0x7f14007b" n61:key="EnableExperimentalPolicies" n61:restrictionType="string"
+      xmlns:n61="http://schemas.android.com/apk/res/android" />
+    <restriction n62:description="@string/APKTOOL_RENAMED_0x7f14007c" n62:entries="@array/APKTOOL_RENAMED_0x7f04004c" n62:title="@string/APKTOOL_RENAMED_0x7f14007d" n62:key="EnableMediaRouter" n62:entryValues="@array/APKTOOL_RENAMED_0x7f04004d" n62:restrictionType="bool"
+      xmlns:n62="http://schemas.android.com/apk/res/android" />
+    <restriction n63:description="@string/APKTOOL_RENAMED_0x7f14007e" n63:entries="@array/APKTOOL_RENAMED_0x7f04004e" n63:title="@string/APKTOOL_RENAMED_0x7f14007f" n63:key="EncryptedClientHelloEnabled" n63:entryValues="@array/APKTOOL_RENAMED_0x7f04004f" n63:restrictionType="bool"
+      xmlns:n63="http://schemas.android.com/apk/res/android" />
+    <restriction n64:description="@string/APKTOOL_RENAMED_0x7f140080" n64:title="@string/APKTOOL_RENAMED_0x7f140081" n64:key="EnterpriseAuthenticationAppLinkPolicy" n64:restrictionType="string"
+      xmlns:n64="http://schemas.android.com/apk/res/android" />
+    <restriction n65:description="@string/APKTOOL_RENAMED_0x7f140082" n65:entries="@array/APKTOOL_RENAMED_0x7f040050" n65:title="@string/APKTOOL_RENAMED_0x7f140083" n65:key="EnterpriseHardwarePlatformAPIEnabled" n65:entryValues="@array/APKTOOL_RENAMED_0x7f040051" n65:restrictionType="bool"
+      xmlns:n65="http://schemas.android.com/apk/res/android" />
+    <restriction n66:description="@string/APKTOOL_RENAMED_0x7f140084" n66:entries="@array/APKTOOL_RENAMED_0x7f040052" n66:title="@string/APKTOOL_RENAMED_0x7f140085" n66:key="ExplicitlyAllowedNetworkPorts" n66:entryValues="@array/APKTOOL_RENAMED_0x7f040053" n66:restrictionType="multi-select"
+      xmlns:n66="http://schemas.android.com/apk/res/android" />
+    <restriction n67:description="@string/APKTOOL_RENAMED_0x7f140086" n67:entries="@array/APKTOOL_RENAMED_0x7f040054" n67:title="@string/APKTOOL_RENAMED_0x7f140087" n67:key="FeedbackSurveysEnabled" n67:entryValues="@array/APKTOOL_RENAMED_0x7f040055" n67:restrictionType="bool"
+      xmlns:n67="http://schemas.android.com/apk/res/android" />
+    <restriction n68:description="@string/APKTOOL_RENAMED_0x7f140088" n68:entries="@array/APKTOOL_RENAMED_0x7f040056" n68:title="@string/APKTOOL_RENAMED_0x7f140089" n68:key="FirstPartySetsEnabled" n68:entryValues="@array/APKTOOL_RENAMED_0x7f040057" n68:restrictionType="bool"
+      xmlns:n68="http://schemas.android.com/apk/res/android" />
+    <restriction n69:description="@string/APKTOOL_RENAMED_0x7f14008a" n69:title="@string/APKTOOL_RENAMED_0x7f14008b" n69:key="FirstPartySetsOverrides" n69:restrictionType="string"
+      xmlns:n69="http://schemas.android.com/apk/res/android" />
+    <restriction n70:description="@string/APKTOOL_RENAMED_0x7f14008c" n70:entries="@array/APKTOOL_RENAMED_0x7f040058" n70:title="@string/APKTOOL_RENAMED_0x7f14008d" n70:key="ForceGoogleSafeSearch" n70:entryValues="@array/APKTOOL_RENAMED_0x7f040059" n70:restrictionType="bool"
+      xmlns:n70="http://schemas.android.com/apk/res/android" />
+    <restriction n71:description="@string/APKTOOL_RENAMED_0x7f14008e" n71:entries="@array/APKTOOL_RENAMED_0x7f04005a" n71:title="@string/APKTOOL_RENAMED_0x7f14008f" n71:key="ForcePermissionPolicyUnloadDefaultEnabled" n71:entryValues="@array/APKTOOL_RENAMED_0x7f04005b" n71:restrictionType="bool"
+      xmlns:n71="http://schemas.android.com/apk/res/android" />
+    <restriction n72:description="@string/APKTOOL_RENAMED_0x7f140090" n72:entries="@array/APKTOOL_RENAMED_0x7f04005c" n72:title="@string/APKTOOL_RENAMED_0x7f140091" n72:key="ForceYouTubeRestrict" n72:entryValues="@array/APKTOOL_RENAMED_0x7f04005d" n72:restrictionType="choice"
+      xmlns:n72="http://schemas.android.com/apk/res/android" />
+    <restriction n73:description="@string/APKTOOL_RENAMED_0x7f140092" n73:title="@string/APKTOOL_RENAMED_0x7f140093" n73:key="HSTSPolicyBypassList" n73:restrictionType="string"
+      xmlns:n73="http://schemas.android.com/apk/res/android" />
+    <restriction n74:description="@string/APKTOOL_RENAMED_0x7f140094" n74:entries="@array/APKTOOL_RENAMED_0x7f04005e" n74:title="@string/APKTOOL_RENAMED_0x7f140095" n74:key="HistoryClustersVisible" n74:entryValues="@array/APKTOOL_RENAMED_0x7f04005f" n74:restrictionType="bool"
+      xmlns:n74="http://schemas.android.com/apk/res/android" />
+    <restriction n75:description="@string/APKTOOL_RENAMED_0x7f140096" n75:title="@string/APKTOOL_RENAMED_0x7f140097" n75:key="HomepageLocation" n75:restrictionType="string"
+      xmlns:n75="http://schemas.android.com/apk/res/android" />
+    <restriction n76:description="@string/APKTOOL_RENAMED_0x7f140098" n76:title="@string/APKTOOL_RENAMED_0x7f140099" n76:key="HttpAllowlist" n76:restrictionType="string"
+      xmlns:n76="http://schemas.android.com/apk/res/android" />
+    <restriction n77:description="@string/APKTOOL_RENAMED_0x7f14009a" n77:entries="@array/APKTOOL_RENAMED_0x7f040060" n77:title="@string/APKTOOL_RENAMED_0x7f14009b" n77:key="HttpsOnlyMode" n77:entryValues="@array/APKTOOL_RENAMED_0x7f040061" n77:restrictionType="choice"
+      xmlns:n77="http://schemas.android.com/apk/res/android" />
+    <restriction n78:description="@string/APKTOOL_RENAMED_0x7f14009c" n78:entries="@array/APKTOOL_RENAMED_0x7f040062" n78:title="@string/APKTOOL_RENAMED_0x7f14009d" n78:key="HttpsUpgradesEnabled" n78:entryValues="@array/APKTOOL_RENAMED_0x7f040063" n78:restrictionType="bool"
+      xmlns:n78="http://schemas.android.com/apk/res/android" />
+    <restriction n79:description="@string/APKTOOL_RENAMED_0x7f14009e" n79:entries="@array/APKTOOL_RENAMED_0x7f040064" n79:title="@string/APKTOOL_RENAMED_0x7f14009f" n79:key="IPv6ReachabilityOverrideEnabled" n79:entryValues="@array/APKTOOL_RENAMED_0x7f040065" n79:restrictionType="bool"
+      xmlns:n79="http://schemas.android.com/apk/res/android" />
+    <restriction n80:description="@string/APKTOOL_RENAMED_0x7f1400a0" n80:entries="@array/APKTOOL_RENAMED_0x7f040066" n80:title="@string/APKTOOL_RENAMED_0x7f1400a1" n80:key="IncognitoModeAvailability" n80:entryValues="@array/APKTOOL_RENAMED_0x7f040067" n80:restrictionType="choice"
+      xmlns:n80="http://schemas.android.com/apk/res/android" />
+    <restriction n81:description="@string/APKTOOL_RENAMED_0x7f1400a2" n81:entries="@array/APKTOOL_RENAMED_0x7f040068" n81:title="@string/APKTOOL_RENAMED_0x7f1400a5" n81:key="InsecurePrivateNetworkRequestsAllowed" n81:entryValues="@array/APKTOOL_RENAMED_0x7f040069" n81:restrictionType="bool"
+      xmlns:n81="http://schemas.android.com/apk/res/android" />
+    <restriction n82:description="@string/APKTOOL_RENAMED_0x7f1400a3" n82:title="@string/APKTOOL_RENAMED_0x7f1400a4" n82:key="InsecurePrivateNetworkRequestsAllowedForUrls" n82:restrictionType="string"
+      xmlns:n82="http://schemas.android.com/apk/res/android" />
+    <restriction n83:description="@string/APKTOOL_RENAMED_0x7f1400a6" n83:entries="@array/APKTOOL_RENAMED_0x7f04006a" n83:title="@string/APKTOOL_RENAMED_0x7f1400a7" n83:key="IntensiveWakeUpThrottlingEnabled" n83:entryValues="@array/APKTOOL_RENAMED_0x7f04006b" n83:restrictionType="bool"
+      xmlns:n83="http://schemas.android.com/apk/res/android" />
+    <restriction n84:description="@string/APKTOOL_RENAMED_0x7f1400a8" n84:title="@string/APKTOOL_RENAMED_0x7f1400a9" n84:key="IsolateOriginsAndroid" n84:restrictionType="string"
+      xmlns:n84="http://schemas.android.com/apk/res/android" />
+    <restriction n85:description="@string/APKTOOL_RENAMED_0x7f1400aa" n85:title="@string/APKTOOL_RENAMED_0x7f1400ab" n85:key="JavaScriptAllowedForUrls" n85:restrictionType="string"
+      xmlns:n85="http://schemas.android.com/apk/res/android" />
+    <restriction n86:description="@string/APKTOOL_RENAMED_0x7f1400ac" n86:title="@string/APKTOOL_RENAMED_0x7f1400ad" n86:key="JavaScriptBlockedForUrls" n86:restrictionType="string"
+      xmlns:n86="http://schemas.android.com/apk/res/android" />
+    <restriction n87:description="@string/APKTOOL_RENAMED_0x7f1400ae" n87:title="@string/APKTOOL_RENAMED_0x7f1400af" n87:key="JavaScriptJitAllowedForSites" n87:restrictionType="string"
+      xmlns:n87="http://schemas.android.com/apk/res/android" />
+    <restriction n88:description="@string/APKTOOL_RENAMED_0x7f1400b0" n88:title="@string/APKTOOL_RENAMED_0x7f1400b1" n88:key="JavaScriptJitBlockedForSites" n88:restrictionType="string"
+      xmlns:n88="http://schemas.android.com/apk/res/android" />
+    <restriction n89:description="@string/APKTOOL_RENAMED_0x7f1400b2" n89:entries="@array/APKTOOL_RENAMED_0x7f04006c" n89:title="@string/APKTOOL_RENAMED_0x7f1400b3" n89:key="KeyboardFocusableScrollersEnabled" n89:entryValues="@array/APKTOOL_RENAMED_0x7f04006d" n89:restrictionType="bool"
+      xmlns:n89="http://schemas.android.com/apk/res/android" />
+    <restriction n90:description="@string/APKTOOL_RENAMED_0x7f1400b4" n90:title="@string/APKTOOL_RENAMED_0x7f1400b5" n90:key="LegacySameSiteCookieBehaviorEnabledForDomainList" n90:restrictionType="string"
+      xmlns:n90="http://schemas.android.com/apk/res/android" />
+    <restriction n91:description="@string/APKTOOL_RENAMED_0x7f1400b6" n91:entries="@array/APKTOOL_RENAMED_0x7f04006e" n91:title="@string/APKTOOL_RENAMED_0x7f1400b7" n91:key="LensCameraAssistedSearchEnabled" n91:entryValues="@array/APKTOOL_RENAMED_0x7f04006f" n91:restrictionType="bool"
+      xmlns:n91="http://schemas.android.com/apk/res/android" />
+    <restriction n92:description="@string/APKTOOL_RENAMED_0x7f1400b8" n92:entries="@array/APKTOOL_RENAMED_0x7f040070" n92:title="@string/APKTOOL_RENAMED_0x7f1400b9" n92:key="ListenToThisPageEnabled" n92:entryValues="@array/APKTOOL_RENAMED_0x7f040071" n92:restrictionType="bool"
+      xmlns:n92="http://schemas.android.com/apk/res/android" />
+    <restriction n93:description="@string/APKTOOL_RENAMED_0x7f1400ba" n93:title="@string/APKTOOL_RENAMED_0x7f1400bb" n93:key="LookalikeWarningAllowlistDomains" n93:restrictionType="string"
+      xmlns:n93="http://schemas.android.com/apk/res/android" />
+    <restriction n94:description="@string/APKTOOL_RENAMED_0x7f1400bc" n94:title="@string/APKTOOL_RENAMED_0x7f1400bd" n94:key="ManagedBookmarks" n94:restrictionType="string"
+      xmlns:n94="http://schemas.android.com/apk/res/android" />
+    <restriction n95:description="@string/APKTOOL_RENAMED_0x7f1400be" n95:entries="@array/APKTOOL_RENAMED_0x7f040072" n95:title="@string/APKTOOL_RENAMED_0x7f1400bf" n95:key="MetricsReportingEnabled" n95:entryValues="@array/APKTOOL_RENAMED_0x7f040073" n95:restrictionType="bool"
+      xmlns:n95="http://schemas.android.com/apk/res/android" />
+    <restriction n96:description="@string/APKTOOL_RENAMED_0x7f1400c0" n96:entries="@array/APKTOOL_RENAMED_0x7f040074" n96:title="@string/APKTOOL_RENAMED_0x7f1400c1" n96:key="MutationEventsEnabled" n96:entryValues="@array/APKTOOL_RENAMED_0x7f040075" n96:restrictionType="bool"
+      xmlns:n96="http://schemas.android.com/apk/res/android" />
+    <restriction n97:description="@string/APKTOOL_RENAMED_0x7f1400c2" n97:entries="@array/APKTOOL_RENAMED_0x7f040076" n97:title="@string/APKTOOL_RENAMED_0x7f1400c3" n97:key="NTPContentSuggestionsEnabled" n97:entryValues="@array/APKTOOL_RENAMED_0x7f040077" n97:restrictionType="bool"
+      xmlns:n97="http://schemas.android.com/apk/res/android" />
+    <restriction n98:description="@string/APKTOOL_RENAMED_0x7f1400c4" n98:entries="@array/APKTOOL_RENAMED_0x7f040078" n98:title="@string/APKTOOL_RENAMED_0x7f1400c5" n98:key="NetworkPredictionOptions" n98:entryValues="@array/APKTOOL_RENAMED_0x7f040079" n98:restrictionType="choice"
+      xmlns:n98="http://schemas.android.com/apk/res/android" />
+    <restriction n99:description="@string/APKTOOL_RENAMED_0x7f1400c6" n99:entries="@array/APKTOOL_RENAMED_0x7f04007a" n99:title="@string/APKTOOL_RENAMED_0x7f1400c7" n99:key="NtlmV2Enabled" n99:entryValues="@array/APKTOOL_RENAMED_0x7f04007b" n99:restrictionType="bool"
+      xmlns:n99="http://schemas.android.com/apk/res/android" />
+    <restriction n100:description="@string/APKTOOL_RENAMED_0x7f1400c8" n100:entries="@array/APKTOOL_RENAMED_0x7f04007c" n100:title="@string/APKTOOL_RENAMED_0x7f1400c9" n100:key="OutOfProcessSystemDnsResolutionEnabled" n100:entryValues="@array/APKTOOL_RENAMED_0x7f04007d" n100:restrictionType="bool"
+      xmlns:n100="http://schemas.android.com/apk/res/android" />
+    <restriction n101:description="@string/APKTOOL_RENAMED_0x7f1400ca" n101:title="@string/APKTOOL_RENAMED_0x7f1400cb" n101:key="OverrideSecurityRestrictionsOnInsecureOrigin" n101:restrictionType="string"
+      xmlns:n101="http://schemas.android.com/apk/res/android" />
+    <restriction n102:description="@string/APKTOOL_RENAMED_0x7f1400cc" n102:entries="@array/APKTOOL_RENAMED_0x7f04007e" n102:title="@string/APKTOOL_RENAMED_0x7f1400cd" n102:key="PasswordLeakDetectionEnabled" n102:entryValues="@array/APKTOOL_RENAMED_0x7f04007f" n102:restrictionType="bool"
+      xmlns:n102="http://schemas.android.com/apk/res/android" />
+    <restriction n103:description="@string/APKTOOL_RENAMED_0x7f1400ce" n103:entries="@array/APKTOOL_RENAMED_0x7f040080" n103:title="@string/APKTOOL_RENAMED_0x7f1400cf" n103:key="PasswordManagerEnabled" n103:entryValues="@array/APKTOOL_RENAMED_0x7f040081" n103:restrictionType="bool"
+      xmlns:n103="http://schemas.android.com/apk/res/android" />
+    <restriction n104:description="@string/APKTOOL_RENAMED_0x7f1400d0" n104:entries="@array/APKTOOL_RENAMED_0x7f040082" n104:title="@string/APKTOOL_RENAMED_0x7f1400d1" n104:key="PasswordSharingEnabled" n104:entryValues="@array/APKTOOL_RENAMED_0x7f040083" n104:restrictionType="bool"
+      xmlns:n104="http://schemas.android.com/apk/res/android" />
+    <restriction n105:description="@string/APKTOOL_RENAMED_0x7f1400d2" n105:entries="@array/APKTOOL_RENAMED_0x7f040084" n105:title="@string/APKTOOL_RENAMED_0x7f1400d3" n105:key="PaymentMethodQueryEnabled" n105:entryValues="@array/APKTOOL_RENAMED_0x7f040085" n105:restrictionType="bool"
+      xmlns:n105="http://schemas.android.com/apk/res/android" />
+    <restriction n106:description="@string/APKTOOL_RENAMED_0x7f1400d4" n106:entries="@array/APKTOOL_RENAMED_0x7f040086" n106:title="@string/APKTOOL_RENAMED_0x7f1400d5" n106:key="PolicyAtomicGroupsEnabled" n106:entryValues="@array/APKTOOL_RENAMED_0x7f040087" n106:restrictionType="bool"
+      xmlns:n106="http://schemas.android.com/apk/res/android" />
+    <restriction n107:description="@string/APKTOOL_RENAMED_0x7f1400d6" n107:entries="@array/APKTOOL_RENAMED_0x7f040088" n107:title="@string/APKTOOL_RENAMED_0x7f1400d7" n107:key="PolicyDictionaryMultipleSourceMergeList" n107:entryValues="@array/APKTOOL_RENAMED_0x7f040089" n107:restrictionType="multi-select"
+      xmlns:n107="http://schemas.android.com/apk/res/android" />
+    <restriction n108:description="@string/APKTOOL_RENAMED_0x7f1400d8" n108:title="@string/APKTOOL_RENAMED_0x7f1400d9" n108:key="PolicyListMultipleSourceMergeList" n108:restrictionType="string"
+      xmlns:n108="http://schemas.android.com/apk/res/android" />
+    <restriction n109:description="@string/APKTOOL_RENAMED_0x7f1400da" n109:title="@string/APKTOOL_RENAMED_0x7f1400db" n109:key="PopupsAllowedForUrls" n109:restrictionType="string"
+      xmlns:n109="http://schemas.android.com/apk/res/android" />
+    <restriction n110:description="@string/APKTOOL_RENAMED_0x7f1400dc" n110:title="@string/APKTOOL_RENAMED_0x7f1400dd" n110:key="PopupsBlockedForUrls" n110:restrictionType="string"
+      xmlns:n110="http://schemas.android.com/apk/res/android" />
+    <restriction n111:description="@string/APKTOOL_RENAMED_0x7f1400de" n111:entries="@array/APKTOOL_RENAMED_0x7f04008a" n111:title="@string/APKTOOL_RENAMED_0x7f1400df" n111:key="PostQuantumKeyAgreementEnabled" n111:entryValues="@array/APKTOOL_RENAMED_0x7f04008b" n111:restrictionType="bool"
+      xmlns:n111="http://schemas.android.com/apk/res/android" />
+    <restriction n112:description="@string/APKTOOL_RENAMED_0x7f1400e0" n112:entries="@array/APKTOOL_RENAMED_0x7f04008c" n112:title="@string/APKTOOL_RENAMED_0x7f1400e1" n112:key="PrefixedVideoFullscreenApiAvailability" n112:entryValues="@array/APKTOOL_RENAMED_0x7f04008d" n112:restrictionType="choice"
+      xmlns:n112="http://schemas.android.com/apk/res/android" />
+    <restriction n113:description="@string/APKTOOL_RENAMED_0x7f1400e2" n113:entries="@array/APKTOOL_RENAMED_0x7f04008e" n113:title="@string/APKTOOL_RENAMED_0x7f1400e3" n113:key="PrintingEnabled" n113:entryValues="@array/APKTOOL_RENAMED_0x7f04008f" n113:restrictionType="bool"
+      xmlns:n113="http://schemas.android.com/apk/res/android" />
+    <restriction n114:description="@string/APKTOOL_RENAMED_0x7f1400e4" n114:entries="@array/APKTOOL_RENAMED_0x7f040090" n114:title="@string/APKTOOL_RENAMED_0x7f1400e5" n114:key="PrivacySandboxAdMeasurementEnabled" n114:entryValues="@array/APKTOOL_RENAMED_0x7f040091" n114:restrictionType="bool"
+      xmlns:n114="http://schemas.android.com/apk/res/android" />
+    <restriction n115:description="@string/APKTOOL_RENAMED_0x7f1400e6" n115:entries="@array/APKTOOL_RENAMED_0x7f040092" n115:title="@string/APKTOOL_RENAMED_0x7f1400e7" n115:key="PrivacySandboxAdTopicsEnabled" n115:entryValues="@array/APKTOOL_RENAMED_0x7f040093" n115:restrictionType="bool"
+      xmlns:n115="http://schemas.android.com/apk/res/android" />
+    <restriction n116:description="@string/APKTOOL_RENAMED_0x7f1400e8" n116:entries="@array/APKTOOL_RENAMED_0x7f040094" n116:title="@string/APKTOOL_RENAMED_0x7f1400e9" n116:key="PrivacySandboxPromptEnabled" n116:entryValues="@array/APKTOOL_RENAMED_0x7f040095" n116:restrictionType="bool"
+      xmlns:n116="http://schemas.android.com/apk/res/android" />
+    <restriction n117:description="@string/APKTOOL_RENAMED_0x7f1400ea" n117:entries="@array/APKTOOL_RENAMED_0x7f040096" n117:title="@string/APKTOOL_RENAMED_0x7f1400eb" n117:key="PrivacySandboxSiteEnabledAdsEnabled" n117:entryValues="@array/APKTOOL_RENAMED_0x7f040097" n117:restrictionType="bool"
+      xmlns:n117="http://schemas.android.com/apk/res/android" />
+    <restriction n118:description="@string/APKTOOL_RENAMED_0x7f1400ec" n118:entries="@array/APKTOOL_RENAMED_0x7f040098" n118:title="@string/APKTOOL_RENAMED_0x7f1400ed" n118:key="PrivateNetworkAccessRestrictionsEnabled" n118:entryValues="@array/APKTOOL_RENAMED_0x7f040099" n118:restrictionType="bool"
+      xmlns:n118="http://schemas.android.com/apk/res/android" />
+    <restriction n119:description="@string/APKTOOL_RENAMED_0x7f1400ee" n119:entries="@array/APKTOOL_RENAMED_0x7f04009a" n119:title="@string/APKTOOL_RENAMED_0x7f1400ef" n119:key="PromptForDownloadLocation" n119:entryValues="@array/APKTOOL_RENAMED_0x7f04009b" n119:restrictionType="bool"
+      xmlns:n119="http://schemas.android.com/apk/res/android" />
+    <restriction n120:description="@string/APKTOOL_RENAMED_0x7f1400f0" n120:title="@string/APKTOOL_RENAMED_0x7f1400f1" n120:key="ProxySettings" n120:restrictionType="string"
+      xmlns:n120="http://schemas.android.com/apk/res/android" />
+    <restriction n121:description="@string/APKTOOL_RENAMED_0x7f1400f2" n121:entries="@array/APKTOOL_RENAMED_0x7f04009c" n121:title="@string/APKTOOL_RENAMED_0x7f1400f3" n121:key="QRCodeGeneratorEnabled" n121:entryValues="@array/APKTOOL_RENAMED_0x7f04009d" n121:restrictionType="bool"
+      xmlns:n121="http://schemas.android.com/apk/res/android" />
+    <restriction n122:description="@string/APKTOOL_RENAMED_0x7f1400f4" n122:entries="@array/APKTOOL_RENAMED_0x7f04009e" n122:title="@string/APKTOOL_RENAMED_0x7f1400f5" n122:key="RelatedWebsiteSetsEnabled" n122:entryValues="@array/APKTOOL_RENAMED_0x7f04009f" n122:restrictionType="bool"
+      xmlns:n122="http://schemas.android.com/apk/res/android" />
+    <restriction n123:description="@string/APKTOOL_RENAMED_0x7f1400f6" n123:title="@string/APKTOOL_RENAMED_0x7f1400f7" n123:key="RelatedWebsiteSetsOverrides" n123:restrictionType="string"
+      xmlns:n123="http://schemas.android.com/apk/res/android" />
+    <restriction n124:description="@string/APKTOOL_RENAMED_0x7f1400f8" n124:title="@string/APKTOOL_RENAMED_0x7f1400f9" n124:key="RestrictAccountsToPatterns" n124:restrictionType="string"
+      xmlns:n124="http://schemas.android.com/apk/res/android" />
+    <restriction n125:description="@string/APKTOOL_RENAMED_0x7f1400fa" n125:entries="@array/APKTOOL_RENAMED_0x7f0400a0" n125:title="@string/APKTOOL_RENAMED_0x7f1400fd" n125:key="SSLErrorOverrideAllowed" n125:entryValues="@array/APKTOOL_RENAMED_0x7f0400a1" n125:restrictionType="bool"
+      xmlns:n125="http://schemas.android.com/apk/res/android" />
+    <restriction n126:description="@string/APKTOOL_RENAMED_0x7f1400fb" n126:title="@string/APKTOOL_RENAMED_0x7f1400fc" n126:key="SSLErrorOverrideAllowedForOrigins" n126:restrictionType="string"
+      xmlns:n126="http://schemas.android.com/apk/res/android" />
+    <restriction n127:description="@string/APKTOOL_RENAMED_0x7f1400fe" n127:entries="@array/APKTOOL_RENAMED_0x7f0400a2" n127:title="@string/APKTOOL_RENAMED_0x7f1400ff" n127:key="SafeBrowsingExtendedReportingEnabled" n127:entryValues="@array/APKTOOL_RENAMED_0x7f0400a3" n127:restrictionType="bool"
+      xmlns:n127="http://schemas.android.com/apk/res/android" />
+    <restriction n128:description="@string/APKTOOL_RENAMED_0x7f140100" n128:entries="@array/APKTOOL_RENAMED_0x7f0400a4" n128:title="@string/APKTOOL_RENAMED_0x7f140101" n128:key="SafeBrowsingProtectionLevel" n128:entryValues="@array/APKTOOL_RENAMED_0x7f0400a5" n128:restrictionType="choice"
+      xmlns:n128="http://schemas.android.com/apk/res/android" />
+    <restriction n129:description="@string/APKTOOL_RENAMED_0x7f140102" n129:entries="@array/APKTOOL_RENAMED_0x7f0400a6" n129:title="@string/APKTOOL_RENAMED_0x7f140103" n129:key="SafeBrowsingProxiedRealTimeChecksAllowed" n129:entryValues="@array/APKTOOL_RENAMED_0x7f0400a7" n129:restrictionType="bool"
+      xmlns:n129="http://schemas.android.com/apk/res/android" />
+    <restriction n130:description="@string/APKTOOL_RENAMED_0x7f140104" n130:entries="@array/APKTOOL_RENAMED_0x7f0400a8" n130:title="@string/APKTOOL_RENAMED_0x7f140105" n130:key="SafeSitesFilterBehavior" n130:entryValues="@array/APKTOOL_RENAMED_0x7f0400a9" n130:restrictionType="choice"
+      xmlns:n130="http://schemas.android.com/apk/res/android" />
+    <restriction n131:description="@string/APKTOOL_RENAMED_0x7f140106" n131:entries="@array/APKTOOL_RENAMED_0x7f0400aa" n131:title="@string/APKTOOL_RENAMED_0x7f140107" n131:key="SavingBrowserHistoryDisabled" n131:entryValues="@array/APKTOOL_RENAMED_0x7f0400ab" n131:restrictionType="bool"
+      xmlns:n131="http://schemas.android.com/apk/res/android" />
+    <restriction n132:description="@string/APKTOOL_RENAMED_0x7f140108" n132:entries="@array/APKTOOL_RENAMED_0x7f0400ac" n132:title="@string/APKTOOL_RENAMED_0x7f140109" n132:key="ScrollToTextFragmentEnabled" n132:entryValues="@array/APKTOOL_RENAMED_0x7f0400ad" n132:restrictionType="bool"
+      xmlns:n132="http://schemas.android.com/apk/res/android" />
+    <restriction n133:description="@string/APKTOOL_RENAMED_0x7f14010a" n133:entries="@array/APKTOOL_RENAMED_0x7f0400ae" n133:title="@string/APKTOOL_RENAMED_0x7f14010b" n133:key="SearchSuggestEnabled" n133:entryValues="@array/APKTOOL_RENAMED_0x7f0400af" n133:restrictionType="bool"
+      xmlns:n133="http://schemas.android.com/apk/res/android" />
+    <restriction n134:description="@string/APKTOOL_RENAMED_0x7f14010c" n134:title="@string/APKTOOL_RENAMED_0x7f14010d" n134:key="SensorsAllowedForUrls" n134:restrictionType="string"
+      xmlns:n134="http://schemas.android.com/apk/res/android" />
+    <restriction n135:description="@string/APKTOOL_RENAMED_0x7f14010e" n135:title="@string/APKTOOL_RENAMED_0x7f14010f" n135:key="SensorsBlockedForUrls" n135:restrictionType="string"
+      xmlns:n135="http://schemas.android.com/apk/res/android" />
+    <restriction n136:description="@string/APKTOOL_RENAMED_0x7f140110" n136:entries="@array/APKTOOL_RENAMED_0x7f0400b0" n136:title="@string/APKTOOL_RENAMED_0x7f140111" n136:key="SharedClipboardEnabled" n136:entryValues="@array/APKTOOL_RENAMED_0x7f0400b1" n136:restrictionType="bool"
+      xmlns:n136="http://schemas.android.com/apk/res/android" />
+    <restriction n137:description="@string/APKTOOL_RENAMED_0x7f140112" n137:entries="@array/APKTOOL_RENAMED_0x7f0400b2" n137:title="@string/APKTOOL_RENAMED_0x7f140113" n137:key="ShoppingListEnabled" n137:entryValues="@array/APKTOOL_RENAMED_0x7f0400b3" n137:restrictionType="bool"
+      xmlns:n137="http://schemas.android.com/apk/res/android" />
+    <restriction n138:description="@string/APKTOOL_RENAMED_0x7f140114" n138:entries="@array/APKTOOL_RENAMED_0x7f0400b4" n138:title="@string/APKTOOL_RENAMED_0x7f140115" n138:key="SitePerProcessAndroid" n138:entryValues="@array/APKTOOL_RENAMED_0x7f0400b5" n138:restrictionType="bool"
+      xmlns:n138="http://schemas.android.com/apk/res/android" />
+    <restriction n139:description="@string/APKTOOL_RENAMED_0x7f140116" n139:entries="@array/APKTOOL_RENAMED_0x7f0400b6" n139:title="@string/APKTOOL_RENAMED_0x7f140117" n139:key="StandardizedBrowserZoomEnabled" n139:entryValues="@array/APKTOOL_RENAMED_0x7f0400b7" n139:restrictionType="bool"
+      xmlns:n139="http://schemas.android.com/apk/res/android" />
+    <restriction n140:description="@string/APKTOOL_RENAMED_0x7f140118" n140:entries="@array/APKTOOL_RENAMED_0x7f0400b8" n140:title="@string/APKTOOL_RENAMED_0x7f140119" n140:key="StrictMimetypeCheckForWorkerScriptsEnabled" n140:entryValues="@array/APKTOOL_RENAMED_0x7f0400b9" n140:restrictionType="bool"
+      xmlns:n140="http://schemas.android.com/apk/res/android" />
+    <restriction n141:description="@string/APKTOOL_RENAMED_0x7f14011a" n141:entries="@array/APKTOOL_RENAMED_0x7f0400ba" n141:title="@string/APKTOOL_RENAMED_0x7f14011b" n141:key="SuppressDifferentOriginSubframeDialogs" n141:entryValues="@array/APKTOOL_RENAMED_0x7f0400bb" n141:restrictionType="bool"
+      xmlns:n141="http://schemas.android.com/apk/res/android" />
+    <restriction n142:description="@string/APKTOOL_RENAMED_0x7f14011c" n142:title="@string/APKTOOL_RENAMED_0x7f14011d" n142:key="SyncTypesListDisabled" n142:restrictionType="string"
+      xmlns:n142="http://schemas.android.com/apk/res/android" />
+    <restriction n143:description="@string/APKTOOL_RENAMED_0x7f14011e" n143:title="@string/APKTOOL_RENAMED_0x7f14011f" n143:key="ThirdPartyStoragePartitioningBlockedForOrigins" n143:restrictionType="string"
+      xmlns:n143="http://schemas.android.com/apk/res/android" />
+    <restriction n144:description="@string/APKTOOL_RENAMED_0x7f140120" n144:entries="@array/APKTOOL_RENAMED_0x7f0400bc" n144:title="@string/APKTOOL_RENAMED_0x7f140121" n144:key="TosDialogBehavior" n144:entryValues="@array/APKTOOL_RENAMED_0x7f0400bd" n144:restrictionType="choice"
+      xmlns:n144="http://schemas.android.com/apk/res/android" />
+    <restriction n145:description="@string/APKTOOL_RENAMED_0x7f140122" n145:entries="@array/APKTOOL_RENAMED_0x7f0400be" n145:title="@string/APKTOOL_RENAMED_0x7f140123" n145:key="TranslateEnabled" n145:entryValues="@array/APKTOOL_RENAMED_0x7f0400bf" n145:restrictionType="bool"
+      xmlns:n145="http://schemas.android.com/apk/res/android" />
+    <restriction n146:description="@string/APKTOOL_RENAMED_0x7f140124" n146:title="@string/APKTOOL_RENAMED_0x7f140125" n146:key="URLAllowlist" n146:restrictionType="string"
+      xmlns:n146="http://schemas.android.com/apk/res/android" />
+    <restriction n147:description="@string/APKTOOL_RENAMED_0x7f140126" n147:title="@string/APKTOOL_RENAMED_0x7f140127" n147:key="URLBlocklist" n147:restrictionType="string"
+      xmlns:n147="http://schemas.android.com/apk/res/android" />
+    <restriction n148:description="@string/APKTOOL_RENAMED_0x7f140128" n148:entries="@array/APKTOOL_RENAMED_0x7f0400c0" n148:title="@string/APKTOOL_RENAMED_0x7f140129" n148:key="UrlKeyedAnonymizedDataCollectionEnabled" n148:entryValues="@array/APKTOOL_RENAMED_0x7f0400c1" n148:restrictionType="bool"
+      xmlns:n148="http://schemas.android.com/apk/res/android" />
+    <restriction n149:description="@string/APKTOOL_RENAMED_0x7f14012a" n149:entries="@array/APKTOOL_RENAMED_0x7f0400c2" n149:title="@string/APKTOOL_RENAMED_0x7f14012b" n149:key="UserAgentReduction" n149:entryValues="@array/APKTOOL_RENAMED_0x7f0400c3" n149:restrictionType="choice"
+      xmlns:n149="http://schemas.android.com/apk/res/android" />
+    <restriction n150:description="@string/APKTOOL_RENAMED_0x7f14012c" n150:entries="@array/APKTOOL_RENAMED_0x7f0400c4" n150:title="@string/APKTOOL_RENAMED_0x7f14012d" n150:key="VirtualKeyboardResizesLayoutByDefault" n150:entryValues="@array/APKTOOL_RENAMED_0x7f0400c5" n150:restrictionType="bool"
+      xmlns:n150="http://schemas.android.com/apk/res/android" />
+    <restriction n151:description="@string/APKTOOL_RENAMED_0x7f14012e" n151:title="@string/APKTOOL_RENAMED_0x7f14012f" n151:key="WebRtcUdpPortRange" n151:restrictionType="string"
+      xmlns:n151="http://schemas.android.com/apk/res/android" />
+    <restriction n152:description="@string/APKTOOL_RENAMED_0x7f140130" n152:title="@string/APKTOOL_RENAMED_0x7f140131" n152:key="WebUsbAllowDevicesForUrls" n152:restrictionType="string"
+      xmlns:n152="http://schemas.android.com/apk/res/android" />
+    <restriction n153:description="@string/APKTOOL_RENAMED_0x7f140132" n153:title="@string/APKTOOL_RENAMED_0x7f140133" n153:key="WebUsbAskForUrls" n153:restrictionType="string"
+      xmlns:n153="http://schemas.android.com/apk/res/android" />
+    <restriction n154:description="@string/APKTOOL_RENAMED_0x7f140134" n154:title="@string/APKTOOL_RENAMED_0x7f140135" n154:key="WebUsbBlockedForUrls" n154:restrictionType="string"
+      xmlns:n154="http://schemas.android.com/apk/res/android" />
+    <restriction n155:description="@string/APKTOOL_RENAMED_0x7f140136" n155:entries="@array/APKTOOL_RENAMED_0x7f0400c6" n155:title="@string/APKTOOL_RENAMED_0x7f140137" n155:key="WebXRImmersiveArEnabled" n155:entryValues="@array/APKTOOL_RENAMED_0x7f0400c7" n155:restrictionType="bool"
+      xmlns:n155="http://schemas.android.com/apk/res/android" />
+    <restriction n156:description="@string/APKTOOL_RENAMED_0x7f140138" n156:entries="@array/APKTOOL_RENAMED_0x7f0400c8" n156:title="@string/APKTOOL_RENAMED_0x7f140139" n156:key="ZstdContentEncodingEnabled" n156:entryValues="@array/APKTOOL_RENAMED_0x7f0400c9" n156:restrictionType="bool"
+      xmlns:n156="http://schemas.android.com/apk/res/android" />
+</restrictions>

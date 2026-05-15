@@ -1,0 +1,10 @@
+package com.google.android.gms.common.moduleinstall.internal;
+
+import android.os.IInterface;
+import com.google.android.gms.common.moduleinstall.ModuleInstallStatusUpdate;
+
+/* JADX INFO: compiled from: chromium-ChromePublic.aab-stable-260119 */
+/* JADX INFO: loaded from: classes.dex */
+public interface zah extends IInterface {
+    void zab(ModuleInstallStatusUpdate moduleInstallStatusUpdate);
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <ImageView n0:id="@id/show_keyboard" n0:background="?APKTOOL_RENAMED_0x7f05048a" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f080317" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f080317" n0:layout_width="wrap_content" n0:layout_height="match_parent" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140694" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f080313" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f080313"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <TextView n1:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n1:gravity="start|center" n1:id="@id/sheet_title" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="48.0dp"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+</merge>

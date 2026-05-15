@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.ntp.NewTabPageLayout n0:gravity="center" n0:layout_gravity="center_horizontal" n0:orientation="vertical" n0:id="@id/ntp_content" n0:background="@drawable/APKTOOL_RENAMED_0x7f0901cd" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f08088d" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <FrameLayout n0:id="@id/logo_holder" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <include layout="@layout/APKTOOL_RENAMED_0x7f0e01b3" />
+    </FrameLayout>
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e0142" />
+    <FrameLayout n0:id="@id/query_tiles" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="16.0dp" />
+    <View n0:id="@id/ntp_middle_spacer" n0:visibility="invisible" n0:layout_width="0.0dp" n0:layout_height="0.0dp" n0:layout_weight="0.0" />
+    <LinearLayout n0:gravity="center" n0:orientation="horizontal" n0:id="@id/button_ntp_dashboard" n0:background="@drawable/APKTOOL_RENAMED_0x7f090510" n0:focusable="true" n0:clickable="true" n0:layout_width="match_parent" n0:layout_height="48.0dp" n0:layout_marginTop="10.0dp" n0:layout_marginBottom="30.0dp">
+        <ImageView n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:contentDescription="@null" n1:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f09033d"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        <TextView n0:textSize="15.0sp" n0:textStyle="bold" n0:textColor="#fff" n0:gravity="center_vertical" n0:layout_width="wrap_content" n0:layout_height="match_parent" n0:text="@string/APKTOOL_RENAMED_0x7f140849" n0:textAllCaps="true" n0:layout_marginStart="8.0dp" />
+    </LinearLayout>
+    <ViewStub n0:id="@id/tile_grid_placeholder_stub" n0:layout="@layout/APKTOOL_RENAMED_0x7f0e01f8" n0:inflatedId="@id/tile_grid_placeholder" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_weight="1.0" />
+    <ViewStub n0:id="@id/home_modules_recycler_view_stub" n0:visibility="gone" n0:layout="@layout/APKTOOL_RENAMED_0x7f0e0164" n0:layout_width="match_parent" n0:layout_height="match_parent" />
+    <ViewStub n0:id="@id/tab_switcher_module_container_stub" n0:layout="@layout/APKTOOL_RENAMED_0x7f0e0303" n0:layout_width="match_parent" n0:layout_height="match_parent" />
+    <ViewStub n0:id="@id/search_resumption_module_container_stub" n0:layout="@layout/APKTOOL_RENAMED_0x7f0e02b6" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0807a5" />
+    <ViewStub n0:id="@id/tab_resumption_module_container_stub" n0:layout="@layout/APKTOOL_RENAMED_0x7f0e02fd" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginLeft="@dimen/APKTOOL_RENAMED_0x7f080629" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f08062a" n0:layout_marginRight="@dimen/APKTOOL_RENAMED_0x7f080629" />
+    <View n0:id="@id/no_search_logo_spacer" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_weight="1.0" />
+</org.chromium.chrome.browser.ntp.NewTabPageLayout>

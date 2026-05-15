@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n0:id="@id/icon_row_menu_id" n0:orderInCategory="0" n0:title="@null"
+      xmlns:n0="http://schemas.android.com/apk/res/android">
+        <menu>
+            <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f0900eb" n0:id="@id/forward_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f14017e" />
+            <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f09052e" n0:id="@id/bookmark_this_page_id" n0:title="@string/APKTOOL_RENAMED_0x7f14017d" />
+            <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f09024d" n0:id="@id/offline_page_id" n0:title="@string/APKTOOL_RENAMED_0x7f14053c" />
+            <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f0900ec" n0:id="@id/info_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f14017f" />
+            <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f0900f2" n0:id="@id/reload_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f14015e" />
+        </menu>
+    </item>
+    <item n1:id="@id/divider_line_id" n1:orderInCategory="2" n1:title="@null"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:icon="@drawable/APKTOOL_RENAMED_0x7f090357" n2:id="@id/readaloud_menu_id" n2:orderInCategory="2" n2:title="@string/APKTOOL_RENAMED_0x7f140740"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:id="@id/share_row_menu_id" n3:orderInCategory="2" n3:title="@null"
+      xmlns:n3="http://schemas.android.com/apk/res/android">
+        <menu>
+            <item n3:id="@id/share_menu_id" n3:title="@string/APKTOOL_RENAMED_0x7f140759" />
+            <item n3:id="@id/direct_share_menu_id" n3:title="@null" />
+        </menu>
+    </item>
+    <item n4:id="@id/open_history_menu_id" n4:orderInCategory="2" n4:title="@string/APKTOOL_RENAMED_0x7f1403ec"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:id="@id/page_insights_id" n5:visible="false" n5:orderInCategory="2" n5:title="@string/APKTOOL_RENAMED_0x7f14074d"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <item n6:id="@id/find_in_page_id" n6:orderInCategory="2" n6:title="@string/APKTOOL_RENAMED_0x7f140735"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <item n7:icon="@drawable/APKTOOL_RENAMED_0x7f0904f1" n7:id="@id/reader_mode_prefs_id" n7:visible="false" n7:orderInCategory="2" n7:title="@string/APKTOOL_RENAMED_0x7f140751"
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+    <item n8:id="@id/add_to_homescreen_id" n8:orderInCategory="2" n8:title="@string/APKTOOL_RENAMED_0x7f14072c"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+    <item n9:id="@id/install_webapp_id" n9:orderInCategory="2" n9:title="@string/APKTOOL_RENAMED_0x7f14073c"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+    <item n10:id="@id/universal_install" n10:orderInCategory="2" n10:title="@string/APKTOOL_RENAMED_0x7f14072c"
+      xmlns:n10="http://schemas.android.com/apk/res/android" />
+    <item n11:id="@id/open_webapk_id" n11:orderInCategory="2" n11:title="@string/APKTOOL_RENAMED_0x7f14074b"
+      xmlns:n11="http://schemas.android.com/apk/res/android" />
+    <item n12:id="@id/request_desktop_site_row_menu_id" n12:orderInCategory="2" n12:title="@null"
+      xmlns:n12="http://schemas.android.com/apk/res/android">
+        <menu>
+            <item n12:id="@id/request_desktop_site_id" n12:title="@string/APKTOOL_RENAMED_0x7f140753" />
+            <item n12:id="@id/request_desktop_site_check_id" n12:title="@null" n12:checkable="true" />
+        </menu>
+    </item>
+    <item n13:id="@id/translate_id" n13:orderInCategory="2" n13:title="@string/APKTOOL_RENAMED_0x7f14075d"
+      xmlns:n13="http://schemas.android.com/apk/res/android" />
+    <item n14:id="@id/open_in_browser_id" n14:orderInCategory="2" n14:title=""
+      xmlns:n14="http://schemas.android.com/apk/res/android" />
+</menu>

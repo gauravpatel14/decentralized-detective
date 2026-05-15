@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.components.browser_ui.widget.text.TextViewWithCompoundDrawables n0:id="@id/cookie_status" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="12.0dp" n0:drawablePadding="8.0dp" n0:layout_marginStart="12.0dp" n0:layout_marginEnd="12.0dp" n1:APKTOOL_RENAMED_0x7f0501e2="20.0dp" n1:APKTOOL_RENAMED_0x7f0501ea="20.0dp" style="@style/APKTOOL_RENAMED_0x7f150355"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.widget.text.TextViewWithCompoundDrawables n0:id="@id/ip_status" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="12.0dp" n0:drawablePadding="8.0dp" n0:layout_marginStart="12.0dp" n0:layout_marginEnd="12.0dp" n2:APKTOOL_RENAMED_0x7f0501e2="20.0dp" n2:APKTOOL_RENAMED_0x7f0501ea="20.0dp" style="@style/APKTOOL_RENAMED_0x7f150355"
+      xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.widget.text.TextViewWithCompoundDrawables n0:id="@id/fingerprint_status" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="12.0dp" n0:drawablePadding="8.0dp" n0:layout_marginStart="12.0dp" n0:layout_marginEnd="12.0dp" n3:APKTOOL_RENAMED_0x7f0501e2="20.0dp" n3:APKTOOL_RENAMED_0x7f0501ea="20.0dp" style="@style/APKTOOL_RENAMED_0x7f150355"
+      xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

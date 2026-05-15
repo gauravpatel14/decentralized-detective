@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n0:layout_width="match_parent" n0:layout_height="match_parent" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f0800a8"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar n0:id="@id/toolbar" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08088d" n1:APKTOOL_RENAMED_0x7f050314="parent" n1:APKTOOL_RENAMED_0x7f050328="parent" n1:APKTOOL_RENAMED_0x7f05032c="parent" style="@style/APKTOOL_RENAMED_0x7f1501ad"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.widget.FadingShadowView n0:id="@id/shadow" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0800a5" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f08088d" n2:APKTOOL_RENAMED_0x7f050314="parent" n2:APKTOOL_RENAMED_0x7f050328="parent" n2:APKTOOL_RENAMED_0x7f05032c="@id/toolbar"
+      xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <androidx.recyclerview.widget.RecyclerView n0:id="@id/folder_recycler_view" n0:scrollbars="vertical" n0:clipToPadding="true" n0:layout_width="0.0dp" n0:layout_height="0.0dp" n0:layout_marginStart="4.0dp" n3:APKTOOL_RENAMED_0x7f05030f="@id/button_container" n3:APKTOOL_RENAMED_0x7f050314="parent" n3:APKTOOL_RENAMED_0x7f050328="parent" n3:APKTOOL_RENAMED_0x7f05032b="@id/toolbar"
+      xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n0:gravity="end|center" n0:orientation="horizontal" n0:id="@id/button_container" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f0800a7" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f0800a6" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingHorizontal="16.0dp" n4:APKTOOL_RENAMED_0x7f05030e="parent" n4:APKTOOL_RENAMED_0x7f050314="parent" n4:APKTOOL_RENAMED_0x7f050328="parent"
+      xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <org.chromium.ui.widget.ButtonCompat n0:id="@id/cancel_button" n0:focusable="true" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f1405ac" n0:layout_marginEnd="4.0dp" style="@style/APKTOOL_RENAMED_0x7f15037f" />
+        <org.chromium.ui.widget.ButtonCompat n0:id="@id/move_button" n0:focusable="true" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f1405ad" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

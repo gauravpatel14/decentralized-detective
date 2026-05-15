@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider n0:minWidth="@dimen/APKTOOL_RENAMED_0x7f080747" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080747" n0:initialLayout="@layout/APKTOOL_RENAMED_0x7f0e028b" n0:previewImage="@drawable/APKTOOL_RENAMED_0x7f0904e3" n0:widgetCategory="home_screen" n0:previewLayout="@layout/APKTOOL_RENAMED_0x7f0e028c"
+  xmlns:n0="http://schemas.android.com/apk/res/android" />

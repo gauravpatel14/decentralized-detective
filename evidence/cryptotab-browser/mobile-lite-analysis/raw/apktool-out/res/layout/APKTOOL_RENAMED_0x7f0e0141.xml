@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f0808b1" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f0808b1"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:layout_gravity="center_horizontal" n0:id="@id/drag_handlebar" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0808b6" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f0808b6" n0:importantForAccessibility="no" n1:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f09018f"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n0:id="@id/screen_holder" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+</LinearLayout>

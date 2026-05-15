@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n0:gravity="start" style="@style/APKTOOL_RENAMED_0x7f150004"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:layout_gravity="center_vertical" n0:id="@id/icon" n0:visibility="gone" n0:layout_width="36.0dp" n0:layout_height="36.0dp" n0:layout_marginTop="2.0dp" />
+    <ProgressBar n0:layout_gravity="center_vertical" n0:id="@id/spinny" n0:layout_width="32.0dp" n0:layout_height="32.0dp" n0:layout_marginTop="2.0dp" />
+    <org.chromium.components.browser_ui.widget.text.AlertDialogEditText n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150264" n0:id="@id/shortcut_name" n0:paddingTop="0.0dp" n0:visibility="invisible" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="10.0dp" n0:hint="@string/APKTOOL_RENAMED_0x7f140e9d" n0:singleLine="true" n0:inputType="text" n0:imeOptions="actionDone" n0:layout_marginStart="48.0dp" />
+    <LinearLayout n0:orientation="vertical" n0:id="@id/app_info" n0:paddingTop="0.0dp" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="5.0dp" n0:layout_marginBottom="5.0dp" n0:layout_marginStart="48.0dp">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150265" n0:id="@id/app_name" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:maxHeight="128.0dp" n0:layout_marginStart="4.0dp" />
+        <org.chromium.components.browser_ui.widget.text.AlertDialogEditText n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150264" n0:id="@id/homebrew_name" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:hint="@string/APKTOOL_RENAMED_0x7f140e9c" n0:singleLine="true" n0:inputType="text" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/origin" n0:paddingBottom="2.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginStart="4.0dp" />
+        <FrameLayout n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <RatingBar n0:id="@id/control_rating" n0:paddingTop="5.0dp" n0:paddingBottom="5.0dp" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:maxHeight="16.0dp" n0:progressDrawable="@drawable/APKTOOL_RENAMED_0x7f0904f0" n0:minHeight="16.0dp" n0:numStars="5" n0:stepSize="0.5" n0:isIndicator="true" n0:importantForAccessibility="no" />
+        </FrameLayout>
+        <ImageView n0:id="@id/play_logo" n0:layout_width="wrap_content" n0:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

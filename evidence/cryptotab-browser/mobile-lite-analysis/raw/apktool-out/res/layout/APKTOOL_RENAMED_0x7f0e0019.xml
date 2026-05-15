@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:layout_width="match_parent" n0:layout_height="58.0dp" style="@style/APKTOOL_RENAMED_0x7f150202"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:id="@android:id/icon1" n0:visibility="invisible" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080029" n0:layout_height="48.0dp" n0:scaleType="centerInside" n0:layout_alignParentTop="true" n0:layout_alignParentBottom="true" style="@style/APKTOOL_RENAMED_0x7f150203" />
+    <ImageView n0:id="@id/edit_query" n0:background="?APKTOOL_RENAMED_0x7f05048a" n0:visibility="gone" n0:layout_width="48.0dp" n0:layout_height="48.0dp" n0:scaleType="centerInside" n0:layout_alignParentTop="true" n0:layout_alignParentBottom="true" style="@style/APKTOOL_RENAMED_0x7f150205" />
+    <ImageView n0:id="@android:id/icon2" n0:visibility="gone" n0:layout_width="48.0dp" n0:layout_height="48.0dp" n0:scaleType="centerInside" n0:layout_alignParentTop="true" n0:layout_alignParentBottom="true" n0:layout_alignWithParentIfMissing="true" style="@style/APKTOOL_RENAMED_0x7f150204" />
+    <TextView n0:textAppearance="?APKTOOL_RENAMED_0x7f050539" n0:gravity="top" n0:id="@android:id/text2" n0:paddingBottom="4.0dp" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="29.0dp" n0:singleLine="true" n0:layout_alignParentBottom="true" n0:layout_alignWithParentIfMissing="true" style="?android:dropDownItemStyle" />
+    <TextView n0:textAppearance="?APKTOOL_RENAMED_0x7f05053a" n0:id="@android:id/text1" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:singleLine="true" n0:layout_above="@android:id/text2" n0:layout_centerVertical="true" style="?android:dropDownItemStyle" />
+</RelativeLayout>

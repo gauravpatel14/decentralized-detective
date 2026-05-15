@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.tab_resumption.TabResumptionTileView n0:orientation="vertical" n0:id="@id/suggestion_tile" n0:paddingLeft="@dimen/APKTOOL_RENAMED_0x7f080849" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f080849" n0:paddingRight="@dimen/APKTOOL_RENAMED_0x7f080849" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f080849" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:foreground="@drawable/APKTOOL_RENAMED_0x7f090544"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.components.browser_ui.widget.RoundedCornerImageView n0:id="@id/tile_icon" n0:background="@drawable/APKTOOL_RENAMED_0x7f090543" n0:padding="@dimen/APKTOOL_RENAMED_0x7f080840" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080842" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080842" n0:layout_centerVertical="true" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140062" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f080841" n0:layout_alignParentStart="true" />
+    <LinearLayout n0:orientation="vertical" n0:id="@id/tile_text_container" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_centerVertical="true" n0:layout_toEndOf="@id/tile_icon">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:id="@id/tile_display_text" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:singleLine="true" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15036d" n0:id="@id/tile_info_text" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="3.0dp" n0:singleLine="true" />
+    </LinearLayout>
+</org.chromium.chrome.browser.tab_resumption.TabResumptionTileView>

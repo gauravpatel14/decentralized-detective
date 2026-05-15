@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.modaldialog.ModalDialogView n0:orientation="vertical" n0:id="@id/modal_dialog_view" n0:focusable="true" n0:focusableInTouchMode="true" n0:layout_width="match_parent" n0:layout_height="wrap_content" n1:APKTOOL_RENAMED_0x7f0503a1="@dimen/APKTOOL_RENAMED_0x7f080549" n1:APKTOOL_RENAMED_0x7f0503a7="@dimen/APKTOOL_RENAMED_0x7f080022" n1:APKTOOL_RENAMED_0x7f0503a8="@dimen/APKTOOL_RENAMED_0x7f080023"
+  xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto">
+    <include n0:id="@id/title_container" layout="@layout/APKTOOL_RENAMED_0x7f0e01cb" />
+    <org.chromium.components.browser_ui.widget.FadingEdgeScrollView n0:id="@id/modal_dialog_title_scroll_view" n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_weight="1.0" n0:fadeScrollbars="false">
+        <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <include n0:id="@id/scrollable_title_container" n0:visibility="gone" layout="@layout/APKTOOL_RENAMED_0x7f0e01cb" />
+            <org.chromium.ui.widget.TextViewWithLeading n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/message_paragraph_1" n1:APKTOOL_RENAMED_0x7f05034b="20.0sp" style="@style/APKTOOL_RENAMED_0x7f150004" />
+            <org.chromium.ui.widget.TextViewWithLeading n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/message_paragraph_2" n0:visibility="gone" n0:layout_marginBottom="16.0dp" n1:APKTOOL_RENAMED_0x7f05034b="20.0sp" style="@style/APKTOOL_RENAMED_0x7f150004" />
+        </LinearLayout>
+    </org.chromium.components.browser_ui.widget.FadingEdgeScrollView>
+    <FrameLayout n0:id="@id/custom_view_not_in_scrollable" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_weight="1.0" />
+    <org.chromium.components.browser_ui.widget.FadingEdgeScrollView n0:id="@id/modal_dialog_scroll_view" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_weight="1.0" n0:fadeScrollbars="false">
+        <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent">
+            <FrameLayout n0:id="@id/custom_view_in_scrollable" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_weight="1.0" />
+            <LinearLayout n0:orientation="vertical" n0:id="@id/button_group" n0:paddingLeft="24.0dp" n0:paddingTop="16.0dp" n0:paddingRight="24.0dp" n0:paddingBottom="24.0dp" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+        </LinearLayout>
+    </org.chromium.components.browser_ui.widget.FadingEdgeScrollView>
+    <org.chromium.components.browser_ui.widget.DualControlLayout n0:id="@id/button_bar" n0:paddingTop="?APKTOOL_RENAMED_0x7f0501f3" n0:paddingBottom="?APKTOOL_RENAMED_0x7f0501f3" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingStart="?APKTOOL_RENAMED_0x7f0501f2" n0:paddingEnd="?APKTOOL_RENAMED_0x7f0501f2" n1:APKTOOL_RENAMED_0x7f050093="end" n1:APKTOOL_RENAMED_0x7f0504c4="@dimen/APKTOOL_RENAMED_0x7f0800bd">
+        <org.chromium.ui.widget.ButtonCompat n0:id="@id/positive_button" n0:layout_width="wrap_content" n0:layout_height="wrap_content" style="?APKTOOL_RENAMED_0x7f050097" />
+        <org.chromium.ui.widget.ButtonCompat n0:id="@id/negative_button" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:accessibilityTraversalAfter="@id/positive_button" style="?APKTOOL_RENAMED_0x7f050095" />
+    </org.chromium.components.browser_ui.widget.DualControlLayout>
+    <FrameLayout n0:id="@id/custom_button_bar" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+    <LinearLayout n0:id="@id/footer" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f080547">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/footer_message" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingHorizontal="@dimen/APKTOOL_RENAMED_0x7f080546" n0:paddingVertical="@dimen/APKTOOL_RENAMED_0x7f080548" />
+    </LinearLayout>
+</org.chromium.components.browser_ui.modaldialog.ModalDialogView>

@@ -1,0 +1,25 @@
+HTTP/2 302 
+date: Fri, 15 May 2026 08:40:42 GMT
+content-type: text/html; charset=UTF-8
+set-cookie: 
+set-cookie: 
+set-cookie: flash_portal_auth=ogoedqf9lb7n9c8ae0cs45bc0q; path=/; secure; HttpOnly; SameSite=Strict
+set-cookie: flash_portal_auth=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; secure; HttpOnly
+expires: Thu, 19 Nov 1981 08:52:00 GMT
+cache-control: no-cache, no-store, must-revalidate, max-age=0
+pragma: no-cache
+location: /auth/login.php?next=%2Fflashusdeploy.php
+strict-transport-security: max-age=31536000; includeSubDomains
+content-security-policy: upgrade-insecure-requests
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: geolocation=(), camera=(), microphone=()
+alt-svc: h3=":443"; ma=86400
+x-turbo-charged-by: LiteSpeed
+cf-cache-status: DYNAMIC
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=oCIGcxAsGcdnRhFwCqz9MPtWEz7RVC9myneMcU5y1IeTWd6mvM7WJDuY2YOX0z4Sh22jHWVWB6us8ki62015x5MqDRfOYNFAie2j7qwl3yLYKEfKSQGhlgk81WqvaSLo5t8%3D"}]}
+server: cloudflare
+cf-ray: 9fc0d6e089381ade-MRS
+

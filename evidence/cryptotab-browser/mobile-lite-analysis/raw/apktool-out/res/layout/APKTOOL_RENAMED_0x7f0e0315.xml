@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.toolbar.top.ToolbarPhone n0:id="@id/toolbar" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08088d"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.chrome.browser.toolbar.home_button.HomeButton n0:id="@id/home_button" n0:visibility="gone" n0:src="@drawable/APKTOOL_RENAMED_0x7f0900f9" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401dc" n1:APKTOOL_RENAMED_0x7f0503bf="@dimen/APKTOOL_RENAMED_0x7f0802ce" n1:APKTOOL_RENAMED_0x7f0503c0="false" n1:APKTOOL_RENAMED_0x7f0503c1="false" n1:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129" style="@style/APKTOOL_RENAMED_0x7f150498"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.chrome.browser.omnibox.LocationBarPhone n0:layout_gravity="top" n0:id="@id/location_bar" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f080355" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f08034c" />
+    <LinearLayout n0:layout_gravity="end|top" n0:orientation="horizontal" n0:id="@id/toolbar_buttons" n0:focusable="true" n0:focusableInTouchMode="true" n0:layout_width="wrap_content" n0:layout_height="wrap_content">
+        <ViewStub n0:layout_gravity="top" n0:id="@id/optional_button_stub" n0:visibility="gone" n0:inflatedId="@id/optional_toolbar_button_container" n0:layout_width="52.0dp" style="@style/APKTOOL_RENAMED_0x7f150498" />
+        <org.chromium.chrome.browser.toolbar.top.ToggleTabStackButton n0:layout_gravity="top" n0:id="@id/tab_switcher_button" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401ea" n2:APKTOOL_RENAMED_0x7f0503bf="@dimen/APKTOOL_RENAMED_0x7f080853" n2:APKTOOL_RENAMED_0x7f0503c1="false" style="@style/APKTOOL_RENAMED_0x7f150498"
+          xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <include layout="@layout/APKTOOL_RENAMED_0x7f0e01c5" />
+    </LinearLayout>
+</org.chromium.chrome.browser.toolbar.top.ToolbarPhone>

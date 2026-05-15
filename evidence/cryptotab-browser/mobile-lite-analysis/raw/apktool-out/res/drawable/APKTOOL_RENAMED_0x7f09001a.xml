@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector n0:height="32.0dp" n0:width="32.0dp" n0:viewportWidth="32.0" n0:viewportHeight="32.0"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <group>
+        <path n0:fillColor="?APKTOOL_RENAMED_0x7f05014c" n0:pathData="M28 22V28H4V22H0V28C0 30.2 1.8 32 4 32H28C30.2 32 32 30.2 32 28V22H28ZM26 14L23.18 11.18L18 16.34V0H14V16.34L8.82 11.18L6 14L16 24L26 14Z" />
+    </group>
+</vector>

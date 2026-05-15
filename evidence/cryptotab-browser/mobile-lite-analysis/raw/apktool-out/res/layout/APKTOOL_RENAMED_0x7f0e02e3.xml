@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:overScrollMode="ifContentScrolls"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" style="@style/APKTOOL_RENAMED_0x7f150004">
+        <org.chromium.components.browser_ui.widget.text.AlertDialogEditText n0:id="@id/passphrase" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:hint="@string/APKTOOL_RENAMED_0x7f140d71" n0:singleLine="true" n0:inputType="textPassword" n0:imeOptions="actionNext" />
+        <org.chromium.components.browser_ui.widget.text.AlertDialogEditText n0:id="@id/confirm_passphrase" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:hint="@string/APKTOOL_RENAMED_0x7f140d72" n0:singleLine="true" n0:inputType="textPassword" n0:imeOptions="actionDone" />
+        <org.chromium.ui.widget.TextViewWithClickableSpans n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/custom_passphrase_instructions" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="25.0dp" n0:layout_marginBottom="25.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f1406cb" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:background="?APKTOOL_RENAMED_0x7f050165" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140be7"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <FrameLayout n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_weight="1.0">
+        <org.chromium.chrome.browser.firstrun.FirstRunChooserView n0:fadingEdgeLength="48.0dp" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:fadeScrollbars="false" n0:requiresFadingEdge="vertical">
+            <LinearLayout n0:orientation="vertical" n0:id="@id/scrolling_content" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+                <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502d1" n0:gravity="bottom" n0:id="@id/chooser_title" n0:background="?APKTOOL_RENAMED_0x7f050165" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f0807d6" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140be7" n0:importantForAccessibility="no" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f0807d6" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f0807d6" />
+                <View style="@style/APKTOOL_RENAMED_0x7f150178" />
+                <org.chromium.components.browser_ui.widget.RadioButtonLayout n0:id="@id/default_search_engine_dialog_options" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="12.0dp" n0:layout_marginStart="12.0dp" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f0807d6" />
+            </LinearLayout>
+        </org.chromium.chrome.browser.firstrun.FirstRunChooserView>
+    </FrameLayout>
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/footer" n0:padding="@dimen/APKTOOL_RENAMED_0x7f0807d6" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140be6" />
+    <org.chromium.ui.widget.ButtonCompat n0:layout_gravity="end" n0:id="@id/button_primary" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="10.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140850" n0:layout_marginStart="16.0dp" n0:layout_marginEnd="22.0dp" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+</LinearLayout>

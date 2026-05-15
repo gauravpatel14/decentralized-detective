@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n0:layout_gravity="center_horizontal" n0:orientation="vertical" n0:id="@id/mv_tiles_container" n0:background="@drawable/APKTOOL_RENAMED_0x7f0901d0" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f08062b" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f080628" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginLeft="@dimen/APKTOOL_RENAMED_0x7f080629" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f08062a" n0:layout_marginRight="@dimen/APKTOOL_RENAMED_0x7f080629" n1:APKTOOL_RENAMED_0x7f050348="scroll"
+  xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto">
+    <ViewStub n0:id="@id/mv_tiles_layout_stub" n0:layout="@layout/APKTOOL_RENAMED_0x7f0e01ee" n0:layout_width="wrap_content" n0:layout_height="wrap_content" />
+    <ViewStub n0:id="@id/mv_tiles_placeholder_stub" n0:layout="@layout/APKTOOL_RENAMED_0x7f0e01f8" n0:inflatedId="@id/tile_grid_placeholder" n0:layout_width="wrap_content" n0:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector n0:height="@dimen/APKTOOL_RENAMED_0x7f080614" n0:width="@dimen/APKTOOL_RENAMED_0x7f080614"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <item n0:state_pressed="true" n0:id="@id/pressed" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f09044a" />
+    <item n0:state_checked="true" n0:id="@id/checked" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f090447" />
+    <item n0:id="@id/with_icon" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f090447" n1:APKTOOL_RENAMED_0x7f0504d6="true"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <item n0:id="@id/unchecked" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f09044d" />
+    <transition n0:drawable="@drawable/APKTOOL_RENAMED_0x7f09044b" n0:toId="@id/checked" n0:fromId="@id/pressed" />
+    <transition n0:drawable="@drawable/APKTOOL_RENAMED_0x7f09044b" n0:toId="@id/with_icon" n0:fromId="@id/pressed" />
+    <transition n0:drawable="@drawable/APKTOOL_RENAMED_0x7f09044c" n0:toId="@id/unchecked" n0:fromId="@id/pressed" />
+    <transition n0:drawable="@drawable/APKTOOL_RENAMED_0x7f090448" n0:toId="@id/pressed" n0:fromId="@id/checked" />
+    <transition n0:drawable="@drawable/APKTOOL_RENAMED_0x7f090449" n0:toId="@id/unchecked" n0:fromId="@id/checked" />
+    <transition n0:drawable="@drawable/APKTOOL_RENAMED_0x7f090448" n0:toId="@id/pressed" n0:fromId="@id/with_icon" />
+    <transition n0:drawable="@drawable/APKTOOL_RENAMED_0x7f09044f" n0:toId="@id/pressed" n0:fromId="@id/unchecked" />
+    <transition n0:drawable="@drawable/APKTOOL_RENAMED_0x7f09044e" n0:toId="@id/checked" n0:fromId="@id/unchecked" />
+</animated-selector>

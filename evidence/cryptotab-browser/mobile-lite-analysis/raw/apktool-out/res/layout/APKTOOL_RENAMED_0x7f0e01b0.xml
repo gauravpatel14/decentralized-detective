@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <org.chromium.chrome.browser.omnibox.status.StatusView n0:id="@id/location_bar_status" n0:focusable="true" n0:layout_width="wrap_content" n0:layout_height="match_parent" n0:screenReaderFocusable="true"
+      xmlns:n0="http://schemas.android.com/apk/res/android">
+        <ViewStub n0:layout_gravity="center_vertical" n0:id="@id/location_bar_incognito_badge_stub" n0:focusable="false" n0:layout="@layout/APKTOOL_RENAMED_0x7f0e01b2" n0:inflatedId="@id/location_bar_incognito_badge" n0:layout_width="wrap_content" n0:layout_height="wrap_content" />
+        <include layout="@layout/APKTOOL_RENAMED_0x7f0e01b1" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150322" n0:ellipsize="end" n0:gravity="center_vertical" n0:id="@id/location_bar_verbose_status" n0:focusable="false" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="match_parent" n0:maxLines="1" n0:textAlignment="viewStart" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f080362" n0:paddingEnd="8.0dp" />
+        <View n0:layout_gravity="center_vertical" n0:id="@id/location_bar_verbose_status_separator" n0:background="@color/APKTOOL_RENAMED_0x7f07007e" n0:focusable="false" n0:visibility="gone" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f08035c" n0:layout_height="24.0dp" />
+        <Space n0:id="@id/location_bar_verbose_status_extra_space" n0:focusable="false" n0:visibility="gone" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080356" n0:layout_height="match_parent" />
+    </org.chromium.chrome.browser.omnibox.status.StatusView>
+</merge>

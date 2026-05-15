@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector n0:height="16.0dp" n0:width="16.0dp" n0:viewportWidth="16.0" n0:viewportHeight="16.0"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <path n0:pathData="M -1 -1 H 17 V 17 H -1 V -1 Z" />
+    <path n0:pathData="M 0 0 H 16 V 16 H 0 V 0 Z" n0:strokeWidth="1.0" n0:strokeAlpha="0.0" n0:fillAlpha="0.0" n0:fillType="evenOdd" />
+    <path n0:fillColor="@color/APKTOOL_RENAMED_0x7f0701e0" n0:pathData="M0.5,14l15,0l-7.5,-13l-7.5,13l0,0zm8.5,-2l-2,0l0,-2l2,0l0,2l0,0zm0,-3l-2,0l0,-3l2,0l0,3l0,0z" n0:fillType="evenOdd" />
+</vector>

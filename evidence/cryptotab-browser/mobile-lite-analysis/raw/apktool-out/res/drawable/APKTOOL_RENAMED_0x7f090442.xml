@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector n0:height="32.0dp" n0:width="32.0dp" n0:viewportWidth="32.0" n0:viewportHeight="32.0"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <group n0:name="@string/APKTOOL_RENAMED_0x7f1407ad" n0:pivotX="16.0" n0:pivotY="16.0">
+        <path n0:name="@string/APKTOOL_RENAMED_0x7f1407af" n0:fillColor="@android:color/white" n0:pathData="@string/APKTOOL_RENAMED_0x7f1407ae" />
+    </group>
+</vector>

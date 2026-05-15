@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item n0:drawable="@drawable/APKTOOL_RENAMED_0x7f090365"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <item>
+        <shape n1:shape="ring" n1:useLevel="false" n1:innerRadius="14.0dp" n1:thickness="0.0dp"
+          xmlns:n1="http://schemas.android.com/apk/res/android">
+            <stroke n1:width="2.0dp" n1:color="@android:color/white" />
+        </shape>
+    </item>
+</layer-list>

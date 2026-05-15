@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n0:scrollbarStyle="outsideOverlay" n0:layout_width="match_parent" n0:layout_height="match_parent" style="@style/APKTOOL_RENAMED_0x7f150004"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@android:id/message" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="16.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140222" />
+        <org.chromium.components.browser_ui.widget.MaterialSwitchWithTitleAndSummary n0:id="@id/account_settings_bulk_upload_dialog_bookmarks" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+        <View n0:id="@id/account_settings_bulk_upload_dialog_bookmarks_separator" style="@style/APKTOOL_RENAMED_0x7f150178" />
+        <org.chromium.components.browser_ui.widget.MaterialSwitchWithTitleAndSummary n0:id="@id/account_settings_bulk_upload_dialog_passwords" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+        <View n0:id="@id/account_settings_bulk_upload_dialog_passwords_separator" style="@style/APKTOOL_RENAMED_0x7f150178" />
+        <org.chromium.components.browser_ui.widget.MaterialSwitchWithTitleAndSummary n0:id="@id/account_settings_bulk_upload_dialog_reading_list" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+        <View n0:id="@id/account_settings_bulk_upload_dialog_reading_list_separator" style="@style/APKTOOL_RENAMED_0x7f150178" />
+    </LinearLayout>
+</ScrollView>

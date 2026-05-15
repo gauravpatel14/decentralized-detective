@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.widget.FadingEdgeScrollView n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:fadeScrollbars="false"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:id="@id/image_descriptions_dialog_container" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/image_descriptions_dialog_content" n0:paddingTop="10.0dp" n0:paddingBottom="10.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f14062f" n0:paddingStart="24.0dp" n0:paddingEnd="24.0dp" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout n0:id="@id/image_descriptions_dialog_radio_button_group" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <org.chromium.components.browser_ui.widget.RadioButtonWithDescription n0:id="@id/image_descriptions_dialog_radio_button_just_once" n0:layout_width="match_parent" n0:layout_height="wrap_content" n1:APKTOOL_RENAMED_0x7f05044f="@string/APKTOOL_RENAMED_0x7f140692"
+              xmlns:n1="http://schemas.android.com/apk/res-auto" />
+            <org.chromium.components.browser_ui.widget.RadioButtonWithDescription n0:id="@id/image_descriptions_dialog_radio_button_always" n0:layout_width="match_parent" n0:layout_height="wrap_content" n2:APKTOOL_RENAMED_0x7f05044f="@string/APKTOOL_RENAMED_0x7f14025e"
+              xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        </org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout>
+        <CheckBox n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:id="@id/image_descriptions_dialog_check_box" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f08077e" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f08077e" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140632" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f08077d" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f08077d" n0:layout_marginStart="16.0dp" />
+    </LinearLayout>
+</org.chromium.components.browser_ui.widget.FadingEdgeScrollView>

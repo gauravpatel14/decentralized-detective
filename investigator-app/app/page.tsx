@@ -14,6 +14,48 @@ export default function HomePage() {
       date: 'December 9, 2025',
       status: 'Completed',
     },
+    {
+      id: 'TRC-1USD-FLASH-20260514',
+      title: '"$1 Flash USDT" Cross-Chain Trust-Building Scam',
+      date: 'May 14, 2026',
+      status: 'Completed',
+    },
+    {
+      id: 'AITRO-FLASH-20260514',
+      title: 'AITRO Flash USDT — Netlify-Hosted Advance-Fee Fraud',
+      date: 'May 14, 2026',
+      status: 'Completed',
+    },
+    {
+      id: 'USDTFLASH-PROOF-20260514',
+      title: '"USDT Flash BTC CRYPTO" — 21.7K-Subscriber Proof-Padding Scam',
+      date: 'May 14, 2026',
+      status: 'Completed',
+    },
+    {
+      id: 'BITMINER-APK-20260514',
+      title: 'BitMiner.apk — Fake Cloud-Mining Scam (Flutter + Firebase + AdMob)',
+      date: 'May 14, 2026',
+      status: 'Completed',
+    },
+    {
+      id: 'CRYPTOTAB-20260514',
+      title: 'CryptoTab Browser — Server-Custody Mining MLM, Affiliate-Funded BTC Payouts',
+      date: 'May 14–15, 2026',
+      status: 'Completed',
+    },
+    {
+      id: 'SWAPIFY-P2P-20260515',
+      title: 'Swapify (swapifyofficial.com) — Indian P2P "Above-Market USDT" Trust-Building Scam',
+      date: 'May 15, 2026',
+      status: 'Completed',
+    },
+    {
+      id: 'FLASHUSD-TR-20260515',
+      title: 'flashusd.com.tr — Turkish "Flash USDT" Package-Sale Scam with OxaPay Cutout',
+      date: 'May 15, 2026',
+      status: 'Completed',
+    },
   ];
 
   return (

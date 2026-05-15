@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:gravity="start" n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f08073b" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f08073b" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f08073b">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502d1" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080741" n0:text="@string/APKTOOL_RENAMED_0x7f140ae7" />
+        <Spinner n0:id="@id/quick_delete_spinner" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080740" />
+        <RelativeLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:id="@id/quick_delete_history_row" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080740">
+            <ImageView n0:id="@id/quick_delete_history_row_icon" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f08073d" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08073d" n0:src="@drawable/APKTOOL_RENAMED_0x7f0904ed" n0:layout_centerVertical="true" n0:importantForAccessibility="no" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f08073c" n0:layout_alignParentStart="true" />
+            <RelativeLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_centerVertical="true" n0:layout_toEndOf="@id/quick_delete_history_row_icon">
+                <org.chromium.components.browser_ui.widget.text.TemplatePreservingTextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:id="@id/quick_delete_history_row_title" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:singleLine="true" />
+                <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:ellipsize="end" n0:id="@id/quick_delete_history_row_subtitle" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140ae1" n0:layout_below="@id/quick_delete_history_row_title" n0:layout_alignStart="@id/quick_delete_history_row_title" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:id="@id/quick_delete_tabs_close_row" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080740">
+            <ImageView n0:id="@id/quick_delete_tabs_row_icon" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f08073d" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08073d" n0:src="@drawable/APKTOOL_RENAMED_0x7f0904ee" n0:layout_centerVertical="true" n0:importantForAccessibility="no" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f08073c" n0:layout_alignParentStart="true" />
+            <RelativeLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_centerVertical="true" n0:layout_toEndOf="@id/quick_delete_tabs_row_icon">
+                <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:id="@id/quick_delete_tabs_row_title" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:singleLine="true" />
+                <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:ellipsize="end" n0:id="@id/quick_delete_tabs_row_subtitle" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_below="@id/quick_delete_tabs_row_title" n0:layout_alignStart="@id/quick_delete_tabs_row_title" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <org.chromium.components.browser_ui.widget.text.TextViewWithCompoundDrawables n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:gravity="center_vertical" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f08073e" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140ae2" n0:drawablePadding="@dimen/APKTOOL_RENAMED_0x7f08073c" n0:drawableStart="@drawable/APKTOOL_RENAMED_0x7f0904ec" n0:textDirection="locale" />
+        <org.chromium.ui.widget.ButtonCompat n0:id="@id/quick_delete_more_options" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f08073f" n0:text="@string/APKTOOL_RENAMED_0x7f140ae4" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140ae5" n0:drawableEnd="@drawable/APKTOOL_RENAMED_0x7f090243" n0:textDirection="locale" style="@style/APKTOOL_RENAMED_0x7f1501af" />
+        <org.chromium.ui.widget.TextViewWithClickableSpans n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/search_history_disambiguation" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f08073f" />
+    </LinearLayout>
+</ScrollView>

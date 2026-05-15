@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <ScrollView n0:id="@id/scroll_view" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f08088d" n0:clipToPadding="false" n0:layout_width="match_parent" n0:layout_height="match_parent"
+      xmlns:n0="http://schemas.android.com/apk/res/android">
+        <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginStart="16.0dp" n0:layout_marginEnd="16.0dp">
+            <org.chromium.chrome.browser.bookmarks.BookmarkTextInputLayout n0:id="@id/title_text" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="22.0dp" n0:hint="@string/APKTOOL_RENAMED_0x7f14035a" n1:APKTOOL_RENAMED_0x7f050200="@string/APKTOOL_RENAMED_0x7f140358"
+              xmlns:n1="http://schemas.android.com/apk/res-auto">
+                <com.google.android.material.textfield.TextInputEditText n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:singleLine="true" n0:inputType="textCapSentences|textAutoCorrect" n0:imeOptions="flagNoExtractUi" />
+            </org.chromium.chrome.browser.bookmarks.BookmarkTextInputLayout>
+            <org.chromium.chrome.browser.bookmarks.BookmarkTextInputLayout n0:id="@id/url_text" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="24.0dp" n0:hint="@string/APKTOOL_RENAMED_0x7f14036a" n2:APKTOOL_RENAMED_0x7f050200="@string/APKTOOL_RENAMED_0x7f140359"
+              xmlns:n2="http://schemas.android.com/apk/res-auto">
+                <com.google.android.material.textfield.TextInputEditText n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:singleLine="true" n0:inputType="textUri" n0:imeOptions="flagNoExtractUi" />
+            </org.chromium.chrome.browser.bookmarks.BookmarkTextInputLayout>
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n0:id="@id/folder_title" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="18.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140351" n0:layout_marginStart="3.0dp" n0:layout_marginEnd="3.0dp" />
+            <FrameLayout n0:id="@id/folder_row_container" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="6.0dp" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f0802dd" />
+        </LinearLayout>
+    </ScrollView>
+    <androidx.appcompat.widget.Toolbar n3:id="@id/toolbar" n3:layout_width="match_parent" n3:layout_height="@dimen/APKTOOL_RENAMED_0x7f08088d" style="@style/APKTOOL_RENAMED_0x7f1501ad"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <View n4:id="@id/shadow" n4:background="@drawable/APKTOOL_RENAMED_0x7f0900d8" n4:visibility="gone" n4:layout_width="match_parent" n4:layout_height="@dimen/APKTOOL_RENAMED_0x7f0800a5" n4:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f08088d"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+</merge>

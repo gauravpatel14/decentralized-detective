@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.javascript_dialogs.JavascriptDialogCustomView n0:orientation="vertical" style="@style/APKTOOL_RENAMED_0x7f150004"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.components.browser_ui.widget.text.AlertDialogEditText n0:id="@id/js_modal_dialog_prompt" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:singleLine="true" n0:inputType="text" />
+    <CheckBox n0:textAppearance="?android:textAppearanceSmall" n0:layout_gravity="start" n0:id="@id/suppress_js_modal_dialogs" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="16.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140d63" />
+</org.chromium.components.javascript_dialogs.JavascriptDialogCustomView>

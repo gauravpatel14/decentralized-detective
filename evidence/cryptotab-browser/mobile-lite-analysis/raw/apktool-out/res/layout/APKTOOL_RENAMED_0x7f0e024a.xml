@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.ui.widget.ChromeImageView n0:id="@id/image_view_widget" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:scaleType="center" n0:minWidth="@dimen/APKTOOL_RENAMED_0x7f080541" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080541"
+  xmlns:n0="http://schemas.android.com/apk/res/android" />

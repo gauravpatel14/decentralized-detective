@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.chromium.chrome.browser.tasks.tab_management.TabArchiveTimeDeltaPreference n0:key="tab_archive_time_delta"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n1:key="tab_archive_allow_autodelete" n1:summary="@string/APKTOOL_RENAMED_0x7f140286" n2:APKTOOL_RENAMED_0x7f05002f="true"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</PreferenceScreen>

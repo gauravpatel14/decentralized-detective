@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:background="?APKTOOL_RENAMED_0x7f05048a" n0:paddingLeft="16.0dp" n0:paddingRight="16.0dp" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080560"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <FrameLayout n0:layout_width="24.0dp" n0:layout_height="24.0dp" n0:layout_marginRight="16.0dp" n0:layout_marginEnd="16.0dp">
+        <ImageView n0:id="@id/mr_cast_group_icon" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:scaleType="fitCenter" />
+        <ProgressBar n0:id="@id/mr_cast_group_progress_bar" n0:visibility="invisible" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:indeterminate="true" style="?android:progressBarStyle" />
+    </FrameLayout>
+    <TextView n0:textAppearance="?APKTOOL_RENAMED_0x7f0503ab" n0:gravity="start" n0:id="@id/mr_cast_group_name" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="1.0" n0:textAlignment="viewStart" />
+</LinearLayout>

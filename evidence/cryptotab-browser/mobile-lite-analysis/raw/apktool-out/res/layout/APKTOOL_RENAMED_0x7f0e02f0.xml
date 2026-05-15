@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.tasks.tab_management.MessageCardView n0:orientation="horizontal" n0:id="@id/tab_grid_message_item" n0:background="@drawable/APKTOOL_RENAMED_0x7f090101" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_margin="@dimen/APKTOOL_RENAMED_0x7f080836"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.ui.widget.ChromeImageView n0:id="@id/icon" n0:layout_width="0.0dp" n0:layout_height="match_parent" n0:scaleType="center" n0:adjustViewBounds="true" n0:minWidth="8.0dp" n0:layout_weight="1.0" n0:importantForAccessibility="no" n1:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f090259"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.widget.text.TemplatePreservingTextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:layout_gravity="start|center" n0:id="@id/description" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_marginTop="14.0dp" n0:layout_marginBottom="14.0dp" n0:layout_weight="4.0" n0:textAlignment="viewStart" />
+    <org.chromium.ui.widget.ButtonCompat n0:layout_gravity="center" n0:id="@id/action_button" n0:layout_width="wrap_content" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f15037f" />
+    <org.chromium.ui.widget.ChromeImageView n0:id="@id/close_button" n0:layout_width="48.0dp" n0:layout_height="match_parent" n0:tint="?APKTOOL_RENAMED_0x7f05014c" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140422" style="@style/APKTOOL_RENAMED_0x7f150140" />
+</org.chromium.chrome.browser.tasks.tab_management.MessageCardView>

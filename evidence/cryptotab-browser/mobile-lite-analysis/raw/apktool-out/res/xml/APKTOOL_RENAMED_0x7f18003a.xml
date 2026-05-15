@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n0:persistent="false" n0:title="@string/APKTOOL_RENAMED_0x7f140c5c" n0:key="secure_dns_switch" n0:summary="@string/APKTOOL_RENAMED_0x7f140c59"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <org.chromium.chrome.browser.privacy.secure_dns.SecureDnsProviderPreference n1:key="secure_dns_provider" n2:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</PreferenceScreen>

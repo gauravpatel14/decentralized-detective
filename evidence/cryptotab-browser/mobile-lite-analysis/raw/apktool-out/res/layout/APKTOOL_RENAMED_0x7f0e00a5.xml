@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n0:scrollbars="none" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:fillViewport="true"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <TextView n0:textSize="24.0sp" n0:gravity="center_horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginLeft="24.0dp" n0:layout_marginTop="104.0dp" n0:layout_marginRight="24.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140396" />
+        <ImageView n0:gravity="center_horizontal" n0:layout_width="match_parent" n0:layout_height="212.0dp" n0:layout_marginLeft="40.0dp" n0:layout_marginTop="52.0dp" n0:layout_marginBottom="35.0dp" n0:src="@drawable/APKTOOL_RENAMED_0x7f0900fd" n0:contentDescription="@null" />
+        <TextView n0:textSize="14.0sp" n0:layout_gravity="center_horizontal" n0:padding="0.0px" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginLeft="24.0dp" n0:layout_marginTop="52.0dp" n0:layout_marginRight="24.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140392" style="@style/APKTOOL_RENAMED_0x7f150350" />
+        <LinearLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:padding="24.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <CheckBox n0:id="@id/qr_link" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:checked="true" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140395" />
+            <TextView n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140395" n0:importantForAccessibility="no" style="@style/APKTOOL_RENAMED_0x7f150350" />
+        </LinearLayout>
+        <View n0:visibility="invisible" n0:layout_width="0.0dp" n0:layout_height="0.0dp" n0:layout_weight="1.0" />
+        <LinearLayout n0:gravity="end" n0:orientation="horizontal" n0:paddingLeft="24.0dp" n0:paddingRight="24.0dp" n0:paddingBottom="16.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <org.chromium.ui.widget.ButtonCompat n0:id="@id/qr_reject" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140394" n0:paddingEnd="36.0dp" style="@style/APKTOOL_RENAMED_0x7f15037f" />
+            <org.chromium.ui.widget.ButtonCompat n0:id="@id/qr_connect" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140391" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

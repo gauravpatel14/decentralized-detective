@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item n0:state_enabled="true" n0:state_pressed="true"
+      xmlns:n0="http://schemas.android.com/apk/res/android">
+        <objectAnimator n0:duration="@integer/APKTOOL_RENAMED_0x7f0c004b" n0:valueTo="@dimen/APKTOOL_RENAMED_0x7f0805bd" n0:valueType="floatType" n0:propertyName="translationZ" />
+    </item>
+    <item n1:state_enabled="true"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <objectAnimator n1:duration="@integer/APKTOOL_RENAMED_0x7f0c004b" n1:valueTo="0" n1:valueType="floatType" n1:propertyName="translationZ" />
+    </item>
+    <item>
+        <objectAnimator n2:duration="0" n2:valueTo="0" n2:valueType="floatType" n2:propertyName="translationZ"
+          xmlns:n2="http://schemas.android.com/apk/res/android" />
+    </item>
+</selector>

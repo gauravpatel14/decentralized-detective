@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n0:id="@id/cookies_view" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:id="@id/welcome_main_layout" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:animateLayoutChanges="true">
+        <ImageView n0:layout_gravity="center_horizontal" n0:id="@id/image" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:src="@drawable/APKTOOL_RENAMED_0x7f09049d" n0:adjustViewBounds="true" n0:maxHeight="@dimen/APKTOOL_RENAMED_0x7f0802d9" n0:importantForAccessibility="no" n0:layout_marginHorizontal="@dimen/APKTOOL_RENAMED_0x7f0807f1" />
+        <TextView n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140a34" n0:drawablePadding="16.0dp" n0:layout_marginHorizontal="@dimen/APKTOOL_RENAMED_0x7f080074" n0:layout_marginVertical="8.0dp" style="@style/APKTOOL_RENAMED_0x7f15033f" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout n0:id="@id/cookies_radio_button" n0:focusable="false" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <org.chromium.components.browser_ui.widget.RadioButtonWithDescription n0:id="@id/block_third_party_incognito" n0:layout_width="match_parent" n0:layout_height="wrap_content" n1:APKTOOL_RENAMED_0x7f0501c8="@string/APKTOOL_RENAMED_0x7f140a32" n1:APKTOOL_RENAMED_0x7f05044f="@string/APKTOOL_RENAMED_0x7f140a33"
+              xmlns:n1="http://schemas.android.com/apk/res-auto" />
+            <org.chromium.components.browser_ui.widget.RadioButtonWithDescription n0:id="@id/block_third_party" n0:layout_width="match_parent" n0:layout_height="wrap_content" n2:APKTOOL_RENAMED_0x7f0501c8="@string/APKTOOL_RENAMED_0x7f140a30" n2:APKTOOL_RENAMED_0x7f05044f="@string/APKTOOL_RENAMED_0x7f140a31"
+              xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        </org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout>
+    </LinearLayout>
+</ScrollView>

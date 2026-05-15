@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set>
+    <objectAnimator n0:interpolator="?APKTOOL_RENAMED_0x7f0503e5" n0:duration="?APKTOOL_RENAMED_0x7f0503db" n0:startOffset="0" n0:propertyName="width"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <objectAnimator n1:interpolator="?APKTOOL_RENAMED_0x7f0503e5" n1:duration="?APKTOOL_RENAMED_0x7f0503db" n1:startOffset="0" n1:propertyName="height"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <objectAnimator n2:interpolator="?APKTOOL_RENAMED_0x7f0503e5" n2:duration="?APKTOOL_RENAMED_0x7f0503db" n2:startOffset="0" n2:propertyName="paddingStart"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <objectAnimator n3:interpolator="?APKTOOL_RENAMED_0x7f0503e5" n3:duration="?APKTOOL_RENAMED_0x7f0503db" n3:startOffset="0" n3:propertyName="paddingEnd"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <objectAnimator n4:interpolator="?APKTOOL_RENAMED_0x7f0503e5" n4:duration="?APKTOOL_RENAMED_0x7f0503df" n4:startOffset="?APKTOOL_RENAMED_0x7f0503dd" n4:propertyName="labelOpacity"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+</set>

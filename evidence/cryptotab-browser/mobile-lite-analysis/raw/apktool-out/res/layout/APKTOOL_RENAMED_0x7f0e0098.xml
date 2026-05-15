@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.bottomsheet.BottomSheet n0:id="@id/bottom_sheet" n0:clipChildren="false" n0:layout_width="wrap_content" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <view n0:id="@id/shadow_layer" n0:background="@drawable/APKTOOL_RENAMED_0x7f09056b" n0:layout_width="match_parent" n0:layout_height="match_parent" class="org.chromium.components.browser_ui.bottomsheet.BottomSheet$ShadowLayerView" />
+    <View n0:id="@id/background" n0:background="@drawable/APKTOOL_RENAMED_0x7f0900e2" n0:layout_width="match_parent" n0:layout_height="match_parent" />
+    <org.chromium.components.browser_ui.bottomsheet.TouchRestrictingFrameLayout n0:id="@id/bottom_sheet_content" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:importantForAccessibility="yes" />
+    <FrameLayout n0:id="@id/bottom_sheet_control_container" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:importantForAccessibility="yes" n0:accessibilityTraversalBefore="@id/bottom_sheet_content">
+        <view n0:id="@id/bottom_sheet_toolbar_container" n0:layout_width="match_parent" n0:layout_height="wrap_content" class="org.chromium.components.browser_ui.bottomsheet.TouchRestrictingFrameLayout" />
+    </FrameLayout>
+    <FrameLayout n0:layout_gravity="start|bottom" n0:id="@id/bottom_sheet_snackbar_container" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+</org.chromium.components.browser_ui.bottomsheet.BottomSheet>

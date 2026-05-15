@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n0:key="clear_browsing_data_link"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <Preference n1:layout="@layout/APKTOOL_RENAMED_0x7f0e0165" n1:key="clear_browsing_divider"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+</PreferenceScreen>

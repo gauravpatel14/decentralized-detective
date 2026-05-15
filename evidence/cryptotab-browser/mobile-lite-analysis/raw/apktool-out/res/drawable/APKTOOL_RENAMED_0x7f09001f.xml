@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector n0:height="100.0dp" n0:width="100.0dp" n0:viewportWidth="100.0" n0:viewportHeight="100.0"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <group n0:name="scrollGradient">
+        <path n0:fillColor="@drawable/APKTOOL_RENAMED_0x7f090004" n0:pathData="M 0 0 L 500 0 L 500 100 L 0 100 Z" />
+    </group>
+</vector>

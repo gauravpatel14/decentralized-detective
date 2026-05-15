@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:layout_gravity="center_horizontal" n0:id="@id/content" n0:layout_width="match_parent" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f150180"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="horizontal" n0:id="@id/new_window" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <ImageView n0:layout_gravity="center_vertical" n0:id="@id/favicon" n0:layout_width="24.0dp" n0:layout_height="24.0dp" n0:src="@drawable/APKTOOL_RENAMED_0x7f0901dd" n0:scaleType="fitCenter" n0:importantForAccessibility="no" n0:layout_marginStart="40.0dp" n0:layout_marginEnd="16.0dp" n0:layout_marginVertical="20.0dp" n1:APKTOOL_RENAMED_0x7f050573="?APKTOOL_RENAMED_0x7f050155"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.ui.widget.TextViewWithLeading n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:layout_gravity="center_vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140746" n2:APKTOOL_RENAMED_0x7f05034b="@dimen/APKTOOL_RENAMED_0x7f080864"
+          xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:gravity="center" n0:id="@id/max_info" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="64.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140727" />
+</RelativeLayout>

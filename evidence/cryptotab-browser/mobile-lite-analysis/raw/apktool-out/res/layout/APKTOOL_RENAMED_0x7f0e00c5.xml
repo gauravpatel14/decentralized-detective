@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n0:paddingTop="25.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:overScrollMode="ifContentScrolls" n0:paddingStart="25.0dp" n0:paddingEnd="25.0dp"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:id="@id/sync_import_data_content" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:id="@id/sync_import_data_prompt" n0:layout_width="wrap_content" n0:layout_height="wrap_content" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription n0:id="@id/sync_keep_separate_choice" n0:layout_width="match_parent" n0:layout_height="wrap_content" n1:APKTOOL_RENAMED_0x7f05044f="@string/APKTOOL_RENAMED_0x7f140d84"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription n0:id="@id/sync_confirm_import_choice" n0:layout_width="match_parent" n0:layout_height="wrap_content" n2:APKTOOL_RENAMED_0x7f05044f="@string/APKTOOL_RENAMED_0x7f140d81"
+          xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</ScrollView>

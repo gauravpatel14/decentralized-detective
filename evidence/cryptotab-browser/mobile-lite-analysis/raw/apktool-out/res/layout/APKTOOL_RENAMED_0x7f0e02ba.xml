@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center_vertical" n0:orientation="vertical" n0:background="?android:selectableItemBackground" n0:paddingBottom="8.0dp" n0:focusable="false" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout n0:id="@id/mode_group" n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription n0:id="@id/automatic" n0:background="?APKTOOL_RENAMED_0x7f05048a" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080541" n1:APKTOOL_RENAMED_0x7f0501c8="@string/APKTOOL_RENAMED_0x7f140c27" n1:APKTOOL_RENAMED_0x7f05044f="@string/APKTOOL_RENAMED_0x7f140c28"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription n0:id="@id/secure" n0:background="?APKTOOL_RENAMED_0x7f05048a" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080541" n2:APKTOOL_RENAMED_0x7f05044f="@string/APKTOOL_RENAMED_0x7f140c5d"
+          xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout>
+    <LinearLayout n0:gravity="start" n0:orientation="vertical" n0:id="@id/selection_container" n0:background="?android:selectableItemBackground" n0:focusable="false" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f080778" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f080777">
+        <Spinner n0:id="@id/dropdown_spinner" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingStart="4.0dp" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/privacy_policy" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140c5e" n0:paddingStart="4.0dp" />
+        <com.google.android.material.textfield.TextInputLayout n0:id="@id/custom_server_layout" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:labelFor="@id/custom_server">
+            <EditText n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:id="@id/custom_server" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:hint="@string/APKTOOL_RENAMED_0x7f140c58" n0:inputType="textUri|textMultiLine" n0:imeOptions="actionDone" n0:importantForAutofill="no" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+</LinearLayout>

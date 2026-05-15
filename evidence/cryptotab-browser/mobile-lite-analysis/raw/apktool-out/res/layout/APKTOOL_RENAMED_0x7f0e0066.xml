@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:id="@id/cc_details" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="3.0dp" n0:minHeight="30.0dp"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:id="@id/google_pay_logo" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:minHeight="24.0dp" n0:importantForAccessibility="no" n1:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f0901bb"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <ImageView n0:id="@id/message_divider" n0:background="?APKTOOL_RENAMED_0x7f05016e" n0:layout_width="1.0dp" n0:layout_height="16.0dp" n0:importantForAccessibility="no" n0:layout_marginStart="16.0dp" n0:layout_marginEnd="16.0dp" />
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:id="@id/cc_details_masked" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:minHeight="24.0dp" />
+</LinearLayout>

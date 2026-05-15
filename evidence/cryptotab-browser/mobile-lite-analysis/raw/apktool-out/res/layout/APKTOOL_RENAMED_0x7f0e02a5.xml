@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="horizontal" n0:id="@id/restore_tabs_detail_sheet_review_tabs_view" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f080788" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f080788" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:layout_gravity="center_vertical" n0:id="@id/restore_tabs_review_tabs_screen_favicon" n0:background="@drawable/APKTOOL_RENAMED_0x7f090471" n0:layout_width="40.0dp" n0:layout_height="40.0dp" n0:importantForAccessibility="no" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f080796" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f080796" n1:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f0904f9" style="@style/APKTOOL_RENAMED_0x7f150184"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n0:orientation="vertical" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="1.0">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:ellipsize="end" n0:id="@id/restore_tabs_detail_sheet_tab_name" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:singleLine="true" n0:textAlignment="viewStart" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n0:ellipsize="end" n0:id="@id/restore_tabs_detail_sheet_tab_info" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:singleLine="true" n0:textAlignment="viewStart" />
+    </LinearLayout>
+    <CheckBox n0:layout_gravity="center_vertical" n0:id="@id/restore_tabs_tab_item_checkbox" n0:background="@android:color/transparent" n0:focusable="false" n0:clickable="false" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:checked="true" n0:contentDescription="@null" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f08078a" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f080789" n2:APKTOOL_RENAMED_0x7f050573="?APKTOOL_RENAMED_0x7f050155"
+      xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

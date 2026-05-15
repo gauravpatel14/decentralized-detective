@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:background="?APKTOOL_RENAMED_0x7f050165" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:id="@id/title" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_alignParentTop="true">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502cd" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f14073b" n0:layout_weight="1.0" n0:layout_marginStart="16.0dp" n0:layout_marginEnd="16.0dp" />
+        <org.chromium.ui.widget.ChromeImageButton n0:id="@id/close_history_placeholder_button" n0:background="?APKTOOL_RENAMED_0x7f05048a" n0:layout_width="56.0dp" n0:layout_height="56.0dp" n0:src="@drawable/APKTOOL_RENAMED_0x7f0900e8" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140422" n1:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129" style="@style/APKTOOL_RENAMED_0x7f150497"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <ScrollView n0:layout_width="match_parent" n0:layout_height="match_parent" n0:layout_below="@id/title" n0:layout_alignParentBottom="true">
+        <LinearLayout n0:gravity="center_horizontal" n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingStart="24.0dp" n0:paddingEnd="24.0dp">
+            <org.chromium.ui.widget.ChromeImageView n0:id="@id/incognito_history_image" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:src="@drawable/APKTOOL_RENAMED_0x7f0903ba" />
+            <org.chromium.ui.widget.TextViewWithLeading n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502cd" n0:gravity="center_horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="16.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140649" n2:APKTOOL_RENAMED_0x7f05034b="@dimen/APKTOOL_RENAMED_0x7f080864"
+              xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <org.chromium.ui.widget.TextViewWithLeading n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150347" n0:gravity="center_horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="16.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140648" n3:APKTOOL_RENAMED_0x7f05034b="@dimen/APKTOOL_RENAMED_0x7f080866"
+              xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

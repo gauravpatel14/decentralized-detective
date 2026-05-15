@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:id="@id/relLayout" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <FrameLayout n0:id="@id/surface_view_holder" n0:layout_width="match_parent" n0:layout_height="match_parent" />
+    <FrameLayout n0:id="@id/ui_back_button_holder" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0808bc" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0808bb" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0808be" n0:layout_alignParentTop="true" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f0808bd" n0:layout_alignParentStart="true">
+        <org.chromium.ui.widget.ChromeImageButton n0:layout_gravity="start|top" n0:id="@id/cardboard_ui_back_button" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:src="@drawable/APKTOOL_RENAMED_0x7f0900e9" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140422" style="@style/APKTOOL_RENAMED_0x7f15014a" />
+    </FrameLayout>
+    <RelativeLayout n0:id="@id/ui_alignment_marker" n0:background="@android:color/white" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080073" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080072" n0:layout_alignParentBottom="true" n0:layout_centerHorizontal="true" />
+    <FrameLayout n0:id="@id/ui_settings_button_holder" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0808bc" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0808bb" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0808c0" n0:layout_alignParentTop="true" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f0808bf" n0:layout_alignParentEnd="true">
+        <org.chromium.ui.widget.ChromeImageButton n0:layout_gravity="end|top" n0:id="@id/cardboard_ui_settings_button" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:src="@drawable/APKTOOL_RENAMED_0x7f0902ad" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140e84" style="@style/APKTOOL_RENAMED_0x7f15014a" />
+    </FrameLayout>
+</RelativeLayout>

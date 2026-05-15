@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:overScrollMode="ifContentScrolls"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" style="@style/APKTOOL_RENAMED_0x7f150004">
+        <CheckedTextView n0:textAppearance="?android:textAppearanceListItem" n0:gravity="center_vertical" n0:id="@id/keystore_passphrase_checkbox" n0:paddingTop="8.0dp" n0:paddingBottom="8.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:checkMark="?android:listChoiceIndicatorSingle" n0:minHeight="?android:listPreferredItemHeightSmall" n0:text="@string/APKTOOL_RENAMED_0x7f140d91" n0:paddingStart="24.0dp" n0:paddingEnd="24.0dp" />
+        <CheckedTextView n0:textAppearance="?android:textAppearanceListItem" n0:gravity="center_vertical" n0:id="@id/explicit_passphrase_checkbox" n0:paddingTop="8.0dp" n0:paddingBottom="8.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:checkMark="?android:listChoiceIndicatorSingle" n0:minHeight="?android:listPreferredItemHeightSmall" n0:text="@string/APKTOOL_RENAMED_0x7f140d8f" n0:paddingStart="24.0dp" n0:paddingEnd="24.0dp" />
+        <org.chromium.ui.widget.TextViewWithClickableSpans n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/reset_sync_link" n0:paddingTop="25.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:background="@drawable/APKTOOL_RENAMED_0x7f09051e" n0:paddingTop="20.0dp" n0:paddingBottom="12.0dp" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e010d" />
+    <org.chromium.components.browser_ui.widget.DualControlLayout n0:id="@id/button_bar" n0:paddingTop="6.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingStart="16.0dp" n0:paddingEnd="16.0dp" n1:APKTOOL_RENAMED_0x7f050093="end" n1:APKTOOL_RENAMED_0x7f0504c4="@dimen/APKTOOL_RENAMED_0x7f0800bd"
+      xmlns:n1="http://schemas.android.com/apk/res-auto">
+        <org.chromium.ui.widget.ButtonCompat n0:layout_gravity="end" n0:id="@id/allow" n0:layout_width="wrap_content" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f15016c" />
+        <org.chromium.ui.widget.ButtonCompat n0:layout_gravity="end" n0:id="@id/block" n0:layout_width="wrap_content" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f15037f" />
+    </org.chromium.components.browser_ui.widget.DualControlLayout>
+</LinearLayout>

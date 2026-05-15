@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n0:key="personalize_google_services_summary" n0:summary="@string/APKTOOL_RENAMED_0x7f1409c1" n1:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n2:title="@string/APKTOOL_RENAMED_0x7f1409c2" n2:key="web_and_app_activity"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n3:title="@string/APKTOOL_RENAMED_0x7f1409c0" n3:key="linked_google_services" n3:summary="@string/APKTOOL_RENAMED_0x7f1409bf"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+</PreferenceScreen>

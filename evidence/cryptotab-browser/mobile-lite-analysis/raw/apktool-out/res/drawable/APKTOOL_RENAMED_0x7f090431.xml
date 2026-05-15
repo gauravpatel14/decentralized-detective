@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector>
+    <item n0:state_checked="true" n0:id="@id/checked" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f09043e"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <item n1:id="@id/indeterminate" n1:drawable="@drawable/APKTOOL_RENAMED_0x7f090442" n2:APKTOOL_RENAMED_0x7f0504d3="true"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:state_checked="false" n3:id="@id/unchecked" n3:drawable="@android:color/transparent"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <transition n4:drawable="@drawable/APKTOOL_RENAMED_0x7f090433" n4:toId="@id/unchecked" n4:fromId="@id/checked"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <transition n5:drawable="@drawable/APKTOOL_RENAMED_0x7f090436" n5:toId="@id/checked" n5:fromId="@id/unchecked"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <transition n6:drawable="@drawable/APKTOOL_RENAMED_0x7f090435" n6:toId="@id/unchecked" n6:fromId="@id/indeterminate"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <transition n7:drawable="@drawable/APKTOOL_RENAMED_0x7f090437" n7:toId="@id/indeterminate" n7:fromId="@id/unchecked"
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+    <transition n8:drawable="@drawable/APKTOOL_RENAMED_0x7f090434" n8:toId="@id/checked" n8:fromId="@id/indeterminate"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+    <transition n9:drawable="@drawable/APKTOOL_RENAMED_0x7f090432" n9:toId="@id/indeterminate" n9:fromId="@id/checked"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+</animated-selector>

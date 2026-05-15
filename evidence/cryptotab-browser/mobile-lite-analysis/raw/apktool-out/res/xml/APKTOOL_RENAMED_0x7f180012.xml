@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n0:title="@string/APKTOOL_RENAMED_0x7f140b5f" n0:key="subtitle" n1:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n2:icon="@drawable/APKTOOL_RENAMED_0x7f09036b" n2:key="bullet_one" n2:summary="@string/APKTOOL_RENAMED_0x7f140b56" n3:APKTOOL_RENAMED_0x7f050031="false" n3:APKTOOL_RENAMED_0x7f0502af="@color/APKTOOL_RENAMED_0x7f070129"
+      xmlns:n2="http://schemas.android.com/apk/res/android" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n4:icon="@drawable/APKTOOL_RENAMED_0x7f09029a" n4:key="bullet_two" n4:summary="@string/APKTOOL_RENAMED_0x7f140b5c" n5:APKTOOL_RENAMED_0x7f050031="false" n5:APKTOOL_RENAMED_0x7f0502af="@color/APKTOOL_RENAMED_0x7f070129"
+      xmlns:n4="http://schemas.android.com/apk/res/android" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n6:icon="@drawable/APKTOOL_RENAMED_0x7f090259" n6:key="bullet_three" n6:summary="@string/APKTOOL_RENAMED_0x7f140b5a" n7:APKTOOL_RENAMED_0x7f050031="false" n7:APKTOOL_RENAMED_0x7f0502af="@color/APKTOOL_RENAMED_0x7f070129"
+      xmlns:n6="http://schemas.android.com/apk/res/android" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n8:icon="@drawable/APKTOOL_RENAMED_0x7f0903a6" n8:key="bullet_four" n8:summary="@string/APKTOOL_RENAMED_0x7f140b54" n9:APKTOOL_RENAMED_0x7f050031="false" n9:APKTOOL_RENAMED_0x7f0502af="@color/APKTOOL_RENAMED_0x7f070129"
+      xmlns:n8="http://schemas.android.com/apk/res/android" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n10:icon="@drawable/APKTOOL_RENAMED_0x7f09021e" n10:key="bullet_five" n10:summary="@string/APKTOOL_RENAMED_0x7f140b52" n11:APKTOOL_RENAMED_0x7f050031="false" n11:APKTOOL_RENAMED_0x7f0502af="@color/APKTOOL_RENAMED_0x7f070129"
+      xmlns:n10="http://schemas.android.com/apk/res/android" xmlns:n11="http://schemas.android.com/apk/res-auto" />
+</PreferenceScreen>

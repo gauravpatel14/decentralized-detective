@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f1501e9"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f1408f2" style="@style/APKTOOL_RENAMED_0x7f1501f1" />
+    <TextView n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f1408f1" style="@style/APKTOOL_RENAMED_0x7f1501eb" />
+    <TextView n0:id="@id/page_zoom_current_value_text" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f0806bf" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:textAlignment="center" style="@style/APKTOOL_RENAMED_0x7f150372" />
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e0222" />
+    <TextView n0:id="@id/text_size_contrast_title" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140dd8" style="@style/APKTOOL_RENAMED_0x7f1501f1" />
+    <TextView n0:id="@id/text_size_contrast_summary" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140dd7" style="@style/APKTOOL_RENAMED_0x7f1501eb" />
+    <TextView n0:id="@id/text_size_contrast_current_value_text" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f0806bf" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:textAlignment="center" style="@style/APKTOOL_RENAMED_0x7f150372" />
+    <include n0:id="@id/text_size_contrast_layout_container" n0:visibility="gone" layout="@layout/APKTOOL_RENAMED_0x7f0e030a" />
+    <TextView n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0806bd" n0:text="@string/APKTOOL_RENAMED_0x7f1408f0" style="@style/APKTOOL_RENAMED_0x7f1501f1" />
+    <LinearLayout n0:orientation="vertical" n0:background="@drawable/APKTOOL_RENAMED_0x7f0904ff" n0:padding="@dimen/APKTOOL_RENAMED_0x7f0806bf" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="10.0dp">
+        <ImageView n0:id="@id/page_zoom_preview_image" n0:background="@drawable/APKTOOL_RENAMED_0x7f0901f8" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:importantForAccessibility="no" n1:APKTOOL_RENAMED_0x7f050573="?APKTOOL_RENAMED_0x7f050155"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        <TextView n0:id="@id/page_zoom_preview_large_text" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0806bd" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f0806bd" n0:text="@string/APKTOOL_RENAMED_0x7f1408ef" style="@style/APKTOOL_RENAMED_0x7f15033f" />
+        <TextView n0:id="@id/page_zoom_preview_medium_text" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f0806bd" n0:text="@string/APKTOOL_RENAMED_0x7f1408ee" style="@style/APKTOOL_RENAMED_0x7f150350" />
+        <TextView n0:id="@id/page_zoom_preview_small_text" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f1408ed" style="@style/APKTOOL_RENAMED_0x7f150372" />
+    </LinearLayout>
+</LinearLayout>

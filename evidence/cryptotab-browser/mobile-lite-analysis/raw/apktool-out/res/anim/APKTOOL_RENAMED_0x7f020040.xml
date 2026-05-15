@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set n0:ordering="sequentially"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <objectAnimator n0:duration="900" n0:valueFrom="0" n0:valueTo="0" n0:propertyName="fillAlpha" />
+    <objectAnimator n0:duration="400" n0:valueFrom="0" n0:valueTo="0.5" n0:propertyName="fillAlpha" />
+    <objectAnimator n0:duration="2350" n0:valueFrom="0.5" n0:valueTo="0.5" n0:propertyName="fillAlpha" />
+    <objectAnimator n0:duration="300" n0:valueFrom="0.5" n0:valueTo="0" n0:propertyName="fillAlpha" />
+</set>

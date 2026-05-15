@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:background="@android:color/transparent" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="12.0dp"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="horizontal" n0:paddingLeft="@dimen/APKTOOL_RENAMED_0x7f080794" n0:paddingRight="@dimen/APKTOOL_RENAMED_0x7f080794" n0:paddingBottom="12.0dp" n0:focusable="true" n0:clickable="true" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <ImageButton n0:id="@id/restore_tabs_toolbar_back_image_button" n0:background="?APKTOOL_RENAMED_0x7f050003" n0:paddingLeft="6.0dp" n0:paddingRight="6.0dp" n0:layout_width="wrap_content" n0:layout_height="?APKTOOL_RENAMED_0x7f050005" n0:src="@drawable/APKTOOL_RENAMED_0x7f0901e3" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140b35" n1:APKTOOL_RENAMED_0x7f050573="?APKTOOL_RENAMED_0x7f05014c"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        <TextView n0:ellipsize="end" n0:layout_gravity="center_vertical" n0:id="@id/restore_tabs_toolbar_title_text_view" n0:paddingLeft="14.0dp" n0:paddingRight="14.0dp" n0:focusable="true" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:singleLine="true" n0:accessibilityHeading="true" style="@style/APKTOOL_RENAMED_0x7f1502cd" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView n0:id="@id/restore_tabs_detail_screen_recycler_view" n0:paddingLeft="@dimen/APKTOOL_RENAMED_0x7f080795" n0:paddingRight="@dimen/APKTOOL_RENAMED_0x7f080795" n0:paddingBottom="10.0dp" n0:clipToPadding="false" n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:divider="@null" n0:layout_weight="1.0" />
+    <View n0:id="@id/restore_tabs_bottom_toolbar_divider" n0:background="@color/APKTOOL_RENAMED_0x7f07019b" n0:layout_width="match_parent" n0:layout_height="1.0dp" />
+    <LinearLayout n0:orientation="horizontal" n0:paddingLeft="@dimen/APKTOOL_RENAMED_0x7f080795" n0:paddingTop="16.0dp" n0:paddingRight="@dimen/APKTOOL_RENAMED_0x7f080795" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080787">
+        <org.chromium.ui.widget.ButtonCompat n0:ellipsize="end" n0:gravity="center" n0:id="@id/restore_tabs_button_change_all_tabs_selection" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:singleLine="true" style="@style/APKTOOL_RENAMED_0x7f15037f" />
+        <Space n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="1.0" />
+        <org.chromium.ui.widget.ButtonCompat n0:ellipsize="end" n0:gravity="center" n0:id="@id/restore_tabs_button_open_selected_tabs" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:singleLine="true" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+    </LinearLayout>
+</LinearLayout>

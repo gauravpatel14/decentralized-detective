@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:orientation="vertical" n0:paddingTop="24.0dp" n0:paddingBottom="8.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:id="@id/lightweight_fre_head_image" n0:layout_width="wrap_content" n0:layout_height="24.0dp" n0:layout_marginBottom="32.0dp" n0:src="@drawable/APKTOOL_RENAMED_0x7f0904a9" n0:scaleType="fitCenter" n0:layout_marginStart="24.0dp" />
+    <FrameLayout n0:id="@id/lightweight_fre_body" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="32.0dp" n0:layout_below="@id/lightweight_fre_head_image">
+        <org.chromium.ui.widget.TextViewWithClickableSpans n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:id="@id/lightweight_fre_tos_and_privacy" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:lineSpacingMultiplier="1.64" n0:paddingStart="24.0dp" n0:paddingEnd="24.0dp" />
+        <FrameLayout n0:layout_gravity="center" n0:id="@id/loading_view_container" n0:visibility="invisible" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f0802b2" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140d86">
+            <org.chromium.ui.widget.LoadingView n0:id="@id/loading_view" n0:visibility="gone" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0802b2" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0802b2" style="@style/APKTOOL_RENAMED_0x7f1504d6" />
+        </FrameLayout>
+        <include n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginStart="24.0dp" n0:layout_marginEnd="24.0dp" layout="@layout/APKTOOL_RENAMED_0x7f0e0156" />
+    </FrameLayout>
+    <org.chromium.components.browser_ui.widget.DualControlLayout n0:id="@id/lightweight_fre_buttons" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_below="@id/lightweight_fre_body" n0:paddingStart="8.0dp" n0:paddingEnd="8.0dp" n0:layout_alignParentEnd="true" n1:APKTOOL_RENAMED_0x7f050093="end" n1:APKTOOL_RENAMED_0x7f05044e="@string/APKTOOL_RENAMED_0x7f1405b9" n1:APKTOOL_RENAMED_0x7f050482="@string/APKTOOL_RENAMED_0x7f1403ae" n1:APKTOOL_RENAMED_0x7f0504c4="@dimen/APKTOOL_RENAMED_0x7f0800bd"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

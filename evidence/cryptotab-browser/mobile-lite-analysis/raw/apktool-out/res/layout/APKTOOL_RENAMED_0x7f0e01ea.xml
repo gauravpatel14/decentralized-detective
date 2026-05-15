@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <View n0:id="@id/open_search_view_scrim" n0:background="?APKTOOL_RENAMED_0x7f05047c" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:alpha="0.0"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <com.google.android.material.internal.ClippableRoundedCornerLayout n1:id="@id/open_search_view_root" n1:focusable="true" n1:focusableInTouchMode="true" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/open_search_view_background" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <View n1:id="@id/open_search_view_status_bar_spacer" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+            <FrameLayout n1:id="@id/open_search_view_header_container" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+            <FrameLayout n1:id="@id/open_search_view_toolbar_container" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <com.google.android.material.appbar.MaterialToolbar n1:layout_gravity="end" n1:id="@id/open_search_view_dummy_toolbar" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:APKTOOL_RENAMED_0x7f050400="@null" style="?APKTOOL_RENAMED_0x7f050395"
+                  xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <com.google.android.material.appbar.MaterialToolbar n1:id="@id/open_search_view_toolbar" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:APKTOOL_RENAMED_0x7f0503ff="@string/APKTOOL_RENAMED_0x7f140bf4" style="?APKTOOL_RENAMED_0x7f050395"
+                  xmlns:n3="http://schemas.android.com/apk/res-auto">
+                    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="?APKTOOL_RENAMED_0x7f050394">
+                        <TextView n1:id="@id/open_search_view_search_prefix" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" style="?APKTOOL_RENAMED_0x7f050392" />
+                        <EditText n1:id="@id/open_search_view_edit_text" n1:background="@null" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="1.0" n1:inputType="textNoSuggestions" n1:imeOptions="actionSearch|flagNoExtractUi" n1:textDirection="firstStrong" n1:importantForAutofill="no" />
+                        <ImageButton n1:id="@id/open_search_view_clear_button" n1:background="?APKTOOL_RENAMED_0x7f050003" n1:padding="16.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:contentDescription="@string/APKTOOL_RENAMED_0x7f140bf3" n3:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f09020f" />
+                    </LinearLayout>
+                </com.google.android.material.appbar.MaterialToolbar>
+            </FrameLayout>
+            <View n1:id="@id/open_search_view_divider" n1:background="?APKTOOL_RENAMED_0x7f050153" n1:layout_width="match_parent" n1:layout_height="@dimen/APKTOOL_RENAMED_0x7f0804aa" />
+            <com.google.android.material.internal.TouchObserverFrameLayout n1:id="@id/open_search_view_content_container" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </LinearLayout>
+    </com.google.android.material.internal.ClippableRoundedCornerLayout>
+</merge>

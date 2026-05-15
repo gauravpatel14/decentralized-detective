@@ -1,0 +1,9 @@
+"Chromium Shortcut" = "Odkaz na CryptoTab Browser";
+CFBundleGetInfoString = "CryptoTab Browser 127.0.6533.100, Copyright 2024 Autori CryptoTab Browser. Všetky práva vyhradené.";
+NSBluetoothAlwaysUsageDescription = "Keď CryptoTab Browser získa prístup, weby vás budú môcť žiadať o prístup.";
+NSBluetoothPeripheralUsageDescription = "Keď CryptoTab Browser získa prístup, weby vás budú môcť žiadať o prístup.";
+NSCameraUsageDescription = "Keď CryptoTab Browser získa prístup, weby vás budú môcť žiadať o prístup.";
+NSHumanReadableCopyright = "Copyright 2024 Autori CryptoTab Browser. Všetky práva vyhradené.";
+NSLocationUsageDescription = "Keď CryptoTab Browser získa prístup, weby vás budú môcť žiadať o prístup.";
+NSMicrophoneUsageDescription = "Keď CryptoTab Browser získa prístup, weby vás budú môcť žiadať o prístup.";
+NSWebBrowserPublicKeyCredentialUsageDescription = "Keď CryptoTab Browser získa prístup, weby vás budú môcť žiadať o prístup.";

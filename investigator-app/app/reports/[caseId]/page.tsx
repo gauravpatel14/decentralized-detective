@@ -1,6 +1,13 @@
 import { notFound } from 'next/navigation';
 import { solanaCase } from '@/data/reports/SOL-HWSF-20251207';
 import { tronFlashCase } from '@/data/reports/TRC-FLASH-20251209';
+import { trc1UsdFlashCase } from '@/data/reports/TRC-1USD-FLASH-20260514';
+import { aitroFlashCase } from '@/data/reports/AITRO-FLASH-20260514';
+import { usdtFlashProofCase } from '@/data/reports/USDTFLASH-PROOF-20260514';
+import { bitminerApkCase } from '@/data/reports/BITMINER-APK-20260514';
+import { cryptotabCase } from '@/data/reports/CRYPTOTAB-20260514';
+import { swapifyP2pCase } from '@/data/reports/SWAPIFY-P2P-20260515';
+import { flashUsdTrCase } from '@/data/reports/FLASHUSD-TR-20260515';
 import DataTable from '@/components/DataTable';
 import Carousel from '@/components/Carousel';
 import Timeline from '@/components/Timeline';
@@ -11,6 +18,13 @@ import type { InvestigationReport } from '@/types/report';
 const reports: Record<string, InvestigationReport> = {
     'SOL-HWSF-20251207': solanaCase,
     'TRC-FLASH-20251209': tronFlashCase,
+    'TRC-1USD-FLASH-20260514': trc1UsdFlashCase,
+    'AITRO-FLASH-20260514': aitroFlashCase,
+    'USDTFLASH-PROOF-20260514': usdtFlashProofCase,
+    'BITMINER-APK-20260514': bitminerApkCase,
+    'CRYPTOTAB-20260514': cryptotabCase,
+    'SWAPIFY-P2P-20260515': swapifyP2pCase,
+    'FLASHUSD-TR-20260515': flashUsdTrCase,
 };
 
 export async function generateStaticParams() {

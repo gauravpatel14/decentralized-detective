@@ -1,0 +1,9 @@
+"Chromium Shortcut" = "CryptoTab Browser 바로가기";
+CFBundleGetInfoString = "CryptoTab Browser 127.0.6533.100, Copyright 2024 The CryptoTab Browser Authors. All rights reserved.";
+NSBluetoothAlwaysUsageDescription = "CryptoTab Browser에 액세스 권한을 부여하면 웹사이트에서 액세스 권한을 요청할 수 있게 됩니다.";
+NSBluetoothPeripheralUsageDescription = "CryptoTab Browser에 액세스 권한을 부여하면 웹사이트에서 액세스 권한을 요청할 수 있게 됩니다.";
+NSCameraUsageDescription = "CryptoTab Browser에 액세스 권한을 부여하면 웹사이트에서 액세스 권한을 요청할 수 있게 됩니다.";
+NSHumanReadableCopyright = "Copyright 2024 The CryptoTab Browser Authors. All rights reserved.";
+NSLocationUsageDescription = "CryptoTab Browser에 액세스 권한을 부여하면 웹사이트에서 액세스 권한을 요청할 수 있게 됩니다.";
+NSMicrophoneUsageDescription = "CryptoTab Browser에 액세스 권한을 부여하면 웹사이트에서 액세스 권한을 요청할 수 있게 됩니다.";
+NSWebBrowserPublicKeyCredentialUsageDescription = "CryptoTab Browser에 액세스 권한을 부여하면 웹사이트에서 액세스 권한을 요청할 수 있게 됩니다.";

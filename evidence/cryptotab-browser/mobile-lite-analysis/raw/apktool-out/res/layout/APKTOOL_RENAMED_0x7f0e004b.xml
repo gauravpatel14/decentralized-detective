@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:paddingBottom="8.0dp" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <include n0:id="@id/header_view_item" layout="@layout/APKTOOL_RENAMED_0x7f0e004a" />
+    <FrameLayout n0:id="@id/sheet_item_list_container" n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView n0:id="@id/sheet_item_list" n0:clipToPadding="false" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:divider="@null" />
+    </FrameLayout>
+    <include n0:id="@id/idp_signin" n0:visibility="gone" layout="@layout/APKTOOL_RENAMED_0x7f0e016c" />
+    <LinearLayout n0:orientation="vertical" n0:id="@id/error_text" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:textDirection="locale" n0:layoutDirection="locale" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f080067">
+        <include n0:id="@id/error_summary" layout="@layout/APKTOOL_RENAMED_0x7f0e0137" />
+        <include n0:id="@id/error_description" layout="@layout/APKTOOL_RENAMED_0x7f0e0136" />
+    </LinearLayout>
+    <include n0:id="@id/account_selection_continue_btn" n0:visibility="gone" layout="@layout/APKTOOL_RENAMED_0x7f0e0048" />
+    <include n0:id="@id/user_data_sharing_consent" n0:visibility="gone" layout="@layout/APKTOOL_RENAMED_0x7f0e0049" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n0:clickable="false" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:id="@id/visual_data_dialog_layout" n0:paddingLeft="18.0dp" n0:paddingRight="18.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <androidx.appcompat.widget.DialogTitle n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502d1" n0:id="@id/visual_data_dialog_title" n0:paddingLeft="3.0dp" n0:paddingRight="3.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="24.0dp" n0:accessibilityHeading="true" />
+        <org.chromium.chrome.browser.tasks.tab_management.TabGroupVisualDataTextInputLayout n0:id="@id/tab_group_title" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:hint="@string/APKTOOL_RENAMED_0x7f140dea" n0:layout_marginVertical="16.0dp" n1:APKTOOL_RENAMED_0x7f050200="@string/APKTOOL_RENAMED_0x7f140dbb"
+          xmlns:n1="http://schemas.android.com/apk/res-auto">
+            <com.google.android.material.textfield.TextInputEditText n0:id="@id/title_input_text" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:selectAllOnFocus="true" n0:inputType="textCapSentences|textAutoCorrect" n0:imeOptions="flagNoExtractUi" />
+        </org.chromium.chrome.browser.tasks.tab_management.TabGroupVisualDataTextInputLayout>
+    </LinearLayout>
+</ScrollView>

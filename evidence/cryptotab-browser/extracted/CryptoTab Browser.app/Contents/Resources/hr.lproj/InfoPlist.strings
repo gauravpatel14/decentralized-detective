@@ -1,0 +1,9 @@
+"Chromium Shortcut" = "Prečac za CryptoTab Browser";
+CFBundleGetInfoString = "CryptoTab Browser 127.0.6533.100, Autorska prava 2024. Autori CryptoTab Browsera. Sva prava pridržana.";
+NSBluetoothAlwaysUsageDescription = "Kada CryptoTab Browser dobije pristup, web-lokacije će vas moći tražiti pristup.";
+NSBluetoothPeripheralUsageDescription = "Kada CryptoTab Browser dobije pristup, web-lokacije će vas moći tražiti pristup.";
+NSCameraUsageDescription = "Kada CryptoTab Browser dobije pristup, web-lokacije će vas moći tražiti pristup.";
+NSHumanReadableCopyright = "Autorska prava 2024. Autori CryptoTab Browsera. Sva prava pridržana.";
+NSLocationUsageDescription = "Kada CryptoTab Browser dobije pristup, web-lokacije će vas moći tražiti pristup.";
+NSMicrophoneUsageDescription = "Kada CryptoTab Browser dobije pristup, web-lokacije će vas moći tražiti pristup.";
+NSWebBrowserPublicKeyCredentialUsageDescription = "Kada CryptoTab Browser dobije pristup, web-lokacije će vas moći tražiti pristup.";

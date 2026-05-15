@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e0025" />
+    <LinearLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:id="@id/account_picker_selected_account" n0:background="@drawable/APKTOOL_RENAMED_0x7f0900ae" n0:padding="16.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="12.0dp" n0:foreground="?APKTOOL_RENAMED_0x7f05048a" n0:layout_marginStart="24.0dp" n0:layout_marginEnd="24.0dp">
+        <include layout="@layout/APKTOOL_RENAMED_0x7f0e003e" />
+        <ImageView n0:id="@id/account_picker_selected_account_expand_icon" n0:layout_width="24.0dp" n0:layout_height="24.0dp" n0:layout_marginStart="16.0dp" n1:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f090242" n1:APKTOOL_RENAMED_0x7f050573="?APKTOOL_RENAMED_0x7f05014e"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e0024" />
+    <org.chromium.ui.widget.ButtonCompat n0:id="@id/account_picker_dismiss_button" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140cea" n0:layout_marginStart="24.0dp" n0:layout_marginEnd="24.0dp" style="@style/APKTOOL_RENAMED_0x7f15037f" />
+    <Space n0:id="@id/account_picker_dismiss_button_gone_margin_space" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="8.0dp" />
+</LinearLayout>

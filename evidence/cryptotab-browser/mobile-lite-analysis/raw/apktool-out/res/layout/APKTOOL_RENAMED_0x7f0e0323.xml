@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:layout_gravity="center_horizontal" n0:id="@id/drag_handlebar" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:importantForAccessibility="no" n0:layout_marginHorizontal="@dimen/APKTOOL_RENAMED_0x7f0808ba" n0:layout_marginVertical="@dimen/APKTOOL_RENAMED_0x7f0808b6" n1:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f09018f"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.widget.FadingEdgeScrollView n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_weight="1.0">
+        <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <ImageView n0:layout_gravity="center_horizontal" n0:id="@id/touch_to_fill_sheet_header_image" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0808ac" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0808ac" n0:importantForAccessibility="no" n0:layout_marginVertical="16.0dp" />
+            <LinearLayout n0:orientation="vertical" n0:focusable="true" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+                <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502d1" n0:layout_gravity="center_horizontal" n0:id="@id/touch_to_fill_sheet_title" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:textAlignment="center" n0:layout_marginHorizontal="@dimen/APKTOOL_RENAMED_0x7f0808ba" />
+                <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:layout_gravity="center_horizontal" n0:id="@id/touch_to_fill_sheet_subtitle" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="24.0dp" n0:textAlignment="center" n0:layout_marginHorizontal="@dimen/APKTOOL_RENAMED_0x7f0808ba" />
+            </LinearLayout>
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:gravity="center" n0:id="@id/password" n0:background="@drawable/APKTOOL_RENAMED_0x7f090585" n0:focusable="true" n0:layout_width="match_parent" n0:layout_height="52.0dp" n0:layout_marginBottom="24.0dp" n0:singleLine="true" n0:layout_marginHorizontal="@dimen/APKTOOL_RENAMED_0x7f0808ba" />
+            <org.chromium.ui.widget.ButtonCompat n0:gravity="center" n0:id="@id/use_password_button" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="14.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f14093f" n0:layout_marginHorizontal="@dimen/APKTOOL_RENAMED_0x7f0808ba" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+            <org.chromium.ui.widget.ButtonCompat n0:gravity="center" n0:id="@id/reject_password_button" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="20.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f14093a" n0:layout_marginHorizontal="@dimen/APKTOOL_RENAMED_0x7f0808ba" style="@style/APKTOOL_RENAMED_0x7f15037f" />
+        </LinearLayout>
+    </org.chromium.components.browser_ui.widget.FadingEdgeScrollView>
+</LinearLayout>

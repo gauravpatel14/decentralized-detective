@@ -1,0 +1,6 @@
+https://flashusd.com.tr/auth/login.php?next=%2Fflash-test.php
+https://flashusd.com.tr/auth/login.php
+https://flashusd.com.tr/#products
+https://flashusd.com.tr/trc20.html
+https://flashusd.com.tr/status.html
+https://flashusd.com.tr/status-history.html

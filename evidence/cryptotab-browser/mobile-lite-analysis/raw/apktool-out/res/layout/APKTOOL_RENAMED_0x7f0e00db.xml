@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.toolbar.top.ToolbarControlContainer n0:id="@id/control_container" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080177"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <view n0:id="@id/toolbar_container" n0:layout_width="match_parent" n0:layout_height="wrap_content" class="org.chromium.chrome.browser.toolbar.top.ToolbarControlContainer$ToolbarViewResourceFrameLayout">
+        <ViewStub n0:id="@id/toolbar_stub" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08088d" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f080850" />
+        <ImageView n0:id="@id/toolbar_hairline" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f080177" n0:src="@drawable/APKTOOL_RENAMED_0x7f090566" n0:scaleType="fitXY" n0:importantForAccessibility="no" />
+        <ViewStub n0:id="@id/find_toolbar_stub" n0:visibility="gone" n0:layout="@layout/APKTOOL_RENAMED_0x7f0e0150" n0:inflatedId="@id/find_toolbar" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08088d" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f080850" />
+    </view>
+    <ViewStub n0:layout_gravity="end|top" n0:id="@id/find_toolbar_tablet_stub" n0:layout="@layout/APKTOOL_RENAMED_0x7f0e0150" n0:inflatedId="@id/find_toolbar" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0802a3" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0802a1" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f0802a2" />
+    <ViewStub n0:id="@id/target_view_stub" n0:layout="@layout/APKTOOL_RENAMED_0x7f0e012f" n0:inflatedId="@id/toolbar_drag_drop_target_view" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08088d" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f080850" />
+    <ViewStub n0:id="@id/tab_switcher_toolbar_stub" n0:layout="@layout/APKTOOL_RENAMED_0x7f0e0304" n0:inflatedId="@id/tab_switcher_toolbar" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08088d" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f080850" />
+</org.chromium.chrome.browser.toolbar.top.ToolbarControlContainer>

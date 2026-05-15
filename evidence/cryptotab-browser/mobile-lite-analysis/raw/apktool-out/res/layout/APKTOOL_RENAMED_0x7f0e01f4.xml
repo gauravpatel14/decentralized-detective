@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.ntp.IncognitoNewTabPageView n0:id="@id/ntp_content" n0:focusable="true" n0:focusableInTouchMode="true" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140184"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.chrome.browser.ntp.NewTabPageScrollView n0:id="@id/ntp_scrollview" n0:background="@color/APKTOOL_RENAMED_0x7f0704f3" n0:fadingEdgeLength="9.0dp" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:fillViewport="false" n0:requiresFadingEdge="vertical">
+        <ViewStub n0:id="@id/incognito_description_layout_stub" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+    </org.chromium.chrome.browser.ntp.NewTabPageScrollView>
+</org.chromium.chrome.browser.ntp.IncognitoNewTabPageView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_RENAMED_0x7f1501f5" parent="@style/APKTOOL_RENAMED_0x7f1501f7">
+        <item name="android:visibility">visible</item>
+    </style>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.contacts_picker.TopView n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/explanation" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="16.0dp" n0:layout_marginBottom="12.0dp" n0:layout_marginStart="15.0dp" n0:layout_marginEnd="16.0dp" />
+    <org.chromium.components.browser_ui.widget.WrappingLayout n0:orientation="horizontal" n0:id="@id/chip_container" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_below="@id/explanation" n0:paddingStart="15.0dp" n1:APKTOOL_RENAMED_0x7f0502a2="8.0dp"
+      xmlns:n1="http://schemas.android.com/apk/res-auto">
+        <org.chromium.components.browser_ui.widget.chips.ChipView n0:gravity="center" n0:id="@id/icon_filter" n0:layout_width="wrap_content" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f150257" />
+        <org.chromium.components.browser_ui.widget.chips.ChipView n0:gravity="center" n0:id="@id/names_filter" n0:layout_width="wrap_content" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f150257" />
+        <org.chromium.components.browser_ui.widget.chips.ChipView n0:gravity="center" n0:id="@id/address_filter" n0:layout_width="wrap_content" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f150257" />
+        <org.chromium.components.browser_ui.widget.chips.ChipView n0:gravity="center" n0:id="@id/email_filter" n0:layout_width="wrap_content" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f150257" />
+        <org.chromium.components.browser_ui.widget.chips.ChipView n0:gravity="center" n0:id="@id/tel_filter" n0:layout_width="wrap_content" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f150257" />
+    </org.chromium.components.browser_ui.widget.WrappingLayout>
+    <LinearLayout n0:id="@id/content" n0:visibility="gone" n0:layout_below="@id/chip_container" style="@style/APKTOOL_RENAMED_0x7f150180">
+        <include layout="@layout/APKTOOL_RENAMED_0x7f0e00b5" />
+    </LinearLayout>
+</org.chromium.components.browser_ui.contacts_picker.TopView>

@@ -1,0 +1,9 @@
+"Chromium Shortcut" = "Comandă rapidă pentru CryptoTab Browser";
+CFBundleGetInfoString = "CryptoTab Browser 127.0.6533.100, Copyright 2024 The CryptoTab Browser Authors. Toate drepturile rezervate.";
+NSBluetoothAlwaysUsageDescription = "Odată ce CryptoTab Browser are acces, site-urile web îți vor putea solicita accesul.";
+NSBluetoothPeripheralUsageDescription = "Odată ce CryptoTab Browser are acces, site-urile web îți vor putea solicita accesul.";
+NSCameraUsageDescription = "Odată ce CryptoTab Browser are acces, site-urile web îți vor putea solicita accesul.";
+NSHumanReadableCopyright = "Copyright 2024 The CryptoTab Browser Authors. Toate drepturile rezervate.";
+NSLocationUsageDescription = "Odată ce CryptoTab Browser are acces, site-urile web îți vor putea solicita accesul.";
+NSMicrophoneUsageDescription = "Odată ce CryptoTab Browser are acces, site-urile web îți vor putea solicita accesul.";
+NSWebBrowserPublicKeyCredentialUsageDescription = "Odată ce CryptoTab Browser are acces, site-urile web îți vor putea solicita accesul.";

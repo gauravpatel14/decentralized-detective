@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080541"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:layout_gravity="center_horizontal" n0:id="@id/drag_handlebar" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="8.0dp" n0:src="@drawable/APKTOOL_RENAMED_0x7f09018f" n0:importantForAccessibility="no" />
+    <TextView n0:gravity="center_vertical" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:minHeight="44.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140600" n0:textDirection="locale" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f08032b" style="@style/APKTOOL_RENAMED_0x7f150337" />
+</LinearLayout>

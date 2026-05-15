@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.widget.MaterialCardViewNoShadow n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n0:id="@id/container" n0:padding="16.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <ImageView n0:id="@id/start_image" n0:focusable="false" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:src="@drawable/APKTOOL_RENAMED_0x7f0900bf" n0:scaleType="center" n0:importantForAccessibility="no" n1:APKTOOL_RENAMED_0x7f05030e="parent" n1:APKTOOL_RENAMED_0x7f050328="parent" n1:APKTOOL_RENAMED_0x7f05032c="parent" n1:APKTOOL_RENAMED_0x7f050573="?APKTOOL_RENAMED_0x7f050155"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n0:layout_gravity="start" n0:orientation="vertical" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:paddingStart="12.0dp" n2:APKTOOL_RENAMED_0x7f05030e="parent" n2:APKTOOL_RENAMED_0x7f050327="@id/start_image" n2:APKTOOL_RENAMED_0x7f05032c="parent"
+          xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:ellipsize="end" n0:id="@id/title" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:maxLines="1" />
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n0:ellipsize="end" n0:id="@id/subtitle" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:maxLines="1" />
+        </LinearLayout>
+        <ImageView n0:focusable="false" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:src="@drawable/APKTOOL_RENAMED_0x7f09013f" n0:scaleType="center" n0:importantForAccessibility="no" n3:APKTOOL_RENAMED_0x7f05030e="parent" n3:APKTOOL_RENAMED_0x7f050314="parent" n3:APKTOOL_RENAMED_0x7f05032c="parent" n3:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129"
+          xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</org.chromium.components.browser_ui.widget.MaterialCardViewNoShadow>

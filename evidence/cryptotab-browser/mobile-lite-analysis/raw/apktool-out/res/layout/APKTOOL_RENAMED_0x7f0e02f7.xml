@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.tasks.tab_management.TabListView n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="horizontal" n0:id="@id/content_view" n0:background="@drawable/APKTOOL_RENAMED_0x7f090403" n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <include layout="@layout/APKTOOL_RENAMED_0x7f0e01ce" />
+    </LinearLayout>
+</org.chromium.chrome.browser.tasks.tab_management.TabListView>

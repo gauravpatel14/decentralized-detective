@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ScrollView n0:id="@id/scroll_view" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <LinearLayout n0:orientation="vertical" n0:padding="0.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingStart="0.0dp" n0:paddingEnd="0.0dp" style="@style/APKTOOL_RENAMED_0x7f1501e9">
+            <androidx.recyclerview.widget.RecyclerView n0:id="@id/language_list" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+            <TextView n0:gravity="center_vertical" n0:id="@id/add_language" n0:background="?APKTOOL_RENAMED_0x7f05048a" n0:padding="@dimen/APKTOOL_RENAMED_0x7f080233" n0:focusable="true" n0:clickable="true" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f14024a" n0:drawablePadding="@dimen/APKTOOL_RENAMED_0x7f0806fa" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f0806fa" style="@style/APKTOOL_RENAMED_0x7f1501f1" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e02c8" />
+</FrameLayout>

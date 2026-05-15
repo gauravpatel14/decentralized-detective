@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n0:title="@string/APKTOOL_RENAMED_0x7f140b60" n0:key="subtitle" n1:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n2:title="@string/APKTOOL_RENAMED_0x7f140a6a" n2:key="when_on" n3:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n2="http://schemas.android.com/apk/res/android" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n4:icon="@drawable/APKTOOL_RENAMED_0x7f09021e" n4:key="bullet_one" n4:summary="@string/APKTOOL_RENAMED_0x7f140b57" n5:APKTOOL_RENAMED_0x7f050031="false" n5:APKTOOL_RENAMED_0x7f0502af="@color/APKTOOL_RENAMED_0x7f070129"
+      xmlns:n4="http://schemas.android.com/apk/res/android" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n6:icon="@drawable/APKTOOL_RENAMED_0x7f09022e" n6:key="bullet_two" n6:summary="@string/APKTOOL_RENAMED_0x7f140b5d" n7:APKTOOL_RENAMED_0x7f050031="false" n7:APKTOOL_RENAMED_0x7f0502af="@color/APKTOOL_RENAMED_0x7f070129"
+      xmlns:n6="http://schemas.android.com/apk/res/android" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n8:icon="@drawable/APKTOOL_RENAMED_0x7f090281" n8:key="bullet_three" n8:summary="@string/APKTOOL_RENAMED_0x7f140b5b" n9:APKTOOL_RENAMED_0x7f050031="false" n9:APKTOOL_RENAMED_0x7f0502af="@color/APKTOOL_RENAMED_0x7f070129"
+      xmlns:n8="http://schemas.android.com/apk/res/android" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n10:icon="@drawable/APKTOOL_RENAMED_0x7f090291" n10:key="bullet_four" n10:summary="@string/APKTOOL_RENAMED_0x7f140b55" n11:APKTOOL_RENAMED_0x7f050031="false" n11:APKTOOL_RENAMED_0x7f0502af="@color/APKTOOL_RENAMED_0x7f070129"
+      xmlns:n10="http://schemas.android.com/apk/res/android" xmlns:n11="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n12:icon="@drawable/APKTOOL_RENAMED_0x7f0903a6" n12:key="bullet_five" n12:summary="@string/APKTOOL_RENAMED_0x7f140b53" n13:APKTOOL_RENAMED_0x7f050031="false" n13:APKTOOL_RENAMED_0x7f0502af="@color/APKTOOL_RENAMED_0x7f070129"
+      xmlns:n12="http://schemas.android.com/apk/res/android" xmlns:n13="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n14:title="@string/APKTOOL_RENAMED_0x7f140a65" n14:key="things_to_consider" n15:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n14="http://schemas.android.com/apk/res/android" xmlns:n15="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n16:icon="@drawable/APKTOOL_RENAMED_0x7f090296" n16:key="bullet_six" n16:summary="@string/APKTOOL_RENAMED_0x7f140b59" n17:APKTOOL_RENAMED_0x7f050031="false" n17:APKTOOL_RENAMED_0x7f0502af="@color/APKTOOL_RENAMED_0x7f070129"
+      xmlns:n16="http://schemas.android.com/apk/res/android" xmlns:n17="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n18:icon="@drawable/APKTOOL_RENAMED_0x7f0901dc" n18:key="bullet_seven" n18:summary="@string/APKTOOL_RENAMED_0x7f140b58" n19:APKTOOL_RENAMED_0x7f050031="false" n19:APKTOOL_RENAMED_0x7f0502af="@color/APKTOOL_RENAMED_0x7f070129"
+      xmlns:n18="http://schemas.android.com/apk/res/android" xmlns:n19="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n20:icon="@drawable/APKTOOL_RENAMED_0x7f09037c" n20:key="bullet_eight" n20:summary="@string/APKTOOL_RENAMED_0x7f140b51" n21:APKTOOL_RENAMED_0x7f050031="false" n21:APKTOOL_RENAMED_0x7f0502af="@color/APKTOOL_RENAMED_0x7f070129"
+      xmlns:n20="http://schemas.android.com/apk/res/android" xmlns:n21="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n22:key="learn_more" n23:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n22="http://schemas.android.com/apk/res/android" xmlns:n23="http://schemas.android.com/apk/res-auto" />
+</PreferenceScreen>

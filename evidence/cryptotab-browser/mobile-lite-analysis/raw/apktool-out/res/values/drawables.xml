@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="APKTOOL_RENAMED_0x7f0900ac">@drawable/APKTOOL_RENAMED_0x7f0904ff</drawable>
+    <drawable name="APKTOOL_RENAMED_0x7f0900b3">@drawable/APKTOOL_RENAMED_0x7f0901a9</drawable>
+    <drawable name="APKTOOL_RENAMED_0x7f0900b4">@drawable/APKTOOL_RENAMED_0x7f09022a</drawable>
+    <drawable name="APKTOOL_RENAMED_0x7f0900cb">@drawable/APKTOOL_RENAMED_0x7f0900cc</drawable>
+    <drawable name="APKTOOL_RENAMED_0x7f090149">@drawable/APKTOOL_RENAMED_0x7f090472</drawable>
+    <drawable name="APKTOOL_RENAMED_0x7f090169">@drawable/APKTOOL_RENAMED_0x7f090473</drawable>
+    <drawable name="APKTOOL_RENAMED_0x7f090183">@drawable/APKTOOL_RENAMED_0x7f090181</drawable>
+    <drawable name="APKTOOL_RENAMED_0x7f090239">@drawable/APKTOOL_RENAMED_0x7f09023a</drawable>
+    <drawable name="ic_launcher">@mipmap/app_icon</drawable>
+    <drawable name="APKTOOL_RENAMED_0x7f0902ac">@drawable/APKTOOL_RENAMED_0x7f0902ae</drawable>
+    <drawable name="APKTOOL_RENAMED_0x7f09033f">@drawable/APKTOOL_RENAMED_0x7f090341</drawable>
+    <drawable name="APKTOOL_RENAMED_0x7f090358">@drawable/APKTOOL_RENAMED_0x7f09035a</drawable>
+    <drawable name="APKTOOL_RENAMED_0x7f0903f6">@drawable/APKTOOL_RENAMED_0x7f0903f8</drawable>
+    <drawable name="APKTOOL_RENAMED_0x7f0903f7">@drawable/APKTOOL_RENAMED_0x7f0903f5</drawable>
+    <drawable name="APKTOOL_RENAMED_0x7f0903fd">@mipmap/max_app_icon</drawable>
+    <drawable name="APKTOOL_RENAMED_0x7f090403">@drawable/APKTOOL_RENAMED_0x7f090401</drawable>
+    <drawable name="APKTOOL_RENAMED_0x7f090462">#3333b5e5</drawable>
+    <drawable name="APKTOOL_RENAMED_0x7f090463">#0cffffff</drawable>
+    <drawable name="APKTOOL_RENAMED_0x7f0904a8">@mipmap/pro_app_icon</drawable>
+    <drawable name="APKTOOL_RENAMED_0x7f090519">@drawable/APKTOOL_RENAMED_0x7f09051b</drawable>
+    <drawable name="APKTOOL_RENAMED_0x7f09052f">@drawable/APKTOOL_RENAMED_0x7f090471</drawable>
+    <drawable name="APKTOOL_RENAMED_0x7f090562">@drawable/APKTOOL_RENAMED_0x7f090474</drawable>
+    <drawable name="APKTOOL_RENAMED_0x7f090563">@drawable/APKTOOL_RENAMED_0x7f090471</drawable>
+</resources>

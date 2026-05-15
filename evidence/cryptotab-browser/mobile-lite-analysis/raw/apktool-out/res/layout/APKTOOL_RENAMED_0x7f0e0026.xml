@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <ImageView n0:layout_gravity="center_horizontal" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:importantForAccessibility="no" n1:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f090141"
+      xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <TextView n2:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n2:gravity="center_horizontal" n2:id="@id/account_picker_header_title" n2:layout_width="match_parent" n2:layout_height="wrap_content" n2:layout_marginTop="12.0dp" n2:layout_marginBottom="8.0dp" n2:text="@string/APKTOOL_RENAMED_0x7f140ce9"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <org.chromium.ui.widget.TextViewWithLeading n3:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n3:gravity="center_horizontal" n3:id="@id/account_picker_header_subtitle" n3:focusable="true" n3:layout_width="match_parent" n3:layout_height="wrap_content" n3:text="@string/APKTOOL_RENAMED_0x7f140cdb" n3:layout_marginStart="24.0dp" n3:layout_marginEnd="24.0dp" n4:APKTOOL_RENAMED_0x7f05034b="@dimen/APKTOOL_RENAMED_0x7f080866"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <Space n5:layout_width="match_parent" n5:layout_height="16.0dp"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+</merge>

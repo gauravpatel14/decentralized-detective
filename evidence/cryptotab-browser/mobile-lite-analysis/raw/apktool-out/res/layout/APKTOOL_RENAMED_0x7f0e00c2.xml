@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n0:layout_width="wrap_content" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:id="@id/color_picker_icon" n0:background="@drawable/APKTOOL_RENAMED_0x7f090154" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080134" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080134" n0:layout_marginLeft="@dimen/APKTOOL_RENAMED_0x7f080133" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f080135" n0:layout_marginRight="@dimen/APKTOOL_RENAMED_0x7f080133" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080135" n0:contentDescription="@null" />
+</FrameLayout>

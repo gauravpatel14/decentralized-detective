@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n0:layout="@layout/APKTOOL_RENAMED_0x7f0e021c" n0:key="cookie_summary"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeImageViewPreference n1:key="cookie_in_use"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeImageViewPreference n2:key="fps_in_use" n3:APKTOOL_RENAMED_0x7f050031="true"
+      xmlns:n2="http://schemas.android.com/apk/res/android" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n4:layout="@layout/APKTOOL_RENAMED_0x7f0e021d" n4:key="tpc_title" n5:APKTOOL_RENAMED_0x7f05002f="true"
+      xmlns:n4="http://schemas.android.com/apk/res/android" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n6:layout="@layout/APKTOOL_RENAMED_0x7f0e021c" n6:key="tpc_summary" n7:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n6="http://schemas.android.com/apk/res/android" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n8:persistent="false" n8:title="@string/APKTOOL_RENAMED_0x7f1408a0" n8:key="cookie_switch" n9:APKTOOL_RENAMED_0x7f05002f="false"
+      xmlns:n8="http://schemas.android.com/apk/res/android" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.download.home.rename.RenameDialogCustomView n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f150004">
+        <org.chromium.components.browser_ui.widget.text.AlertDialogEditText n0:id="@id/file_name" n0:layout_width="match_parent" n0:layout_height="48.0dp" n0:hint="@string/APKTOOL_RENAMED_0x7f140b32" n0:cursorVisible="true" n0:singleLine="true" n0:layout_marginStart="-4.0dp" n0:layout_marginEnd="-4.0dp" />
+        <TextView n0:id="@id/error_message" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+    </LinearLayout>
+</org.chromium.chrome.browser.download.home.rename.RenameDialogCustomView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:gravity="center" n0:orientation="horizontal" n0:paddingTop="4.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <ImageButton n0:id="@id/prev" n0:contentDescription="@null" style="@android:style/MediaButton.Previous" />
+        <ImageButton n0:id="@id/rew" n0:contentDescription="@null" style="@android:style/MediaButton.Rew" />
+        <ImageButton n0:id="@id/pause" n0:contentDescription="@null" style="@android:style/MediaButton.Play" />
+        <ImageButton n0:id="@id/ffwd" n0:contentDescription="@null" style="@android:style/MediaButton.Ffwd" />
+        <ImageButton n0:id="@id/next" n0:contentDescription="@null" style="@android:style/MediaButton.Next" />
+    </LinearLayout>
+    <LinearLayout n0:orientation="horizontal" n0:id="@id/mediacontroller_progress_container" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <TextView n0:textSize="14.0sp" n0:textStyle="bold" n0:textColor="@color/APKTOOL_RENAMED_0x7f0700af" n0:layout_gravity="center_horizontal" n0:id="@id/time_current" n0:paddingTop="4.0dp" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:paddingStart="4.0dp" n0:paddingEnd="4.0dp" />
+        <SeekBar n0:id="@id/mediacontroller_progress_bar" n0:layout_width="0.0dp" n0:layout_height="32.0dp" n0:layout_weight="1.0" style="?android:progressBarStyleHorizontal" />
+        <TextView n0:textSize="14.0sp" n0:textStyle="bold" n0:textColor="@color/APKTOOL_RENAMED_0x7f0700af" n0:layout_gravity="center_horizontal" n0:id="@id/time" n0:paddingTop="4.0dp" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:paddingStart="4.0dp" n0:paddingEnd="4.0dp" />
+    </LinearLayout>
+</LinearLayout>

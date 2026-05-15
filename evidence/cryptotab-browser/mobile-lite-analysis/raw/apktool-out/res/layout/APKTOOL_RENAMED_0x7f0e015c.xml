@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="horizontal" n0:id="@id/google_bottom_bar_container" n0:background="@color/APKTOOL_RENAMED_0x7f0701d9" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0802b9" n0:baselineAligned="false" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f0802ba" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f0802ba"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:gravity="end" n0:layout_gravity="center_vertical" n0:orientation="horizontal" n0:id="@id/google_bottom_bar_non_spotlit_buttons_container" n0:layout_width="0.0dp" n0:layout_height="match_parent" n0:layout_weight="1.0" />
+</LinearLayout>

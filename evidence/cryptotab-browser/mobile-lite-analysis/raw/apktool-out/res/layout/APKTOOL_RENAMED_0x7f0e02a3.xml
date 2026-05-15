@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="horizontal" n0:id="@id/restore_tabs_detail_sheet_device_view" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f080788" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f080788" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:layout_gravity="center_vertical" n0:id="@id/restore_tabs_device_sheet_device_icon" n0:background="@null" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f08078c" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08078c" n0:importantForAccessibility="no" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f08078d" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f08078d" n1:APKTOOL_RENAMED_0x7f050573="?APKTOOL_RENAMED_0x7f05014c"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n0:orientation="vertical" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="1.0">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:ellipsize="end" n0:id="@id/restore_tabs_detail_sheet_device_name" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:singleLine="true" n0:textAlignment="viewStart" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n0:ellipsize="end" n0:id="@id/restore_tabs_detail_sheet_session_info" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:singleLine="true" n0:textAlignment="viewStart" />
+    </LinearLayout>
+    <ImageView n0:layout_gravity="center_vertical" n0:id="@id/restore_tabs_detail_sheet_device_item_selected_icon" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:contentDescription="@null" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f08078a" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f080789" n2:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f090207" n2:APKTOOL_RENAMED_0x7f050573="?APKTOOL_RENAMED_0x7f050155"
+      xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

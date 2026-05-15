@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n0:persistent="false" n0:title="@string/APKTOOL_RENAMED_0x7f14025d" n0:key="allow_signin" n0:summary="@string/APKTOOL_RENAMED_0x7f14025c"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n1:persistent="false" n1:title="@string/APKTOOL_RENAMED_0x7f140972" n1:key="passwords_account_storage" n2:APKTOOL_RENAMED_0x7f0502cd="false"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n3:persistent="false" n3:title="@string/APKTOOL_RENAMED_0x7f140e61" n3:key="usage_and_crash_reports" n3:summary="@string/APKTOOL_RENAMED_0x7f140e60"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n4:persistent="false" n4:title="@string/APKTOOL_RENAMED_0x7f140e5f" n4:key="url_keyed_anonymized_data" n4:summary="@string/APKTOOL_RENAMED_0x7f140e5e"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n5:persistent="false" n5:title="@string/APKTOOL_RENAMED_0x7f140644" n5:key="search_suggestions" n5:summary="@string/APKTOOL_RENAMED_0x7f140643"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n6:persistent="false" n6:title="@string/APKTOOL_RENAMED_0x7f140e0c" n6:key="price_tracking_annotations" n6:summary="@string/APKTOOL_RENAMED_0x7f140e0d"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n7:title="@string/APKTOOL_RENAMED_0x7f140a24" n7:key="price_notifications_section" n7:summary="@string/APKTOOL_RENAMED_0x7f140a1c" n7:fragment="org.chromium.chrome.browser.commerce.PriceNotificationSettingsFragment" n8:APKTOOL_RENAMED_0x7f0502cd="false"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n9:title="@string/APKTOOL_RENAMED_0x7f140e66" n9:key="usage_stats_reporting" n10:APKTOOL_RENAMED_0x7f0502cd="false"
+      xmlns:n9="http://schemas.android.com/apk/res/android" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n11:title="@string/APKTOOL_RENAMED_0x7f140497" n11:key="contextual_search" n11:fragment="org.chromium.chrome.browser.contextualsearch.ContextualSearchSettingsFragment"
+      xmlns:n11="http://schemas.android.com/apk/res/android" />
+</PreferenceScreen>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.widget.BoundedLinearLayout n0:gravity="center" n0:orientation="vertical" n0:id="@id/payment_request" n0:background="@drawable/APKTOOL_RENAMED_0x7f09051e" n1:APKTOOL_RENAMED_0x7f0503a7="@dimen/APKTOOL_RENAMED_0x7f0806e0" n1:APKTOOL_RENAMED_0x7f0503a8="@dimen/APKTOOL_RENAMED_0x7f0806e0"
+  xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e0239" />
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e023a" />
+    <org.chromium.components.browser_ui.widget.FadingEdgeScrollView n0:id="@id/option_container" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_weight="1.0">
+        <LinearLayout n0:orientation="vertical" n0:id="@id/payment_container_layout" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150327" n0:id="@id/retry_error" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginStart="16.0dp" n0:layout_marginEnd="16.0dp" />
+        </LinearLayout>
+    </org.chromium.components.browser_ui.widget.FadingEdgeScrollView>
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e0235" />
+</org.chromium.components.browser_ui.widget.BoundedLinearLayout>

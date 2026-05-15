@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_RENAMED_0x7f150385" parent="@style/APKTOOL_RENAMED_0x7f150383" />
+    <style name="APKTOOL_RENAMED_0x7f150386" parent="@style/APKTOOL_RENAMED_0x7f150383" />
+    <style name="APKTOOL_RENAMED_0x7f150387" parent="@style/APKTOOL_RENAMED_0x7f15038c" />
+    <style name="APKTOOL_RENAMED_0x7f150388" parent="@style/APKTOOL_RENAMED_0x7f15038d" />
+    <style name="APKTOOL_RENAMED_0x7f150389" parent="@style/APKTOOL_RENAMED_0x7f15038e" />
+    <style name="APKTOOL_RENAMED_0x7f15038a" parent="@style/APKTOOL_RENAMED_0x7f15038f" />
+    <style name="APKTOOL_RENAMED_0x7f15038b" parent="@style/APKTOOL_RENAMED_0x7f150398" />
+    <style name="APKTOOL_RENAMED_0x7f15039b" parent="@style/APKTOOL_RENAMED_0x7f15039a">
+        <item name="android:colorBackground">@color/APKTOOL_RENAMED_0x7f070034</item>
+        <item name="APKTOOL_RENAMED_0x7f05013c">@color/APKTOOL_RENAMED_0x7f070031</item>
+        <item name="APKTOOL_RENAMED_0x7f05013e">@color/APKTOOL_RENAMED_0x7f070051</item>
+        <item name="APKTOOL_RENAMED_0x7f050143">@color/APKTOOL_RENAMED_0x7f070061</item>
+        <item name="APKTOOL_RENAMED_0x7f050144">@color/APKTOOL_RENAMED_0x7f07006d</item>
+        <item name="APKTOOL_RENAMED_0x7f050149">@color/APKTOOL_RENAMED_0x7f070074</item>
+        <item name="APKTOOL_RENAMED_0x7f05014c">@color/APKTOOL_RENAMED_0x7f070051</item>
+        <item name="APKTOOL_RENAMED_0x7f05014d">@color/APKTOOL_RENAMED_0x7f070048</item>
+        <item name="APKTOOL_RENAMED_0x7f05014e">@color/APKTOOL_RENAMED_0x7f07005b</item>
+        <item name="APKTOOL_RENAMED_0x7f050153">@color/APKTOOL_RENAMED_0x7f07005a</item>
+        <item name="APKTOOL_RENAMED_0x7f050155">@color/APKTOOL_RENAMED_0x7f070069</item>
+        <item name="APKTOOL_RENAMED_0x7f050156">@color/APKTOOL_RENAMED_0x7f070062</item>
+        <item name="APKTOOL_RENAMED_0x7f05015a">@color/APKTOOL_RENAMED_0x7f070063</item>
+        <item name="APKTOOL_RENAMED_0x7f050160">@color/APKTOOL_RENAMED_0x7f070070</item>
+        <item name="APKTOOL_RENAMED_0x7f050165">@color/APKTOOL_RENAMED_0x7f070034</item>
+        <item name="APKTOOL_RENAMED_0x7f05016e">@color/APKTOOL_RENAMED_0x7f070057</item>
+    </style>
+    <style name="APKTOOL_RENAMED_0x7f15039c" parent="@style/APKTOOL_RENAMED_0x7f150399">
+        <item name="android:colorBackground">@color/APKTOOL_RENAMED_0x7f070034</item>
+        <item name="APKTOOL_RENAMED_0x7f05013c">@color/APKTOOL_RENAMED_0x7f070031</item>
+        <item name="APKTOOL_RENAMED_0x7f05013e">@color/APKTOOL_RENAMED_0x7f070051</item>
+        <item name="APKTOOL_RENAMED_0x7f050143">@color/APKTOOL_RENAMED_0x7f070061</item>
+        <item name="APKTOOL_RENAMED_0x7f050144">@color/APKTOOL_RENAMED_0x7f07006d</item>
+        <item name="APKTOOL_RENAMED_0x7f050149">@color/APKTOOL_RENAMED_0x7f070074</item>
+        <item name="APKTOOL_RENAMED_0x7f05014c">@color/APKTOOL_RENAMED_0x7f070051</item>
+        <item name="APKTOOL_RENAMED_0x7f05014d">@color/APKTOOL_RENAMED_0x7f070048</item>
+        <item name="APKTOOL_RENAMED_0x7f05014e">@color/APKTOOL_RENAMED_0x7f07005b</item>
+        <item name="APKTOOL_RENAMED_0x7f050153">@color/APKTOOL_RENAMED_0x7f07005a</item>
+        <item name="APKTOOL_RENAMED_0x7f050155">@color/APKTOOL_RENAMED_0x7f070069</item>
+        <item name="APKTOOL_RENAMED_0x7f050156">@color/APKTOOL_RENAMED_0x7f070062</item>
+        <item name="APKTOOL_RENAMED_0x7f05015a">@color/APKTOOL_RENAMED_0x7f070063</item>
+        <item name="APKTOOL_RENAMED_0x7f050160">@color/APKTOOL_RENAMED_0x7f070070</item>
+        <item name="APKTOOL_RENAMED_0x7f050165">@color/APKTOOL_RENAMED_0x7f070034</item>
+        <item name="APKTOOL_RENAMED_0x7f05016e">@color/APKTOOL_RENAMED_0x7f070057</item>
+    </style>
+    <style name="APKTOOL_RENAMED_0x7f15039e" parent="@style/APKTOOL_RENAMED_0x7f15039d">
+        <item name="android:colorBackground">@color/APKTOOL_RENAMED_0x7f070034</item>
+        <item name="APKTOOL_RENAMED_0x7f05013c">@color/APKTOOL_RENAMED_0x7f070031</item>
+        <item name="APKTOOL_RENAMED_0x7f05013e">@color/APKTOOL_RENAMED_0x7f070051</item>
+        <item name="APKTOOL_RENAMED_0x7f050143">@color/APKTOOL_RENAMED_0x7f070061</item>
+        <item name="APKTOOL_RENAMED_0x7f050144">@color/APKTOOL_RENAMED_0x7f07006d</item>
+        <item name="APKTOOL_RENAMED_0x7f050149">@color/APKTOOL_RENAMED_0x7f070074</item>
+        <item name="APKTOOL_RENAMED_0x7f05014c">@color/APKTOOL_RENAMED_0x7f070051</item>
+        <item name="APKTOOL_RENAMED_0x7f05014d">@color/APKTOOL_RENAMED_0x7f070048</item>
+        <item name="APKTOOL_RENAMED_0x7f05014e">@color/APKTOOL_RENAMED_0x7f07005b</item>
+        <item name="APKTOOL_RENAMED_0x7f050153">@color/APKTOOL_RENAMED_0x7f07005a</item>
+        <item name="APKTOOL_RENAMED_0x7f050155">@color/APKTOOL_RENAMED_0x7f070069</item>
+        <item name="APKTOOL_RENAMED_0x7f050156">@color/APKTOOL_RENAMED_0x7f070062</item>
+        <item name="APKTOOL_RENAMED_0x7f05015a">@color/APKTOOL_RENAMED_0x7f070063</item>
+        <item name="APKTOOL_RENAMED_0x7f050160">@color/APKTOOL_RENAMED_0x7f070070</item>
+        <item name="APKTOOL_RENAMED_0x7f050165">@color/APKTOOL_RENAMED_0x7f070034</item>
+        <item name="APKTOOL_RENAMED_0x7f05016e">@color/APKTOOL_RENAMED_0x7f070057</item>
+    </style>
+    <style name="APKTOOL_RENAMED_0x7f1503c1" parent="@style/APKTOOL_RENAMED_0x7f1503b9" />
+    <style name="APKTOOL_RENAMED_0x7f1503c2" parent="@style/APKTOOL_RENAMED_0x7f1503ba" />
+    <style name="APKTOOL_RENAMED_0x7f1503c3" parent="@style/APKTOOL_RENAMED_0x7f1503bb" />
+    <style name="APKTOOL_RENAMED_0x7f1503c4" parent="@style/APKTOOL_RENAMED_0x7f1503bc" />
+    <style name="APKTOOL_RENAMED_0x7f1503c5" parent="@style/APKTOOL_RENAMED_0x7f1503bd" />
+    <style name="APKTOOL_RENAMED_0x7f1503c6" parent="@style/APKTOOL_RENAMED_0x7f1503be" />
+    <style name="APKTOOL_RENAMED_0x7f1503c7" parent="@style/APKTOOL_RENAMED_0x7f1503bf" />
+    <style name="APKTOOL_RENAMED_0x7f1503c8" parent="@style/APKTOOL_RENAMED_0x7f1503c0" />
+    <style name="APKTOOL_RENAMED_0x7f1503ca" parent="@style/APKTOOL_RENAMED_0x7f1503c9" />
+    <style name="APKTOOL_RENAMED_0x7f1503d8" parent="@style/APKTOOL_RENAMED_0x7f1503d4" />
+    <style name="APKTOOL_RENAMED_0x7f1503d9" parent="@style/APKTOOL_RENAMED_0x7f1503d5" />
+    <style name="APKTOOL_RENAMED_0x7f1503da" parent="@style/APKTOOL_RENAMED_0x7f1503d6" />
+    <style name="APKTOOL_RENAMED_0x7f1503db" parent="@style/APKTOOL_RENAMED_0x7f1503d4" />
+    <style name="APKTOOL_RENAMED_0x7f1503dc" parent="@style/APKTOOL_RENAMED_0x7f1503d6" />
+    <style name="APKTOOL_RENAMED_0x7f1503dd" parent="@style/APKTOOL_RENAMED_0x7f1503e8" />
+    <style name="APKTOOL_RENAMED_0x7f1503de" parent="@style/APKTOOL_RENAMED_0x7f1503e9" />
+    <style name="APKTOOL_RENAMED_0x7f1503df" parent="@style/APKTOOL_RENAMED_0x7f1503ea" />
+    <style name="APKTOOL_RENAMED_0x7f1503e0" parent="@style/APKTOOL_RENAMED_0x7f1503eb" />
+    <style name="APKTOOL_RENAMED_0x7f1503e1" parent="@style/APKTOOL_RENAMED_0x7f1503ec" />
+    <style name="APKTOOL_RENAMED_0x7f1503e2" parent="@style/APKTOOL_RENAMED_0x7f1503ed" />
+    <style name="APKTOOL_RENAMED_0x7f1503e3" parent="@style/APKTOOL_RENAMED_0x7f1503ee" />
+    <style name="APKTOOL_RENAMED_0x7f1503e4" parent="@style/APKTOOL_RENAMED_0x7f1503ef" />
+    <style name="APKTOOL_RENAMED_0x7f1503e5" parent="@style/APKTOOL_RENAMED_0x7f1503f0" />
+    <style name="APKTOOL_RENAMED_0x7f1503e6" parent="@style/APKTOOL_RENAMED_0x7f150401" />
+    <style name="APKTOOL_RENAMED_0x7f1503e7" parent="@style/APKTOOL_RENAMED_0x7f150402" />
+    <style name="APKTOOL_RENAMED_0x7f15040c" parent="@style/APKTOOL_RENAMED_0x7f15040a" />
+    <style name="APKTOOL_RENAMED_0x7f150447" parent="@style/APKTOOL_RENAMED_0x7f150446" />
+    <style name="APKTOOL_RENAMED_0x7f1505a2" parent="@style/APKTOOL_RENAMED_0x7f1505a4" />
+    <style name="APKTOOL_RENAMED_0x7f1505a7" parent="@style/APKTOOL_RENAMED_0x7f1505a8" />
+    <style name="APKTOOL_RENAMED_0x7f1505b0" parent="@style/APKTOOL_RENAMED_0x7f1505ae" />
+    <style name="APKTOOL_RENAMED_0x7f1505b3" parent="@style/APKTOOL_RENAMED_0x7f1505b1" />
+    <style name="APKTOOL_RENAMED_0x7f1505f4" parent="@style/APKTOOL_RENAMED_0x7f1505f0" />
+    <style name="APKTOOL_RENAMED_0x7f150602" parent="@style/APKTOOL_RENAMED_0x7f150600" />
+    <style name="APKTOOL_RENAMED_0x7f15061c" parent="@style/APKTOOL_RENAMED_0x7f15061d" />
+</resources>

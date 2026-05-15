@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:gravity="start" n0:orientation="horizontal" n0:paddingLeft="16.0dp" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080560" n0:paddingStart="16.0dp">
+        <ImageButton n0:layout_gravity="center_vertical" n0:id="@id/mr_picker_close_button" n0:background="?APKTOOL_RENAMED_0x7f05048b" n0:layout_width="24.0dp" n0:layout_height="24.0dp" n0:src="?APKTOOL_RENAMED_0x7f0503ae" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140797" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView n0:id="@id/mr_picker_list" n0:layout_width="match_parent" n0:layout_height="match_parent" />
+</LinearLayout>

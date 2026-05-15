@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest n0:versionCode="260119" n0:versionName="6.2.34" n0:isolatedSplits="true" n0:compileSdkVersion="35" n0:compileSdkVersionCodename="15" n0:requiredSplitTypes="cablev2_authenticator__module,chrome__module" n0:splitTypes="" package="lite.cryptotab.android" platformBuildVersionCode="35" platformBuildVersionName="15"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <queries>
+        <intent>
+            <action n0:name="android.intent.action.MAIN" />
+            <category n0:name="android.intent.category.LAUNCHER" />
+        </intent>
+        <intent>
+            <action n0:name="com.android.vending.billing.InAppBillingService.BIND" />
+        </intent>
+        <package n0:name="com.google.ar.core" />
+    </queries>
+    <uses-feature n0:glEsVersion="0x20000" />
+    <uses-permission n0:name="com.android.vending.BILLING" />
+    <uses-permission n0:name="com.android.vending.CHECK_LICENSE" />
+    <uses-permission n0:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission n0:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission-sdk-23 n0:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission n0:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission-sdk-23 n0:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+    <uses-permission-sdk-23 n0:name="android.permission.BLUETOOTH_ADMIN" n0:maxSdkVersion="30" />
+    <uses-permission-sdk-23 n0:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission-sdk-23 n0:name="android.permission.BLUETOOTH_ADVERTISE" />
+    <uses-permission-sdk-23 n0:name="android.permission.BLUETOOTH" />
+    <uses-permission-sdk-23 n0:name="android.permission.BLUETOOTH_SCAN" n0:usesPermissionFlags="neverForLocation" />
+    <uses-permission-sdk-23 n0:name="android.permission.READ_CONTACTS" />
+    <uses-permission-sdk-23 n0:name="android.permission.REORDER_TASKS" />
+    <uses-permission-sdk-23 n0:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission n0:name="android.permission.CAMERA" />
+    <uses-permission n0:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission n0:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission n0:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+    <uses-permission n0:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-permission n0:name="android.permission.RUN_USER_INITIATED_JOBS" />
+    <uses-permission n0:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission n0:name="android.permission.INTERNET" />
+    <uses-permission n0:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission n0:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission n0:name="android.permission.NFC" />
+    <uses-permission n0:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission n0:name="android.permission.QUERY_ALL_PACKAGES" />
+    <uses-permission n0:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission-sdk-23 n0:name="android.permission.READ_MEDIA_AUDIO" />
+    <uses-permission n0:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission n0:name="android.permission.RECORD_AUDIO" />
+    <uses-permission n0:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission-sdk-23 n0:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission-sdk-23 n0:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission n0:name="android.permission.VIBRATE" />
+    <uses-permission n0:name="android.permission.WAKE_LOCK" />
+    <uses-permission n0:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission n0:name="android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS" />
+    <uses-permission n0:name="android.permission.CREDENTIAL_MANAGER_SET_ALLOWED_PROVIDERS" />
+    <uses-permission n0:name="android.permission.CREDENTIAL_MANAGER_SET_ORIGIN" />
+    <uses-feature n0:name="android.software.vr.mode" n0:required="false" />
+    <uses-feature n0:name="android.hardware.vr.high_performance" n0:required="false" />
+    <uses-feature n0:name="android.hardware.screen.landscape" n0:required="false" />
+    <uses-feature n0:name="android.hardware.vr.headtracking" n0:required="false" n0:version="1" />
+    <uses-feature n0:name="android.hardware.sensor.gyroscope" n0:required="false" />
+    <uses-feature n0:name="android.hardware.sensor.accelerometer" n0:required="false" />
+    <uses-permission-sdk-23 n0:name="android.permission.SCENE_UNDERSTANDING" />
+    <uses-permission-sdk-23 n0:name="android.permission.HAND_TRACKING" />
+    <permission n0:name="lite.cryptotab.android.permission.CHILD_SERVICE" n0:protectionLevel="signature" />
+    <permission n0:name="lite.cryptotab.android.permission.READ_WRITE_BOOKMARK_FOLDERS" n0:protectionLevel="signatureOrSystem" />
+    <permission n0:name="lite.cryptotab.android.TOS_ACKED" n0:protectionLevel="signatureOrSystem" />
+    <permission n0:name="lite.cryptotab.android.permission.C2D_MESSAGE" n0:protectionLevel="signature" />
+    <permission n0:label="Debug web pages" n0:name="lite.cryptotab.android.permission.DEBUG" n0:protectionLevel="signature" />
+    <uses-permission n0:name="lite.cryptotab.android.permission.C2D_MESSAGE" />
+    <uses-permission n0:name="lite.cryptotab.android.permission.READ_WRITE_BOOKMARK_FOLDERS" />
+    <uses-permission n0:name="lite.cryptotab.android.TOS_ACKED" />
+    <uses-permission n0:name="com.chrome.permission.DEVICE_EXTRAS" />
+    <uses-permission n0:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission n0:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission n0:name="com.google.android.apps.now.CURRENT_ACCOUNT_ACCESS" />
+    <uses-feature n0:name="android.hardware.location.gps" n0:required="false" />
+    <uses-feature n0:name="android.hardware.camera" n0:required="false" />
+    <uses-feature n0:name="android.hardware.camera.autofocus" n0:required="false" />
+    <uses-feature n0:name="android.hardware.microphone" n0:required="false" />
+    <uses-feature n0:name="android.hardware.touchscreen" n0:required="false" />
+    <uses-permission n0:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+    <uses-permission n0:name="com.google.android.gms.permission.AD_ID" />
+    <application n0:label="@string/APKTOOL_RENAMED_0x7f1404b1" n0:icon="@drawable/ic_launcher" n0:name="org.chromium.chrome.browser.base.SplitChromeApplication" n0:manageSpaceActivity="@string/APKTOOL_RENAMED_0x7f1406fb" n0:allowBackup="false" n0:largeHeap="false" n0:supportsRtl="true" n0:extractNativeLibs="false" n0:networkSecurityConfig="@xml/APKTOOL_RENAMED_0x7f180026" n0:roundIcon="@drawable/ic_launcher" n0:appComponentFactory="org.chromium.chrome.browser.base.SplitCompatAppComponentFactory" n0:zygotePreloadName="org.chromium.content_public.app.ZygotePreload" n0:allowAudioPlaybackCapture="false" n0:memtagMode="async" n0:enableOnBackInvokedCallback="false">
+        <meta-data n0:name="TENJIN_APP_STORE" n0:value="googleplay" />
+        <meta-data n0:name="org.chromium.content.browser.NUM_SANDBOXED_SERVICES" n0:value="40" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService0" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process0" n0:isolatedProcess="true" n0:useAppZygote="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService1" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process1" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService2" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process2" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService3" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process3" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService4" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process4" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService5" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process5" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService6" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process6" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService7" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process7" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService8" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process8" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService9" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process9" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService10" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process10" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService11" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process11" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService12" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process12" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService13" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process13" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService14" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process14" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService15" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process15" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService16" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process16" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService17" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process17" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService18" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process18" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService19" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process19" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService20" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process20" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService21" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process21" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService22" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process22" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService23" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process23" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService24" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process24" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService25" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process25" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService26" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process26" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService27" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process27" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService28" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process28" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService29" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process29" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService30" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process30" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService31" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process31" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService32" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process32" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService33" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process33" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService34" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process34" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService35" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process35" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService36" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process36" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService37" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process37" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService38" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process38" n0:isolatedProcess="true" />
+        <service n0:name="org.chromium.content.app.SandboxedProcessService39" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":sandboxed_process39" n0:isolatedProcess="true" />
+        <meta-data n0:name="org.chromium.content.browser.NUM_PRIVILEGED_SERVICES" n0:value="5" />
+        <service n0:name="org.chromium.content.app.PrivilegedProcessService0" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":privileged_process0" n0:isolatedProcess="false" />
+        <service n0:name="org.chromium.content.app.PrivilegedProcessService1" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":privileged_process1" n0:isolatedProcess="false" />
+        <service n0:name="org.chromium.content.app.PrivilegedProcessService2" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":privileged_process2" n0:isolatedProcess="false" />
+        <service n0:name="org.chromium.content.app.PrivilegedProcessService3" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":privileged_process3" n0:isolatedProcess="false" />
+        <service n0:name="org.chromium.content.app.PrivilegedProcessService4" n0:permission="lite.cryptotab.android.permission.CHILD_SERVICE" n0:exported="false" n0:process=":privileged_process4" n0:isolatedProcess="false" />
+        <meta-data n0:name="android.allow_multiple_resumed_activities" n0:value="true" />
+        <meta-data n0:name="com.samsung.android.sdk.multiwindow.enable" n0:value="true" />
+        <meta-data n0:name="com.samsung.android.sdk.multiwindow.penwindow.enable" n0:value="true" />
+        <meta-data n0:name="android.content.APP_RESTRICTIONS" n0:resource="@xml/APKTOOL_RENAMED_0x7f180008" />
+        <meta-data n0:name="com.google.ar.core" n0:value="optional" />
+        <meta-data n0:name="com.google.ar.core.load_32bit_so_from_split_module" n0:value="optional" />
+        <meta-data n0:name="com.google.ar.core.session_settings" n0:value="allow_front_facing_motion_tracking_6dof," />
+        <meta-data n0:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME" n0:value="org.chromium.components.media_router.caf.CastOptionsProvider" />
+        <provider n0:name="org.chromium.chrome.browser.util.ChromeFileProvider" n0:exported="false" n0:authorities="lite.cryptotab.android.FileProvider" n0:grantUriPermissions="true">
+            <meta-data n0:name="android.support.FILE_PROVIDER_PATHS" n0:resource="@xml/APKTOOL_RENAMED_0x7f180015" />
+        </provider>
+        <provider n0:name="org.chromium.chrome.browser.download.DownloadFileProvider" n0:exported="false" n0:authorities="lite.cryptotab.android.DownloadFileProvider" n0:grantUriPermissions="true">
+            <meta-data n0:name="android.support.FILE_PROVIDER_PATHS" n0:resource="@xml/APKTOOL_RENAMED_0x7f180015" />
+        </provider>
+        <provider n0:name="org.chromium.ui.dragdrop.DropDataContentProvider" n0:exported="false" n0:authorities="lite.cryptotab.android.DropDataProvider" n0:grantUriPermissions="true" />
+        <provider n0:name="org.chromium.chrome.browser.pdf.PdfContentProvider" n0:exported="false" n0:authorities="lite.cryptotab.android.PdfContentProvider" n0:grantUriPermissions="true" />
+        <provider n0:name="org.chromium.chrome.browser.provider.ChromeBrowserProvider" n0:exported="true" n0:authorities="lite.cryptotab.android.ChromeBrowserProvider;lite.cryptotab.android.browser;lite.cryptotab.android">
+            <path-permission n0:readPermission="android.permission.GLOBAL_SEARCH" n0:path="/bookmarks/search_suggest_query" />
+        </provider>
+        <meta-data n0:name="com.google.android.play.billingclient.version" n0:value="7.0.0" />
+        <activity n0:theme="@android:style/Theme.Translucent.NoTitleBar" n0:name="com.android.billingclient.api.ProxyBillingActivity" n0:exported="false" n0:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" />
+        <activity n0:theme="@android:style/Theme.Translucent.NoTitleBar" n0:name="com.android.billingclient.api.ProxyBillingActivityV2" n0:exported="false" n0:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" />
+        <activity n0:theme="@style/APKTOOL_RENAMED_0x7f150407" n0:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" n0:exported="false" n0:stateNotNeeded="true" />
+        <provider n0:name="com.google.firebase.provider.FirebaseInitProvider" n0:exported="false" n0:authorities="lite.cryptotab.android.firebaseinitprovider" n0:initOrder="100" n0:directBootAware="true" />
+        <service n0:name="com.google.firebase.components.ComponentDiscoveryService" n0:exported="false" n0:directBootAware="true">
+            <meta-data n0:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar" n0:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data n0:name="com.google.firebase.components:com.google.firebase.iid.Registrar" n0:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data n0:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" n0:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data n0:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" n0:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data n0:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" n0:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+        <receiver n0:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" n0:permission="com.google.android.c2dm.permission.SEND" n0:exported="true">
+            <intent-filter>
+                <action n0:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <service n0:name="com.google.firebase.messaging.FirebaseMessagingService" n0:exported="false" n0:directBootAware="true">
+            <intent-filter n0:priority="-500">
+                <action n0:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <activity n0:theme="@android:style/Theme.Translucent.NoTitleBar" n0:name="com.google.android.gms.common.api.GoogleApiActivity" n0:exported="false" />
+        <meta-data n0:name="com.google.android.gms.version" n0:value="@integer/APKTOOL_RENAMED_0x7f0c0012" />
+        <receiver n0:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" n0:exported="false" />
+        <service n0:name="com.google.android.gms.cast.framework.media.MediaNotificationService" n0:exported="false" />
+        <service n0:name="com.google.android.gms.cast.framework.ReconnectionService" n0:exported="false" />
+        <receiver n0:name="com.google.android.gms.measurement.AppMeasurementReceiver" n0:enabled="true" n0:exported="false" />
+        <service n0:name="com.google.android.gms.measurement.AppMeasurementService" n0:enabled="true" n0:exported="false" />
+        <service n0:name="com.google.android.gms.measurement.AppMeasurementJobService" n0:permission="android.permission.BIND_JOB_SERVICE" n0:enabled="true" n0:exported="false" />
+        <meta-data n0:name="com.google.ar.core.min_apk_version" n0:value="231450000" />
+        <meta-data n0:name="com.android.vending.splits.required" n0:value="true" />
+        <meta-data n0:name="com.android.stamp.source" n0:value="https://play.google.com/store" />
+        <meta-data n0:name="com.android.stamp.type" n0:value="STAMP_TYPE_DISTRIBUTION_APK" />
+        <meta-data n0:name="com.android.vending.splits" n0:resource="@xml/splits0" />
+        <meta-data n0:name="com.android.vending.derived.apk.id" n0:value="2" />
+    </application>
+</manifest>

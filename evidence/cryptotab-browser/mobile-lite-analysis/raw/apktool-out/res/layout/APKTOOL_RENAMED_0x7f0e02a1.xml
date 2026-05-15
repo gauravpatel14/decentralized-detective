@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper n0:orientation="vertical" n0:id="@id/restore_tabs_bottom_sheet_view_flipper" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:measureAllChildren="false" n0:inAnimation="@anim/APKTOOL_RENAMED_0x7f02005a" n0:outAnimation="@anim/APKTOOL_RENAMED_0x7f02005b"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <include n0:id="@id/restore_tabs_promo_screen_sheet" layout="@layout/APKTOOL_RENAMED_0x7f0e02a4" />
+    <include n0:id="@id/restore_tabs_detail_screen_sheet" layout="@layout/APKTOOL_RENAMED_0x7f0e02a2" />
+</ViewFlipper>

@@ -1,0 +1,103 @@
+{
+  "results": [
+    {
+      "submitter": {},
+      "task": {
+        "visibility": "public",
+        "method": "api",
+        "domain": "flashusd.xyz",
+        "apexDomain": "flashusd.xyz",
+        "time": "2026-04-01T05:38:27.205Z",
+        "uuid": "019d478c-bb99-7385-8d42-dae23e59c93d",
+        "url": "https://flashusd.xyz/"
+      },
+      "stats": {
+        "uniqIPs": 6,
+        "uniqCountries": 2,
+        "dataLength": 2049674,
+        "encodedDataLength": 1355549,
+        "requests": 32
+      },
+      "page": {
+        "country": "US",
+        "server": "GitHub.com",
+        "ip": "185.199.110.153",
+        "apexDomainAgeDays": 661,
+        "language": "en",
+        "mimeType": "text/html",
+        "title": "FLASH USDT — • Tether • TRC20 • ERC20 • BEP20 — FlashLoan",
+        "url": "https://flashusd.xyz/",
+        "tlsValidDays": 89,
+        "tlsAgeDays": 27,
+        "ptr": "cdn-185-199-110-153.github.com",
+        "domainAgeDays": 661,
+        "tlsValidFrom": "2026-03-05T05:15:47.000Z",
+        "domain": "flashusd.xyz",
+        "apexDomain": "flashusd.xyz",
+        "asnname": "FASTLY - Fastly, Inc., US",
+        "asn": "AS54113",
+        "tlsIssuer": "R13",
+        "status": "200"
+      },
+      "_id": "019d478c-bb99-7385-8d42-dae23e59c93d",
+      "_score": null,
+      "sort": [
+        1775021907205,
+        "019d478c-bb99-7385-8d42-dae23e59c93d"
+      ],
+      "result": "https://urlscan.io/api/v1/result/019d478c-bb99-7385-8d42-dae23e59c93d/",
+      "screenshot": "https://urlscan.io/screenshots/019d478c-bb99-7385-8d42-dae23e59c93d.png"
+    },
+    {
+      "task": {
+        "visibility": "public",
+        "method": "automatic",
+        "domain": "www.walletauditor.eu",
+        "apexDomain": "walletauditor.eu",
+        "time": "2026-02-09T23:31:29.285Z",
+        "source": "certstream-suspicious",
+        "uuid": "019c44be-cf13-71b9-b5cc-7d9b67b00da8",
+        "url": "https://www.walletauditor.eu/"
+      },
+      "stats": {
+        "uniqIPs": 13,
+        "uniqCountries": 4,
+        "dataLength": 5993166,
+        "encodedDataLength": 2036569,
+        "requests": 478
+      },
+      "page": {
+        "country": "US",
+        "server": "nginx",
+        "ip": "69.169.111.106",
+        "apexDomainAgeDays": 0,
+        "language": "en",
+        "mimeType": "text/html",
+        "title": "CoinBet Security | Professional Wallet Auditor",
+        "url": "https://www.walletauditor.eu/",
+        "tlsValidDays": 89,
+        "tlsAgeDays": 0,
+        "ptr": "panel.e-sim.mobi",
+        "domainAgeDays": 0,
+        "tlsValidFrom": "2026-02-09T22:31:21.000Z",
+        "domain": "www.walletauditor.eu",
+        "apexDomain": "walletauditor.eu",
+        "asnname": "IS-AS-1 - Interserver, Inc, US",
+        "asn": "AS19318",
+        "tlsIssuer": "R12",
+        "status": "200"
+      },
+      "_id": "019c44be-cf13-71b9-b5cc-7d9b67b00da8",
+      "_score": null,
+      "sort": [
+        1770679889285,
+        "019c44be-cf13-71b9-b5cc-7d9b67b00da8"
+      ],
+      "result": "https://urlscan.io/api/v1/result/019c44be-cf13-71b9-b5cc-7d9b67b00da8/",
+      "screenshot": "https://urlscan.io/screenshots/019c44be-cf13-71b9-b5cc-7d9b67b00da8.png"
+    }
+  ],
+  "total": 2,
+  "took": 240,
+  "has_more": false
+}

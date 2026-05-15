@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.chromium.chrome.browser.download.settings.DownloadLocationPreference n0:title="@string/APKTOOL_RENAMED_0x7f140545" n0:key="location_change" n0:positiveButtonText="@string/APKTOOL_RENAMED_0x7f1404f9" n0:negativeButtonText="@null"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n1:title="@string/APKTOOL_RENAMED_0x7f140510" n1:key="location_prompt_enabled" n1:summaryOn="@string/APKTOOL_RENAMED_0x7f140dd5" n1:summaryOff="@string/APKTOOL_RENAMED_0x7f140dd4"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n2:title="@string/APKTOOL_RENAMED_0x7f14029d" n2:key="auto_open_pdf_enabled" n2:summaryOff="@string/APKTOOL_RENAMED_0x7f140dd4"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+</PreferenceScreen>

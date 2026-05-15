@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.ui.listmenu.ListMenuButton n0:id="@id/more" n0:background="@null" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080541" n0:layout_height="match_parent" n0:src="@drawable/APKTOOL_RENAMED_0x7f0902ac" n0:layout_marginEnd="4.0dp" n1:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129"
+  xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />

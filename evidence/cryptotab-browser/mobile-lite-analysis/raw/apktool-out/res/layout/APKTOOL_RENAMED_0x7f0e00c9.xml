@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.ui.widget.ChromeImageView n0:id="@id/connection_info_icon" n0:layout_width="24.0dp" n0:layout_height="24.0dp" n0:layout_marginEnd="32.0dp" />
+    <LinearLayout n0:orientation="vertical" n0:id="@id/connection_info_text_layout" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f0806af" n0:layout_width="wrap_content" n0:layout_height="wrap_content">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n0:id="@id/connection_info_description" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:lineSpacingExtra="6.0dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <View n0:layout_gravity="center_horizontal" n0:id="@id/tile_view_icon_background" n0:background="@drawable/APKTOOL_RENAMED_0x7f090562" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080873" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080873" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f08086f"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <ImageView n1:layout_gravity="center_horizontal" n1:id="@id/tile_view_icon" n1:layout_width="@dimen/APKTOOL_RENAMED_0x7f080874" n1:layout_height="@dimen/APKTOOL_RENAMED_0x7f080874" n1:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f080871"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <View n2:layout_gravity="center_horizontal" n2:id="@id/tile_view_highlight" n2:background="@drawable/APKTOOL_RENAMED_0x7f090560" n2:layout_width="@dimen/APKTOOL_RENAMED_0x7f080873" n2:layout_height="@dimen/APKTOOL_RENAMED_0x7f080873" n2:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f08086f"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <ImageView n3:layout_gravity="end|top" n3:id="@id/offline_badge" n3:visibility="gone" n3:layout_width="@dimen/APKTOOL_RENAMED_0x7f08087d" n3:layout_height="@dimen/APKTOOL_RENAMED_0x7f08087d" n3:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f08087c" n3:contentDescription="@string/APKTOOL_RENAMED_0x7f14018a" n3:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f08087a" n4:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f090342"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</merge>

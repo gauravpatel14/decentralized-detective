@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:id="@id/menu_row_text" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="1.0" style="@style/APKTOOL_RENAMED_0x7f150154" />
+    <ImageView n0:id="@id/menu_row_share_icon" n0:background="?APKTOOL_RENAMED_0x7f05048a" n0:paddingTop="12.0dp" n0:paddingBottom="12.0dp" n0:visibility="gone" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f08032d" n0:layout_height="match_parent" n0:scaleType="fitCenter" n0:paddingStart="16.0dp" n0:paddingEnd="16.0dp" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.widget.NumberRollView n0:id="@id/selection_mode_number" n0:focusable="true" n0:focusableInTouchMode="true" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502d1" n0:layout_gravity="center_vertical" n0:id="@id/up" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:singleLine="true" />
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502d1" n0:layout_gravity="center_vertical" n0:id="@id/down" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:singleLine="true" />
+</org.chromium.components.browser_ui.widget.NumberRollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:gravity="center" n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginVertical="@dimen/APKTOOL_RENAMED_0x7f08005d">
+        <ImageView n0:id="@id/header_idp_icon" n0:focusable="false" n0:visibility="gone" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f08005e" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08005e" n0:importantForAccessibility="no" />
+        <ImageView n0:id="@id/arrow_range_icon" n0:focusable="false" n0:visibility="gone" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080059" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080059" n0:src="@drawable/APKTOOL_RENAMED_0x7f0900c1" n0:importantForAccessibility="no" n0:fillColor="@color/APKTOOL_RENAMED_0x7f070059" n0:layout_marginHorizontal="@dimen/APKTOOL_RENAMED_0x7f08005d" />
+        <ImageView n0:id="@id/header_rp_icon" n0:focusable="false" n0:visibility="gone" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f08005e" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08005e" n0:importantForAccessibility="no" />
+    </LinearLayout>
+    <LinearLayout n0:gravity="center" n0:orientation="vertical" n0:id="@id/header" n0:focusable="true" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502d1" n0:layout_gravity="center_horizontal" n0:id="@id/header_title" n0:focusable="true" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:importantForAccessibility="yes" n0:textAlignment="center" n0:layout_marginVertical="@dimen/APKTOOL_RENAMED_0x7f080064" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:layout_gravity="center_horizontal" n0:id="@id/header_subtitle" n0:focusable="true" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f08005f" n0:importantForAccessibility="yes" n0:textAlignment="center" />
+    </LinearLayout>
+</LinearLayout>

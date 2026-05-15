@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e01b0" />
+    <include n0:layout_gravity="center_vertical" n0:id="@id/url_bar" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:nextFocusForward="@id/menu_button" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f080350" n0:layout_marginEnd="80.0dp" layout="@layout/APKTOOL_RENAMED_0x7f0e0336"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e0335" />
+</merge>

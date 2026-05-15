@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center" n0:id="@id/contextual_search_context_view" style="@style/APKTOOL_RENAMED_0x7f150158"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:gravity="center_horizontal" n0:id="@id/selected_text" n0:layout_width="wrap_content" n0:layout_marginStart="7.0dp" n0:layout_marginEnd="5.0dp" style="@style/APKTOOL_RENAMED_0x7f150157" />
+    <TextView n0:gravity="start" n0:id="@id/surrounding_text_end" n0:layout_marginEnd="7.0dp" style="@style/APKTOOL_RENAMED_0x7f150156" />
+</LinearLayout>

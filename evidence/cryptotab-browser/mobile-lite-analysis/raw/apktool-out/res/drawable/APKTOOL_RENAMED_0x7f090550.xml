@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item n0:left="6.0dp" n0:top="6.0dp" n0:right="6.0dp" n0:bottom="6.0dp"
+      xmlns:n0="http://schemas.android.com/apk/res/android">
+        <shape n0:shape="oval">
+            <solid n0:color="@color/APKTOOL_RENAMED_0x7f0701ac" />
+        </shape>
+    </item>
+</layer-list>

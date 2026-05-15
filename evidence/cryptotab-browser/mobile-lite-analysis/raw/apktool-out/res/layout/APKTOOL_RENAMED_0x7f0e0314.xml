@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <org.chromium.ui.widget.ChromeImageView n0:id="@id/toolbar_right_button" n0:src="@drawable/APKTOOL_RENAMED_0x7f09048d" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140375" n1:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129" style="@style/APKTOOL_RENAMED_0x7f150140"
+      xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.ui.widget.ChromeImageView n2:layout_gravity="center" n2:id="@id/toolbar_menu_button" n2:src="@drawable/APKTOOL_RENAMED_0x7f0902ac" n2:contentDescription="@string/APKTOOL_RENAMED_0x7f1401e0" n3:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129" style="@style/APKTOOL_RENAMED_0x7f150499"
+      xmlns:n2="http://schemas.android.com/apk/res/android" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</merge>

@@ -1,0 +1,61 @@
+% IANA WHOIS server
+% for more information on IANA, visit http://www.iana.org
+% This query returned 1 object
+
+refer:        whois.ripe.net
+
+inetnum:      94.0.0.0 - 94.255.255.255
+organisation: RIPE NCC
+status:       ALLOCATED
+
+whois:        whois.ripe.net
+
+changed:      2007-07
+source:       IANA
+
+# whois.ripe.net
+
+inetnum:        94.73.144.0 - 94.73.144.255
+netname:        NATRO-COM-HOSTING
+descr:          Cizgi Telekom A.S.
+descr:          Gulbahar Mah. Elif Sok. No4 K3
+descr:          Sisli - Istanbul - Turkey
+geoloc:         41.070136 29.004393
+remarks:        Used For Web Hosting - Co-location Services
+remarks:        Please send abuse reports to abuse@natro.com
+country:        TR
+admin-c:        NCBG1-RIPE
+tech-c:         NCBG1-RIPE
+status:         ASSIGNED PA
+mnt-by:         CIZGI-MNT
+created:        2011-04-04T14:56:33Z
+last-modified:  2018-04-09T10:09:22Z
+source:         RIPE
+
+role:           Natro Backbone Group
+address:        Kustepe Mah. Mecidiyekoy Yolu Cad. Trump Tower No:12 Ic Kapi No: 470 Sisli
+address:        Istanbul - Turkey
+phone:          +90 212 213 1213
+fax-no:         +90 212 356 4407
+admin-c:        NN1321-RIPE
+tech-c:         NN1321-RIPE
+nic-hdl:        NCBG1-RIPE
+abuse-mailbox:  abuse@natro.com
+mnt-by:         CIZGI-MNT
+created:        2011-08-01T11:25:59Z
+last-modified:  2025-12-30T10:23:56Z
+source:         RIPE # Filtered
+
+% Information related to '94.73.144.0/24AS34619'
+
+route:          94.73.144.0/24
+descr:          NATRO HOSTING 94_73_144
+origin:         AS34619
+mnt-by:         CIZGI-MNT
+created:        2011-04-04T14:45:58Z
+last-modified:  2018-04-09T10:17:46Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.122.1 (BUSA)
+
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.view.menu.ListMenuItemView n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minWidth="196.0dp"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:id="@id/group_divider" n0:background="@drawable/APKTOOL_RENAMED_0x7f09007f" n0:layout_width="match_parent" n0:layout_height="1.0dp" n0:layout_marginTop="4.0dp" n0:layout_marginBottom="4.0dp" />
+    <LinearLayout n0:id="@id/content" n0:duplicateParentState="true" n0:layout_width="match_parent" n0:layout_height="?APKTOOL_RENAMED_0x7f0501f0" style="@style/APKTOOL_RENAMED_0x7f1501fc">
+        <RelativeLayout n0:layout_gravity="center_vertical" n0:duplicateParentState="true" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="1.0" style="@style/APKTOOL_RENAMED_0x7f1501fd">
+            <TextView n0:textAppearance="?APKTOOL_RENAMED_0x7f050532" n0:ellipsize="marquee" n0:id="@id/title" n0:fadingEdge="horizontal" n0:duplicateParentState="true" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:singleLine="true" n0:layout_alignParentTop="true" style="@style/APKTOOL_RENAMED_0x7f150200" />
+            <TextView n0:textAppearance="?APKTOOL_RENAMED_0x7f05053b" n0:id="@id/shortcut" n0:duplicateParentState="true" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:singleLine="true" n0:layout_below="@id/title" style="@style/APKTOOL_RENAMED_0x7f150200" />
+        </RelativeLayout>
+        <ImageView n0:layout_gravity="center" n0:id="@id/submenuarrow" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:scaleType="center" style="@style/APKTOOL_RENAMED_0x7f1501ff" />
+    </LinearLayout>
+</androidx.appcompat.view.menu.ListMenuItemView>

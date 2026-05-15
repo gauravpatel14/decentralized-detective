@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.dom_distiller.DistilledPagePrefsView n0:orientation="vertical" n0:background="@drawable/APKTOOL_RENAMED_0x7f090188" n0:padding="10.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <RadioGroup n0:orientation="horizontal" n0:id="@id/radio_button_group" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <RadioButton n0:id="@id/light_mode" n0:text="@string/APKTOOL_RENAMED_0x7f1406ce" style="@style/APKTOOL_RENAMED_0x7f150166" />
+        <RadioButton n0:id="@id/dark_mode" n0:text="@string/APKTOOL_RENAMED_0x7f1404be" style="@style/APKTOOL_RENAMED_0x7f150166" />
+        <RadioButton n0:id="@id/sepia_mode" n0:text="@string/APKTOOL_RENAMED_0x7f140c18" style="@style/APKTOOL_RENAMED_0x7f150166" />
+    </RadioGroup>
+    <Spinner n0:orientation="horizontal" n0:id="@id/font_family" n0:padding="10.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="24.0dp" n0:layout_marginBottom="12.0dp" n0:layout_weight="1.0" />
+    <LinearLayout n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="3.0dp">
+        <TextView n0:textSize="17.0sp" n0:gravity="center_vertical" n0:id="@id/font_size_percentage" n0:layout_width="wrap_content" n0:layout_height="match_parent" n0:minWidth="50.0dp" n0:layout_marginStart="3.0dp" n0:layout_marginEnd="3.0dp" />
+        <TextView n0:textSize="13.0sp" n0:gravity="center_vertical" n0:layout_width="wrap_content" n0:layout_height="match_parent" n0:text="@string/APKTOOL_RENAMED_0x7f140dd9" n0:layout_marginStart="5.0dp" />
+        <SeekBar n0:layout_gravity="center" n0:orientation="horizontal" n0:id="@id/font_size" n0:layout_width="0.0dp" n0:layout_height="48.0dp" n0:maxHeight="48.0dp" n0:max="30" n0:layout_weight="1.0" />
+        <TextView n0:textSize="20.0sp" n0:gravity="center_vertical" n0:layout_width="wrap_content" n0:layout_height="match_parent" n0:text="@string/APKTOOL_RENAMED_0x7f140dd9" n0:layout_marginEnd="3.0dp" />
+    </LinearLayout>
+</org.chromium.chrome.browser.dom_distiller.DistilledPagePrefsView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.widget.MaterialCardViewNoShadow n0:id="@id/signin_promo_view_wrapper" n0:layout_width="match_parent" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f1501a9"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:gravity="center_horizontal" n0:orientation="vertical" n0:paddingBottom="12.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <FrameLayout n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="4.0dp" n0:layout_marginStart="4.0dp" n0:layout_marginEnd="4.0dp">
+            <ImageView n0:layout_gravity="center" n0:id="@id/sync_promo_image" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0807fd" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0807fd" n0:layout_marginTop="12.0dp" n0:layout_marginBottom="12.0dp" n0:scaleType="fitCenter" n0:importantForAccessibility="no" />
+            <org.chromium.ui.widget.ChromeImageButton n0:layout_gravity="end|top" n0:id="@id/sync_promo_close_button" n0:background="?APKTOOL_RENAMED_0x7f05048a" n0:visibility="gone" n0:layout_width="48.0dp" n0:layout_height="48.0dp" n0:src="@drawable/APKTOOL_RENAMED_0x7f0900e8" n0:scaleType="center" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140422" n1:APKTOOL_RENAMED_0x7f050573="?APKTOOL_RENAMED_0x7f05014c"
+              xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        </FrameLayout>
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:gravity="center" n0:id="@id/sync_promo_title" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="12.0dp" n0:includeFontPadding="false" n0:lineSpacingMultiplier="1.25" n0:layout_marginStart="16.0dp" n0:layout_marginEnd="16.0dp" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n0:gravity="center" n0:id="@id/sync_promo_description" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="12.0dp" n0:includeFontPadding="false" n0:lineSpacingMultiplier="1.25" n0:layout_marginStart="16.0dp" n0:layout_marginEnd="16.0dp" />
+        <org.chromium.ui.widget.ButtonCompat n0:ellipsize="end" n0:id="@id/sync_promo_signin_button" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140d97" n0:singleLine="true" n0:layout_marginStart="16.0dp" n0:layout_marginEnd="16.0dp" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+        <org.chromium.ui.widget.ButtonCompat n0:ellipsize="end" n0:id="@id/sync_promo_choose_account_button" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140d09" n0:singleLine="true" n0:layout_marginStart="16.0dp" n0:layout_marginEnd="16.0dp" style="@style/APKTOOL_RENAMED_0x7f15024f" />
+    </LinearLayout>
+</org.chromium.components.browser_ui.widget.MaterialCardViewNoShadow>

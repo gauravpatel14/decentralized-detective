@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.tasks.tab_management.TabGroupColorPickerContainer n0:orientation="vertical" n0:id="@id/color_picker_container" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:layout_gravity="center" n0:orientation="horizontal" n0:id="@id/color_picker_first_row" n0:layout_width="wrap_content" n0:layout_height="wrap_content" />
+    <LinearLayout n0:layout_gravity="center" n0:orientation="horizontal" n0:id="@id/color_picker_second_row" n0:layout_width="wrap_content" n0:layout_height="wrap_content" />
+</org.chromium.chrome.browser.tasks.tab_management.TabGroupColorPickerContainer>

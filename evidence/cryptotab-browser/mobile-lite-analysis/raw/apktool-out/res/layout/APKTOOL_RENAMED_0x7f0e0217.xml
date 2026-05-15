@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.ui.autofill.OtpVerificationDialogView>
+    <ViewStub n0:id="@id/title_with_icon_stub" n0:inflatedId="@id/title_with_icon" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/otp_verification_dialog_contents" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f080692" n1:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080691" style="@style/APKTOOL_RENAMED_0x7f150004"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <EditText n1:id="@id/otp_input" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080693" n1:digits="0123456789" n1:inputType="phone" n1:autofillHints="sms_otp" />
+        <TextView n1:textAppearance="@style/APKTOOL_RENAMED_0x7f1502c7" n1:id="@id/otp_error_message" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <TextView n1:id="@id/otp_resend_message" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f080694" />
+    </LinearLayout>
+    <include n2:id="@id/progress_bar_overlay" n2:visibility="gone" n2:layout_width="wrap_content" n2:layout_height="wrap_content" n2:layout_alignTop="@id/otp_verification_dialog_contents" n2:layout_alignBottom="@id/otp_verification_dialog_contents" n2:layout_alignStart="@id/otp_verification_dialog_contents" n2:layout_alignEnd="@id/otp_verification_dialog_contents" layout="@layout/APKTOOL_RENAMED_0x7f0e0278"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+</org.chromium.chrome.browser.ui.autofill.OtpVerificationDialogView>

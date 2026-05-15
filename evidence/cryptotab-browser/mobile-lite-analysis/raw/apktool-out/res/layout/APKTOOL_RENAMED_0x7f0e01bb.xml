@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <ViewStub n0:id="@id/custom_tabs_handle_view_stub" n0:visibility="gone" n0:layout="@layout/APKTOOL_RENAMED_0x7f0e00eb" n0:inflatedId="@id/custom_tabs_handle_view" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0801a8"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.widget.CoordinatorLayoutForPointer n1:id="@id/coordinator" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_weight="1.0"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <include layout="@layout/APKTOOL_RENAMED_0x7f0e00c4" />
+        <FrameLayout n1:id="@id/ar_view_holder" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <View n1:id="@id/capture_overlay" n1:background="@drawable/APKTOOL_RENAMED_0x7f0900ff" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <org.chromium.chrome.browser.ui.BottomContainer n1:layout_gravity="start|bottom" n1:id="@id/bottom_container" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <org.chromium.ui.AsyncViewStub n1:layout_gravity="start|bottom" n1:id="@id/keyboard_accessory_stub" n1:inflatedId="@id/keyboard_accessory" n1:layout_width="match_parent" n1:layout_height="@dimen/APKTOOL_RENAMED_0x7f080315" />
+        <org.chromium.ui.AsyncViewStub n1:layout_gravity="start|bottom" n1:id="@id/keyboard_accessory_sheet_stub" n1:inflatedId="@id/keyboard_accessory_sheet_container" n1:layout_width="match_parent" n1:layout_height="@dimen/APKTOOL_RENAMED_0x7f08031d" />
+        <ViewStub n1:layout_gravity="start|bottom" n1:id="@id/bottombar_stub" n1:layout="@layout/APKTOOL_RENAMED_0x7f0e00e8" n1:inflatedId="@id/bottombar" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="-4.0dp" />
+        <ViewStub n1:id="@id/tab_modal_dialog_container_stub" n1:inflatedId="@id/tab_modal_dialog_container" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <ViewStub n1:id="@id/tab_modal_dialog_container_sibling_view" n1:layout_width="0.0dp" n1:layout_height="0.0dp" />
+        <org.chromium.ui.AsyncViewStub n1:id="@id/omnibox_results_container_stub" n1:inflatedId="@id/omnibox_results_container" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:APKTOOL_RENAMED_0x7f0502fa="@layout/APKTOOL_RENAMED_0x7f0e0210" n2:APKTOOL_RENAMED_0x7f0502fe="@id/control_container"
+          xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <View n1:id="@id/action_bar_black_background" n1:background="@android:color/black" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="@dimen/APKTOOL_RENAMED_0x7f08088d" />
+        <ViewStub n1:layout_gravity="start|bottom" n1:id="@id/bottom_controls_stub" n1:layout="@layout/APKTOOL_RENAMED_0x7f0e0097" n1:inflatedId="@id/bottom_controls" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <ViewStub n1:id="@id/control_container_stub" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <ViewStub n1:id="@id/tab_switcher_view_holder_stub" n1:layout="@layout/APKTOOL_RENAMED_0x7f0e0305" n1:inflatedId="@id/tab_switcher_view_holder" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <ViewStub n1:id="@id/tab_hover_card_holder_stub" n1:layout="@layout/APKTOOL_RENAMED_0x7f0e02f6" n1:inflatedId="@id/tab_hover_card_holder" n1:layout_width="@dimen/APKTOOL_RENAMED_0x7f080827" n1:layout_height="wrap_content" />
+        <org.chromium.components.messages.MessageContainer n1:layout_gravity="start|top" n1:id="@id/message_container" n1:focusable="true" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <ViewStub n1:id="@id/status_indicator_stub" n1:layout="@layout/APKTOOL_RENAMED_0x7f0e02dc" n1:inflatedId="@id/status_indicator" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <ViewStub n1:layout_gravity="start|bottom" n1:id="@id/readaloud_mini_player_stub" n1:inflatedId="@id/readaloud_mini_player" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <FrameLayout n1:layout_gravity="end|bottom" n1:id="@id/survey_container" n1:visibility="gone" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        <ViewStub n1:layout_gravity="center|bottom" n1:id="@id/page_zoom_container" n1:layout="@layout/APKTOOL_RENAMED_0x7f0e0223" n1:inflatedId="@id/page_zoom_layout" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/APKTOOL_RENAMED_0x7f0806c0" n1:layout_marginRight="@dimen/APKTOOL_RENAMED_0x7f0806c0" n1:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f0806c0" />
+        <ViewStub n1:id="@id/tab_grid_dialog_stub" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <FrameLayout n1:id="@id/sheet_container" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </org.chromium.components.browser_ui.widget.CoordinatorLayoutForPointer>
+    <View n3:layout_gravity="start|bottom" n3:id="@id/menu_anchor_stub" n3:layout_width="0.0px" n3:layout_height="0.0px"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <View n4:layout_gravity="bottom" n4:id="@id/navigation_popup_anchor_stub" n4:layout_width="match_parent" n4:layout_height="0.0px"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+</merge>

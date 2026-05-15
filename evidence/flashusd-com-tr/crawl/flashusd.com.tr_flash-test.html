@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Secure Access | FLASH USDT</title>
+  <style>
+    :root {
+      --bg1: #02050f;
+      --bg2: #091438;
+      --card: rgba(8, 16, 39, .86);
+      --line: rgba(76, 196, 255, .28);
+      --text: #eef3ff;
+      --muted: #aab4c7;
+      --accent: #39e8ff;
+      --accent2: #4b6dff;
+      --danger: #ff5a7a;
+      --ok: #2de6b2;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: "Poppins", "Segoe UI", system-ui, -apple-system, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 12% 18%, rgba(57, 232, 255, .14), transparent 38%),
+        radial-gradient(circle at 88% 78%, rgba(75, 109, 255, .16), transparent 42%),
+        linear-gradient(180deg, var(--bg1), var(--bg2));
+      padding: 22px;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .panel {
+      width: min(94vw, 460px);
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      background: var(--card);
+      backdrop-filter: blur(18px);
+      box-shadow: 0 24px 65px rgba(0, 0, 0, .45);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .panel::before {
+      content: "";
+      position: absolute;
+      inset: 0 0 auto 0;
+      height: 2px;
+      background: linear-gradient(90deg, #00f0ff, #4b6dff, #00f0ff);
+      opacity: .9;
+    }
+
+    .head {
+      padding: 22px 24px 10px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      letter-spacing: .03em;
+      margin-bottom: 10px;
+    }
+
+    .brand-logo {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,.25);
+      box-shadow: 0 0 0 3px rgba(57, 232, 255, .12);
+      object-fit: cover;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 1.45rem;
+      letter-spacing: .01em;
+    }
+
+    .sub {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: .95rem;
+      line-height: 1.45;
+    }
+
+    form { padding: 18px 24px 24px; }
+
+    label {
+      display: block;
+      margin: 11px 0 7px;
+      font-size: .86rem;
+      color: #d8e7ff;
+      font-weight: 600;
+    }
+
+    input {
+      width: 100%;
+      border: 1px solid #2b3b66;
+      background: #090f23;
+      color: #f2f6ff;
+      border-radius: 12px;
+      padding: 12px 12px;
+      font-size: .95rem;
+      outline: none;
+      transition: border-color .2s ease, box-shadow .2s ease;
+    }
+
+    input:focus {
+      border-color: rgba(57, 232, 255, .9);
+      box-shadow: 0 0 0 3px rgba(57, 232, 255, .18);
+    }
+
+    .error {
+      margin: 12px 0 4px;
+      border-radius: 10px;
+      border: 1px solid rgba(255, 90, 122, .5);
+      background: rgba(255, 90, 122, .11);
+      color: #ffd6df;
+      padding: 9px 11px;
+      font-size: .88rem;
+      white-space: pre-wrap;
+    }
+
+    button {
+      margin-top: 14px;
+      width: 100%;
+      border: 0;
+      border-radius: 12px;
+      padding: 12px 14px;
+      font-size: .98rem;
+      font-weight: 700;
+      color: #061320;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      cursor: pointer;
+      box-shadow: 0 14px 28px rgba(57, 232, 255, .25);
+    }
+
+    .foot {
+      border-top: 1px solid rgba(255,255,255,.08);
+      padding: 12px 24px 16px;
+      color: var(--muted);
+      font-size: .8rem;
+      line-height: 1.45;
+    }
+
+    .note-ok {
+      color: var(--ok);
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-branding" style="text-align:center; margin-bottom:30px; animation: fadeInDown 0.8s ease-out;">
+    <img src="/assets/USDT.png" alt="Logo" style="width:70px; height:70px; margin-bottom:15px; filter: drop-shadow(0 0 15px rgba(57,232,255,0.4));">
+    <div style="font-size:28px; font-weight:900; letter-spacing:3px; color:#fff; text-shadow: 0 0 20px rgba(57,232,255,0.3);">FLASH <span style="color:var(--accent)">USDT</span></div>
+    <div style="font-size:12px; color:var(--muted); text-transform:uppercase; letter-spacing:4px; margin-top:5px; opacity:0.8;">Secure Management Portal</div>
+  </div>
+  <div class="panel">
+    <div class="head">
+      <div class="brand"><img class="brand-logo" src="/assets/USDT.png" alt="FLASH USDT"> FLASH USDT</div>
+      <h1>Secure Access Portal</h1>
+      <p class="sub">Authorized personnel only. Sessions are limited to <b>30 minutes</b> for enhanced security.</p>
+    </div>
+
+    <form method="post" action="/auth/login.php" autocomplete="off">
+      <input type="hidden" name="csrf" value="c63d1e08e5f2402ec37d077976831d8a820092dca8068004f99616a2b180d968">
+      <input type="hidden" name="next" value="/flash-test.php">
+
+      <label for="username">Username</label>
+      <input id="username" name="username" type="text" required maxlength="64" autofocus>
+
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" required maxlength="256">
+
+      
+      <button type="submit">Sign In</button>
+    </form>
+
+    <div class="foot" style="display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(255,255,255,0.05); padding-top:15px;">
+      <div style="opacity:0.6; font-size:11px;">
+        <span class="note-ok">Session monitored.</span><br>
+        Unauthorized access is prohibited.
+      </div>
+      <a href="/auth/logout.php" style="color:var(--muted); text-decoration:none; font-size:12px; border:1px solid var(--line); padding:6px 12px; border-radius:8px; transition:0.3s; background:rgba(255,255,255,0.02);" onmouseover="this.style.borderColor='var(--accent)'; this.style.color='var(--accent)'" onmouseout="this.style.borderColor='var(--line)'; this.style.color='var(--muted)'">
+        Account Switch / Logout
+      </a>
+    </div>
+  </div>
+  <script>
+    // Protection Engine
+    document.addEventListener('contextmenu', event => event.preventDefault());
+    document.onkeydown = function (e) {
+      if (e.keyCode == 123) return false;
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) return false;
+      if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) return false;
+    };
+  </script>
+</body>
+</html>

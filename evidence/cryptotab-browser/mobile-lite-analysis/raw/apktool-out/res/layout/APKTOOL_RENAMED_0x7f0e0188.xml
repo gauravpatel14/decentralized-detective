@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:id="@id/translate_infobar_content" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.components.translate.TranslateTabLayout n0:id="@id/translate_infobar_tabs" n0:fadingEdgeLength="@dimen/APKTOOL_RENAMED_0x7f080304" n0:layout_width="0.0dp" n0:layout_height="match_parent" n0:layout_weight="1.0" n0:requiresFadingEdge="horizontal" n1:APKTOOL_RENAMED_0x7f050508="scrollable" style="@style/APKTOOL_RENAMED_0x7f15025d"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.ui.widget.ChromeImageButton n0:id="@id/translate_infobar_menu_button" n0:background="?APKTOOL_RENAMED_0x7f05048a" n0:layout_width="wrap_content" n0:layout_height="match_parent" n0:src="@drawable/APKTOOL_RENAMED_0x7f0902ac" n0:scaleType="center" n0:minWidth="@dimen/APKTOOL_RENAMED_0x7f080541" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080541" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401e0" n2:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129"
+      xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

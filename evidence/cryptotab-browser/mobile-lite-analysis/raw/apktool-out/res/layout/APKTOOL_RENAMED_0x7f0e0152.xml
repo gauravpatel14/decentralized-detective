@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:layoutDirection="locale"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout n0:id="@id/app_bar_layout" n0:fitsSystemWindows="true" n0:layout_width="match_parent" n0:layout_height="wrap_content" n1:APKTOOL_RENAMED_0x7f05034c="true"
+      xmlns:n1="http://schemas.android.com/apk/res-auto">
+        <com.google.android.material.appbar.MaterialToolbar n0:id="@id/action_bar" n0:layout_width="match_parent" n0:layout_height="?APKTOOL_RENAMED_0x7f050005" n1:APKTOOL_RENAMED_0x7f050576="@string/APKTOOL_RENAMED_0x7f1405b0" style="@style/APKTOOL_RENAMED_0x7f150194" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView n0:id="@id/follow_management_list" n0:layout_width="match_parent" n0:layout_height="match_parent" />
+</LinearLayout>

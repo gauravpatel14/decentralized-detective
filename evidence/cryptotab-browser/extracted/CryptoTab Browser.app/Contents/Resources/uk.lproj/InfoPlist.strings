@@ -1,0 +1,9 @@
+"Chromium Shortcut" = "Ярлик CryptoTab Browser";
+CFBundleGetInfoString = "CryptoTab Browser 127.0.6533.100, Авторське право 2024 Автори CryptoTab Browser. Усі права захищено.";
+NSBluetoothAlwaysUsageDescription = "Коли CryptoTab Browser отримає доступ, веб-сайти зможуть надсилати вам запити на доступ.";
+NSBluetoothPeripheralUsageDescription = "Коли CryptoTab Browser отримає доступ, веб-сайти зможуть надсилати вам запити на доступ.";
+NSCameraUsageDescription = "Коли CryptoTab Browser отримає доступ, веб-сайти зможуть надсилати вам запити на доступ.";
+NSHumanReadableCopyright = "Авторське право 2024 Автори CryptoTab Browser. Усі права захищено.";
+NSLocationUsageDescription = "Коли CryptoTab Browser отримає доступ, веб-сайти зможуть надсилати вам запити на доступ.";
+NSMicrophoneUsageDescription = "Коли CryptoTab Browser отримає доступ, веб-сайти зможуть надсилати вам запити на доступ.";
+NSWebBrowserPublicKeyCredentialUsageDescription = "Коли CryptoTab Browser отримає доступ, веб-сайти зможуть надсилати вам запити на доступ.";

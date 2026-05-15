@@ -1,0 +1,6 @@
+package org.chromium.base;
+
+/* JADX INFO: compiled from: chromium-ChromePublic.aab-stable-260119 */
+/* JADX INFO: loaded from: classes.dex */
+public class Promise$UnhandledRejectionException extends RuntimeException {
+}

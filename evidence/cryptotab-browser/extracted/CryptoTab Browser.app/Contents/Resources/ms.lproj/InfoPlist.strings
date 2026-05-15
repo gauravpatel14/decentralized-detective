@@ -1,0 +1,9 @@
+"Chromium Shortcut" = "Pintasan CryptoTab Browser";
+CFBundleGetInfoString = "CryptoTab Browser 127.0.6533.100, Hak Cipta 2024 Pengarang CryptoTab Browser. Hak cipta terpelihara.";
+NSBluetoothAlwaysUsageDescription = "Sebaik sahaja CryptoTab Browser mendapat akses, laman web akan dapat meminta akses daripada anda.";
+NSBluetoothPeripheralUsageDescription = "Sebaik sahaja CryptoTab Browser mendapat akses, laman web akan dapat meminta akses daripada anda.";
+NSCameraUsageDescription = "Sebaik sahaja CryptoTab Browser mendapat akses, laman web akan dapat meminta akses daripada anda.";
+NSHumanReadableCopyright = "Hak Cipta 2024 Pengarang CryptoTab Browser. Hak cipta terpelihara.";
+NSLocationUsageDescription = "Sebaik sahaja CryptoTab Browser mendapat akses, laman web akan dapat meminta akses daripada anda.";
+NSMicrophoneUsageDescription = "Sebaik sahaja CryptoTab Browser mendapat akses, laman web akan dapat meminta akses daripada anda.";
+NSWebBrowserPublicKeyCredentialUsageDescription = "Sebaik sahaja CryptoTab Browser mendapat akses, laman web akan dapat meminta akses daripada anda.";

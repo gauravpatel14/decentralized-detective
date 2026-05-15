@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:background="@drawable/APKTOOL_RENAMED_0x7f0901c4" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f0800c8" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f0800c8" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f0800c8"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.ui.widget.ChromeImageButton n0:id="@id/favicon" n0:layout_width="16.0dp" n0:layout_height="16.0dp" n0:importantForAccessibility="no" n1:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f090259"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n0:gravity="center_vertical" n0:id="@id/domain" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginStart="12.0dp" n0:layout_toEndOf="@id/favicon" />
+</RelativeLayout>

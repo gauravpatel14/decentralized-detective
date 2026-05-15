@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list n0:oneshot="false"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f0902ee" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f0902f0" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f0902f2" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f0902f4" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f0902f6" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f0902f8" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f0902fa" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f0902fc" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f0902fe" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f090300" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f090302" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f090304" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f090306" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f090308" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f09030a" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f09030c" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f09030e" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f090310" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f090312" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f090314" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f090316" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f090318" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f09031a" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f09031c" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f09031e" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f090320" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f090322" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f090324" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f090326" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f090328" />
+    <item n0:duration="42" n0:drawable="@drawable/APKTOOL_RENAMED_0x7f09032a" />
+</animation-list>

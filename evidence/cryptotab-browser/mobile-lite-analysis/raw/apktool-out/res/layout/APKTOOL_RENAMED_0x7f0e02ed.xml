@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.tasks.tab_management.TabGridDialogView n0:id="@id/dialog_parent_view" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n0:id="@id/dialog_container_view" n0:background="@drawable/APKTOOL_RENAMED_0x7f090538" n0:focusable="true" n0:focusableInTouchMode="true" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401ac" n0:clipToOutline="true">
+        <FrameLayout n0:id="@id/tab_grid_dialog_toolbar_container" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_alignParentTop="true" />
+        <FrameLayout n0:id="@id/tab_grid_dialog_recycler_view_container" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:layout_below="@id/tab_grid_dialog_toolbar_container" />
+        <ImageView n0:id="@id/tab_grid_dialog_hairline" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:src="@drawable/APKTOOL_RENAMED_0x7f090566" n0:scaleType="fitXY" n0:layout_below="@id/tab_grid_dialog_toolbar_container" n0:importantForAccessibility="no" />
+        <LinearLayout n0:orientation="vertical" n0:id="@id/dialog_ungroup_bar" n0:visibility="invisible" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_alignParentBottom="true" n0:layout_centerHorizontal="true">
+            <ImageView n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:src="@drawable/APKTOOL_RENAMED_0x7f090566" n0:importantForAccessibility="no" />
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15035f" n0:gravity="center" n0:id="@id/dialog_ungroup_bar_text" n0:background="@drawable/APKTOOL_RENAMED_0x7f090595" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0800b4" />
+        </LinearLayout>
+        <FrameLayout n0:id="@id/dialog_snack_bar_container_view" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_alignParentBottom="true" n0:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <View n0:id="@id/dialog_frame" n0:background="@drawable/APKTOOL_RENAMED_0x7f090538" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:alpha="0.0" />
+    <FrameLayout n0:id="@id/dialog_animation_clip" n0:clipChildren="true" n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <FrameLayout n0:id="@id/dialog_animation_card_view" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:alpha="0.0">
+            <include layout="@layout/APKTOOL_RENAMED_0x7f0e02ec" />
+        </FrameLayout>
+    </FrameLayout>
+</org.chromium.chrome.browser.tasks.tab_management.TabGridDialogView>

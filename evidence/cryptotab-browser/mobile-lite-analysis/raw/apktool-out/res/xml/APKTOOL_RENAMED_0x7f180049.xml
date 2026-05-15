@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n0:summary="@string/APKTOOL_RENAMED_0x7f140aac" n1:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n2:icon="@drawable/APKTOOL_RENAMED_0x7f090245" n2:title="@string/APKTOOL_RENAMED_0x7f140aa9" n2:summary="@string/APKTOOL_RENAMED_0x7f140aa8" n3:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n2="http://schemas.android.com/apk/res/android" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n4:icon="@drawable/APKTOOL_RENAMED_0x7f09022c" n4:title="@string/APKTOOL_RENAMED_0x7f140aab" n4:key="bullet_point_two" n5:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n4="http://schemas.android.com/apk/res/android" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <PreferenceCategory n6:title="@string/APKTOOL_RENAMED_0x7f140aa7"
+      xmlns:n6="http://schemas.android.com/apk/res/android">
+        <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n6:title="@string/APKTOOL_RENAMED_0x7f140e11" n6:key="block_all_3pcd_toggle" n6:summary="@string/APKTOOL_RENAMED_0x7f140e10" n7:APKTOOL_RENAMED_0x7f050031="false"
+          xmlns:n7="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n6:title="@string/APKTOOL_RENAMED_0x7f140e23" n6:key="ip_protection_toggle" n6:summary="@string/APKTOOL_RENAMED_0x7f140e22" n8:APKTOOL_RENAMED_0x7f050031="false" n8:APKTOOL_RENAMED_0x7f0502cd="false"
+          xmlns:n8="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.components.browser_ui.settings.TextMessagePreference n6:id="@id/ip_protection_learn_more" n6:key="ip_protection_learn_more" n6:summary="@string/APKTOOL_RENAMED_0x7f140e21" n9:APKTOOL_RENAMED_0x7f050031="false" n9:APKTOOL_RENAMED_0x7f0502cd="false"
+          xmlns:n9="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n6:title="@string/APKTOOL_RENAMED_0x7f140e17" n6:key="fingerprinting_protection_toggle" n6:summary="@string/APKTOOL_RENAMED_0x7f140e18" n10:APKTOOL_RENAMED_0x7f050031="false" n10:APKTOOL_RENAMED_0x7f0502cd="false"
+          xmlns:n10="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.components.browser_ui.settings.TextMessagePreference n6:id="@id/fingerprinting_protection_learn_more" n6:key="fingerprinting_protection_learn_more" n6:summary="@string/APKTOOL_RENAMED_0x7f140e16" n11:APKTOOL_RENAMED_0x7f050031="false" n11:APKTOOL_RENAMED_0x7f0502cd="false"
+          xmlns:n11="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n6:title="@string/APKTOOL_RENAMED_0x7f140e14" n6:key="dnt_toggle" n6:summary="@string/APKTOOL_RENAMED_0x7f140e13" n12:APKTOOL_RENAMED_0x7f050031="false"
+          xmlns:n12="http://schemas.android.com/apk/res-auto" />
+    </PreferenceCategory>
+    <org.chromium.components.browser_ui.settings.ExpandablePreferenceGroup n13:key="allowed_group"
+      xmlns:n13="http://schemas.android.com/apk/res/android" />
+</PreferenceScreen>

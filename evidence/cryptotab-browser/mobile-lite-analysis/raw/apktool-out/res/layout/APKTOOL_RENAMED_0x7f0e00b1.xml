@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:layout_width="match_parent" n0:layout_height="64.0dp"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <RadioButton n0:id="@id/radio" n0:focusable="false" n0:clickable="false" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginRight="10.0dp" n0:layout_alignParentRight="true" n0:layout_centerVertical="true" n0:layout_marginEnd="10.0dp" n0:layout_alignParentEnd="true" />
+    <TextView n0:textSize="@dimen/APKTOOL_RENAMED_0x7f0800f2" n0:id="@id/text" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginLeft="10.0dp" n0:layout_toLeftOf="@id/radio" n0:layout_alignParentLeft="true" n0:layout_centerVertical="true" n0:layout_marginStart="10.0dp" n0:layout_toStartOf="@id/radio" n0:layout_alignParentStart="true" />
+</RelativeLayout>

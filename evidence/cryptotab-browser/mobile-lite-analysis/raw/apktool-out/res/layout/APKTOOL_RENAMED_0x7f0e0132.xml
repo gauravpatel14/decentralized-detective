@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n0:id="@id/required_fields_notice" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="8.0dp" n0:layout_marginBottom="16.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f1409b2" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f0806f6" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f0806f6" />
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n0:id="@id/footer_message" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="8.0dp" n0:layout_marginBottom="16.0dp" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f0806f6" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f0806f6" n0:breakStrategy="balanced" />
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e006a" />
+</LinearLayout>

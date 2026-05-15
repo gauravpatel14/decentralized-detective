@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.safety_hub.SafetyHubMagicStackView n0:orientation="vertical" n0:background="@drawable/APKTOOL_RENAMED_0x7f0901d0" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f08079a" n0:layout_marginHorizontal="@dimen/APKTOOL_RENAMED_0x7f080799" n0:paddingHorizontal="@dimen/APKTOOL_RENAMED_0x7f08079b" n0:paddingVertical="@dimen/APKTOOL_RENAMED_0x7f08079c"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150338" n0:id="@id/header" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f08079d" n0:textAlignment="viewStart" />
+    <LinearLayout n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f08079d" n0:baselineAligned="false">
+        <org.chromium.components.browser_ui.widget.RoundedCornerImageView n0:id="@id/icon" n0:background="@drawable/APKTOOL_RENAMED_0x7f090501" n0:padding="@dimen/APKTOOL_RENAMED_0x7f08079f" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0807a0" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0807a0" n0:scaleType="centerCrop" />
+        <LinearLayout n0:orientation="vertical" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginStart="16.0dp">
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502d6" n0:id="@id/title" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="4.0dp" n0:textAlignment="viewStart" />
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150366" n0:id="@id/summary" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:textAlignment="viewStart" />
+        </LinearLayout>
+    </LinearLayout>
+    <org.chromium.ui.widget.ButtonCompat n0:layout_gravity="end" n0:id="@id/button" n0:layout_width="wrap_content" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+</org.chromium.chrome.browser.safety_hub.SafetyHubMagicStackView>

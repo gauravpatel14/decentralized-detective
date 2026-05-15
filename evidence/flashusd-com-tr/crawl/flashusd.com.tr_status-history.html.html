@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Incident History — FLASH USDT</title>
+  <meta name="description"
+    content="View historical data on FLASH USDT network maintenance, updates, and solved incidents." />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&family=Inter:wght@400;600;700;800&family=Roboto+Mono&display=swap"
+    rel="stylesheet">
+
+  <!-- ✅ Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/USDT.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/USDT.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/USDT.png">
+  <link rel="shortcut icon" href="assets/USDT.png">
+  <meta name="theme-color" content="#030615">
+
+  <style>
+    /* ====== Base / Reset ====== */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%
+    }
+
+    body {
+      font-family: "Poppins", system-ui, -apple-system, sans-serif;
+      overflow-x: hidden;
+      color: #eef3ff;
+      background: linear-gradient(180deg, #030615 0%, #0a1030 50%, #030615 100%);
+      background-attachment: fixed;
+    }
+
+    :root {
+      --cyan: #00f0ff;
+      --vio: #5b2cff;
+      --glass: rgba(255, 255, 255, 0.05);
+      --border: rgba(255, 255, 255, 0.1);
+    }
+
+    /* ====== iOS-STYLE BLUE FROSTED GLASS HEADER ====== */
+    header {
+      position: fixed;
+      top: 0 !important;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 95%;
+      max-width: 1200px;
+      z-index: 10000;
+      background: rgba(0, 180, 255, 0.06);
+      backdrop-filter: blur(50px) saturate(220%) brightness(1.05);
+      -webkit-backdrop-filter: blur(50px) saturate(220%) brightness(1.05);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-top: 1px solid rgba(255, 255, 255, 0.4);
+      border-left: 1px solid rgba(255, 255, 255, 0.3);
+      outline: 0.5px solid rgba(0, 240, 255, 0.1);
+      border-radius: 30px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.45), inset 0 0 0 1px rgba(255, 255, 255, 0.03);
+      transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    header.scrolled {
+      top: 10px;
+      width: 92%;
+      border-radius: 24px;
+      background: rgba(2, 6, 20, 0.55);
+      backdrop-filter: blur(60px) saturate(280%);
+      border: 1px solid rgba(0, 240, 255, 0.15);
+    }
+
+    header.nav-hidden {
+      opacity: 0;
+      transform: translateX(-50%) translateY(-20px);
+      pointer-events: none;
+    }
+
+    .nav {
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+
+    .brand img {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+    }
+
+    .brand span {
+      font-weight: 800;
+      font-size: 20px;
+      background: linear-gradient(90deg, var(--cyan), #fff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      letter-spacing: 0.5px;
+    }
+
+    .menu {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+    }
+
+    .menu a {
+      color: #9aa0c2;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 15px;
+      transition: 0.3s;
+    }
+
+    .menu a:hover {
+      color: var(--cyan);
+      text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+    }
+
+    .contact-btn {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 18px;
+      border-radius: 12px;
+      background: linear-gradient(90deg, #00f0ff, #5b2cff);
+      border: none;
+      color: #fff;
+      font-weight: 700;
+      text-decoration: none;
+      box-shadow: 0 4px 15px rgba(0, 240, 255, 0.3);
+      transition: all 0.3s ease;
+      font-size: 14px;
+    }
+
+    .contact-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0, 240, 255, 0.5);
+    }
+
+    .menu-toggle {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+    }
+
+    .menu-toggle span {
+      width: 25px;
+      height: 2px;
+      background: #fff;
+      border-radius: 2px;
+      transition: 0.3s;
+    }
+
+    @media (max-width: 768px) {
+      .menu {
+        position: fixed;
+        top: 80px;
+        left: 2.5%;
+        width: 95%;
+        flex-direction: column;
+        background: rgba(10, 15, 40, 0.8);
+        backdrop-filter: blur(30px);
+        padding: 40px;
+        border-radius: 20px;
+        border: 1px solid var(--border);
+        transform: translateY(-150%);
+        transition: 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        z-index: -1;
+      }
+
+      .menu.active {
+        transform: translateY(0);
+      }
+
+      .menu-toggle {
+        display: flex;
+      }
+
+      .mobile-hide {
+        display: none;
+      }
+    }
+
+    /* ====== HISTORY SPECIFIC ====== */
+    .container {
+      max-width: 1000px;
+      margin: 140px auto 60px;
+      padding: 0 20px;
+    }
+
+    .history-header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .history-header h1 {
+      font-size: 3rem;
+      font-weight: 900;
+      background: linear-gradient(135deg, var(--cyan), var(--vio));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      margin-bottom: 10px;
+    }
+
+    .timeline {
+      position: relative;
+      padding-left: 40px;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 10px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: linear-gradient(180deg, var(--cyan), var(--vio));
+      opacity: 0.3;
+    }
+
+    .month-separator {
+      font-size: 1.2rem;
+      font-weight: 800;
+      color: var(--cyan);
+      margin: 40px 0 20px -40px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .month-separator::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    .event-card {
+      position: relative;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 24px;
+      margin-bottom: 24px;
+      transition: 0.3s;
+      backdrop-filter: blur(5px);
+    }
+
+    .event-card::before {
+      content: '';
+      position: absolute;
+      left: -35px;
+      top: 30px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--cyan);
+      box-shadow: 0 0 10px var(--cyan);
+    }
+
+    .event-card:hover {
+      border-color: rgba(0, 240, 255, 0.3);
+      background: rgba(255, 255, 255, 0.04);
+      transform: translateX(5px);
+    }
+
+    .event-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 15px;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .event-title h3 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin: 0;
+      color: #fff;
+    }
+
+    .event-date {
+      color: #666;
+      font-size: 0.85rem;
+      margin-top: 5px;
+    }
+
+    .event-badge {
+      padding: 4px 12px;
+      border-radius: 12px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .badge-legal {
+      background: rgba(0, 240, 255, 0.1);
+      color: var(--cyan);
+      border: 1px solid rgba(0, 240, 255, 0.2);
+    }
+
+    .badge-update {
+      background: rgba(0, 255, 136, 0.1);
+      color: #00ff88;
+      border: 1px solid rgba(0, 255, 136, 0.2);
+    }
+
+    .badge-maintenance {
+      background: rgba(255, 215, 0, 0.1);
+      color: #ffd700;
+      border: 1px solid rgba(255, 215, 0, 0.2);
+    }
+
+    .event-description {
+      color: #9aa0c2;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    /* ====== FOOTER ====== */
+    footer {
+      padding: 80px 20px 40px;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      position: relative;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 40px;
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto 40px;
+    }
+
+    .footer-col h4 {
+      color: #fff;
+      font-size: 16px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 800;
+    }
+
+    .footer-col ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer-col ul li {
+      margin-bottom: 12px;
+    }
+
+    .footer-col ul li a {
+      color: #9aa0c2;
+      text-decoration: none;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .footer-col ul li a:hover {
+      color: var(--cyan);
+      padding-left: 5px;
+    }
+
+    .rainbow-divider {
+      height: 2px;
+      width: 100%;
+      max-width: 1200px;
+      background: linear-gradient(90deg, #00f0ff, #5b2cff, #ff4b9f, #00f0ff);
+      background-size: 200% auto;
+      animation: rainbowFlow 6s linear infinite;
+      opacity: 0.6;
+      border-radius: 2px;
+      margin: 30px auto 15px;
+    }
+
+    @keyframes rainbowFlow {
+      to {
+        background-position: 200% center;
+      }
+    }
+
+    .tg-float {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      width: 60px;
+      height: 60px;
+      background: #24A1DE;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10000;
+      box-shadow: 0 4px 15px rgba(36, 161, 222, .4);
+      transition: 0.3s;
+    }
+
+    .tg-float:hover {
+      transform: scale(1.1);
+    }
+
+    .tg-float img {
+      width: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header id="header">
+    <div class="nav">
+      <a href="index.html" class="brand">
+        <img src="assets/USDT.png" alt="Flash USDT">
+        <span>FLASH<span style="color:var(--cyan)">USDT</span></span>
+      </a>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="credit.html">Credit</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="verify.html">Verify</a>
+        <a href="status.html" style="color:white">Status</a>
+      </div>
+      <a href="status.html" class="contact-btn mobile-hide"
+        style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); box-shadow:none;">
+        <i class="fas fa-arrow-left"></i> Back to Status
+      </a>
+      <div class="menu-toggle" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="history-header">
+      <h1>Incident History</h1>
+      <p style="color: #9aa0c2;">Archive of all network updates, system maintenance, and protocol improvements.
+      </p>
+    </div>
+
+    <div class="timeline">
+      <!-- April 2026 -->
+      <div class="month-separator">📅 April 2026</div>
+
+      <div class="event-card">
+        <div class="event-header">
+          <div class="event-title">
+            <h3>Elite Partnership Program V1</h3>
+            <div class="event-date">Apr 2, 2026 • 12:00 UTC+3</div>
+          </div>
+          <span class="event-badge badge-update">Milestone</span>
+        </div>
+        <p class="event-description">
+          Phase 1 of the Elite Partnership Program is now active. Exclusive engine access granted to authorized multichain providers and liquidity managers.
+        </p>
+      </div>
+
+      <div class="event-card">
+        <div class="event-header">
+          <div class="event-title">
+            <h3>USDC Multichain Incentive</h3>
+            <div class="event-date">Apr 2, 2026 • 10:00 UTC+3</div>
+          </div>
+          <span class="event-badge badge-legal">Promotion</span>
+        </div>
+        <p class="event-description">
+          Launch of the 2% professional discount for all premium packages settled via USDC on BSC (BEP-20) and Ethereum (ERC-20) networks.
+        </p>
+      </div>
+
+      <div class="event-card">
+        <div class="event-header">
+          <div class="event-title">
+            <h3>Secure Gateway V2 Deployment</h3>
+            <div class="event-date">Apr 1, 2026 • 09:00 UTC+3</div>
+          </div>
+          <span class="event-badge badge-update">Update</span>
+        </div>
+        <p class="event-description">
+          Successful migration to the second-generation dynamic payment gateway. Full server-side verification and callback automation implemented for OxaPay.
+        </p>
+      </div>
+
+      <!-- March 2026 -->
+      <div class="month-separator">📅 March 2026</div>
+
+      <div class="event-card">
+        <div class="event-header">
+          <div class="event-title">
+            <h3>Stealth Sync Protocol Phase 8</h3>
+            <div class="event-date">Mar 28, 2026 • 16:00 UTC+3</div>
+          </div>
+          <span class="event-badge badge-maintenance">Testing</span>
+        </div>
+        <p class="event-description">
+          Completed intensive stress testing for Phase 8 of the Stealth Synchronization Protocol. Achieved 99.9% propagation efficiency across all nodes.
+        </p>
+      </div>
+
+      <div class="event-card">
+        <div class="event-header">
+          <div class="event-title">
+            <h3>Membership & Auth Layer</h3>
+            <div class="event-date">Mar 25, 2026 • 11:00 UTC+3</div>
+          </div>
+          <span class="event-badge badge-legal">Security</span>
+        </div>
+        <p class="event-description">
+          Establishment of the professional membership infrastructure and secure authentication layer to protect proprietary multichain deployment modules.
+        </p>
+      </div>
+
+      <!-- February 2026 -->
+      <div class="month-separator">📅 February 2026</div>
+
+      <div class="event-card">
+        <div class="event-header">
+          <div class="event-title">
+            <h3>Native Engine v2.0 Optimization</h3>
+            <div class="event-date">Feb 12, 2026 • 14:00 UTC+3</div>
+          </div>
+          <span class="event-badge badge-update">Performance</span>
+        </div>
+        <p class="event-description">
+          Refactored the core Native Production Engine for 40% faster execution on Ethereum and Binance Smart Chain networks during high congestion.
+        </p>
+      </div>
+
+      <div class="event-card">
+        <div class="event-header">
+          <div class="event-title">
+            <h3>Protocol Compliance & Security Patch</h3>
+            <div class="event-date">Feb 8, 2026 • 09:00 UTC+3</div>
+          </div>
+          <span class="event-badge badge-legal">Compliance</span>
+        </div>
+        <p class="event-description">
+          Updated global node parameters for enhanced asset security. Implemented a 48-hour withdrawal lock on
+          all new liquidity injections to combat arbitrage exploits and ensure system stability.
+        </p>
+      </div>
+
+      <div class="event-card">
+        <div class="event-header">
+          <div class="event-title">
+            <h3>P2P Transfer Protocol Launch</h3>
+            <div class="event-date">Feb 7, 2026 • 15:00 UTC+3</div>
+          </div>
+          <span class="event-badge badge-update">Optimization</span>
+        </div>
+        <p class="event-description">
+          Internal transfer system is now live. All FLASH USDT ecosystem users can now transfer assets
+          instantly via UUID with 0% network fees.
+        </p>
+      </div>
+
+      <!-- January 2026 -->
+      <div class="month-separator">📅 January 2026</div>
+
+      <div class="event-card">
+        <div class="event-header">
+          <div class="event-title">
+            <h3>Multi-Chain Node Maintenance</h3>
+            <div class="event-date">Jan 24, 2026 • 14:00 UTC+3</div>
+          </div>
+          <span class="event-badge badge-maintenance">Maintenance</span>
+        </div>
+        <p class="event-description">
+          Scheduled maintenance for TRC20 and BEP20 handling engines. Optimized signature verification speed
+          by 40% across all API endpoints.
+        </p>
+      </div>
+
+      <div class="event-card">
+        <div class="event-header">
+          <div class="event-title">
+            <h3>Multichain Bridge Phase 2</h3>
+            <div class="event-date">Jan 20, 2026 • 16:30 UTC+3</div>
+          </div>
+          <span class="event-badge badge-update">Network</span>
+        </div>
+        <p class="event-description">
+          Expansion of the secure bridge infrastructure to support seamless asset migration between TRC20 and EVM-compatible chains.
+        </p>
+      </div>
+
+      <div class="event-card">
+        <div class="event-header">
+          <div class="event-title">
+            <h3>Liquidity Gateway Outage (Resolved)</h3>
+            <div class="event-date">Jan 20, 2026 • 10:30 UTC+3</div>
+          </div>
+          <span class="event-badge"
+            style="background:rgba(255,70,93,0.1); color:#ff465d; border:1px solid rgba(255,70,93,0.2);">Incident</span>
+        </div>
+        <p class="event-description">
+          Brief service disruption in the fiat-to-USDT settlement bridge. Issue trace back to a third-party
+          API timeout. Full recovery in 45 minutes.
+        </p>
+      </div>
+
+      <!-- December 2025 -->
+      <div class="month-separator">📅 December 2025</div>
+
+      <div class="event-card">
+        <div class="event-header">
+          <div class="event-title">
+            <h3>Protocol Genesis Launch</h3>
+            <div class="event-date">Dec 15, 2025 • 10:00 UTC+3</div>
+          </div>
+          <span class="event-badge badge-update">Genesis</span>
+        </div>
+        <p class="event-description">
+          Official deployment of the FLASH USDT protocol architecture. Initial liquidity pools established for TRON and BSC ecosystems.
+        </p>
+      </div>
+
+      <!-- November 2025 -->
+      <div class="month-separator">📅 November 2025</div>
+
+      <div class="event-card">
+        <div class="event-header">
+          <div class="event-title">
+            <h3>Initial Alpha Stress Tests</h3>
+            <div class="event-date">Nov 30, 2025 • 14:00 UTC+3</div>
+          </div>
+          <span class="event-badge badge-maintenance">Testing</span>
+        </div>
+        <p class="event-description">
+          Phase 1 stress testing completed for the automated production engine under simulated blockchain load conditions. Achieved stable throughput baseline.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="reveal"
+    style="padding: 80px 20px 40px; border-top: 1px solid rgba(255,255,255,0.05); position:relative; overflow:hidden;">
+    <div class="footer-led"></div>
+
+    <div class="wrap">
+      <div class="footer-grid">
+        <!-- Col 1: About -->
+        <div class="footer-col">
+          <div style="display:flex; align-items:center; gap:10px; margin-bottom:20px;">
+            <img src="assets/USDT.png" alt="Logo" style="width:32px;">
+            <span style="font-weight:900; font-size:20px; letter-spacing:1px; color:#fff;">FLASH<span
+                style="color:var(--cyan)">USDT</span></span>
+          </div>
+          <p style="color:#9aa0c2; font-size:14px; line-height:1.6; margin-bottom:20px;">
+            Turkey's premier multichain Tether platform. Secure, instant, and trusted by global entities for
+            professional asset management.
+          </p>
+          <div style="display:flex; gap:12px;">
+            <a href="https://t.me/flashusdcom" target="_blank"
+              style="width:36px; height:36px; background:rgba(255,255,255,0.05); border-radius:50%; display:flex; align-items:center; justify-content:center; transition:0.3s;"
+              onmouseover="this.style.background='var(--cyan)'"
+              onmouseout="this.style.background='rgba(255,255,255,0.05)'">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="white">
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.05-.2-.06-.06-.15-.04-.21-.03-.09.01-1.49.93-4.21 2.77-.4.27-.76.41-1.08.4-.35-.01-1.02-.2-1.52-.36-.61-.2-1.1-.31-1.05-.65.02-.18.27-.36.75-.56 2.93-1.27 4.88-2.11 5.86-2.52 2.79-1.16 3.37-1.36 3.75-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Products -->
+        <div class="footer-col">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="index.html#products">TRC-20 USDT</a></li>
+            <li><a href="index.html#products">ERC-20 USDT</a></li>
+            <li><a href="index.html#products">BEP-20 USDT</a></li>
+            <li><a href="index.html#products">BTC FlashLoan</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Resources -->
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="https://t.me/flashusdcom" target="_blank">Telegram Support</a></li>
+            <li><a href="status.html">Network Status</a></li>
+            <li><a href="use-cases.html">Merchant Use Cases</a></li>
+            <li><a href="/cdn-cgi/l/email-protection#b7c4c2c7c7d8c5c3f7d1dbd6c4dfc2c4d399d4d8da99c3c5">Email Support</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Trust & Safety -->
+        <div class="footer-col">
+          <h4>Trust & Safety</h4>
+          <div style="margin-bottom:15px;">
+            <div style="color:#ffd966; font-size:12px; font-weight:700; margin-bottom:8px; text-transform:uppercase;">
+              💠 Official Gateway</div>
+            <a href="https://pay.oxapay.com/14667700" target="_blank" style="display:inline-block;">
+              <img src="https://oxapay.com/donation-buttons/5.png" alt="OxaPay"
+                style="width:140px; border-radius:8px; box-shadow:0 0 15px rgba(240,185,11,0.2);">
+            </a>
+          </div>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="security.html">Security Disclaimer</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div
+        style="border-top:1px solid rgba(255,255,255,0.05); padding-top:30px; display:flex; flex-direction:column; align-items:center; gap:15px;">
+        <div
+          style="height:2px; width:100%; max-width:1200px; background:linear-gradient(90deg, #00f0ff, #5b2cff, #ff4b9f, #00f0ff); background-size:200% auto; animation: rainbowFlow 6s linear infinite; opacity:0.6; border-radius:2px;">
+        </div>
+        <div style="text-align:center;">
+          <p style="margin:0; color:#dfe6ff; font-size:14px;">© <span id="y_footer"></span> <strong>FLASH
+              USDT</strong> — Multi-Chain Financial Protocols.</p>
+          <p style="margin:5px 0 0; color:#9aa0c2; font-size:12px;">Securely serving global decentralization.
+            All transactions are encrypted and non-reversible.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://t.me/flashusdcom" target="_blank" class="tg-float" title="Contact on Telegram">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram">
+  </a>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    document.getElementById('y_footer').textContent = new Date().getFullYear();
+
+    // Reveal on scroll
+    const io_footer = new IntersectionObserver((entries) => {
+      entries.forEach(ent => {
+        if (ent.isIntersecting) { ent.target.classList.add('in'); io_footer.unobserve(ent.target); }
+      });
+    }, { threshold: .15 });
+    document.querySelectorAll('.reveal').forEach(el => io_footer.observe(el));
+  </script>
+
+  <script>
+    function toggleMenu() {
+      document.querySelector('.menu').classList.toggle('active');
+      document.querySelector('.menu-toggle').classList.toggle('active');
+    }
+    window.addEventListener('scroll', () => {
+      const header = document.getElementById('header');
+      if (window.pageYOffset > 50) header.classList.add('scrolled');
+      else header.classList.remove('scrolled');
+    });
+  </script>
+  <script>
+    document.addEventListener('contextmenu', event => event.preventDefault());
+    document.addEventListener('keydown', event => {
+      if (event.keyCode === 123 || (event.ctrlKey && event.shiftKey && (event.keyCode === 73 || event.keyCode === 74)) || (event.ctrlKey && event.keyCode === 85)) {
+        event.preventDefault();
+        return false;
+      }
+    });
+  </script>
+</body>
+
+</html>

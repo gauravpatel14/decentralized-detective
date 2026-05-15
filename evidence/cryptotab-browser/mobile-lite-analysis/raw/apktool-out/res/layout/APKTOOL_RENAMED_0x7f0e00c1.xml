@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n0:paddingTop="10.0dp" n0:paddingBottom="10.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:fadeScrollbars="false" n0:paddingStart="24.0dp" n0:paddingEnd="24.0dp"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <org.chromium.components.embedder_support.delegate.ColorPickerSuggestionsView n0:gravity="center" n0:id="@id/color_picker_suggestions_view" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:horizontalSpacing="8.0dp" n0:verticalSpacing="8.0dp" />
+        <org.chromium.components.embedder_support.delegate.ColorPickerAdvanced n0:id="@id/color_picker_custom_view" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+        <RelativeLayout n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="10.0dp">
+            <LinearLayout n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginEnd="20.0dp" n0:layout_toStartOf="@id/color_picker_dialog_chosen_color_container">
+                <org.chromium.ui.widget.ButtonCompat n0:gravity="center_vertical" n0:layout_gravity="start" n0:id="@id/color_picker_view_switcher_button" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginStart="11.0dp" style="@style/APKTOOL_RENAMED_0x7f15037f" />
+            </LinearLayout>
+            <LinearLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:id="@id/color_picker_dialog_chosen_color_container" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_alignParentEnd="true">
+                <TextView n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:maxWidth="150.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f14043c" n0:importantForAccessibility="no" style="@style/APKTOOL_RENAMED_0x7f150340" />
+                <FrameLayout n0:layout_gravity="center" n0:background="@drawable/APKTOOL_RENAMED_0x7f090153" n0:padding="6.0dp" n0:layout_width="48.0dp" n0:layout_height="48.0dp" n0:importantForAccessibility="noHideDescendants" n0:layout_marginStart="8.0dp" n0:layout_marginEnd="13.0dp">
+                    <View n0:id="@id/color_picker_dialog_chosen_color_view" n0:background="@android:color/transparent" n0:layout_width="match_parent" n0:layout_height="match_parent" />
+                </FrameLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

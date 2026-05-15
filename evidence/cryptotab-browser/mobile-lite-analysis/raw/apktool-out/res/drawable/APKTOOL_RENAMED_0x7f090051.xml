@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set n0:ordering="sequentially"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <objectAnimator n0:interpolator="@anim/APKTOOL_RENAMED_0x7f020037" n0:duration="3900" n0:valueFrom="0" n0:valueTo="-3.645" n0:propertyName="translateX" />
+    <objectAnimator n0:interpolator="@anim/APKTOOL_RENAMED_0x7f020037" n0:duration="6550" n0:valueFrom="-3.645" n0:valueTo="0" n0:propertyName="translateX" />
+</set>

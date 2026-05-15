@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:textAppearance="?APKTOOL_RENAMED_0x7f0500e8" n0:id="@id/textTitle" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0800dc" n0:layout_centerHorizontal="true" />
+    <Button n0:textAppearance="?APKTOOL_RENAMED_0x7f0500c8" n0:id="@id/button" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f0800da" n0:layout_alignParentBottom="true" n0:layout_centerHorizontal="true" />
+</RelativeLayout>

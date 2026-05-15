@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory n0:title="@string/APKTOOL_RENAMED_0x7f140ab0" n0:key="privacy_section"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <Preference n1:title="@string/APKTOOL_RENAMED_0x7f140409" n1:key="clear_browsing_data" n1:summary="@string/APKTOOL_RENAMED_0x7f140401" n1:fragment="org.chromium.chrome.browser.browsing_data.ClearBrowsingDataTabsFragment"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <Preference n2:title="@string/APKTOOL_RENAMED_0x7f140409" n2:key="clear_browsing_data_advanced" n2:summary="@string/APKTOOL_RENAMED_0x7f140401" n2:fragment="org.chromium.chrome.browser.browsing_data.ClearBrowsingDataFragmentAdvanced" n3:APKTOOL_RENAMED_0x7f0502cd="false"
+      xmlns:n2="http://schemas.android.com/apk/res/android" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <Preference n4:title="@string/APKTOOL_RENAMED_0x7f140a4c" n4:key="privacy_guide" n4:summary="@string/APKTOOL_RENAMED_0x7f140a4b" n4:fragment="org.chromium.chrome.browser.privacy_guide.PrivacyGuideFragment"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n5:title="@string/APKTOOL_RENAMED_0x7f140dde" n5:key="third_party_cookies" n5:fragment="org.chromium.components.browser_ui.site_settings.SingleCategorySettings"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <Preference n6:title="@string/APKTOOL_RENAMED_0x7f140e2d" n6:key="tracking_protection" n6:summary="@string/APKTOOL_RENAMED_0x7f140e2c" n6:fragment="org.chromium.components.privacy_sandbox.TrackingProtectionSettings" n7:APKTOOL_RENAMED_0x7f0502cd="false"
+      xmlns:n6="http://schemas.android.com/apk/res/android" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <Preference n8:title="@string/APKTOOL_RENAMED_0x7f140665" n8:key="ip_protection" n8:fragment="org.chromium.components.privacy_sandbox.IpProtectionSettingsFragment" n9:APKTOOL_RENAMED_0x7f0502cd="false"
+      xmlns:n8="http://schemas.android.com/apk/res/android" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+    <Preference n10:title="@string/APKTOOL_RENAMED_0x7f140e17" n10:key="fp_protection" n10:fragment="org.chromium.components.privacy_sandbox.FingerprintingProtectionSettingsFragment" n11:APKTOOL_RENAMED_0x7f0502cd="false"
+      xmlns:n10="http://schemas.android.com/apk/res/android" xmlns:n11="http://schemas.android.com/apk/res-auto" />
+    <Preference n12:title="@string/APKTOOL_RENAMED_0x7f14022a" n12:key="privacy_sandbox" n12:summary="@string/APKTOOL_RENAMED_0x7f14022b" n12:fragment="org.chromium.chrome.browser.privacy_sandbox.PrivacySandboxSettingsFragment"
+      xmlns:n12="http://schemas.android.com/apk/res/android" />
+    <Preference n13:title="@string/APKTOOL_RENAMED_0x7f1404f6" n13:key="do_not_track" n13:fragment="org.chromium.chrome.browser.privacy.settings.DoNotTrackSettings"
+      xmlns:n13="http://schemas.android.com/apk/res/android" />
+    <Preference n14:title="@string/APKTOOL_RENAMED_0x7f140a01" n14:key="preload_pages" n14:summary="@string/APKTOOL_RENAMED_0x7f140a00" n14:fragment="org.chromium.chrome.browser.prefetch.settings.PreloadPagesSettingsFragment"
+      xmlns:n14="http://schemas.android.com/apk/res/android" />
+    <org.chromium.chrome.browser.incognito.reauth.IncognitoReauthSettingSwitchPreference n15:persistent="false" n15:title="@string/APKTOOL_RENAMED_0x7f140c49" n15:key="incognito_lock" n15:summary="@string/APKTOOL_RENAMED_0x7f140c47"
+      xmlns:n15="http://schemas.android.com/apk/res/android" />
+    <PreferenceCategory n16:title="@string/APKTOOL_RENAMED_0x7f140c02" n16:key="security_section"
+      xmlns:n16="http://schemas.android.com/apk/res/android" />
+    <Preference n17:title="@string/APKTOOL_RENAMED_0x7f1409e4" n17:key="safe_browsing" n17:summary="@string/APKTOOL_RENAMED_0x7f1409e3" n17:fragment="org.chromium.chrome.browser.safe_browsing.settings.SafeBrowsingSettingsFragment"
+      xmlns:n17="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n18:title="@string/APKTOOL_RENAMED_0x7f140c45" n18:key="https_first_mode" n18:summary="@string/APKTOOL_RENAMED_0x7f140c44"
+      xmlns:n18="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n19:title="@string/APKTOOL_RENAMED_0x7f140c5c" n19:key="secure_dns" n19:fragment="org.chromium.chrome.browser.privacy.secure_dns.SecureDnsSettings"
+      xmlns:n19="http://schemas.android.com/apk/res/android" />
+    <Preference n20:title="@string/APKTOOL_RENAMED_0x7f140390" n20:key="phone_as_a_security_key" n20:summary="@string/APKTOOL_RENAMED_0x7f14038f" n20:fragment="org.chromium.chrome.browser.webauthn.PrivacySettingsFragment"
+      xmlns:n20="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n21:title="@string/APKTOOL_RENAMED_0x7f1403ad" n21:key="can_make_payment" n21:summary="@string/APKTOOL_RENAMED_0x7f140c2a"
+      xmlns:n21="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n22:key="sync_and_services_link" n22:summary="@string/APKTOOL_RENAMED_0x7f140ab1" n23:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n22="http://schemas.android.com/apk/res/android" xmlns:n23="http://schemas.android.com/apk/res-auto" />
+</PreferenceScreen>

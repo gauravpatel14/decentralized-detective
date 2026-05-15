@@ -1,0 +1,9 @@
+"Chromium Shortcut" = "„CryptoTab Browser“ spartusis klavišas";
+CFBundleGetInfoString = "CryptoTab Browser 127.0.6533.100, Autorių teisės priklauso „CryptoTab Browser“ autoriams, 2024 m. Visos teisės saugomos.";
+NSBluetoothAlwaysUsageDescription = "Kai „CryptoTab Browser“ galės pasiekti duomenis, svetainės taip pat galės prašyti suteikti leidimą juos pasiekti.";
+NSBluetoothPeripheralUsageDescription = "Kai „CryptoTab Browser“ galės pasiekti duomenis, svetainės taip pat galės prašyti suteikti leidimą juos pasiekti.";
+NSCameraUsageDescription = "Kai „CryptoTab Browser“ galės pasiekti duomenis, svetainės taip pat galės prašyti suteikti leidimą juos pasiekti.";
+NSHumanReadableCopyright = "Autorių teisės priklauso „CryptoTab Browser“ autoriams, 2024 m. Visos teisės saugomos.";
+NSLocationUsageDescription = "Kai „CryptoTab Browser“ galės pasiekti duomenis, svetainės taip pat galės prašyti suteikti leidimą juos pasiekti.";
+NSMicrophoneUsageDescription = "Kai „CryptoTab Browser“ galės pasiekti duomenis, svetainės taip pat galės prašyti suteikti leidimą juos pasiekti.";
+NSWebBrowserPublicKeyCredentialUsageDescription = "Kai „CryptoTab Browser“ galės pasiekti duomenis, svetainės taip pat galės prašyti suteikti leidimą juos pasiekti.";

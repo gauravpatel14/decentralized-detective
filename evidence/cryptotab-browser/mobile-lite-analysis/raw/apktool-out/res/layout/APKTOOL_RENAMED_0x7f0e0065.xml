@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="wrap_content" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f080212" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f080211" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f080211">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150266" n0:id="@id/title" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_alignParentTop="true" n0:layout_marginEnd="10.0dp" n0:layout_toStartOf="@id/title_icon" n0:layout_alignParentStart="true" />
+        <ImageView n0:id="@id/title_icon" n0:layout_width="46.0dp" n0:layout_height="24.0dp" n0:layout_marginTop="2.0dp" n0:layout_alignParentTop="true" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1402dc" n0:layout_alignParentEnd="true" n1:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f0901bb"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+    <ScrollView n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:fillViewport="true">
+        <RelativeLayout n0:id="@id/autofill_card_unmask_prompt" n0:layout_width="wrap_content" n0:layout_height="wrap_content">
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150298" n0:gravity="start" n0:id="@id/no_retry_error_message" n0:paddingTop="12.0dp" n0:paddingBottom="15.0dp" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="23.0dp" n0:layout_marginBottom="2.0dp" n0:paddingStart="24.0dp" n0:paddingEnd="24.0dp" />
+            <LinearLayout n0:orientation="vertical" n0:id="@id/controls_container" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_below="@id/no_retry_error_message">
+                <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150299" n0:gravity="start" n0:id="@id/instructions" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="20.0dp" n0:lineSpacingMultiplier="1.25" n0:layout_marginStart="20.0dp" n0:layout_marginEnd="20.0dp" />
+                <include n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="13.0dp" n0:layout_marginHorizontal="24.0dp" layout="@layout/APKTOOL_RENAMED_0x7f0e0067" />
+                <LinearLayout n0:orientation="horizontal" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="14.0dp" n0:layout_marginStart="4.0dp">
+                    <LinearLayout n0:orientation="horizontal" n0:id="@id/expiration_container" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginEnd="24.0dp">
+                        <EditText n0:gravity="center_horizontal" n0:id="@id/expiration_month" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:minHeight="48.0dp" n0:hint="@string/APKTOOL_RENAMED_0x7f1402d8" n0:width="50.0sp" n0:maxLength="2" n0:inputType="number" n0:imeOptions="actionNext" n0:layout_marginStart="16.0dp" />
+                        <TextView n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f1402d9" />
+                        <EditText n0:gravity="center_horizontal" n0:id="@id/expiration_year" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:minHeight="48.0dp" n0:hint="@string/APKTOOL_RENAMED_0x7f1402da" n0:width="50.0sp" n0:maxLength="2" n0:inputType="number" n0:imeOptions="actionNext" />
+                    </LinearLayout>
+                    <EditText n0:id="@id/card_unmask_input" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:minHeight="48.0dp" n0:hint="@string/APKTOOL_RENAMED_0x7f1403b0" n0:ems="5" n0:inputType="number" n0:imeOptions="actionDone" n0:imeActionLabel="@string/APKTOOL_RENAMED_0x7f14030c" n0:layout_marginStart="16.0dp" n0:importantForAutofill="no" />
+                    <ImageView n0:layout_gravity="center_vertical" n0:id="@id/cvc_hint_image" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginStart="8.0dp" n0:layout_marginEnd="16.0dp" />
+                    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15034f" n0:id="@id/new_card_link" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f1402ae" n0:singleLine="true" />
+                </LinearLayout>
+                <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150298" n0:gravity="start" n0:id="@id/error_message" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginStart="24.0dp" n0:layout_marginEnd="24.0dp" />
+                <CheckBox n0:enabled="true" n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150297" n0:id="@id/use_screenlock_checkbox" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="16.0dp" n0:layout_marginBottom="16.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f1402b0" n0:layout_marginStart="17.0dp" n0:layout_marginEnd="10.0dp" />
+            </LinearLayout>
+            <LinearLayout n0:gravity="center" n0:orientation="vertical" n0:id="@id/verification_overlay" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_alignTop="@id/controls_container" n0:layout_alignBottom="@id/controls_container" n0:layout_alignStart="@id/controls_container" n0:layout_alignEnd="@id/controls_container">
+                <ProgressBar n0:id="@id/verification_progress_bar" n0:visibility="gone" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080097" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080097" n0:layout_marginTop="16.0dp" n0:layout_marginBottom="8.0dp" />
+                <ImageView n0:id="@id/verification_success" n0:visibility="gone" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080097" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080097" n0:layout_marginTop="16.0dp" n0:layout_marginBottom="8.0dp" n0:src="@drawable/APKTOOL_RENAMED_0x7f09013d" n0:importantForAccessibility="no" />
+                <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15035a" n0:id="@id/verification_message" n0:layout_width="wrap_content" n0:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n0:title="@string/APKTOOL_RENAMED_0x7f1409f0" n0:key="subtitle" n1:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n2:key="bullet_one" n2:summary="@string/APKTOOL_RENAMED_0x7f1409ed" n3:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n2="http://schemas.android.com/apk/res/android" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n4:key="bullet_two" n4:summary="@string/APKTOOL_RENAMED_0x7f1409ef" n5:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n4="http://schemas.android.com/apk/res/android" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n6:key="bullet_three" n6:summary="@string/APKTOOL_RENAMED_0x7f1409ee" n7:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n6="http://schemas.android.com/apk/res/android" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n8:key="bullet_four" n8:summary="@string/APKTOOL_RENAMED_0x7f1409ec" n9:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n8="http://schemas.android.com/apk/res/android" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+</PreferenceScreen>

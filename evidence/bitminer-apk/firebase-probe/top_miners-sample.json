@@ -1,0 +1,71 @@
+{
+  "documents": [
+    {
+      "name": "projects/btc-biner/databases/(default)/documents/top_miners/miner_1",
+      "fields": {
+        "country": {
+          "stringValue": "USA"
+        },
+        "earnings": {
+          "doubleValue": 110569.863
+        },
+        "hashRate": {
+          "doubleValue": 0.998999
+        },
+        "name": {
+          "stringValue": "Ethan Walker"
+        },
+        "id": {
+          "integerValue": "1"
+        }
+      },
+      "createTime": "2025-12-30T03:57:55.569712Z",
+      "updateTime": "2025-12-30T03:57:55.569712Z"
+    },
+    {
+      "name": "projects/btc-biner/databases/(default)/documents/top_miners/miner_10",
+      "fields": {
+        "name": {
+          "stringValue": "Chloe Smith"
+        },
+        "id": {
+          "integerValue": "10"
+        },
+        "earnings": {
+          "doubleValue": 107550.876
+        },
+        "hashRate": {
+          "doubleValue": 0.99301
+        },
+        "country": {
+          "stringValue": "Canada"
+        }
+      },
+      "createTime": "2025-12-30T03:57:55.569712Z",
+      "updateTime": "2025-12-30T03:57:55.569712Z"
+    },
+    {
+      "name": "projects/btc-biner/databases/(default)/documents/top_miners/miner_11",
+      "fields": {
+        "id": {
+          "integerValue": "11"
+        },
+        "name": {
+          "stringValue": "David Kim"
+        },
+        "country": {
+          "stringValue": "South Korea"
+        },
+        "hashRate": {
+          "doubleValue": 0.992567
+        },
+        "earnings": {
+          "doubleValue": 107380.123
+        }
+      },
+      "createTime": "2025-12-30T03:57:55.569712Z",
+      "updateTime": "2025-12-30T03:57:55.569712Z"
+    }
+  ],
+  "nextPageToken": "AFTOeJzxha-BKEw1nLYUuliC_i3rdzYC7-oE65QqPUbO1IzAKE_HYHRiDHv6mSRZnI5JF_ZzPJuGT6kzSrVaqUXDz58PltD-YPPKCHa6nixxS-YZrpJxanE"
+}

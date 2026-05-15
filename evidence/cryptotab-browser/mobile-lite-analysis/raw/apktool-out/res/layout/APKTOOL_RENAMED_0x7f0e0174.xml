@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <View n0:layout_width="16.0dp" n0:layout_height="match_parent"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e0311" />
+    <View n1:layout_width="16.0dp" n1:layout_height="match_parent"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <ImageView n2:layout_gravity="end" n2:id="@id/local_bookmark_image" n2:focusable="false" n2:visibility="gone" n2:layout_width="wrap_content" n2:layout_height="match_parent" n2:src="@drawable/APKTOOL_RENAMED_0x7f090212" n2:scaleType="center" n2:contentDescription="@string/APKTOOL_RENAMED_0x7f1406db" n2:layout_marginEnd="4.0dp" n3:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070114"
+      xmlns:n2="http://schemas.android.com/apk/res/android" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.ui.listmenu.ListMenuButton n4:layout_gravity="end" n4:id="@id/more" n4:background="@null" n4:visibility="gone" n4:layout_width="@dimen/APKTOOL_RENAMED_0x7f080541" n4:layout_height="match_parent" n4:src="@drawable/APKTOOL_RENAMED_0x7f0902ac" n4:importantForAccessibility="no" n5:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129"
+      xmlns:n4="http://schemas.android.com/apk/res/android" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <ImageView n6:layout_gravity="end" n6:id="@id/check_image" n6:visibility="gone" n6:layout_width="@dimen/APKTOOL_RENAMED_0x7f080541" n6:layout_height="match_parent" n6:src="@drawable/APKTOOL_RENAMED_0x7f0903ed" n6:scaleType="center" n6:importantForAccessibility="no" n7:APKTOOL_RENAMED_0x7f050573="?APKTOOL_RENAMED_0x7f050155"
+      xmlns:n6="http://schemas.android.com/apk/res/android" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <ImageView n8:layout_gravity="end" n8:id="@id/end_image" n8:focusable="false" n8:layout_width="@dimen/APKTOOL_RENAMED_0x7f080541" n8:layout_height="match_parent" n8:scaleType="center" n8:importantForAccessibility="no"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+</merge>

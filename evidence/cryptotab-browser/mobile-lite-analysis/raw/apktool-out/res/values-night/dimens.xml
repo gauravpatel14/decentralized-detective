@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="APKTOOL_RENAMED_0x7f0800c6">@dimen/APKTOOL_RENAMED_0x7f0801bc</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f080113">@dimen/APKTOOL_RENAMED_0x7f080114</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f080116">@dimen/APKTOOL_RENAMED_0x7f080117</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f080119">@dimen/APKTOOL_RENAMED_0x7f08011a</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f080200">@dimen/APKTOOL_RENAMED_0x7f0801bd</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f080202">@dimen/APKTOOL_RENAMED_0x7f0801bd</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f080216">@dimen/APKTOOL_RENAMED_0x7f0801bd</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f08027b">@dimen/APKTOOL_RENAMED_0x7f0801bc</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f0802d0">@dimen/APKTOOL_RENAMED_0x7f0801ba</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f0802d1">0.2</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f0802d3">@dimen/APKTOOL_RENAMED_0x7f0801bb</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f0802f7">@dimen/APKTOOL_RENAMED_0x7f0801bd</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f080519">@dimen/APKTOOL_RENAMED_0x7f0801c0</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f08051b">@dimen/APKTOOL_RENAMED_0x7f0801bf</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f08052d">@dimen/APKTOOL_RENAMED_0x7f0801bd</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f080676">@dimen/APKTOOL_RENAMED_0x7f0801bb</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f08067c">@dimen/APKTOOL_RENAMED_0x7f0801bd</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f0806a2">@dimen/APKTOOL_RENAMED_0x7f0801be</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f0807ad">@dimen/APKTOOL_RENAMED_0x7f0801be</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f0807d1">@dimen/APKTOOL_RENAMED_0x7f0801be</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f0807d2">@dimen/APKTOOL_RENAMED_0x7f0801be</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f0807e7">@dimen/APKTOOL_RENAMED_0x7f0801be</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f0807e8">@dimen/APKTOOL_RENAMED_0x7f0801be</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f080821">@dimen/APKTOOL_RENAMED_0x7f0801bf</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f08083b">@dimen/APKTOOL_RENAMED_0x7f0801bd</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f080886">@dimen/APKTOOL_RENAMED_0x7f0801bb</dimen>
+    <dimen name="APKTOOL_RENAMED_0x7f08089c">@dimen/APKTOOL_RENAMED_0x7f0801bd</dimen>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.bookmarks.BookmarkToolbar n0:id="@id/bookmark_toolbar" n0:focusable="true" n0:focusableInTouchMode="true" n0:clickable="true" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08088d" n0:importantForAccessibility="no" n1:APKTOOL_RENAMED_0x7f05043c="@style/APKTOOL_RENAMED_0x7f1501ae" style="@style/APKTOOL_RENAMED_0x7f1501ad"
+  xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />

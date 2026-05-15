@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.creator.CreatorProfileView n0:layout_gravity="center_vertical" n0:orientation="horizontal" n0:background="@drawable/APKTOOL_RENAMED_0x7f0904aa" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f08018d" n0:layout_height="wrap_content" n0:layout_weight="1.0">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502d1" n0:id="@id/creator_name" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:singleLine="true" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f08018e" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15036d" n0:id="@id/creator_url" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:singleLine="true" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f08018e" />
+    </LinearLayout>
+    <FrameLayout n0:layout_gravity="center_vertical" n0:layout_width="wrap_content" n0:layout_height="wrap_content">
+        <org.chromium.ui.widget.ButtonCompat n0:id="@id/creator_follow_button" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140736" n0:drawableStart="@drawable/APKTOOL_RENAMED_0x7f0901a7" style="@style/APKTOOL_RENAMED_0x7f15015a" />
+        <org.chromium.ui.widget.ButtonCompat n0:id="@id/creator_following_button" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140737" n0:drawableStart="@drawable/APKTOOL_RENAMED_0x7f0901a8" style="@style/APKTOOL_RENAMED_0x7f15015c" />
+    </FrameLayout>
+</org.chromium.chrome.browser.creator.CreatorProfileView>

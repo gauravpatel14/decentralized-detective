@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.add_username_dialog.AddUsernameDialogContentView n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f150004"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.components.browser_ui.widget.FadingEdgeScrollView n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_weight="1.0">
+        <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n0:id="@id/description" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="16.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f14024e" n0:layout_marginStart="4.0dp" />
+            <com.google.android.material.textfield.TextInputLayout n0:id="@id/username_text_input_layout" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:hint="@string/APKTOOL_RENAMED_0x7f14094d" n0:labelFor="@id/username" n1:APKTOOL_RENAMED_0x7f050216="true" n1:APKTOOL_RENAMED_0x7f05021b="@style/APKTOOL_RENAMED_0x7f1502c7" n1:APKTOOL_RENAMED_0x7f05029c="@style/APKTOOL_RENAMED_0x7f150350"
+              xmlns:n1="http://schemas.android.com/apk/res-auto">
+                <com.google.android.material.textfield.TextInputEditText n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:layout_gravity="start" n0:id="@id/username" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:imeOptions="actionDone" n0:textAlignment="viewStart" n0:importantForAutofill="noExcludeDescendants" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout n0:id="@id/password_text_input_layout" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:hint="@string/APKTOOL_RENAMED_0x7f140949" n0:labelFor="@id/password" n2:APKTOOL_RENAMED_0x7f050209="password_toggle" n2:APKTOOL_RENAMED_0x7f05020b="@color/APKTOOL_RENAMED_0x7f070129" n2:APKTOOL_RENAMED_0x7f05029c="@style/APKTOOL_RENAMED_0x7f150350"
+              xmlns:n2="http://schemas.android.com/apk/res-auto">
+                <com.google.android.material.textfield.TextInputEditText n0:enabled="false" n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:layout_gravity="start" n0:id="@id/password" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:inputType="textPassword" n0:imeOptions="actionDone" n0:textAlignment="viewStart" n0:importantForAutofill="noExcludeDescendants" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+    </org.chromium.components.browser_ui.widget.FadingEdgeScrollView>
+</org.chromium.chrome.browser.add_username_dialog.AddUsernameDialogContentView>

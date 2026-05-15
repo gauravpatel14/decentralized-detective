@@ -1,0 +1,39 @@
+{
+  "documents": [
+    {
+      "name": "projects/btc-biner/databases/(default)/documents/users/000Zm2BFJHaz0dZkQFmeTy2xYAa2",
+      "fields": {
+        "share_btc_count": {
+          "doubleValue": 0
+        },
+        "phone_no": {
+          "nullValue": null
+        },
+        "email": {
+          "stringValue": "jin1985319@gmail.com"
+        },
+        "fcm_token": {
+          "stringValue": "dmOPXiZgTUu_G2gjJY1PwU:APA91bGnbPsZaYklPmB24Tm-jpO1shJkggXG2Wxs55dTU4UTPViYfUdRTnmk1WkYL_i4LzwPMb_X2kU66sHG5sTq7NWOemXfBYrRYGwBThD35n9Ew4t2TnY"
+        },
+        "wallet_address": {
+          "nullValue": null
+        },
+        "name": {
+          "stringValue": "김광군"
+        },
+        "photo_url": {
+          "stringValue": "https://lh3.googleusercontent.com/a/ACg8ocJrbqPNmsjGuchsD5xpPmy6u5CHljosq11kiohjCLYXj2xxSrVJ-Q=s96-c"
+        },
+        "referral_code": {
+          "stringValue": "000Zm2BFJHaz0dZkQFmeTy2xYAa2"
+        },
+        "btc_count": {
+          "doubleValue": 5e-09
+        }
+      },
+      "createTime": "2026-03-19T06:04:00.182423Z",
+      "updateTime": "2026-03-19T06:04:00.182423Z"
+    }
+  ],
+  "nextPageToken": "AFTOeJxCKYiWfQR8eqKU_toaadHmay5OMIjWuNuQfufaPIduZBBbvJoCU38iGSQrRxl5dIlzRCCEG9Lb-lKMz_YI0NzB0QNfUD-o22xy4l3V5duUn0DiK5lw0aNwtMQis0Rbeu5hSok"
+}

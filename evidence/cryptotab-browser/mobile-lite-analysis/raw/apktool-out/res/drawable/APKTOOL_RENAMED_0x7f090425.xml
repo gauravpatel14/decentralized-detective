@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item>
+        <bitmap n0:src="@drawable/APKTOOL_RENAMED_0x7f0902a1" n0:alpha="0.87"
+          xmlns:n0="http://schemas.android.com/apk/res/android" />
+    </item>
+</selector>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:gravity="center_vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.components.browser_ui.widget.text.TextViewWithCompoundDrawables n0:ellipsize="end" n0:id="@id/title" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:minHeight="?android:listPreferredItemHeightSmall" n0:paddingStart="16.0dp" n0:layout_toStartOf="@id/checkbox_icon_container" n0:layout_alignParentStart="true" style="@style/APKTOOL_RENAMED_0x7f150015" />
+    <FrameLayout n0:id="@id/checkbox_icon_container" n0:layout_width="56.0dp" n0:layout_height="wrap_content" n0:layout_alignTop="@id/title" n0:layout_alignBottom="@id/title" n0:layout_alignParentEnd="true">
+        <org.chromium.chrome.browser.ui.appmenu.AppMenuItemIcon n0:id="@id/checkbox" n0:background="?APKTOOL_RENAMED_0x7f050355" n0:paddingTop="8.0dp" n0:paddingBottom="8.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:src="?android:listChoiceIndicatorMultiple" n0:scaleType="fitCenter" n0:paddingStart="12.0dp" n0:paddingEnd="12.0dp" />
+        <org.chromium.ui.widget.ChromeImageButton n0:id="@id/button" n0:background="?APKTOOL_RENAMED_0x7f050355" n0:paddingTop="12.0dp" n0:paddingBottom="12.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:scaleType="fitCenter" n0:paddingStart="16.0dp" n0:paddingEnd="16.0dp" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.payments.ui.PaymentRequestBottomBar n0:id="@id/bottom_bar" n0:background="@drawable/APKTOOL_RENAMED_0x7f09051e" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f0806db" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f0806db" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f0806da" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f0806da"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:id="@id/logo_name" n0:layout_width="72.0dp" n0:layout_height="20.0dp" />
+    <ImageView n0:id="@id/logo" n0:layout_width="20.0dp" n0:layout_height="20.0dp" />
+    <Space n0:id="@id/space" n0:layout_width="0.0dp" n0:layout_height="0.0dp" />
+    <org.chromium.ui.widget.ButtonCompat n0:id="@id/button_secondary" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f14099f" style="@style/APKTOOL_RENAMED_0x7f15037f" />
+    <org.chromium.ui.widget.ButtonCompat n0:id="@id/button_primary" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f1409ab" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+</org.chromium.chrome.browser.payments.ui.PaymentRequestBottomBar>

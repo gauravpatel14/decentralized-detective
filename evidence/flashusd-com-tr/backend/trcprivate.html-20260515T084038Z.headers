@@ -1,0 +1,21 @@
+HTTP/2 403 
+date: Fri, 15 May 2026 08:40:43 GMT
+content-type: text/html
+set-cookie: 
+set-cookie: 
+cache-control: private, no-cache, no-store, must-revalidate, max-age=0
+pragma: no-cache
+strict-transport-security: max-age=31536000; includeSubDomains
+content-security-policy: upgrade-insecure-requests
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: geolocation=(), camera=(), microphone=()
+alt-svc: h3=":443"; ma=86400
+x-turbo-charged-by: LiteSpeed
+cf-cache-status: DYNAMIC
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=IqVcQnj8QO7fJJskCfVjjboGessMY3XsccA4hpHgdEj6LOPYJ3Zlac9ytUrP7rAZ9amgcRj%2FkSO5K1pikucL%2FaXoaLtYIa6qRgkGAT%2FY53Piy7jdNlqpjVlqmhmPjpb%2Fe9SkE7T1HTaM1CRRcMo%3D"}]}
+server: cloudflare
+cf-ray: 9fc0d6e8accf0cb5-MRS
+

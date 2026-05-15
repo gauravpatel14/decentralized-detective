@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item n0:id="@android:id/progress"
+      xmlns:n0="http://schemas.android.com/apk/res/android">
+        <rotate n0:fromDegrees="270.0" n0:toDegrees="270.0">
+            <shape n0:shape="ring" n0:useLevel="true" n0:innerRadius="16.0dp" n0:thickness="2.0dp">
+                <gradient n0:startColor="?APKTOOL_RENAMED_0x7f050155" n0:endColor="?APKTOOL_RENAMED_0x7f050155" n0:angle="0.0" n0:type="sweep" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

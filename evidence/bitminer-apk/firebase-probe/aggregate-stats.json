@@ -1,0 +1,45 @@
+{
+  "total_users": 18000,
+  "wallet_address_null_pct": 78.54,
+  "wallet_address_empty_pct": 6.99,
+  "wallet_address_populated_pct": 14.45,
+  "total_btc_accumulated": 0.1542873751,
+  "total_btc_usd_at_67k": 10337.25,
+  "top_miners_count": 80,
+  "top_miners_min_earnings": 90150.492,
+  "top_miners_max_earnings": 110569.863,
+  "fields_observed": {
+    "_id": 18000,
+    "photo_url": 17999,
+    "share_btc_count": 17999,
+    "phone_no": 17999,
+    "name": 17999,
+    "btc_count": 18000,
+    "wallet_address": 17999,
+    "fcm_token": 17029,
+    "email": 17999,
+    "referral_code": 17999,
+    "updated_at": 9631,
+    "usdt_value": 6
+  },
+  "photo_url_hosts": {
+    "lh3.googleusercontent.com": 17489
+  },
+  "country_distribution": {
+    "India": 6,
+    "USA": 5,
+    "UK": 5,
+    "Canada": 3,
+    "South Korea": 3,
+    "Germany": 3,
+    "China": 3,
+    "Japan": 3,
+    "Spain": 2,
+    "Australia": 2,
+    "Russia": 2,
+    "Brazil": 2,
+    "Chile": 2,
+    "Egypt": 2,
+    "Italy": 2
+  }
+}

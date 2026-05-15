@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f090221" n0:id="@id/delete_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f1404d1" n1:APKTOOL_RENAMED_0x7f0502af="?APKTOOL_RENAMED_0x7f05014c" n1:APKTOOL_RENAMED_0x7f05049e="ifRoom"
+      xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <item n2:icon="@drawable/APKTOOL_RENAMED_0x7f090283" n2:id="@id/help_menu_id" n2:title="@string/APKTOOL_RENAMED_0x7f1405db" n3:APKTOOL_RENAMED_0x7f05049e="ifRoom"
+      xmlns:n2="http://schemas.android.com/apk/res/android" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n0:key="parent_account_category"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <org.chromium.chrome.browser.sync.settings.IdentityErrorCardPreference n1:key="identity_error_card" n2:APKTOOL_RENAMED_0x7f0502cd="false"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <PreferenceCategory n3:title="@string/APKTOOL_RENAMED_0x7f140202" n3:key="accounts_category"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <Preference n4:layout="@layout/APKTOOL_RENAMED_0x7f0e0165"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <Preference n5:title="@string/APKTOOL_RENAMED_0x7f140201" n5:key="sign_out"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <Preference n6:layout="@layout/APKTOOL_RENAMED_0x7f0e0165" n6:key="sign_out_divider"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+</PreferenceScreen>

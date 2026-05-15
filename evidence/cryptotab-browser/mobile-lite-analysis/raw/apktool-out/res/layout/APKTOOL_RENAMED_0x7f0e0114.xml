@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <View n0:id="@id/action_bar_bg" n0:background="?APKTOOL_RENAMED_0x7f050165" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0807b8" />
+    <org.chromium.chrome.browser.download.home.toolbar.DownloadHomeToolbar n0:id="@id/download_toolbar" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0807b8" style="@style/APKTOOL_RENAMED_0x7f1501ad" />
+    <org.chromium.components.browser_ui.widget.FadingShadowView n0:id="@id/shadow" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08006b" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0807b8" />
+</FrameLayout>

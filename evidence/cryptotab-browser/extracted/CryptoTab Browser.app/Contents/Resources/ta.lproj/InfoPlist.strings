@@ -1,0 +1,9 @@
+"Chromium Shortcut" = "CryptoTab Browser ஷார்ட்கட்";
+CFBundleGetInfoString = "CryptoTab Browser 127.0.6533.100, பதிப்புரிமை 2024 CryptoTab Browser உருவாக்குநர்கள். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.";
+NSBluetoothAlwaysUsageDescription = "CryptoTab Browserமுக்கு அணுகல் கிடைத்தவுடன், இணையதளங்கள் உங்களிடம் அணுகலைக் கோர முடியும்.";
+NSBluetoothPeripheralUsageDescription = "CryptoTab Browserமுக்கு அணுகல் கிடைத்தவுடன், இணையதளங்கள் உங்களிடம் அணுகலைக் கோர முடியும்.";
+NSCameraUsageDescription = "CryptoTab Browserமுக்கு அணுகல் கிடைத்தவுடன், இணையதளங்கள் உங்களிடம் அணுகலைக் கோர முடியும்.";
+NSHumanReadableCopyright = "பதிப்புரிமை 2024 CryptoTab Browser உருவாக்குநர்கள். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.";
+NSLocationUsageDescription = "CryptoTab Browserமுக்கு அணுகல் கிடைத்தவுடன், இணையதளங்கள் உங்களிடம் அணுகலைக் கோர முடியும்.";
+NSMicrophoneUsageDescription = "CryptoTab Browserமுக்கு அணுகல் கிடைத்தவுடன், இணையதளங்கள் உங்களிடம் அணுகலைக் கோர முடியும்.";
+NSWebBrowserPublicKeyCredentialUsageDescription = "CryptoTab Browserமுக்கு அணுகல் கிடைத்தவுடன், இணையதளங்கள் உங்களிடம் அணுகலைக் கோர முடியும்.";

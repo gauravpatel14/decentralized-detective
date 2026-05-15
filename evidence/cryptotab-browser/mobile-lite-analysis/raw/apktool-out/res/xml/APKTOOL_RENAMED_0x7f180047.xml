@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n0:title="@string/APKTOOL_RENAMED_0x7f140c7d" n0:key="topics_toggle" n0:summary="@string/APKTOOL_RENAMED_0x7f140c7f" n1:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n2:layout="@layout/APKTOOL_RENAMED_0x7f0e031b" n2:key="topics_explanation"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <org.chromium.chrome.browser.privacy_sandbox.TopicsHeaderPreference n3:title="@string/APKTOOL_RENAMED_0x7f140c62" n3:key="active_topics" n3:summary="@string/APKTOOL_RENAMED_0x7f140c61" n4:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <PreferenceCategory n5:layout="@layout/APKTOOL_RENAMED_0x7f0e0249" n5:key="current_topics"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n6:key="topics_disabled" n6:summary="@string/APKTOOL_RENAMED_0x7f140c6e"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n7:key="topics_empty" n7:summary="@string/APKTOOL_RENAMED_0x7f140c70"
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n8:title="@string/APKTOOL_RENAMED_0x7f140c6b" n8:key="blocked_topics" n8:summary="@string/APKTOOL_RENAMED_0x7f140c69" n8:fragment="org.chromium.chrome.browser.privacy_sandbox.TopicsBlockedFragment" n9:APKTOOL_RENAMED_0x7f0505b4="Settings.PrivacySandbox.Topics.BlockedTopicsOpened"
+      xmlns:n8="http://schemas.android.com/apk/res/android" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n10:title="@string/APKTOOL_RENAMED_0x7f140c7b" n10:key="manage_topics" n10:summary="@string/APKTOOL_RENAMED_0x7f140c79" n10:fragment="org.chromium.chrome.browser.privacy_sandbox.TopicsManageFragment"
+      xmlns:n10="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ClickableSpansTextMessagePreference n11:key="topics_page_footer" n11:summary="@string/APKTOOL_RENAMED_0x7f140c73" n12:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n11="http://schemas.android.com/apk/res/android" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+</PreferenceScreen>

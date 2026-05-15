@@ -1,0 +1,9 @@
+"Chromium Shortcut" = "‏میان‌بر CryptoTab Browser";
+CFBundleGetInfoString = "CryptoTab Browser 127.0.6533.100, ‏حق نشر 2024 نویسندگان CryptoTab Browser. کلیه حقوق محفوظ است.";
+NSBluetoothAlwaysUsageDescription = "‏وقتی CryptoTab Browser دسترسی داشته باشد، وب‌سایت‌ها می‌توانند مجوز دسترسی درخواست کنند.";
+NSBluetoothPeripheralUsageDescription = "‏وقتی CryptoTab Browser دسترسی داشته باشد، وب‌سایت‌ها می‌توانند مجوز دسترسی درخواست کنند.";
+NSCameraUsageDescription = "‏وقتی CryptoTab Browser دسترسی داشته باشد، وب‌سایت‌ها می‌توانند مجوز دسترسی درخواست کنند.";
+NSHumanReadableCopyright = "‏حق نشر 2024 نویسندگان CryptoTab Browser. کلیه حقوق محفوظ است.";
+NSLocationUsageDescription = "‏وقتی CryptoTab Browser دسترسی داشته باشد، وب‌سایت‌ها می‌توانند مجوز دسترسی درخواست کنند.";
+NSMicrophoneUsageDescription = "‏وقتی CryptoTab Browser دسترسی داشته باشد، وب‌سایت‌ها می‌توانند مجوز دسترسی درخواست کنند.";
+NSWebBrowserPublicKeyCredentialUsageDescription = "‏وقتی CryptoTab Browser دسترسی داشته باشد، وب‌سایت‌ها می‌توانند مجوز دسترسی درخواست کنند.";

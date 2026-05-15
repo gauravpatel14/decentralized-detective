@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n0:paddingLeft="@dimen/APKTOOL_RENAMED_0x7f080277" n0:paddingRight="@dimen/APKTOOL_RENAMED_0x7f080277" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="18.0dp"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:focusable="true" n0:clickable="true" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <ImageView n0:layout_gravity="center_horizontal" n0:layout_width="wrap_content" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080274" n0:importantForAccessibility="no" n1:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f0901a9"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n0:orientation="vertical" n0:focusable="true" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="12.0dp">
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502cd" n0:gravity="center_horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140588" />
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:gravity="center_horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140587" />
+        </LinearLayout>
+        <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="16.0dp">
+            <LinearLayout n0:orientation="horizontal" n0:id="@id/selected_address_profile_view" n0:background="@drawable/APKTOOL_RENAMED_0x7f0901a0" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f08026e" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f08026e" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+                <ImageView n0:background="@null" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f08025c" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08025c" n0:importantForAccessibility="no" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f08025d" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f08025d" n2:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f0901b3"
+                  xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <LinearLayout n0:orientation="vertical" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="1.0">
+                    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:id="@id/fast_checkout_home_sheet_profile_name" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:textAlignment="viewStart" />
+                    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:id="@id/fast_checkout_home_sheet_profile_street" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:textAlignment="viewStart" />
+                    <LinearLayout n0:orientation="vertical" n0:id="@id/fast_checkout_home_sheet_profile_sub_section" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f08025e">
+                        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:id="@id/fast_checkout_home_sheet_profile_email" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:textAlignment="viewStart" />
+                        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:id="@id/fast_checkout_home_sheet_profile_phone_number" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:textAlignment="viewStart" />
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView n0:layout_gravity="center_vertical" n0:id="@id/fast_checkout_expand_icon_autofill_profile" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140585" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f080270" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f08026f" n3:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f090243" n3:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070128"
+                  xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+            <View n0:layout_width="match_parent" n0:layout_height="2.0dp" />
+            <LinearLayout n0:gravity="center_vertical" n0:id="@id/selected_credit_card_view" n0:background="@drawable/APKTOOL_RENAMED_0x7f09019e" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080275">
+                <ImageView n0:id="@id/fast_checkout_credit_card_icon" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080261" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08025f" n0:importantForAccessibility="no" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f080260" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f080260" n4:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f0903fe"
+                  xmlns:n4="http://schemas.android.com/apk/res-auto" />
+                <LinearLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="1.0">
+                    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:id="@id/fast_checkout_sheet_selected_credit_card_header" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:textAlignment="viewStart" />
+                    <ImageView n0:id="@id/fast_checkout_gpay_icon" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f08026b" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f08026c" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08026a" n0:importantForAccessibility="no" n5:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f0901bb"
+                      xmlns:n5="http://schemas.android.com/apk/res-auto" />
+                </LinearLayout>
+                <ImageView n0:id="@id/fast_checkout_expand_icon_credit_card" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140586" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f080270" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f08026f" n6:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f090243" n6:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070128"
+                  xmlns:n6="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+        </LinearLayout>
+        <org.chromium.ui.widget.ButtonCompat n0:ellipsize="end" n0:gravity="center" n0:id="@id/fast_checkout_button_accept" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f080271" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f08026d" n0:text="@string/APKTOOL_RENAMED_0x7f140583" n0:singleLine="true" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+    </LinearLayout>
+</ScrollView>

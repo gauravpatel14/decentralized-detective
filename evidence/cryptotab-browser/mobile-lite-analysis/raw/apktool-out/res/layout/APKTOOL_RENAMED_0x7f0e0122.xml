@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.download.home.list.view.AspectRatioFrameLayout n0:background="@drawable/APKTOOL_RENAMED_0x7f0904f3" n0:focusable="true" n0:clickable="true" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.components.browser_ui.widget.async_image.AsyncImageView n0:layout_gravity="center" n0:id="@id/thumbnail" n0:background="@color/APKTOOL_RENAMED_0x7f07004e" n0:layout_width="match_parent" n0:scaleType="centerCrop" n0:adjustViewBounds="true" n1:APKTOOL_RENAMED_0x7f050300="100.0%" style="@style/APKTOOL_RENAMED_0x7f150017"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.chrome.browser.download.home.view.SelectionView n0:id="@id/selection" style="@style/APKTOOL_RENAMED_0x7f150167" />
+</org.chromium.chrome.browser.download.home.list.view.AspectRatioFrameLayout>

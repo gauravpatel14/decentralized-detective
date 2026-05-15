@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set n0:shareInterpolator="false" n0:zAdjustment="top"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <alpha n0:interpolator="@anim/APKTOOL_RENAMED_0x7f02002e" n0:duration="200" n0:fillBefore="false" n0:fillAfter="true" n0:fromAlpha="0.0" n0:toAlpha="1.0" n0:fillEnabled="true" />
+    <translate n0:interpolator="@android:interpolator/decelerate_quint" n0:duration="300" n0:fillBefore="true" n0:fillAfter="true" n0:fromYDelta="8.000004%" n0:toYDelta="0.0" n0:fillEnabled="true" />
+</set>

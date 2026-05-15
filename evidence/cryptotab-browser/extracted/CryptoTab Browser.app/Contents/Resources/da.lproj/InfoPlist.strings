@@ -1,0 +1,9 @@
+"Chromium Shortcut" = "CryptoTab Browser-genvej";
+CFBundleGetInfoString = "CryptoTab Browser 127.0.6533.100, Copyright 2024 Forfatterne bag CryptoTab Browser. Alle rettigheder forbeholdes.";
+NSBluetoothAlwaysUsageDescription = "Når CryptoTab Browser har adgang, kan websites bede dig om adgang.";
+NSBluetoothPeripheralUsageDescription = "Når CryptoTab Browser har adgang, kan websites bede dig om adgang.";
+NSCameraUsageDescription = "Når CryptoTab Browser har adgang, kan websites bede dig om adgang.";
+NSHumanReadableCopyright = "Copyright 2024 Forfatterne bag CryptoTab Browser. Alle rettigheder forbeholdes.";
+NSLocationUsageDescription = "Når CryptoTab Browser har adgang, kan websites bede dig om adgang.";
+NSMicrophoneUsageDescription = "Når CryptoTab Browser har adgang, kan websites bede dig om adgang.";
+NSWebBrowserPublicKeyCredentialUsageDescription = "Når CryptoTab Browser har adgang, kan websites bede dig om adgang.";

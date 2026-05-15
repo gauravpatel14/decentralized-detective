@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <overlayable name="partner">
+        <policy type="system|vendor|product|signature|odm|oem">
+            <item type="dimen" name="automotive_ui_scale_factor" />
+        </policy>
+    </overlayable>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.toolbar.top.TabSwitcherModeTopToolbar n0:id="@id/tab_switcher_toolbar" n0:focusable="true" n0:clickable="true" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08088d"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="horizontal" n0:id="@id/new_tab_view" n0:background="?APKTOOL_RENAMED_0x7f05048a" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="match_parent">
+        <ImageView n0:layout_gravity="start|top" n0:id="@id/new_tab_view_button" n0:duplicateParentState="true" n0:layout_width="wrap_content" n0:layout_height="56.0dp" n0:scaleType="center" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401e5" n0:paddingStart="16.0dp" n0:paddingEnd="16.0dp" n1:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f090457" n1:APKTOOL_RENAMED_0x7f050573="?APKTOOL_RENAMED_0x7f05014c"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15035f" n0:gravity="center_vertical" n0:id="@id/new_tab_view_desc" n0:duplicateParentState="true" n0:layout_width="wrap_content" n0:layout_height="match_parent" n0:text="@string/APKTOOL_RENAMED_0x7f14037c" n0:paddingEnd="16.0dp" />
+    </LinearLayout>
+    <org.chromium.chrome.browser.toolbar.NewTabButton n0:layout_gravity="start|top" n0:id="@id/new_tab_button" n0:layout_width="wrap_content" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401e5" n0:paddingStart="16.0dp" n0:paddingEnd="16.0dp" style="@style/APKTOOL_RENAMED_0x7f150497" />
+    <ViewStub n0:layout_gravity="center" n0:id="@id/incognito_tabs_stub" n0:layout="@layout/APKTOOL_RENAMED_0x7f0e017c" n0:inflatedId="@id/incognito_toggle_tabs" n0:layout_width="wrap_content" n0:layout_height="match_parent" n0:layout_marginBottom="4.0dp" />
+    <FrameLayout n0:layout_gravity="end|center" n0:layout_width="wrap_content" n0:layout_height="match_parent">
+        <include layout="@layout/APKTOOL_RENAMED_0x7f0e01c5" />
+    </FrameLayout>
+</org.chromium.chrome.browser.toolbar.top.TabSwitcherModeTopToolbar>

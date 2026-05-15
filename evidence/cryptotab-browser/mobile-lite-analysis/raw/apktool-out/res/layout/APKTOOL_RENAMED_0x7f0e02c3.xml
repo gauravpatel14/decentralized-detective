@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="70.0dp" n0:paddingStart="29.0dp" n0:paddingEnd="34.0dp"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.ui.widget.ChromeImageView n0:gravity="center" n0:layout_gravity="start" n0:id="@id/device_icon" n0:background="@android:color/transparent" n0:paddingTop="20.0dp" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:importantForAccessibility="no" />
+    <LinearLayout n0:gravity="center_vertical" n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:paddingStart="20.0dp" n0:paddingEnd="10.0dp">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:ellipsize="end" n0:gravity="center_vertical" n0:id="@id/device_name" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="24.0dp" n0:maxLines="2" n0:paddingEnd="2.0dp" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:ellipsize="end" n0:gravity="center_vertical" n0:id="@id/last_active" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="24.0dp" n0:maxLines="2" n0:paddingEnd="2.0dp" />
+    </LinearLayout>
+</LinearLayout>

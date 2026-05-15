@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view n0:gravity="center_vertical" n0:orientation="horizontal" n0:id="@id/search_box" n0:background="@drawable/APKTOOL_RENAMED_0x7f0901cf" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080657" n0:layout_marginTop="0.0dp" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080655" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f08025b" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f080259" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f080629" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f080629" class="org.chromium.chrome.browser.ntp.search.SearchBoxContainerView"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n0:gravity="center_vertical" n0:layout_width="0.0dp" n0:layout_height="match_parent" n0:layout_weight="1.0" n0:layout_marginEnd="12.0dp">
+        <EditText n0:ellipsize="end" n0:id="@id/search_box_text" n0:background="@null" n0:focusable="false" n0:focusableInTouchMode="false" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:hint="@string/APKTOOL_RENAMED_0x7f14085c" n0:singleLine="true" n0:inputType="text" style="@style/APKTOOL_RENAMED_0x7f1502c8" />
+    </RelativeLayout>
+    <org.chromium.ui.widget.ChromeImageView n0:id="@id/voice_search_button" n0:src="@drawable/APKTOOL_RENAMED_0x7f0902a8" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401e3" style="@style/APKTOOL_RENAMED_0x7f15018b" />
+    <org.chromium.ui.widget.ChromeImageView n0:id="@id/lens_camera_button" n0:visibility="gone" n0:src="@drawable/APKTOOL_RENAMED_0x7f0903d1" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f14015d" style="@style/APKTOOL_RENAMED_0x7f15018b" />
+</view>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <EditText n0:gravity="center" n0:id="@id/edit_text_id" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:minHeight="200.0px" n0:text="EditText" n0:inputType="text" />
+    <Button n0:id="@id/hide_ime_id" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="Hide Ime" n0:textAllCaps="false" />
+</LinearLayout>

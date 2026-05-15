@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="16.0dp" n0:layout_marginHorizontal="8.0dp"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:layout_gravity="center_horizontal" n0:id="@id/branding_icon" n0:layout_width="wrap_content" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0808b8" n0:importantForAccessibility="no" n0:layout_marginVertical="@dimen/APKTOOL_RENAMED_0x7f0808b9" />
+    <androidx.appcompat.widget.DialogTitle n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150266" n0:layout_gravity="center_horizontal" n0:id="@id/touch_to_fill_sheet_title" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f1402f8" n0:textAlignment="center" />
+</LinearLayout>

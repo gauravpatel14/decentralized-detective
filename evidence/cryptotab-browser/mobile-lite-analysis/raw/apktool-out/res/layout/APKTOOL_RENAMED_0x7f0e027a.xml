@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.widget.promo.PromoCardView n0:layout_width="match_parent" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f1501a9"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:gravity="center_horizontal" n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingVertical="@dimen/APKTOOL_RENAMED_0x7f08072d">
+        <ImageView n0:layout_gravity="center" n0:id="@id/promo_image" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f08072b" n0:scaleType="fitCenter" n0:adjustViewBounds="true" n0:importantForAccessibility="no" />
+        <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:paddingHorizontal="@dimen/APKTOOL_RENAMED_0x7f08072c">
+            <org.chromium.ui.widget.TextViewWithLeading n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:gravity="center" n0:id="@id/promo_title" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080720" n1:APKTOOL_RENAMED_0x7f05034b="@dimen/APKTOOL_RENAMED_0x7f080864"
+              xmlns:n1="http://schemas.android.com/apk/res-auto" />
+            <org.chromium.ui.widget.TextViewWithLeading n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n0:gravity="center" n0:id="@id/promo_description" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f08072e" n2:APKTOOL_RENAMED_0x7f05034b="@dimen/APKTOOL_RENAMED_0x7f080868"
+              xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <org.chromium.ui.widget.ButtonCompat n0:ellipsize="end" n0:id="@id/promo_primary_button" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:singleLine="true" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+            <org.chromium.ui.widget.ButtonCompat n0:ellipsize="end" n0:id="@id/promo_secondary_button" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:singleLine="true" style="@style/APKTOOL_RENAMED_0x7f15037f" />
+        </LinearLayout>
+    </LinearLayout>
+</org.chromium.components.browser_ui.widget.promo.PromoCardView>

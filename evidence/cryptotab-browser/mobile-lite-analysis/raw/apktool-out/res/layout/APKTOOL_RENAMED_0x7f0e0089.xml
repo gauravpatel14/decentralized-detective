@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.bookmarks.BookmarkSearchBoxRow n0:orientation="vertical" n0:id="@id/bookmark_toolbar" n0:focusable="true" n0:focusableInTouchMode="true" n0:clickable="true" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="16.0dp" n0:importantForAccessibility="no" n0:paddingHorizontal="14.0dp"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="horizontal" n0:background="@drawable/APKTOOL_RENAMED_0x7f09050b" n0:layout_width="match_parent" n0:layout_height="40.0dp" n0:layout_marginBottom="2.0dp">
+        <EditText n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:textColorHint="?APKTOOL_RENAMED_0x7f05014e" n0:id="@id/row_search_text" n0:background="@null" n0:layout_width="0.0dp" n0:layout_height="match_parent" n0:hint="@string/APKTOOL_RENAMED_0x7f140368" n0:singleLine="true" n0:layout_weight="1.0" n0:inputType="text" n0:imeOptions="actionSearch|flagNoExtractUi" n0:paddingStart="16.0dp" />
+        <org.chromium.ui.widget.ChromeImageButton n0:id="@id/clear_text_button" n0:background="@null" n0:visibility="invisible" n0:layout_width="wrap_content" n0:layout_height="match_parent" n0:src="@drawable/APKTOOL_RENAMED_0x7f0900ea" n0:scaleType="center" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401da" n0:paddingHorizontal="12.0dp" n1:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <LinearLayout n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="48.0dp" n0:layout_marginTop="6.0dp">
+        <org.chromium.components.browser_ui.widget.chips.ChipView n0:id="@id/shopping_filter_chip" n0:layout_width="wrap_content" n0:layout_height="match_parent" />
+    </LinearLayout>
+</org.chromium.chrome.browser.bookmarks.BookmarkSearchBoxRow>

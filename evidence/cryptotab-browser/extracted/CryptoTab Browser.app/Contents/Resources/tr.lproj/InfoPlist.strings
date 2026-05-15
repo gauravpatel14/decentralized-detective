@@ -1,0 +1,9 @@
+"Chromium Shortcut" = "CryptoTab Browser Kısayolu";
+CFBundleGetInfoString = "CryptoTab Browser 127.0.6533.100, Telif Hakkı 2024 The CryptoTab Browser Authors. Tüm hakları saklıdır.";
+NSBluetoothAlwaysUsageDescription = "CryptoTab Browser erişim izni aldıktan sonra, web siteleri de erişim için sizden izin isteyebilecek.";
+NSBluetoothPeripheralUsageDescription = "CryptoTab Browser erişim izni aldıktan sonra, web siteleri de erişim için sizden izin isteyebilecek.";
+NSCameraUsageDescription = "CryptoTab Browser erişim izni aldıktan sonra, web siteleri de erişim için sizden izin isteyebilecek.";
+NSHumanReadableCopyright = "Telif Hakkı 2024 The CryptoTab Browser Authors. Tüm hakları saklıdır.";
+NSLocationUsageDescription = "CryptoTab Browser erişim izni aldıktan sonra, web siteleri de erişim için sizden izin isteyebilecek.";
+NSMicrophoneUsageDescription = "CryptoTab Browser erişim izni aldıktan sonra, web siteleri de erişim için sizden izin isteyebilecek.";
+NSWebBrowserPublicKeyCredentialUsageDescription = "CryptoTab Browser erişim izni aldıktan sonra, web siteleri de erişim için sizden izin isteyebilecek.";

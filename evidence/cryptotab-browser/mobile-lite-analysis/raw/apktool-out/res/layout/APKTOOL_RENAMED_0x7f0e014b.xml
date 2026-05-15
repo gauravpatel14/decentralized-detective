@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.feed.feedmanagement.FeedManagementItemView n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="1.0" n0:layout_marginHorizontal="@dimen/APKTOOL_RENAMED_0x7f0802b1" n0:layout_marginVertical="@dimen/APKTOOL_RENAMED_0x7f0802b0">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:id="@id/feed_management_menu_item_text" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/feed_management_menu_item_description" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_below="@id/feed_management_menu_item_text" />
+    </RelativeLayout>
+</org.chromium.chrome.browser.feed.feedmanagement.FeedManagementItemView>

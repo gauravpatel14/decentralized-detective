@@ -1,0 +1,9 @@
+"Chromium Shortcut" = "CryptoTab Browseri otsetee";
+CFBundleGetInfoString = "CryptoTab Browser 127.0.6533.100, Autoriõigus 2024 The CryptoTab Browser Authors. Kõik õigused on kaitstud.";
+NSBluetoothAlwaysUsageDescription = "Kui annate CryptoTab Browserile juurdepääsu, saavad veebisaidid küsida teilt juurdepääsuluba.";
+NSBluetoothPeripheralUsageDescription = "Kui annate CryptoTab Browserile juurdepääsu, saavad veebisaidid küsida teilt juurdepääsuluba.";
+NSCameraUsageDescription = "Kui annate CryptoTab Browserile juurdepääsu, saavad veebisaidid küsida teilt juurdepääsuluba.";
+NSHumanReadableCopyright = "Autoriõigus 2024 The CryptoTab Browser Authors. Kõik õigused on kaitstud.";
+NSLocationUsageDescription = "Kui annate CryptoTab Browserile juurdepääsu, saavad veebisaidid küsida teilt juurdepääsuluba.";
+NSMicrophoneUsageDescription = "Kui annate CryptoTab Browserile juurdepääsu, saavad veebisaidid küsida teilt juurdepääsuluba.";
+NSWebBrowserPublicKeyCredentialUsageDescription = "Kui annate CryptoTab Browserile juurdepääsu, saavad veebisaidid küsida teilt juurdepääsuluba.";

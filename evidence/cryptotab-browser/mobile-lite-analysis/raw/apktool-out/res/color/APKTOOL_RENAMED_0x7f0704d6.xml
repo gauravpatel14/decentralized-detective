@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item n0:state_selected="true" n0:state_pressed="true" n0:color="?APKTOOL_RENAMED_0x7f050155" n0:alpha="0.08"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <item n1:state_focused="true" n1:state_selected="true" n1:color="?APKTOOL_RENAMED_0x7f050155" n1:alpha="0.16" n1:state_hovered="true"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:state_focused="true" n2:state_selected="true" n2:color="?APKTOOL_RENAMED_0x7f050155" n2:alpha="0.12"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:state_selected="true" n3:color="?APKTOOL_RENAMED_0x7f050155" n3:alpha="0.04" n3:state_hovered="true"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:state_selected="true" n4:color="?APKTOOL_RENAMED_0x7f050155" n4:alpha="0.0"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:state_pressed="true" n5:color="?APKTOOL_RENAMED_0x7f05014c" n5:alpha="0.08"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <item n6:state_focused="true" n6:color="?APKTOOL_RENAMED_0x7f05014c" n6:alpha="0.16" n6:state_hovered="true"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <item n7:state_focused="true" n7:color="?APKTOOL_RENAMED_0x7f05014c" n7:alpha="0.12"
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+    <item n8:color="?APKTOOL_RENAMED_0x7f05014c" n8:alpha="0.04" n8:state_hovered="true"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+    <item n9:color="?APKTOOL_RENAMED_0x7f05014c" n9:alpha="0.0"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+</selector>

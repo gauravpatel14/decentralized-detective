@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="wrap_content" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ViewStub n0:id="@id/title_with_icon_stub" n0:inflatedId="@id/title_with_icon" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+    <LinearLayout n0:orientation="vertical" n0:paddingTop="16.0dp" n0:focusable="true" n0:focusableInTouchMode="true" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="6.0dp" n0:layout_marginBottom="32.0dp" n0:minHeight="36.0dp" style="@style/APKTOOL_RENAMED_0x7f150004">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/description" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="24.0dp" n0:inputType="textMultiLine" />
+        <include layout="@layout/APKTOOL_RENAMED_0x7f0e0066" />
+        <ViewStub n0:id="@id/autofill_save_card_content_stub" n0:inflatedId="@id/autofill_save_card_content" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150298" n0:gravity="start" n0:id="@id/error_message" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/legal_message" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="10.0dp" n0:inputType="textMultiLine" />
+    </LinearLayout>
+</LinearLayout>

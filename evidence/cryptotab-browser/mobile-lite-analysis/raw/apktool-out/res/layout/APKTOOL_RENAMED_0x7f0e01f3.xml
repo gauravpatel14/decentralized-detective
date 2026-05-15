@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.feed.sections.SectionHeaderView n0:gravity="center_vertical" n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f0807ee" n0:layoutDirection="locale"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n0:id="@id/main_content" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingHorizontal="@dimen/APKTOOL_RENAMED_0x7f080651">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502cc" n0:id="@id/header_title" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_centerVertical="true" n0:textDirection="locale" />
+        <org.chromium.ui.listmenu.ListMenuButton n0:id="@id/header_menu" n0:background="@drawable/APKTOOL_RENAMED_0x7f090567" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080541" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080541" n0:src="@drawable/APKTOOL_RENAMED_0x7f0902ac" n0:scaleType="centerInside" n0:layout_centerVertical="true" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140187" n0:layout_marginStart="15.0dp" n0:layout_alignParentEnd="true" n1:APKTOOL_RENAMED_0x7f0503bf="@dimen/APKTOOL_RENAMED_0x7f080291" n1:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f0701e6"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</org.chromium.chrome.browser.feed.sections.SectionHeaderView>

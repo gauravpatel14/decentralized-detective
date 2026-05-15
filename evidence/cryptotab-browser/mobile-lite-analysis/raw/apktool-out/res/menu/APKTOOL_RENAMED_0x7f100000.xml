@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <group n0:id="@id/normal_menu_group"
+      xmlns:n0="http://schemas.android.com/apk/res/android">
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f0900ec" n0:id="@id/info_menu_id" n0:visible="false" n0:title="@string/APKTOOL_RENAMED_0x7f140cb9" n1:APKTOOL_RENAMED_0x7f05049e="ifRoom"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f090369" n0:id="@id/search_menu_id" n0:visible="false" n0:title="@string/APKTOOL_RENAMED_0x7f140bdd" n2:APKTOOL_RENAMED_0x7f0502af="@color/APKTOOL_RENAMED_0x7f070128" n2:APKTOOL_RENAMED_0x7f05049e="ifRoom"
+          xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </group>
+    <group n3:id="@id/selection_mode_menu_group" n3:visible="false"
+      xmlns:n3="http://schemas.android.com/apk/res/android">
+        <item n3:icon="@drawable/APKTOOL_RENAMED_0x7f090221" n3:id="@id/selection_mode_delete_menu_id" n3:title="@string/APKTOOL_RENAMED_0x7f140b25" n4:APKTOOL_RENAMED_0x7f0502af="@color/APKTOOL_RENAMED_0x7f070128" n4:APKTOOL_RENAMED_0x7f05049e="ifRoom"
+          xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <item n3:id="@id/selection_mode_open_in_new_tab" n3:title="@string/APKTOOL_RENAMED_0x7f14060b" n5:APKTOOL_RENAMED_0x7f05049e="never"
+          xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <item n3:id="@id/selection_mode_open_in_incognito" n3:title="@string/APKTOOL_RENAMED_0x7f14060c" n6:APKTOOL_RENAMED_0x7f05049e="never"
+          xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <item n3:id="@id/selection_mode_copy_link" n3:title="@string/APKTOOL_RENAMED_0x7f14049f" n7:APKTOOL_RENAMED_0x7f05049e="never"
+          xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    </group>
+</menu>

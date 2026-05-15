@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:focusable="false" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout n0:id="@id/radio_button_layout" n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription n0:id="@id/allow" n0:layout_width="match_parent" n0:layout_height="wrap_content" n1:APKTOOL_RENAMED_0x7f0501c8="@string/APKTOOL_RENAMED_0x7f140f51" n1:APKTOOL_RENAMED_0x7f05044f="@string/APKTOOL_RENAMED_0x7f140f50"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription n0:id="@id/block_third_party_incognito" n0:layout_width="match_parent" n0:layout_height="wrap_content" n2:APKTOOL_RENAMED_0x7f0501c8="@string/APKTOOL_RENAMED_0x7f140f53" n2:APKTOOL_RENAMED_0x7f05044f="@string/APKTOOL_RENAMED_0x7f140f52"
+          xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription n0:id="@id/block_third_party" n0:layout_width="match_parent" n0:layout_height="wrap_content" n3:APKTOOL_RENAMED_0x7f0501c8="@string/APKTOOL_RENAMED_0x7f140f55" n3:APKTOOL_RENAMED_0x7f05044f="@string/APKTOOL_RENAMED_0x7f140f54"
+          xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionAndAuxButton n0:id="@id/block_third_party_incognito_with_aux" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n4:APKTOOL_RENAMED_0x7f0501c8="@string/APKTOOL_RENAMED_0x7f140f53" n4:APKTOOL_RENAMED_0x7f05044f="@string/APKTOOL_RENAMED_0x7f140f52"
+          xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionAndAuxButton n0:id="@id/block_third_party_with_aux" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n5:APKTOOL_RENAMED_0x7f0501c8="@string/APKTOOL_RENAMED_0x7f140f55" n5:APKTOOL_RENAMED_0x7f05044f="@string/APKTOOL_RENAMED_0x7f140f54"
+          xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout>
+    <org.chromium.components.browser_ui.widget.text.TextViewWithCompoundDrawables n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:gravity="center_vertical" n0:id="@id/managed_view_legacy" n0:padding="16.0dp" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f1406fe" n0:drawablePadding="10.0dp" n6:APKTOOL_RENAMED_0x7f050111="?APKTOOL_RENAMED_0x7f05014c"
+      xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.widget.text.TextViewWithCompoundDrawables n0:id="@id/managed_disclaimer_text" n0:padding="16.0dp" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:drawablePadding="20.0dp" n0:paddingStart="20.0dp" style="@style/APKTOOL_RENAMED_0x7f150193" />
+</LinearLayout>

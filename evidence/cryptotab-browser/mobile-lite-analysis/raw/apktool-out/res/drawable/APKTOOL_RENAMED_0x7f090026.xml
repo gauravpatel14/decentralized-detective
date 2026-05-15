@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set n0:ordering="sequentially"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <objectAnimator n0:interpolator="@android:interpolator/linear" n0:duration="100" n0:valueFrom="0" n0:valueTo="1" n0:propertyName="fillAlpha" />
+    <objectAnimator n0:interpolator="@android:interpolator/linear" n0:duration="500" n0:startOffset="300" n0:valueFrom="1" n0:valueTo="0" n0:propertyName="fillAlpha" />
+</set>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n0:layout_width="match_parent" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f1501e9"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.components.browser_ui.widget.MaterialCardViewNoShadow n0:id="@id/signin_settings_card" n0:layout_width="match_parent" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f1501a9">
+        <LinearLayout n0:orientation="vertical" n0:padding="16.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <LinearLayout n0:gravity="start|top" n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:baselineAligned="false">
+                <ImageView n0:id="@id/signin_settings_card_icon" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:scaleType="fitCenter" n0:contentDescription="@null" />
+                <org.chromium.ui.widget.TextViewWithLeading n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:gravity="start" n0:id="@id/signin_settings_card_description" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_marginTop="2.0dp" n0:layout_marginBottom="12.0dp" n0:includeFontPadding="false" n0:layout_weight="1.0" n0:layout_marginStart="12.0dp" n1:APKTOOL_RENAMED_0x7f05034b="@dimen/APKTOOL_RENAMED_0x7f080866"
+                  xmlns:n1="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+            <RelativeLayout n0:layout_width="match_parent" n0:layout_height="wrap_content">
+                <org.chromium.ui.widget.ButtonCompat n0:ellipsize="end" n0:id="@id/signin_settings_card_button" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:singleLine="true" n0:layout_alignParentEnd="true" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+            </RelativeLayout>
+        </LinearLayout>
+    </org.chromium.components.browser_ui.widget.MaterialCardViewNoShadow>
+</FrameLayout>

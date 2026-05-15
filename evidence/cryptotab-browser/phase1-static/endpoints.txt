@@ -1,0 +1,196 @@
+CRYPTOTAB BROWSER — EMBEDDED HOSTNAMES / URLS
+=============================================
+
+Extraction:
+  strings -a -n 8 "<framework_binary>"      | grep -oE 'https?://[A-Za-z0-9.-]+(/[A-Za-z0-9._~:/?#@!$&+,;=%-]*)?' | sort -u
+  strings -a -n 8 "<resources.pak>"         (then GRIT-decompressed)
+  + the carved cryptotab/loader.js + cryptotab/tab.js JS bundles from resources.pak
+
+Total: 663 unique URL prefixes in the framework binary. The vast majority are
+upstream Chromium boilerplate (search-engine suggest URLs, OCSP CRL servers,
+DoH endpoints, Google services). Below are the URLs that matter to this
+investigation.
+
+========================================================================
+1. CRYPTOTAB BACKEND  (anything cryptobrowser.* / cryptotab.* / ct-*)
+========================================================================
+Found in BOTH framework binary AND cryptotab/loader.js / cryptotab/tab.js
+unless otherwise noted.
+
+— Core API (HTTPS + WebSocket) —
+https://api.cryptobrowser.site                     [JS]   primary backend API host
+https://api.cryptobrowser.site/api/v2/             [JS]   versioned REST base
+https://api.cryptobrowser.site/api/v2/users/register
+                                                   [JS]   account registration
+https://api.cryptobrowser.site/api/v2/auth/tokens/restore
+                                                   [JS]   re-auth
+https://api.cryptobrowser.site/api/v2/auth/tokens/refresh
+                                                   [JS]   token refresh
+https://api.cryptobrowser.site/api/v2/platform/pc/app?app_id=browser_desktop&v=<ver>&bid=<bid>
+                                                   [JS]   *** dynamic JS bootstrap: returns
+                                                          {url: <somewhere>} whose body is
+                                                          fetched then eval()'d by the
+                                                          service worker. See
+                                                          mining-protocol.md / summary.md. ***
+wss://api.cryptobrowser.site/api/v2/ws            [JS]   live WebSocket — likely mining
+                                                          jobs + balance / referral updates
+
+— Search engine + login —
+https://cryptobrowser.site                         [FW+JS] root site
+https://cryptobrowser.site/login/google-oauth2/?next=none
+                                                   [FW]   OAuth2 sign-in landing
+https://search.cryptobrowser.site/?q={searchTerms}&f=cb
+                                                   [FW]   default search engine
+                                                          (note the f=cb branding param)
+https://search.cryptobrowser.site/api/suggestions/?...
+                                                   [FW]   suggest endpoint, accepts
+                                                          *all* google: suggest params
+                                                          (the param list is verbatim
+                                                          Google's omnibox suggest API)
+https://search.cryptobrowser.site/favicon.ico      [FW]
+
+— Safe Browsing (self-hosted GSB v4) —
+https://safebrowsing.cryptobrowser.today/v4        [FW]   *** they replaced Google
+                                                          Safe Browsing with their own
+                                                          self-hosted GSB v4 endpoint.
+                                                          The .today TLD is distinct from
+                                                          their main .site / .pro hosts. ***
+
+— Telemetry (self-hosted Sentry) —
+https://1526c9529422490db0f3c00541cab297@snt.cryptobrowser.site/19
+                                                   [JS]   Sentry DSN — public key
+                                                          1526c9529422490db0f3c00541cab297,
+                                                          project id 19. Self-hosted
+                                                          Sentry, 10% sample rate.
+
+— Affiliate / brand sites referenced but not directly contacted from binary —
+https://cryptotabbrowser.com                       [JS]   CRYPTOTAB_BROWSER_URL
+                                                          (marketing landing page)
+invite.ctnft.net                                   [JS]   INVITE_CTNFT — CT-NFT invitation
+                                                          (sister project)
+cryptotab.farm                                     [JS]   CRYPTO_TAB_FARM_BASE_URL —
+                                                          "CT Farm" sister project for
+                                                          cloud mining contracts
+api.ct-access.pro                                  [JS]   ENV_ACCESS_API_DOMAIN —
+                                                          secondary access/auth API,
+                                                          possibly the affiliate-portal API
+
+— Access-token header injected into all cryptobrowser.site requests —
+declarativeNetRequest rule (ruleset_1.json) adds header:
+    X-CB-Data: ::3.0.12:
+    (format: "::{extension_version}:" — extra slots reserved)
+
+— Mining endpoint —
+NO HARDCODED MINING POOL / STRATUM URL FOUND in either the framework binary
+or the bundled JS. (No stratum+tcp://, no pool.*.cryptobrowser.*, no
+randomxpool, etc.) Mining "jobs" are pushed over the wss://api.cryptobrowser.site/api/v2/ws
+WebSocket via the `chrome.cryptobrowser.setJob(job_id, seed, blob, target,
+height, fb)` extension API. Hash results are returned to the same channel via
+`chrome.cryptobrowser.onHashFounded(job_id, hash, nonce)`. See
+mining-protocol.md.
+
+— Firebase project (used for FCM push notifications) —
+apiKey:             AIzaSyDKvtNvxbPR4dl50GGvcV0odPuh-Lxd5DE
+authDomain:         cryptobrowser.firebaseapp.com
+projectId:          cryptobrowser
+storageBucket:      cryptobrowser.appspot.com
+messagingSenderId:  752301524429
+appId:              1:752301524429:web:c9f609dffe8508844d7084
+                                                   [JS]   Firebase Cloud Messaging is
+                                                          used to push notifications to
+                                                          the service worker — and the
+                                                          push handler eval()'s server-
+                                                          supplied JS (data.code). See
+                                                          summary.md "key strings".
+
+— Chrome extension ID referenced as BOOST_APP_ID —
+kommlffgagciikldkpkedfjpmpofobch                   [JS]   the "Cloud Boost" extension —
+                                                          NOT bundled in this .app, but
+                                                          installed at runtime from
+                                                          the (Chrome / cryptobrowser
+                                                          web-store) when the user
+                                                          enables Cloud Boost.
+
+========================================================================
+2. GOOGLE / FIREBASE / FCM  (used at runtime by CryptoTab's loader)
+========================================================================
+https://fcm.googleapis.com                            FCM Cloud Messaging
+https://fcmregistrations.googleapis.com/v1            [JS] FCM v1 registration
+https://firebaseinstallations.googleapis.com/v1       [JS] Firebase installations
+https://firebaseperusertopics-pa.googleapis.com       FCM topic subscriptions
+
+CryptoTab IS routing its push notifications through Google Firebase. They
+use Google's FCM infrastructure (not self-hosted GCM).
+
+========================================================================
+3. STANDARD CHROMIUM TELEMETRY / UPDATE / SAFE BROWSING  (still pointing at Google)
+========================================================================
+Important: no Cryptocompany-controlled update server was substituted.
+The binary still references Google's URLs for these:
+
+http://update.googleapis.com/service/update2/json     Omaha update protocol
+https://update.googleapis.com/service/update2/json    Omaha update protocol
+https://tools.google.com/service/update2              Omaha legacy URL
+https://safebrowsing.google.com/safebrowsing          GSB (likely fallback)
+https://safebrowsing.googleapis.com                   GSB v4
+https://safebrowsingohttpgateway.googleapis.com       GSB OHTTP gateway
+https://enterprise-safebrowsing.googleapis.com        Enterprise GSB
+https://google-ohttp-relay-safebrowsing.fastly-edge.com/    GSB OHTTP relay (Fastly)
+https://gvt2.com  /  https://gvt3.com  /  https://gvt6.com  /  beacons*.gvt3.com
+                                                      Google component update
+http://crl.pki.goog                                   CRL
+http://crls.pki.goog                                  CRL
+
+HOWEVER: there is NO ChromiumUpdater.app bundled in this .app, no `ksadmin`,
+no Sparkle, no Keystone. Even though the URLs are referenced in the binary
+they cannot actually be used to update the browser — Chromium's updater
+binary is missing. CryptoTab almost certainly auto-updates by some other
+mechanism (their `/api/v2/platform/pc/app` JSON returns version data plus a
+URL to a remote JS payload that's eval()'d; see mining-protocol.md). The
+Google update URLs are leftover/dead strings from upstream Chromium code paths.
+
+Crash reporting still goes to:
+https://clients2.google.com/cr/report      crashpad / breakpad
+https://content-autofill.googleapis.com    Autofill server
+... and several other standard Chromium-internal Google endpoints.
+
+========================================================================
+4. UNCHANGED CHROMIUM SEARCH-ENGINE DROPDOWN  (purely embedded as data)
+========================================================================
+The standard Chromium TemplateURL list is included verbatim — Yahoo, Bing,
+DuckDuckGo, Yandex, Baidu, Naver, Seznam, Sogou, Qwant, Ecosia, You.com,
+Kagi, Brave, Startpage, Mojeek, Swisscows, Yep, etc. plus several DoH
+servers (Cloudflare, Quad9, NextDNS, OpenDNS, Cox/Comcast). These are
+NOT contacted unless the user picks them — they are merely listed.
+
+========================================================================
+5. NOTABLE ABSENCES
+========================================================================
+- No stratum+tcp:// URL anywhere
+- No CoinHive / Crypto-Loot / WebMinePool / NerdMiner / Monero-Ocean / etc.
+- No second-party mining pool URL (xmrpool.eu, supportxmr.com, ...)
+- No standalone analytics SaaS (Mixpanel, Amplitude, Segment, GA4) —
+  telemetry is *only* their self-hosted Sentry + Google FCM
+- No hardcoded Bitcoin address (operator wallet) in any binary
+- No payment processor (Coinbase, BitPay, CoinPayments) URL
+- No KYC/AML provider (Sumsub, Jumio, Onfido) URL
+- No standard wallet provider (MetaMask, Trust Wallet, Binance) URL
+
+========================================================================
+6. DOMAIN OWNERSHIP SUMMARY
+========================================================================
+Confirmed CryptoTab-controlled domains (all observed in binary):
+    cryptobrowser.site            (main backend)
+    safebrowsing.cryptobrowser.today
+    search.cryptobrowser.site
+    api.cryptobrowser.site
+    snt.cryptobrowser.site        (Sentry)
+    cryptobrowser.firebaseapp.com (FCM auth domain)
+    cryptobrowser.appspot.com     (FCM storage bucket)
+    cryptotabbrowser.com          (marketing)
+    cryptotab.farm                (cloud-mining sister product)
+    api.ct-access.pro             (secondary auth API)
+    invite.ctnft.net              (CT NFT invitation)
+
+All of these resolve via standard public DNS — verifying ownership is a
+phase-2 (network) task.

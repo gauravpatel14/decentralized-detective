@@ -1,0 +1,9 @@
+"Chromium Shortcut" = "CryptoTab Browser saīsne";
+CFBundleGetInfoString = "CryptoTab Browser 127.0.6533.100, Autortiesības 2024 CryptoTab Browser autori. Visas tiesības paturētas.";
+NSBluetoothAlwaysUsageDescription = "Tiklīdz pārlūkam CryptoTab Browser tiks sniegta piekļuve, vietnes varēs lūgt jums piekļuvi.";
+NSBluetoothPeripheralUsageDescription = "Tiklīdz pārlūkam CryptoTab Browser tiks sniegta piekļuve, vietnes varēs lūgt jums piekļuvi.";
+NSCameraUsageDescription = "Tiklīdz pārlūkam CryptoTab Browser tiks sniegta piekļuve, vietnes varēs lūgt jums piekļuvi.";
+NSHumanReadableCopyright = "Autortiesības 2024 CryptoTab Browser autori. Visas tiesības paturētas.";
+NSLocationUsageDescription = "Tiklīdz pārlūkam CryptoTab Browser tiks sniegta piekļuve, vietnes varēs lūgt jums piekļuvi.";
+NSMicrophoneUsageDescription = "Tiklīdz pārlūkam CryptoTab Browser tiks sniegta piekļuve, vietnes varēs lūgt jums piekļuvi.";
+NSWebBrowserPublicKeyCredentialUsageDescription = "Tiklīdz pārlūkam CryptoTab Browser tiks sniegta piekļuve, vietnes varēs lūgt jums piekļuvi.";

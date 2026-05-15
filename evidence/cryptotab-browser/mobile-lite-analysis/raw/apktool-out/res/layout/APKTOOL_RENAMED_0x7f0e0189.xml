@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.translate.TranslateTabContent n0:id="@id/translate_tabcontent" n0:layout_width="wrap_content" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150359" n0:layout_gravity="center" n0:id="@id/translate_infobar_tab_text" n0:visibility="visible" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:singleLine="true" />
+    <ProgressBar n0:layout_gravity="center" n0:id="@id/translate_infobar_tab_progressbar" n0:visibility="invisible" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080302" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080302" n0:indeterminate="true" />
+</org.chromium.components.translate.TranslateTabContent>

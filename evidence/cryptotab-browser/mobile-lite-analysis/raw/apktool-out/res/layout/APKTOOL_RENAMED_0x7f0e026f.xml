@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <FrameLayout n0:id="@id/step_content" n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_weight="1.0">
+        <androidx.viewpager2.widget.ViewPager2 n0:id="@id/review_viewpager" n0:layout_width="match_parent" n0:layout_height="match_parent" />
+    </FrameLayout>
+    <LinearLayout n0:orientation="horizontal" n0:id="@id/bottom_bar" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginVertical="@dimen/APKTOOL_RENAMED_0x7f0800ae">
+        <org.chromium.ui.widget.ButtonCompat n0:id="@id/start_button" n0:focusable="true" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140a64" n0:layout_marginHorizontal="16.0dp" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+        <org.chromium.ui.widget.ButtonCompat n0:id="@id/back_button" n0:focusable="true" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f14032b" n0:layout_marginStart="16.0dp" style="@style/APKTOOL_RENAMED_0x7f15037f" />
+        <com.google.android.material.tabs.TabLayout n0:id="@id/tab_layout" n0:background="@android:color/transparent" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="1.0" n0:importantForAccessibility="no" n1:APKTOOL_RENAMED_0x7f0504f9="@drawable/APKTOOL_RENAMED_0x7f090545" n1:APKTOOL_RENAMED_0x7f0504fb="center" n1:APKTOOL_RENAMED_0x7f050504="0.0dp" n1:APKTOOL_RENAMED_0x7f050507="0.0dp" n1:APKTOOL_RENAMED_0x7f05050b="8.0dp" n1:APKTOOL_RENAMED_0x7f05050c="8.0dp"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.ui.widget.ButtonCompat n0:id="@id/next_button" n0:focusable="true" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f1407fa" n0:layout_marginEnd="16.0dp" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+        <org.chromium.ui.widget.ButtonCompat n0:id="@id/finish_button" n0:focusable="true" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140a3b" n0:layout_marginEnd="16.0dp" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+        <org.chromium.ui.widget.ButtonCompat n0:id="@id/done_button" n0:focusable="true" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f1404f9" n0:layout_marginHorizontal="16.0dp" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+    </LinearLayout>
+</LinearLayout>

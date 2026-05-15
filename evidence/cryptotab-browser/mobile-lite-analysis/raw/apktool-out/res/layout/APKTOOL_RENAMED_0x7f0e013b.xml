@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:id="@id/error_screen" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginHorizontal="@dimen/APKTOOL_RENAMED_0x7f080253"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:layout_gravity="center" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080249" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080249" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f08024a" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080248" n0:src="@drawable/APKTOOL_RENAMED_0x7f09019d" n0:importantForAccessibility="no" />
+    <androidx.appcompat.widget.DialogTitle n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150266" n0:id="@id/title" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f08024e" n0:text="@string/APKTOOL_RENAMED_0x7f1409cb" n0:textAlignment="center" />
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/description" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f08024d" n0:text="@string/APKTOOL_RENAMED_0x7f1409ca" n0:textAlignment="center" />
+    <org.chromium.ui.widget.ButtonCompat n0:ellipsize="end" n0:gravity="center" n0:id="@id/primary_button" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08024b" n0:text="@string/APKTOOL_RENAMED_0x7f140572" n0:singleLine="true" n0:layout_marginVertical="@dimen/APKTOOL_RENAMED_0x7f08024c" style="@style/APKTOOL_RENAMED_0x7f15037f" />
+</LinearLayout>

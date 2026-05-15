@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  
+    <title>CT NFT - World's first NFT Mining</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <meta name="description" content="Meet the innovation in the world of cryptocurrencies — NFT Mining from CryptoTab! Our mining technology is based on the PoS algorithm which is superior to the CryptoTab Browser one and grows your BTC income more than just twice. NFT Mining provides you with an income in Bitcoins and a stable hashrate, regardless of the power of your hardware. CT NFT is a new stage in the development of the CryptoTab ecosystem, created for the most efficient mining. Activate tokens and get long-term income in BTC, as any hardware will be enough!">
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://ctnft.net/sitemap.xml"/>
+    <meta property="og:title" content="World's first NFT Mining"/>
+    <meta property="og:image" content="https://ctnft.net/static/site/images/ct-nft-mining_og-img@2x.png"/>
+    <meta property="og:description" content="Meet the innovation in the world of cryptocurrencies — NFT Mining from CryptoTab! Our mining technology is based on the PoS algorithm which is superior to the CryptoTab Browser one and grows your BTC income more than just twice. NFT Mining provides you with an income in Bitcoins and a stable hashrate, regardless of the power of your hardware. CT NFT is a new stage in the development of the CryptoTab ecosystem, created for the most efficient mining. Activate tokens and get long-term income in BTC, as any hardware will be enough!"/>
+    <meta property="og:site_name" content="CT NFT Mining"/>
+    
+    <meta name="theme-color" content="#F7931A">
+    
+    <link rel="apple-touch-icon" sizes="192x192" href="https://ctnft.net/static/site/images/icon-192x192.png">
+    <link href="https://ctnft.net/static/site/images/favicon.ico" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="https://ctnft.net/static/site/styles/style.css?v=1738161215494" />
+    <link rel="stylesheet" href="https://ctnft.net/static/site/styles/animation.css?v=2" />
+    
+    <link
+      rel="preload"
+      href="https://ctnft.net/static/site/fonts/Inter-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin />
+    <link
+      rel="preload"
+      href="https://ctnft.net/static/site/fonts/Inter-ExtraBold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin />
+    <link
+      rel="preload"
+      href="https://ctnft.net/static/site/fonts/Inter-Bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin />
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link href="https://www.googletagmanager.com" rel="preconnect" >
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-765580626"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-765580626');
+    </script>
+</head>
+
+<body class="page page__error">
+    
+         
+<div class="header header--second" id="header">
+  <div class="header__wrapper">
+    <div class="header__container">
+      <div class="burger"><span></span></div>
+      <a href="/en/" class="header__logo" aria-label="logo">
+        <div class="logo-animated logo-animated--browser logo-animated--dark logo-dark">
+        </div>
+      </a>
+        <div class="header__navbar">
+            <nav class="header__menu">
+              <a href="/en/" class="" data-link='index' >Overview</a>
+              
+              
+              <a href="https://app.ctnft.net" target="_blank" class="js-utm-url">Dashboard</a>
+              <a href="/en/faq/" class="" data-link='faq' >FAQ</a>
+              <a href="https://cryptobrowser.site/app/nft/about" target="_blank">Affiliate</a>
+              <a href="/news">News</a>
+            </nav>
+            <a href="https://nftmining.page.link/?apn=net.ctnft&link=https%3A%2F%2Fapp.ctnft.net%2F" target="_blank" class="header__social-item btn--download-android js-playlink-url" aria-label="nft mining">
+              <img src="https://ctnft.net/static/site/images/google.svg" alt="" width="20" height="20">
+            </a>
+            <button class="header__social-item btn--download-desktop qr-popup" aria-label="google">
+              <img src="https://ctnft.net/static/site/images/google.svg" alt="" width="20" height="20">
+            </button>
+            <a href="https://discord.gg/cryptotab-community-997079413013352529" target="_blank" class="header__social-item" aria-label="discord">
+              <svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.5001 1.52023C22.0977 5.44291 23.3805 9.86758 22.901 14.9614C22.899 14.983 22.888 15.0027 22.8708 15.0157C20.9037 16.4993 18.9979 17.3996 17.1188 17.9967C17.1042 18.0013 17.0885 18.001 17.074 17.996C17.0595 17.991 17.0469 17.9814 17.038 17.9687C16.6039 17.3483 16.2094 16.6942 15.8638 16.0073C15.844 15.9669 15.8621 15.9181 15.903 15.9022C16.5294 15.6598 17.1251 15.3692 17.6981 15.0252C17.7432 14.998 17.7461 14.9316 17.7044 14.8997C17.5828 14.807 17.4623 14.7095 17.3471 14.6121C17.3255 14.594 17.2965 14.5905 17.272 14.6026C13.5521 16.367 9.47705 16.367 5.7131 14.6026C5.68867 14.5914 5.65963 14.5952 5.63864 14.6129C5.52364 14.7104 5.40289 14.807 5.28243 14.8997C5.24074 14.9316 5.24419 14.998 5.28962 15.0252C5.8626 15.3627 6.4583 15.6598 7.0839 15.9034C7.12444 15.9193 7.1437 15.9669 7.12358 16.0073C6.78548 16.6951 6.39103 17.3491 5.94885 17.9695C5.92959 17.9946 5.89797 18.0062 5.86807 17.9967C3.99788 17.3996 2.09205 16.4993 0.124977 15.0157C0.108589 15.0027 0.0968019 14.9821 0.0950769 14.9605C-0.305697 10.5544 0.511089 6.09315 3.49275 1.51935C3.49993 1.50724 3.51086 1.49779 3.52351 1.49218C4.99062 0.800604 6.56238 0.291813 8.20515 0.00124481C8.23505 -0.00347988 8.26495 0.0106942 8.28048 0.0378612C8.48345 0.406978 8.71546 0.880333 8.87244 1.26717C10.604 0.995497 12.3627 0.995497 14.1305 1.26717C14.2875 0.888601 14.5115 0.406978 14.7136 0.0378612C14.7208 0.0243839 14.7319 0.0135867 14.7454 0.00701094C14.759 0.000435179 14.7742 -0.0015829 14.7889 0.00124481C16.4325 0.292699 18.0043 0.80149 19.4702 1.49218C19.4832 1.49779 19.4938 1.50724 19.5001 1.52023V1.52023ZM9.75276 9.89771C9.77087 8.59517 8.84627 7.51735 7.68564 7.51735C6.53449 7.51735 5.61881 8.58572 5.61881 9.89771C5.61881 11.2094 6.5526 12.2778 7.68564 12.2778C8.83707 12.2778 9.75276 11.2094 9.75276 9.89771V9.89771ZM17.3951 9.89771C17.4132 8.59517 16.4886 7.51735 15.3282 7.51735C14.1768 7.51735 13.2611 8.58572 13.2611 9.89771C13.2611 11.2094 14.1949 12.2778 15.3282 12.2778C16.4886 12.2778 17.3951 11.2094 17.3951 9.89771V9.89771Z" fill="#5865F2" fill-opacity="0.98"/>
+              </svg>
+            </a>
+            <a href="https://twitter.com/CryptoTabNFT" target="_blank" class="header__social-item" aria-label="twitter">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.2033 1.875H17.9599L11.9374 8.75833L19.0224 18.125H13.4749L9.12992 12.4442L4.15826 18.125H1.39992L7.84159 10.7625L1.04492 1.875H6.73326L10.6608 7.0675L15.2033 1.875ZM14.2358 16.475H15.7633L5.90326 3.43833H4.26409L14.2358 16.475Z" fill="black"/>
+                </svg>
+            </a>
+            <a href="https://app.ctnft.net" class="header__connect js-utm-url" aria-label="link">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_1882_2575)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9633 16.7762V15.7512V15.7491H9.48167C8.88889 15.7491 8.38671 15.5457 7.97514 15.1388C7.56356 14.7318 7.35778 14.2353 7.35778 13.6492V6.59867C7.35778 6.01259 7.56356 5.51609 7.97514 5.10917C8.38671 4.70225 8.88889 4.49879 9.48167 4.49879H18.9633V3.47384C18.9633 2.9204 18.7495 2.43223 18.3217 2.00934C17.894 1.58645 17.4003 1.375 16.8405 1.375H2.12389C1.53111 1.375 1.02894 1.57846 0.617362 1.98538C0.205787 2.3923 0 2.8888 0 3.47488V16.7751C0 17.3612 0.205787 17.8577 0.617362 18.2646C1.02894 18.6715 1.53111 18.875 2.12389 18.875H16.8405C17.4003 18.875 17.894 18.6636 18.3217 18.2407C18.7495 17.8178 18.9633 17.3296 18.9633 16.7762Z" fill="white"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7317 13.6513C10.0413 13.6513 9.48169 13.0917 9.48169 12.4013V7.85075C9.48169 7.1604 10.0413 6.60075 10.7317 6.60075H18.75C19.4404 6.60075 20 7.1604 20 7.85075V12.4013C20 13.0917 19.4404 13.6513 18.75 13.6513H10.7317ZM15.625 11.375C15.3118 11.668 14.9413 11.8146 14.5136 11.8146C14.0858 11.8146 13.7153 11.668 13.4021 11.375C13.0888 11.082 12.9326 10.7077 12.9333 10.2521C12.934 9.79662 13.0903 9.42233 13.4021 9.12929C13.7139 8.83625 14.0844 8.68973 14.5136 8.68973C14.9427 8.68973 15.3132 8.83625 15.625 9.12929C15.9369 9.42233 16.0931 9.79662 16.0938 10.2521C16.0945 10.7077 15.9383 11.082 15.625 11.375Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_1882_2575">
+                <rect width="20" height="20" fill="white"/>
+                </clipPath>
+                </defs>
+              </svg>
+              Connect
+            </a>
+            <div class="lang lang--second">
+        <div class="lang__current">
+            <img src="https://ctnft.net/static/site/images/lang/en.png" srcset="https://ctnft.net/static/site/images/lang/en@2x.png 2x" class="loading" data-was-processed="true" alt="en"/>en
+        </div>
+        <div class="lang__list">
+          
+            
+              <a class="lang__item" href=""> <img src="https://ctnft.net/static/site/images/lang/de.png" srcset="https://ctnft.net/static/site/images/lang/de@2x.png 2x"  alt="de"/>de</a>
+            
+          
+            
+              <a class="lang__item" href=""> <img src="https://ctnft.net/static/site/images/lang/es.png" srcset="https://ctnft.net/static/site/images/lang/es@2x.png 2x"  alt="es"/>es</a>
+            
+          
+            
+              <a class="lang__item" href=""> <img src="https://ctnft.net/static/site/images/lang/pt.png" srcset="https://ctnft.net/static/site/images/lang/pt@2x.png 2x"  alt="pt"/>pt</a>
+            
+          
+            
+              <a class="lang__item" href=""> <img src="https://ctnft.net/static/site/images/lang/fr.png" srcset="https://ctnft.net/static/site/images/lang/fr@2x.png 2x"  alt="fr"/>fr</a>
+            
+          
+            
+              <a class="lang__item" href=""> <img src="https://ctnft.net/static/site/images/lang/ru.png" srcset="https://ctnft.net/static/site/images/lang/ru@2x.png 2x"  alt="ru"/>ru</a>
+            
+          
+            
+          
+            
+              <a class="lang__item" href=""> <img src="https://ctnft.net/static/site/images/lang/it.png" srcset="https://ctnft.net/static/site/images/lang/it@2x.png 2x"  alt="it"/>it</a>
+            
+          
+        </div>
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+        
+<section class="error">
+    <div class="error__block">
+        <div class="error__body">
+            <div class="error__icon">
+                <picture>
+                    <source srcset="https://ctnft.net/static/site/images/triangle.svg" media="(max-width: 769px)">
+                    <source srcset="https://ctnft.net/static/site/images/glass.svg">
+                    <img src="https://ctnft.net/static/site/images/glass.svg">
+                </picture>
+            </div>
+            <h1 class="error__title">Page not found</h1>
+            <p class="error__text">
+                Error 404.
+                <span>The requested resource could not be found but may be available in the future.</span>
+            </p>
+        </div>
+        <div class="error__button-wrapper">
+            <a class="error__button">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.8501 4.15086C16.2993 4.43675 16.4318 5.03271 16.1459 5.48197L9.45243 16.0002L4.28241 10.8302C3.90586 10.4537 3.90586 9.84318 4.28241 9.46664C4.65895 9.0901 5.26944 9.0901 5.64598 9.46664L9.11615 12.9368L14.519 4.44666C14.8049 3.99741 15.4008 3.86497 15.8501 4.15086Z" fill="white"/>
+                </svg> <span>Ok, got it</span>
+            </a>
+        </div>
+        <div class="error__mobile-pic">
+            <picture>
+                <source srcset="https://ctnft.net/static/site/images/tokens_right.svg" media="(max-width: 769px)">
+                <img src="#">
+            </picture>
+        </div>
+    </div>
+</section>
+
+        <a data-scroll href="#header" class="scroll2top" aria-label="scroll to top"></a>
+         
+        
+<div class="popup" id="qrPopup">
+	<div class="popup__card">
+		<svg class="popup__hide" width="16" height="16" viewBox="0 0 16 16" onClick='hidePopup()' fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path fill-rule="evenodd" clip-rule="evenodd" d="M6.22222 8L0.888889 2.66667C0.397969 2.17575 0.397969 1.37981 0.888889 0.888889C1.37981 0.397969 2.17575 0.397969 2.66667 0.888889L8 6.22222L13.3333 0.888889C13.8243 0.397969 14.6202 0.397969 15.1111 0.888889C15.602 1.37981 15.602 2.17575 15.1111 2.66667L9.77778 8L15.1111 13.3333C15.602 13.8243 15.602 14.6202 15.1111 15.1111C14.6202 15.602 13.8243 15.602 13.3333 15.1111L8 9.77778L2.66667 15.1111C2.17575 15.602 1.37981 15.602 0.888889 15.1111C0.397969 14.6202 0.397969 13.8243 0.888889 13.3333L6.22222 8Z" fill="#B3B3B3"/>
+		</svg>
+		<h2 class="popup__header">Install CT NFT App</h2>
+		<div class="popup__body">
+			<div class="popup__text">Install the <a href="https://play.google.com/store/apps/details?id=net.ctnft" class="js-playlink-url" target="_blank">CT NFT</a> app on your Android device. Just scan the QR code with your device's camera or proceed to Google Play by clicking on the button below.</div>
+			<div class="popup__qr js-playlink-url" id="qrcode" data-qrcode="https://play.google.com/store/apps/details?id=net.ctnft">
+
+			</div>
+			<div class="popup__qr-subtitle js-qr-url">
+				<img src="https://ctnft.net/static/site/images/qr-icon.svg" alt="">
+				<span>Scan this QR code with your device's camera</span>
+			</div>
+		</div>
+		<div class="popup__footer">
+			<div class="popup__footer-decoration">or</div>
+            <a href="https://play.google.com/store/apps/details?id=net.ctnft" target="_blank" class="btn btn--black js-playlink-url">
+                <img src="https://ctnft.net/static/site/images/google.svg"  alt="Get NC Wallet on Google Play" width='17' height='17'>
+                <div class="store-link__body">
+                  Get it on Google Play
+                </div>
+            </a>
+		</div>
+	</div>
+</div>
+
+<script>
+	document.querySelectorAll('.qr-popup').forEach((el) => {
+		el.addEventListener('click', function() {
+          const qrcodeEl = document.getElementById('qrcode');
+          while (qrcodeEl.lastElementChild) {
+            qrcodeEl.removeChild(qrcodeEl.lastElementChild)
+          }
+          const code = new QRCode(document.getElementById("qrcode"), {
+            text: qrcodeEl.getAttribute("data-qrcode"),
+            width: 200,
+            height: 200,
+            colorDark: "#000000",
+            colorLight: "#ffffff",
+            correctLevel: QRCode.CorrectLevel.M
+          });
+          document.getElementById('qrPopup').classList.add('active');
+          document.querySelector('.page').classList.add('page_blocked');
+		})
+	})
+
+	function hidePopup() {
+		let activePopup = document.querySelector('.popup.active');
+		if (activePopup) {
+            activePopup.classList.remove('active');
+            document.querySelector('.page').classList.remove('page_blocked');
+		}
+	}
+
+	document.addEventListener('click', function(e){
+		if ( event.target.classList.contains('popup') || event.target.classList.contains('popup__close') ) {
+			hidePopup();
+		}
+	});
+  
+    document.addEventListener('keydown', function(event) {
+        const key = event.key;
+        if (key === "Escape") {
+          hidePopup();
+        }
+    });
+</script>
+    
+    
+    <script>
+      function CWAloaded() {
+        const aid = ''
+        let meta = {
+          land: ''
+        }
+
+        window.CWA && CWA.initPromise.then((data) => {
+          console.debug('CWA promise')
+          document.querySelectorAll('.js-utm-url').forEach((el) => {
+            var app_url = el.href
+            app_url += (app_url.indexOf('?') === -1) ? '?' : '&'
+            app_url += `utm_cid=${data.c}&utm_uid=${data.u}`
+            el.href = app_url
+          })
+          document.querySelectorAll('.js-playlink-url').forEach((el) => {
+            let play_link = el.href || el.dataset.qrcode
+            if (!play_link) return
+            play_link = new URL(play_link)
+            let link_url = new URL(play_link.searchParams.has('link') ? play_link.searchParams.get('link') : 'https://app.ctnft.net/')
+            const link_utm = Object.assign({utm_source:'',utm_cid:data.c,utm_uid:data.u}, {  })
+            for (let k in link_utm) {
+              link_url.searchParams.set(k, link_utm[k])
+            }
+            play_link.searchParams.set('link', link_url.toString())
+            if (el.href) {
+              el.href = play_link.toString()
+            } else {
+              el.dataset.qrcode = play_link.toString()
+            }
+          })
+        }, (error) => {
+          console.error(error)
+        })
+
+        if (window.CWAmeta && typeof CWAmeta == 'function') {
+          CWAmeta(meta).then(send, () => send(meta))
+        } else {
+          send(meta)
+        }
+        function send(m) {
+          window.CWA && CWA.init('https://an.ctnft.net', {
+            aid: aid,
+            project: 'nft',
+            meta: m || meta
+          });
+        }
+      }
+    </script>
+    <script src="https://an.ctnft.net/static/js/cwa.js?v=4" async defer onload="CWAloaded()"></script>
+    <script src="https://ctnft.net/static/site/scripts/loadAnimation.js"></script>
+    <script src="https://ctnft.net/static/site/scripts/vendor/lottie.js"></script>
+    <script src="https://ctnft.net/static/site/scripts/vendor/qrcode.js"></script>
+    <script src="https://ctnft.net/static/site/scripts/vendor/smooth-scroll.min.js"></script>
+    <script src="https://ctnft.net/static/site/scripts/main.js?v=7" type="module"></script>
+    <script>
+        let lang = window.location.pathname.split('/')[1];
+    </script>
+    <script src="https://ctnft.net/static/site/scripts/lang.js?v=1"></script>
+    
+</body>
+
+</html>

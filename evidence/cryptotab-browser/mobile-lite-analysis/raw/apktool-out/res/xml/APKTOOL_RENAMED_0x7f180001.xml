@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.chromium.chrome.browser.accessibility.settings.TextScalePreference n0:title="@string/APKTOOL_RENAMED_0x7f1405b4" n0:selectable="false" n0:key="text_scale"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.accessibility.PageZoomPreference n1:selectable="false" n1:key="page_zoom_default_zoom"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <Preference n2:title="@string/APKTOOL_RENAMED_0x7f140f71" n2:key="zoom_info"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n3:title="@string/APKTOOL_RENAMED_0x7f1408e6" n3:key="page_zoom_include_os_adjustment" n3:summary="@string/APKTOOL_RENAMED_0x7f1408e5"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n4:title="@string/APKTOOL_RENAMED_0x7f1408e3" n4:key="page_zoom_always_show" n4:summary="@string/APKTOOL_RENAMED_0x7f1408e2"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n5:title="@string/APKTOOL_RENAMED_0x7f1405b8" n5:key="force_enable_zoom" n5:summary="@string/APKTOOL_RENAMED_0x7f1405b7"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n6:title="@string/APKTOOL_RENAMED_0x7f140afc" n6:key="reader_for_accessibility" n6:summary="@string/APKTOOL_RENAMED_0x7f140afb"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <Preference n7:title="@string/APKTOOL_RENAMED_0x7f140161" n7:key="captions"
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+    <Preference n8:title="@string/APKTOOL_RENAMED_0x7f140633" n8:key="image_descriptions" n8:fragment="org.chromium.chrome.browser.image_descriptions.ImageDescriptionsSettings"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+</PreferenceScreen>

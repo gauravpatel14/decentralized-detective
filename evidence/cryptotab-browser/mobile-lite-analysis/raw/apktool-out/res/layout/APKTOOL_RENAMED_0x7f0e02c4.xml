@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center_vertical" n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080541"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ListView n0:id="@id/device_picker_list" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f080541" n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:divider="@null" n0:dividerHeight="0.0dp" n0:layout_weight="1.0" />
+</LinearLayout>

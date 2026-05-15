@@ -1,0 +1,9 @@
+"Chromium Shortcut" = "CryptoTab Browser-snelkoppeling";
+CFBundleGetInfoString = "CryptoTab Browser 127.0.6533.100, Copyright 2024 De auteurs van CryptoTab Browser. Alle rechten voorbehouden.";
+NSBluetoothAlwaysUsageDescription = "Zodra CryptoTab Browser toegang heeft, kunnen websites je om toegang vragen.";
+NSBluetoothPeripheralUsageDescription = "Zodra CryptoTab Browser toegang heeft, kunnen websites je om toegang vragen.";
+NSCameraUsageDescription = "Zodra CryptoTab Browser toegang heeft, kunnen websites je om toegang vragen.";
+NSHumanReadableCopyright = "Copyright 2024 De auteurs van CryptoTab Browser. Alle rechten voorbehouden.";
+NSLocationUsageDescription = "Zodra CryptoTab Browser toegang heeft, kunnen websites je om toegang vragen.";
+NSMicrophoneUsageDescription = "Zodra CryptoTab Browser toegang heeft, kunnen websites je om toegang vragen.";
+NSWebBrowserPublicKeyCredentialUsageDescription = "Zodra CryptoTab Browser toegang heeft, kunnen websites je om toegang vragen.";

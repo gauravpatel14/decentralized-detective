@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ScrollView n0:orientation="vertical" n0:id="@id/restore_tabs_promo_sheet_scrollview" n0:scrollbars="none" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <LinearLayout n0:orientation="vertical" n0:paddingLeft="@dimen/APKTOOL_RENAMED_0x7f080794" n0:paddingRight="@dimen/APKTOOL_RENAMED_0x7f080794" n0:focusable="true" n0:clickable="true" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <ImageView n0:layout_gravity="center_horizontal" n0:layout_width="wrap_content" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08078e" n0:layout_marginTop="24.0dp" n0:importantForAccessibility="no" n1:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f0904f8"
+              xmlns:n1="http://schemas.android.com/apk/res-auto" />
+            <LinearLayout n0:orientation="vertical" n0:focusable="true" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="24.0dp" n0:accessibilityHeading="true">
+                <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502cd" n0:gravity="center_horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140b40" />
+                <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:gravity="center_horizontal" n0:id="@id/restore_tabs_promo_sheet_subtitle" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="4.0dp" />
+            </LinearLayout>
+            <LinearLayout n0:orientation="horizontal" n0:id="@id/restore_tabs_selected_device_view" n0:background="@drawable/APKTOOL_RENAMED_0x7f0904fa" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f080791" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f080791" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="24.0dp" n0:layout_marginBottom="8.0dp">
+                <ImageView n0:layout_gravity="center_vertical" n0:id="@id/restore_tabs_promo_sheet_device_icon" n0:background="@null" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f08078c" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08078c" n0:importantForAccessibility="no" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f08078d" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f08078d" n2:APKTOOL_RENAMED_0x7f050573="?APKTOOL_RENAMED_0x7f05014c"
+                  xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <LinearLayout n0:orientation="vertical" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="1.0">
+                    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:id="@id/restore_tabs_promo_sheet_device_name" n0:focusable="false" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:textAlignment="viewStart" />
+                    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n0:id="@id/restore_tabs_promo_sheet_session_info" n0:focusable="false" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:textAlignment="viewStart" />
+                </LinearLayout>
+                <ImageView n0:layout_gravity="center_vertical" n0:id="@id/restore_tabs_expand_icon_device_selection" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140b3b" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f080793" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f080792" n3:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070128"
+                  xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+            <org.chromium.ui.widget.ButtonCompat n0:ellipsize="end" n0:gravity="center" n0:id="@id/restore_tabs_button_open_tabs" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="8.0dp" n0:singleLine="true" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+            <org.chromium.ui.widget.ButtonCompat n0:ellipsize="end" n0:gravity="center" n0:id="@id/restore_tabs_button_review_tabs" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="4.0dp" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080787" n0:text="@string/APKTOOL_RENAMED_0x7f140b3c" n0:singleLine="true" style="@style/APKTOOL_RENAMED_0x7f15037f" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

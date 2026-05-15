@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:layout_gravity="center|top" n0:orientation="horizontal" n0:id="@id/bottom_toolbar_browsing" n0:background="?APKTOOL_RENAMED_0x7f050165" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f0800b8" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f0800b8"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.chrome.browser.toolbar.home_button.HomeButton n0:id="@id/bottom_home_button" n0:background="?APKTOOL_RENAMED_0x7f05048b" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401dc" n1:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f09021a" style="@style/APKTOOL_RENAMED_0x7f150253"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e0316" />
+    <org.chromium.ui.widget.ChromeImageButton n0:id="@id/back_button" n0:background="?APKTOOL_RENAMED_0x7f05048b" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401d9" n2:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f0900e3" n2:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129" style="@style/APKTOOL_RENAMED_0x7f150253"
+      xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e0316" />
+    <org.chromium.ui.widget.ChromeImageButton n0:id="@id/forward_button" n0:background="?APKTOOL_RENAMED_0x7f05048b" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401db" n3:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f0900eb" n3:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129" style="@style/APKTOOL_RENAMED_0x7f150253"
+      xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e0316" />
+    <org.chromium.ui.widget.ChromeImageButton n0:id="@id/bottom_new_tab_button" n0:background="?APKTOOL_RENAMED_0x7f05048b" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401e5" n4:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f090457" n4:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129" style="@style/APKTOOL_RENAMED_0x7f150253"
+      xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e0316" />
+    <org.chromium.ui.widget.ChromeImageButton n0:id="@id/search_accelerator" n0:background="?APKTOOL_RENAMED_0x7f05048b" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401e6" n5:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f090369" n5:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129" style="@style/APKTOOL_RENAMED_0x7f150253"
+      xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e0316" />
+    <org.chromium.chrome.browser.toolbar.TabSwitcherButtonView n0:id="@id/bottom_tab_switcher_button" n0:background="?APKTOOL_RENAMED_0x7f05048b" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401ea" n6:APKTOOL_RENAMED_0x7f0503bf="@dimen/APKTOOL_RENAMED_0x7f080853" n6:APKTOOL_RENAMED_0x7f0503c1="false" n6:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129" style="@style/APKTOOL_RENAMED_0x7f150253"
+      xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

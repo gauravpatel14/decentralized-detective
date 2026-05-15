@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:background="@drawable/APKTOOL_RENAMED_0x7f0904f3" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <View style="@style/APKTOOL_RENAMED_0x7f150178" />
+    <org.chromium.chrome.browser.share.send_tab_to_self.ManageAccountDevicesLinkView n0:gravity="center_vertical" n0:orientation="horizontal" n0:id="@id/manage_account_devices_link" n0:paddingTop="10.0dp" n0:paddingBottom="10.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingStart="29.0dp" n0:paddingEnd="34.0dp" n1:APKTOOL_RENAMED_0x7f0504a1="true"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

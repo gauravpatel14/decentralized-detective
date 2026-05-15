@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.ui.fast_checkout.UnsharableRippleDrawable n0:color="?android:colorControlHighlight"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <item>
+        <org.chromium.components.browser_ui.widget.SurfaceColorDrawable n0:shape="rectangle" n1:APKTOOL_RENAMED_0x7f0504ef="@dimen/APKTOOL_RENAMED_0x7f0801bb"
+          xmlns:n1="http://schemas.android.com/apk/res-auto">
+            <corners n0:topLeftRadius="@dimen/APKTOOL_RENAMED_0x7f080790" n0:topRightRadius="@dimen/APKTOOL_RENAMED_0x7f080790" n0:bottomLeftRadius="@dimen/APKTOOL_RENAMED_0x7f080790" n0:bottomRightRadius="@dimen/APKTOOL_RENAMED_0x7f080790" />
+        </org.chromium.components.browser_ui.widget.SurfaceColorDrawable>
+    </item>
+</org.chromium.chrome.browser.ui.fast_checkout.UnsharableRippleDrawable>

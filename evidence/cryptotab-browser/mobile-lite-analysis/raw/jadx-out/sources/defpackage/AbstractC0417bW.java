@@ -1,0 +1,41 @@
+package defpackage;
+
+/* JADX INFO: renamed from: bW, reason: case insensitive filesystem */
+/* JADX INFO: compiled from: chromium-ChromePublic.aab-stable-260119 */
+/* JADX INFO: loaded from: classes.dex */
+public abstract /* synthetic */ class AbstractC0417bW {
+    public static final /* synthetic */ int[] a;
+
+    static {
+        int[] iArr = new int[bF0.values().length];
+        try {
+            iArr[bF0.ON_CREATE.ordinal()] = 1;
+        } catch (NoSuchFieldError unused) {
+        }
+        try {
+            iArr[bF0.ON_START.ordinal()] = 2;
+        } catch (NoSuchFieldError unused2) {
+        }
+        try {
+            iArr[bF0.ON_RESUME.ordinal()] = 3;
+        } catch (NoSuchFieldError unused3) {
+        }
+        try {
+            iArr[bF0.ON_PAUSE.ordinal()] = 4;
+        } catch (NoSuchFieldError unused4) {
+        }
+        try {
+            iArr[bF0.ON_STOP.ordinal()] = 5;
+        } catch (NoSuchFieldError unused5) {
+        }
+        try {
+            iArr[bF0.ON_DESTROY.ordinal()] = 6;
+        } catch (NoSuchFieldError unused6) {
+        }
+        try {
+            iArr[bF0.ON_ANY.ordinal()] = 7;
+        } catch (NoSuchFieldError unused7) {
+        }
+        a = iArr;
+    }
+}

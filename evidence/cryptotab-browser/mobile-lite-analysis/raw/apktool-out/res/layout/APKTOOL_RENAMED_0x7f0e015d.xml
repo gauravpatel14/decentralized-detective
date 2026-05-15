@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:paddingBottom="8.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.ui.widget.ButtonCompat n0:gravity="start|center" n0:layout_gravity="top" n0:id="@id/clear_browsing_data_button" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f08032b" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f08032b" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140860" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f08032b" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f08032b" n1:APKTOOL_RENAMED_0x7f0505b8="0.0dp" style="@style/APKTOOL_RENAMED_0x7f15037f"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <View style="@style/APKTOOL_RENAMED_0x7f150178" />
+</LinearLayout>

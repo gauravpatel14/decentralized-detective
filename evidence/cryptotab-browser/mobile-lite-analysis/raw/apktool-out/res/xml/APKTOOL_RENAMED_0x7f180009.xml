@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n0:orderingFromXml="false"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.chrome.browser.autofill.options.RadioButtonGroupThirdPartyPreference n0:selectable="false" n0:key="autofill_third_party_filling" n0:order="1" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n0:key="third_party_toggle_hint" n0:order="2" n1:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+</PreferenceScreen>

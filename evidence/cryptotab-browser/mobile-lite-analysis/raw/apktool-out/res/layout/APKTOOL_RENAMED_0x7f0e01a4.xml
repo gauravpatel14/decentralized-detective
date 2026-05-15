@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.tasks.tab_management.LargeMessageCardView n0:id="@id/large_message_card_item" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.components.browser_ui.widget.MaterialCardViewNoShadow n0:layout_gravity="center" n0:id="@id/large_message_card_view" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:layout_margin="@dimen/APKTOOL_RENAMED_0x7f080836" style="@style/APKTOOL_RENAMED_0x7f1501a9">
+        <LinearLayout n0:orientation="vertical" n0:id="@id/large_message_linear_layout" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:layout_marginBottom="16.0dp">
+            <org.chromium.chrome.browser.tasks.tab_management.PriceCardView n0:gravity="center_horizontal" n0:layout_gravity="center" n0:id="@id/price_info_box" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="16.0dp" n0:layout_marginBottom="16.0dp" />
+            <org.chromium.ui.widget.ChromeImageView n0:gravity="center_horizontal" n0:layout_gravity="center" n0:id="@id/icon" n0:visibility="gone" n0:layout_width="26.0dp" n0:layout_height="26.0dp" n0:layout_marginTop="19.0dp" n0:layout_marginBottom="14.0dp" n0:adjustViewBounds="true" n0:importantForAccessibility="no" />
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:gravity="center_horizontal" n0:layout_gravity="center_horizontal" n0:id="@id/title" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="4.0dp" />
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:gravity="center_horizontal" n0:layout_gravity="center_horizontal" n0:id="@id/description" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginStart="24.0dp" n0:layout_marginEnd="24.0dp" />
+            <org.chromium.ui.widget.ButtonCompat n0:layout_gravity="center" n0:id="@id/action_button" n0:paddingTop="8.0dp" n0:paddingBottom="8.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="16.0dp" n0:layout_marginStart="24.0dp" n0:layout_marginEnd="24.0dp" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+            <org.chromium.ui.widget.ButtonCompat n0:layout_gravity="center" n0:id="@id/secondary_action_button" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="8.0dp" style="@style/APKTOOL_RENAMED_0x7f15037f" />
+        </LinearLayout>
+        <org.chromium.ui.widget.ChromeImageView n0:layout_gravity="end" n0:id="@id/close_button" n0:layout_width="24.0dp" n0:layout_height="24.0dp" n0:layout_marginTop="16.0dp" n0:tint="?APKTOOL_RENAMED_0x7f05014c" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140422" n0:layout_marginEnd="16.0dp" />
+    </org.chromium.components.browser_ui.widget.MaterialCardViewNoShadow>
+</org.chromium.chrome.browser.tasks.tab_management.LargeMessageCardView>

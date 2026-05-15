@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:focusable="false" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout n0:id="@id/adaptive_radio_group" n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription n0:id="@id/adaptive_option_based_on_usage" n0:paddingTop="10.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080541" n1:APKTOOL_RENAMED_0x7f0502ad="@drawable/APKTOOL_RENAMED_0x7f0901eb" n1:APKTOOL_RENAMED_0x7f05044f="@string/APKTOOL_RENAMED_0x7f14023a"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription n0:id="@id/adaptive_option_new_tab" n0:paddingTop="10.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080541" n2:APKTOOL_RENAMED_0x7f0502ad="@drawable/APKTOOL_RENAMED_0x7f090457" n2:APKTOOL_RENAMED_0x7f05044f="@string/APKTOOL_RENAMED_0x7f14023c"
+          xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription n0:id="@id/adaptive_option_share" n0:paddingTop="10.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080541" n3:APKTOOL_RENAMED_0x7f0502ad="@drawable/APKTOOL_RENAMED_0x7f090372" n3:APKTOOL_RENAMED_0x7f05044f="@string/APKTOOL_RENAMED_0x7f14023e"
+          xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription n0:id="@id/adaptive_option_voice_search" n0:paddingTop="10.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080541" n4:APKTOOL_RENAMED_0x7f0502ad="@drawable/APKTOOL_RENAMED_0x7f0902a8" n4:APKTOOL_RENAMED_0x7f05044f="@string/APKTOOL_RENAMED_0x7f140240"
+          xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription n0:id="@id/adaptive_option_translate" n0:paddingTop="10.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080541" n5:APKTOOL_RENAMED_0x7f0502ad="@drawable/APKTOOL_RENAMED_0x7f09038e" n5:APKTOOL_RENAMED_0x7f05044f="@string/APKTOOL_RENAMED_0x7f14023f"
+          xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription n0:id="@id/adaptive_option_add_to_bookmarks" n0:paddingTop="10.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080541" n6:APKTOOL_RENAMED_0x7f0502ad="@drawable/APKTOOL_RENAMED_0x7f09052e" n6:APKTOOL_RENAMED_0x7f05044f="@string/APKTOOL_RENAMED_0x7f140239"
+          xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription n0:id="@id/adaptive_option_read_aloud" n0:paddingTop="10.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080541" n7:APKTOOL_RENAMED_0x7f0502ad="@drawable/APKTOOL_RENAMED_0x7f090357" n7:APKTOOL_RENAMED_0x7f05044f="@string/APKTOOL_RENAMED_0x7f14023d"
+          xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    </org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout>
+</LinearLayout>

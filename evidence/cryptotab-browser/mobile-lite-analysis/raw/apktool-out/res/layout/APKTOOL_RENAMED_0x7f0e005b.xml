@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:background="@drawable/APKTOOL_RENAMED_0x7f0900be" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:elevation="@dimen/APKTOOL_RENAMED_0x7f08007d"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ListView n0:id="@id/app_menu_list" n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_weight="1.0" />
+    <ViewStub n0:id="@id/app_menu_footer_stub" n0:inflatedId="@id/app_menu_footer" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+</LinearLayout>

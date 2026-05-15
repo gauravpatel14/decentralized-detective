@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:orientation="vertical" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080744" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080743"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.components.browser_ui.widget.RoundedCornerImageView n0:layout_gravity="center_horizontal" n0:id="@id/thumbnail" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:scaleType="centerCrop" n0:importantForAccessibility="no" n1:APKTOOL_RENAMED_0x7f05019a="@dimen/APKTOOL_RENAMED_0x7f0801ce" n1:APKTOOL_RENAMED_0x7f05019b="@dimen/APKTOOL_RENAMED_0x7f0801ce" n1:APKTOOL_RENAMED_0x7f05019c="@dimen/APKTOOL_RENAMED_0x7f0801ce" n1:APKTOOL_RENAMED_0x7f05019d="@dimen/APKTOOL_RENAMED_0x7f0801ce"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <ImageView n0:id="@id/gradient_overlay" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:importantForAccessibility="no" n2:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f0904df"
+      xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150370" n0:id="@id/title" n0:paddingBottom="8.0dp" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_alignParentBottom="true" n0:paddingStart="8.0dp" n0:paddingEnd="8.0dp" n0:breakStrategy="balanced" />
+</RelativeLayout>

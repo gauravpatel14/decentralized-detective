@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_RENAMED_0x7f120000">
+        <item quantity="one">Close tab group with %1$d tab.</item>
+        <item quantity="other">Close tab group with %1$d tabs.</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120001">
+        <item quantity="one">Close tab group with %1$d tab, color %2$s.</item>
+        <item quantity="other">Close tab group with %1$d tabs, color %2$s.</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120002">
+        <item quantity="one">Close %1$s group with %2$d tab.</item>
+        <item quantity="other">Close %1$s group with %2$d tabs.</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120003">
+        <item quantity="one">Close %1$s group with %2$d tab, color %3$s.</item>
+        <item quantity="other">Close %1$s group with %2$d tabs, color %3$s.</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120004">
+        <item quantity="one">Collapse %1$d tab.</item>
+        <item quantity="other">Collapse tab group with %1$d tabs.</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120005">
+        <item quantity="one">Collapse %1$s tab group with %2$d tab.</item>
+        <item quantity="other">Collapse %1$s tab group with %2$d tabs.</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120006">
+        <item quantity="one">All files, 1 file in list</item>
+        <item quantity="other">All files, %d files in list</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120007">
+        <item quantity="one">Audio files, 1 audio file in list</item>
+        <item quantity="other">Audio files, %d audio files in list</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120008">
+        <item quantity="one">Images, 1 image in list</item>
+        <item quantity="other">Images, %d images in list</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120009">
+        <item quantity="one">Other 1 file in list</item>
+        <item quantity="other">Other %d files in list</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12000a">
+        <item quantity="one">Pages, 1 page in list</item>
+        <item quantity="other">Pages, %d pages in list</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12000b">
+        <item quantity="one">Videos, 1 video in list</item>
+        <item quantity="other">Videos, %d videos in list</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12000c">
+        <item quantity="one">Expand tab group with %1$d tab.</item>
+        <item quantity="other">Expand tab group with %1$d tabs.</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12000d">
+        <item quantity="one">Expand tab group with %1$d tab, color %2$s.</item>
+        <item quantity="other">Expand tab group with %1$d tabs, color %2$s.</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12000e">
+        <item quantity="one">Expand %1$s tab group with %2$d tab.</item>
+        <item quantity="other">Expand %1$s tab group with %2$d tabs.</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12000f">
+        <item quantity="one">Expand %1$s tab group with %2$d tab, color %3$s.</item>
+        <item quantity="other">Expand %1$s tab group with %2$d tabs, color %3$s.</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120010">
+        <item quantity="one">" %1$s/%2$s rating, %3$d review"</item>
+        <item quantity="other">%1$s/%2$s rating, %3$d reviews</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120011">
+        <item quantity="one">Remove 1 selected item</item>
+        <item quantity="other">Remove %d selected items</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120012">
+        <item quantity="one">Share 1 selected item</item>
+        <item quantity="other">Share %d selected items</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120013">
+        <item quantity="one">Bookmark %1$d selected tab</item>
+        <item quantity="other">Bookmark %1$d selected tabs</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120014">
+        <item quantity="one">Close %1$d selected tab</item>
+        <item quantity="other">Close %1$d selected tabs</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120015">
+        <item quantity="one">Group %1$d selected tab</item>
+        <item quantity="other">Group %1$d selected tabs</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120016">
+        <item quantity="one">Share %1$d selected tab</item>
+        <item quantity="other">Share %1$d selected tabs</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120017">
+        <item quantity="one">Ungroup %1$d selected tab</item>
+        <item quantity="other">Ungroup %1$d selected tabs</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120018">
+        <item quantity="one">Bookmark saved to \"%1$s\" in your account, %2$s.</item>
+        <item quantity="other">Bookmarks saved to \"%1$s\" in your account, %2$s.</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120019">
+        <item quantity="one">1 bookmark</item>
+        <item quantity="other">%d bookmarks</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12001a">
+        <item quantity="one">1 password</item>
+        <item quantity="other">%d passwords</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12001b">
+        <item quantity="one">1 page on your reading list</item>
+        <item quantity="other">%d pages on your reading list</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12001c">
+        <item quantity="one">Item saved in your CryptoCompany OU Account, %1$s.</item>
+        <item quantity="other">Items saved in your CryptoCompany OU Account, %1$s.</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12001d">
+        <item quantity="one">1 item is saved only to this device. To use it on your other devices, save it in your CryptoCompany OU Account, %2$s.</item>
+        <item quantity="other">%1$d items are saved only to this device. To use them on your other devices, save them in your CryptoCompany OU Account, %2$s.</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12001e">
+        <item quantity="one">1 password is saved only to this device. To use it on your other devices, save it in your CryptoCompany OU Account, %2$s.</item>
+        <item quantity="other">%1$d passwords are saved only to this device. To use them on your other devices, save them in your CryptoCompany OU Account, %2$s.</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12001f">
+        <item quantity="one">1 password and other items are saved only to this device. To use them on your other devices, save them in your CryptoCompany OU Account, %2$s.</item>
+        <item quantity="other">%1$d passwords and other items are saved only to this device. To use them on your other devices, save them in your CryptoCompany OU Account, %2$s.</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120020">
+        <item quantity="one">Cookies allowed for %1$s %2$s site</item>
+        <item quantity="other">Cookies allowed for %1$s %2$s sites</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120021">
+        <item quantity="one">"%1$s site in %2$s's group of sites that can see your activity in the group"</item>
+        <item quantity="other">"%1$s sites in %2$s's group of sites that can see your activity in the group"</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120022">
+        <item quantity="one">Close after 1 day</item>
+        <item quantity="other">Close after %1$d days</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120023">
+        <item quantity="one">After 1 day</item>
+        <item quantity="other">After %1$d days</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120024">
+        <item quantity="one">After 1 day</item>
+        <item quantity="other">After %1$d days</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120025">
+        <item quantity="one">Not used for 1 day or more</item>
+        <item quantity="other">Not used for %d days or more</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120026">
+        <item quantity="one">Inactive tab (1)</item>
+        <item quantity="other">Inactive tabs (%d)</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120027">
+        <item quantity="one">Restore tab</item>
+        <item quantity="other">Restore tabs</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120028">
+        <item quantity="one">%1$d inactive tab</item>
+        <item quantity="other">%1$d inactive tabs</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120029">
+        <item quantity="one">%1$d bookmark</item>
+        <item quantity="other">%1$d bookmarks</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12002a">
+        <item quantity="one">%1$d tab</item>
+        <item quantity="other">%1$d tabs</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12002b">
+        <item quantity="one">"Your closed tabs and groups can be reopened from the Recent tabs section and the Tab groups section. Your Incognito tab won't be available."</item>
+        <item quantity="other">"Your closed tabs and groups can be reopened from the Recent tabs section and the Tab groups section. Your %d Incognito tabs won't be available."</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12002c">
+        <item quantity="one">(+ 1 more)</item>
+        <item quantity="other">(+ %d more)</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12002d">
+        <item quantity="one">%d cookie</item>
+        <item quantity="other">%d cookies</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12002e">
+        <item quantity="one">%d hr</item>
+        <item quantity="other">%d hrs</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12002f">
+        <item quantity="one">File downloaded</item>
+        <item quantity="other">%d downloads complete</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120030">
+        <item quantity="one">1 download failed</item>
+        <item quantity="other">%d downloads failed</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120031">
+        <item quantity="one">Downloading file…</item>
+        <item quantity="other">Downloading %d files…</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120032">
+        <item quantity="one">1 download pending</item>
+        <item quantity="other">%d downloads pending</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120033">
+        <item quantity="one">%1$d file downloaded</item>
+        <item quantity="other">%1$d files downloaded</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120034">
+        <item quantity="one">Hide continue with this tab</item>
+        <item quantity="other">Hide continue with these tabs</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120035">
+        <item quantity="one">Continue with this tab</item>
+        <item quantity="other">Continue with these tabs</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120036">
+        <item quantity="one">%1$s incognito tab will be closed</item>
+        <item quantity="other">%1$s incognito tabs will be closed</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120037">
+        <item quantity="one">%1$s incognito and %2$s more tab will be closed</item>
+        <item quantity="other">%1$s incognito and %2$s more tabs will be closed</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120038">
+        <item quantity="one">%1$s and %2$s more tab will be closed</item>
+        <item quantity="other">%1$s and %2$s more tabs will be closed</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120039">
+        <item quantity="one">%1$s incognito tab</item>
+        <item quantity="other">%1$s incognito tabs</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12003a">
+        <item quantity="one">%1$s tab</item>
+        <item quantity="other">%2$s tabs, %1$s incognito</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12003b">
+        <item quantity="one">1 tab</item>
+        <item quantity="other">%d tabs</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12003c">
+        <item quantity="one">Bookmark saved to \"%1$s\". It is only saved to this device.</item>
+        <item quantity="other">Bookmarks saved to \"%1$s\". It is only saved to this device.</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12003d">
+        <item quantity="one">(%1$s review)</item>
+        <item quantity="other">(%1$s reviews)</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12003e">
+        <item quantity="one">%1$s review from CryptoCompany OU</item>
+        <item quantity="other">%1$s reviews from CryptoCompany OU</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12003f">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120040">
+        <item quantity="one">%d day ago</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120041">
+        <item quantity="one">%d hour ago</item>
+        <item quantity="other">%d hours ago</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120042">
+        <item quantity="one">%d minute ago</item>
+        <item quantity="other">%d minutes ago</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120043">
+        <item quantity="one">%1$s site</item>
+        <item quantity="other">%1$s sites</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120044">
+        <item quantity="one">CryptoTab Browser Lite will load your page when ready</item>
+        <item quantity="other">CryptoTab Browser Lite will load your pages when ready</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120045">
+        <item quantity="one">CryptoTab Browser Lite will block cookies again tomorrow</item>
+        <item quantity="other">%d days until CryptoTab Browser Lite blocks cookies again</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120046">
+        <item quantity="one">CryptoTab Browser Lite will block cookies again tomorrow</item>
+        <item quantity="other">%d days until cookies are blocked again</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120047">
+        <item quantity="one">CryptoTab Browser Lite will limit cookies again tomorrow</item>
+        <item quantity="other">%d days until CryptoTab Browser Lite limits cookies again</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120048">
+        <item quantity="one">%1$s, %2$s, and %3$s more allowed</item>
+        <item quantity="other">%1$s, %2$s, and %3$s more allowed</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120049">
+        <item quantity="one">%1$s, %2$s, and %3$s more blocked</item>
+        <item quantity="other">%1$s, %2$s, and %3$s more blocked</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12004a">
+        <item quantity="one">%1$s, %2$s, and %3$s more</item>
+        <item quantity="other">%1$s, %2$s, and %3$s more</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12004b">
+        <item quantity="one">Protections are off until tomorrow</item>
+        <item quantity="other">Protections are off for %d days</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12004c">
+        <item quantity="one">%d compromised password</item>
+        <item quantity="other">%d compromised passwords</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12004d">
+        <item quantity="one">%1$s… and %2$s more</item>
+        <item quantity="other">%1$s… and %2$s more</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12004e">
+        <item quantity="one">%1$s… and %2$s more</item>
+        <item quantity="other">%1$s… and %2$s more</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12004f">
+        <item quantity="one">%1$s… and %2$s more</item>
+        <item quantity="other">%1$s… and %2$s more</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120050">
+        <item quantity="one">%1$s… and %2$s more</item>
+        <item quantity="other">%1$s… and %2$s more</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120051">
+        <item quantity="one">Price drop on your open tabs</item>
+        <item quantity="other">Price drops on your open tabs</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120052">
+        <item quantity="one">+ 1 site</item>
+        <item quantity="other">+ %d sites</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120053">
+        <item quantity="one">1 tab on this device</item>
+        <item quantity="other">%d tabs on this device</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120054">
+        <item quantity="one">%1$d unread page</item>
+        <item quantity="other">%1$d unread pages</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120055">
+        <item quantity="one">Open %1$s tab</item>
+        <item quantity="other">Open %1$s tabs</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120056">
+        <item quantity="one">%1$s tab, last updated: %2$s</item>
+        <item quantity="other">%1$s tabs, last updated: %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120057">
+        <item quantity="one">"%1$s site in %2$s's group"</item>
+        <item quantity="other">"%1$s sites in %2$s's group"</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120058">
+        <item quantity="one">1 compromised password</item>
+        <item quantity="other">%d compromised passwords</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120059">
+        <item quantity="one">Checked 1 day ago</item>
+        <item quantity="other">Checked %d days ago</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12005a">
+        <item quantity="one">Checked 1 hour ago</item>
+        <item quantity="other">Checked %d hours ago</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12005b">
+        <item quantity="one">Checked 1 minute ago</item>
+        <item quantity="other">Checked %d minutes ago</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12005c">
+        <item quantity="one">You should change this now</item>
+        <item quantity="other">You should change these now</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12005d">
+        <item quantity="one">Permissions reviewed for 1 site</item>
+        <item quantity="other">Permissions reviewed for %d sites</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12005e">
+        <item quantity="one">Notifications not allowed for 1 site</item>
+        <item quantity="other">Notifications not allowed for %d sites</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12005f">
+        <item quantity="one">1 site recently sent a lot of notifications</item>
+        <item quantity="other">%d sites recently sent a lot of notifications</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120060">
+        <item quantity="one">About 1 notification a day</item>
+        <item quantity="other">About %d notifications a day</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120061">
+        <item quantity="one">Permissions removed from 1 site</item>
+        <item quantity="other">Permissions removed from %d sites</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120062">
+        <item quantity="one">1 selected</item>
+        <item quantity="other">%d selected</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120063">
+        <item quantity="one">When you make purchases on CryptoTab Browser Lite, see %1$s as an option</item>
+        <item quantity="other">When you make purchases on CryptoTab Browser Lite, see %1$s as options</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120064">
+        <item quantity="one">Signal Strength Level: %d bar</item>
+        <item quantity="other">Signal Strength Level: %d bars</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120065">
+        <item quantity="one">Expires tomorrow</item>
+        <item quantity="other">Expires in %d days</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120066">
+        <item quantity="one">Created %d day ago</item>
+        <item quantity="other">Created %d days ago</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120067">
+        <item quantity="one">Created %d hour ago</item>
+        <item quantity="other">Created %d hours ago</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120068">
+        <item quantity="one">Created %d minute ago</item>
+        <item quantity="other">Created %d minutes ago</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120069">
+        <item quantity="one">Created %d month ago</item>
+        <item quantity="other">Created %d months ago</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12006a">
+        <item quantity="one">Created %d week ago</item>
+        <item quantity="other">Created %d weeks ago</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12006b">
+        <item quantity="one">Created %d year ago</item>
+        <item quantity="other">Created %d years ago</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12006c">
+        <item quantity="one">Bookmark tab</item>
+        <item quantity="other">Bookmark tabs</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12006d">
+        <item quantity="one">Close tab</item>
+        <item quantity="other">Close tabs</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12006e">
+        <item quantity="one">Group tab</item>
+        <item quantity="other">Group tabs</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f12006f">
+        <item quantity="one">%1$d link from CryptoTab Browser Lite</item>
+        <item quantity="other">%1$d links from CryptoTab Browser Lite</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120070">
+        <item quantity="one">Share tab</item>
+        <item quantity="other">Share tabs</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120071">
+        <item quantity="one">%1$d tab</item>
+        <item quantity="other">%1$d tabs</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120072">
+        <item quantity="one">Ungroup tab</item>
+        <item quantity="other">Ungroup tabs</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120073">
+        <item quantity="one">New password for this site</item>
+        <item quantity="other">New passwords for this site</item>
+    </plurals>
+    <plurals name="APKTOOL_RENAMED_0x7f120074">
+        <item quantity="one">Expires tomorrow</item>
+        <item quantity="other">Expires in %d days</item>
+    </plurals>
+</resources>

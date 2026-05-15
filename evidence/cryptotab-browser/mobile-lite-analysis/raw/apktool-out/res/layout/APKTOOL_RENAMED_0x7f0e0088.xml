@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.ui.widget.ViewLookupCachingFrameLayout n0:focusable="true" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:paddingTop="16.0dp" n0:paddingBottom="10.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <LinearLayout n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <org.chromium.ui.widget.ChromeImageView n0:layout_gravity="start|center" n0:id="@id/bookmark_select_folder" n0:background="@drawable/APKTOOL_RENAMED_0x7f0904ff" n0:layout_width="72.0dp" n0:layout_height="72.0dp" n0:foreground="@drawable/APKTOOL_RENAMED_0x7f0900d9" n0:scaleType="centerInside" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f14054e" n0:layout_marginHorizontal="16.0dp" />
+            <LinearLayout n0:layout_gravity="start|center" n0:orientation="vertical" n0:focusable="true" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:screenReaderFocusable="true">
+                <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15035f" n0:ellipsize="end" n0:id="@id/title_text" n0:focusable="false" n0:layout_width="wrap_content" n0:layout_height="wrap_content" />
+                <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:ellipsize="end" n0:id="@id/subtitle_text" n0:focusable="false" n0:layout_width="wrap_content" n0:layout_height="wrap_content" />
+            </LinearLayout>
+            <View n0:layout_width="0.0dp" n0:layout_height="match_parent" n0:layout_weight="1.0" />
+            <FrameLayout n0:layout_gravity="center_vertical" n0:layout_width="wrap_content" n0:layout_height="wrap_content">
+                <org.chromium.ui.widget.ButtonCompat n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15034f" n0:id="@id/bookmark_edit" n0:layout_width="wrap_content" n0:layout_height="48.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140353" n0:paddingStart="24.0dp" n0:paddingEnd="24.0dp" style="@style/APKTOOL_RENAMED_0x7f15037f" />
+            </FrameLayout>
+        </LinearLayout>
+        <View n0:id="@id/notification_switch_divider" n0:visibility="gone" n0:layout_marginTop="8.0dp" n0:layout_marginBottom="6.0dp" style="@style/APKTOOL_RENAMED_0x7f150178" />
+        <LinearLayout n0:orientation="horizontal" n0:id="@id/notification_switch_container" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <org.chromium.ui.widget.ChromeImageView n0:layout_gravity="center_vertical" n0:id="@id/notification_switch_start_icon" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:importantForAccessibility="no" n0:layout_marginHorizontal="16.0dp" />
+            <LinearLayout n0:layout_gravity="center_vertical" n0:orientation="vertical" n0:focusable="true" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="1.0">
+                <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150350" n0:layout_gravity="center_vertical" n0:id="@id/notification_switch_title" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140554" n0:labelFor="@id/notification_switch" />
+                <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n0:layout_gravity="center_vertical" n0:id="@id/notification_switch_subtitle" n0:layout_width="wrap_content" n0:layout_height="wrap_content" />
+            </LinearLayout>
+            <com.google.android.material.materialswitch.MaterialSwitch n0:layout_gravity="center_vertical" n0:id="@id/notification_switch" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginEnd="24.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+</org.chromium.ui.widget.ViewLookupCachingFrameLayout>

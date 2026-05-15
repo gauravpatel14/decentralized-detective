@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center_vertical" n0:paddingRight="?android:scrollbarSize" n0:clipChildren="false" n0:clipToPadding="false" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="?android:listPreferredItemHeight" n0:paddingEnd="?android:scrollbarSize"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:layout_gravity="center" n0:id="@android:id/icon" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:minWidth="@dimen/APKTOOL_RENAMED_0x7f0806fe" />
+    <RelativeLayout n0:clipChildren="false" n0:clipToPadding="false" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_marginLeft="16.0dp" n0:layout_marginTop="6.0dp" n0:layout_marginRight="8.0dp" n0:layout_marginBottom="6.0dp" n0:layout_weight="1.0" n0:layout_marginStart="16.0dp" n0:layout_marginEnd="8.0dp">
+        <TextView n0:textAppearance="?android:textAppearanceMedium" n0:ellipsize="marquee" n0:id="@android:id/title" n0:fadingEdge="horizontal" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:singleLine="true" />
+        <TextView n0:textAppearance="?android:textAppearanceSmall" n0:textColor="?android:textColorSecondary" n0:id="@android:id/summary" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:maxLines="4" n0:layout_below="@android:id/title" n0:layout_alignLeft="@android:id/title" n0:layout_alignStart="@android:id/title" />
+        <androidx.preference.UnPressableLinearLayout n0:clipChildren="false" n0:clipToPadding="false" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_below="@android:id/summary" n0:layout_alignLeft="@android:id/title" n0:layout_alignStart="@android:id/title">
+            <SeekBar n0:id="@id/seekbar" n0:background="@null" n0:paddingLeft="@dimen/APKTOOL_RENAMED_0x7f0806ff" n0:paddingRight="22.0dp" n0:focusable="false" n0:clickable="false" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="1.0" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f0806ff" n0:paddingEnd="22.0dp" />
+            <TextView n0:textAppearance="?android:textAppearanceMedium" n0:ellipsize="marquee" n0:gravity="right|center" n0:id="@id/seekbar_value" n0:fadingEdge="horizontal" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080701" n0:layout_height="match_parent" n0:singleLine="true" n0:fontFamily="sans-serif-condensed" />
+        </androidx.preference.UnPressableLinearLayout>
+    </RelativeLayout>
+</LinearLayout>

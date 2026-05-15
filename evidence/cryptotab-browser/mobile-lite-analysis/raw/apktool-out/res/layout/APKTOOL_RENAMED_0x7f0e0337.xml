@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <ImageView n0:id="@id/back_button" n0:layout_width="24.0dp" n0:layout_height="24.0dp" n0:layout_marginTop="16.0dp" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1401d9" n0:layout_marginStart="16.0dp" n1:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f0901e5"
+      xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <TextView n2:textAppearance="@style/APKTOOL_RENAMED_0x7f150353" n2:id="@id/video_file_name" n2:layout_width="wrap_content" n2:layout_height="wrap_content" n2:layout_marginTop="16.0dp" n2:layout_marginStart="56.0dp"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <VideoView n3:layout_gravity="center" n3:id="@id/video_player" n3:visibility="gone" n3:layout_width="match_parent" n3:layout_height="wrap_content"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <FrameLayout n4:layout_gravity="center" n4:id="@id/video_overlay_container" n4:visibility="gone" n4:clickable="true" n4:layout_width="match_parent" n4:layout_height="wrap_content" n4:contentDescription="@string/APKTOOL_RENAMED_0x7f1401f4"
+      xmlns:n4="http://schemas.android.com/apk/res/android">
+        <FrameLayout n4:layout_gravity="start|bottom" n4:id="@id/video_controls_gradient" n4:background="@drawable/APKTOOL_RENAMED_0x7f09059b" n4:layout_width="match_parent" n4:layout_height="88.0dp" />
+        <FrameLayout n4:layout_gravity="center" n4:id="@id/video_controls" n4:paddingBottom="16.0dp" n4:layout_width="wrap_content" n4:layout_height="wrap_content">
+            <LinearLayout n4:gravity="center|top" n4:orientation="horizontal" n4:id="@id/fast_forward_message" n4:background="@drawable/APKTOOL_RENAMED_0x7f0901a1" n4:paddingTop="16.0dp" n4:visibility="gone" n4:layout_width="match_parent" n4:layout_height="48.0dp">
+                <ImageView n4:id="@id/fast_rewind" n4:layout_width="24.0dp" n4:layout_height="24.0dp" n4:contentDescription="@string/APKTOOL_RENAMED_0x7f14019d" n4:layout_marginEnd="8.0dp" n5:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f090249"
+                  xmlns:n5="http://schemas.android.com/apk/res-auto" />
+                <TextView n4:textAppearance="@style/APKTOOL_RENAMED_0x7f150353" n4:layout_width="wrap_content" n4:layout_height="wrap_content" n4:text="@string/APKTOOL_RENAMED_0x7f14058a" />
+                <ImageView n4:id="@id/fast_forward" n4:layout_width="24.0dp" n4:layout_height="24.0dp" n4:contentDescription="@string/APKTOOL_RENAMED_0x7f14019d" n4:layout_marginStart="8.0dp" n6:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f090248"
+                  xmlns:n6="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+            <ImageView n4:layout_gravity="center" n4:id="@id/video_player_play_button" n4:layout_width="@dimen/APKTOOL_RENAMED_0x7f0806e4" n4:layout_height="@dimen/APKTOOL_RENAMED_0x7f0806e4" n4:contentDescription="@string/APKTOOL_RENAMED_0x7f14019d" n7:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f09034a"
+              xmlns:n7="http://schemas.android.com/apk/res-auto" />
+            <TextView n4:textAppearance="@style/APKTOOL_RENAMED_0x7f150342" n4:layout_gravity="start|bottom" n4:id="@id/remaining_time" n4:clickable="true" n4:layout_width="wrap_content" n4:layout_height="wrap_content" n4:layout_marginBottom="24.0dp" n4:layout_marginStart="16.0dp" />
+            <ImageView n4:layout_gravity="end|bottom" n4:id="@id/mute" n4:layout_width="26.0dp" n4:layout_height="26.0dp" n4:layout_marginBottom="24.0dp" n4:contentDescription="@string/APKTOOL_RENAMED_0x7f140183" n4:layout_marginEnd="68.0dp" n8:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f0903a2"
+              xmlns:n8="http://schemas.android.com/apk/res-auto" />
+            <ImageView n4:layout_gravity="end|bottom" n4:id="@id/fullscreen" n4:layout_width="26.0dp" n4:layout_height="26.0dp" n4:layout_marginBottom="24.0dp" n4:contentDescription="@string/APKTOOL_RENAMED_0x7f140177" n4:layout_marginEnd="16.0dp" n9:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f090255"
+              xmlns:n9="http://schemas.android.com/apk/res-auto" />
+            <SeekBar n4:layout_gravity="center|bottom" n4:id="@id/seek_bar" n4:clickable="true" n4:layout_width="match_parent" n4:layout_height="wrap_content" n4:progressDrawable="@drawable/APKTOOL_RENAMED_0x7f09048b" n4:thumb="@drawable/APKTOOL_RENAMED_0x7f09048a" />
+        </FrameLayout>
+    </FrameLayout>
+</merge>

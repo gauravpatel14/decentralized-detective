@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.keyboard_accessory.sheet_tabs.PasswordAccessoryInfoView n0:gravity="start|center" n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f08031f" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f08031a" n0:fillViewport="true" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f080323" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f080323"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150344" n0:gravity="start|center" n0:id="@id/password_info_title" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f08031a" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f08031a" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080314" />
+    <LinearLayout n0:gravity="start|center" n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:fillViewport="true">
+        <org.chromium.components.browser_ui.widget.chips.ChipView n0:gravity="start|center" n0:id="@id/suggestion_text" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginEnd="2.0dp" style="@style/APKTOOL_RENAMED_0x7f15017a" />
+        <Space n0:layout_width="0.0dp" n0:layout_height="match_parent" n0:layout_weight="1.0" />
+        <ImageView n0:layout_gravity="center" n0:id="@id/favicon" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080321" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080321" n0:importantForAccessibility="no" />
+    </LinearLayout>
+    <org.chromium.components.browser_ui.widget.chips.ChipView n0:gravity="start|center" n0:id="@id/password_text" n0:layout_width="wrap_content" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f15017a" />
+    <View n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f08031b" n0:layout_marginBottom="0.0dp" style="@style/APKTOOL_RENAMED_0x7f150178" />
+</org.chromium.chrome.browser.keyboard_accessory.sheet_tabs.PasswordAccessoryInfoView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.multiwindow.CloseConfirmationDialogView n0:orientation="vertical" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080152" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <include n0:id="@id/title_container" layout="@layout/APKTOOL_RENAMED_0x7f0e01cb" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:id="@id/message" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginHorizontal="@dimen/APKTOOL_RENAMED_0x7f080211" n0:layout_marginVertical="16.0dp" />
+        <LinearLayout n0:orientation="horizontal" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f080211">
+            <CheckBox n0:id="@id/no_more_check" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="12.0dp" />
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150344" n0:id="@id/no_more" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f1404fa" />
+        </LinearLayout>
+        <org.chromium.components.browser_ui.widget.DualControlLayout n0:id="@id/button_bar" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingHorizontal="?APKTOOL_RENAMED_0x7f0501f2" n0:paddingVertical="?APKTOOL_RENAMED_0x7f0501f3" n1:APKTOOL_RENAMED_0x7f050093="end" n1:APKTOOL_RENAMED_0x7f0504c4="@dimen/APKTOOL_RENAMED_0x7f0800bd"
+          xmlns:n1="http://schemas.android.com/apk/res-auto">
+            <org.chromium.ui.widget.ButtonCompat n0:id="@id/positive_button" n0:layout_width="wrap_content" n0:layout_height="wrap_content" style="?APKTOOL_RENAMED_0x7f050097" />
+            <org.chromium.ui.widget.ButtonCompat n0:id="@id/negative_button" n0:layout_width="wrap_content" n0:layout_height="wrap_content" style="?APKTOOL_RENAMED_0x7f050095" />
+        </org.chromium.components.browser_ui.widget.DualControlLayout>
+    </LinearLayout>
+</org.chromium.chrome.browser.multiwindow.CloseConfirmationDialogView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.tabs.TabLayout n0:id="@id/clear_browsing_data_tabs" n0:layout_width="match_parent" n0:layout_height="wrap_content" n1:APKTOOL_RENAMED_0x7f05050b="5.0dp" n1:APKTOOL_RENAMED_0x7f05050c="5.0dp" style="@style/APKTOOL_RENAMED_0x7f15025d"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <androidx.viewpager2.widget.ViewPager2 n0:id="@id/clear_browsing_data_viewpager" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:layout_below="@id/clear_browsing_data_tabs" n2:APKTOOL_RENAMED_0x7f050301="@string/APKTOOL_RENAMED_0x7f140282"
+      xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ImageView n0:layout_below="@id/clear_browsing_data_tabs" n0:importantForAccessibility="no" style="@style/APKTOOL_RENAMED_0x7f15025b" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector n0:height="24.0dp" n0:width="24.0dp" n0:viewportWidth="72.0" n0:viewportHeight="72.0"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <path n0:name="arrow_grey" n0:fillColor="@color/APKTOOL_RENAMED_0x7f0701eb" n0:pathData="M30,15 L42,15 L42,30 L52,30 L36,46 L20,30 L30,30 Z" n0:strokeColor="@android:color/transparent" />
+    <group>
+        <clip-path n0:name="arrow_clip" n0:pathData="M 0,0 L 72,0 L 72,60 L 0,60 L 0,0 Z" />
+        <path n0:name="arrow_blue" n0:fillColor="?APKTOOL_RENAMED_0x7f050155" n0:pathData="M30,15 L42,15 L42,30 L52,30 L36,46 L20,30 L30,30 Z" n0:strokeColor="@android:color/transparent" />
+    </group>
+    <path n0:name="bar_grey" n0:pathData="M12,54 L60,54" n0:strokeColor="@color/APKTOOL_RENAMED_0x7f0701eb" n0:strokeWidth="6.0" />
+    <path n0:name="bar" n0:pathData="M12,54 L60,54" n0:strokeColor="?APKTOOL_RENAMED_0x7f050155" n0:strokeWidth="6.0" />
+</vector>

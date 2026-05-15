@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector n0:drawable="@drawable/APKTOOL_RENAMED_0x7f09043f"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <target n0:name="@string/APKTOOL_RENAMED_0x7f1407b1" n0:animation="@drawable/APKTOOL_RENAMED_0x7f090040" />
+    <target n0:name="@string/APKTOOL_RENAMED_0x7f1407b1" n0:animation="@drawable/APKTOOL_RENAMED_0x7f090041" />
+    <target n0:name="@string/APKTOOL_RENAMED_0x7f1407b2" n0:animation="@drawable/APKTOOL_RENAMED_0x7f090042" />
+</animated-vector>

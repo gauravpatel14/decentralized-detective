@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.price_change.PriceChangeModuleView n0:id="@id/price_change_module_layout" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f080708" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f080629" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f080629"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:gravity="start|center" n0:orientation="vertical" n0:background="@drawable/APKTOOL_RENAMED_0x7f0901d0" n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150338" n0:id="@id/header_text" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="16.0dp" n0:layout_marginBottom="12.0dp" n0:textAlignment="viewStart" n0:layout_marginHorizontal="20.0dp" />
+        <LinearLayout n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="20.0dp" n0:baselineAligned="false" n0:layout_marginHorizontal="20.0dp">
+            <RelativeLayout n0:id="@id/image_layout" n0:background="@drawable/APKTOOL_RENAMED_0x7f090497" n0:layout_width="wrap_content" n0:layout_height="wrap_content">
+                <org.chromium.components.browser_ui.widget.RoundedCornerImageView n0:id="@id/product_image" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f08070c" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08070c" n0:layout_margin="@dimen/APKTOOL_RENAMED_0x7f08070b" n0:scaleType="centerCrop" n1:APKTOOL_RENAMED_0x7f05019a="@dimen/APKTOOL_RENAMED_0x7f08070a" n1:APKTOOL_RENAMED_0x7f05019b="@dimen/APKTOOL_RENAMED_0x7f08070a" n1:APKTOOL_RENAMED_0x7f05019c="@dimen/APKTOOL_RENAMED_0x7f08070a" n1:APKTOOL_RENAMED_0x7f05019d="@dimen/APKTOOL_RENAMED_0x7f08070a"
+                  xmlns:n1="http://schemas.android.com/apk/res-auto" />
+                <org.chromium.ui.widget.ChromeImageView n0:id="@id/favicon_image" n0:background="@drawable/APKTOOL_RENAMED_0x7f090496" n0:padding="4.0dp" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080706" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080706" n0:layout_marginBottom="8.0dp" n0:layout_alignBottom="@id/product_image" n0:layout_marginEnd="8.0dp" n0:layout_alignEnd="@id/product_image" n0:elevation="4.0dp" />
+            </RelativeLayout>
+            <LinearLayout n0:orientation="vertical" n0:layout_width="wrap_content" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08070c" n0:layout_marginStart="16.0dp">
+                <LinearLayout n0:orientation="horizontal" n0:id="@id/price_info_box" n0:background="@drawable/APKTOOL_RENAMED_0x7f090498" n0:layout_width="wrap_content" n0:layout_height="wrap_content">
+                    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15032e" n0:id="@id/current_price" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="2.0dp" n0:layout_marginBottom="2.0dp" n0:singleLine="true" n0:textAlignment="viewStart" n0:layout_marginStart="8.0dp" n0:layout_marginEnd="4.0dp" />
+                    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n0:id="@id/previous_price" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="2.0dp" n0:layout_marginBottom="2.0dp" n0:singleLine="true" n0:textAlignment="viewStart" n0:layout_marginEnd="8.0dp" />
+                </LinearLayout>
+                <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502da" n0:ellipsize="end" n0:id="@id/product_title" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="8.0dp" n0:maxLines="2" n0:textAlignment="viewStart" />
+                <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n0:ellipsize="end" n0:gravity="bottom" n0:id="@id/price_drop_domain" n0:layout_width="wrap_content" n0:layout_height="match_parent" n0:maxLines="1" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</org.chromium.chrome.browser.price_change.PriceChangeModuleView>

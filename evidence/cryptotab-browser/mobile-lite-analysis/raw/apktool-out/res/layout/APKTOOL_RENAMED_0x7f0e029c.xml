@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.ntp.RecentTabsGroupView n0:id="@id/recent_tabs_group_view" n0:background="?APKTOOL_RENAMED_0x7f05048a" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_centerVertical="true" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f08032b">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:ellipsize="end" n0:gravity="center_vertical" n0:id="@id/device_label" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="24.0dp" n0:singleLine="true" n0:textAlignment="viewStart" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:ellipsize="end" n0:id="@id/time_label" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:textAlignment="viewStart" />
+    </LinearLayout>
+    <ImageView n0:id="@id/expand_collapse_icon" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_centerVertical="true" n0:layout_marginStart="8.0dp" n0:layout_marginEnd="16.0dp" n0:layout_alignParentEnd="true" />
+</org.chromium.chrome.browser.ntp.RecentTabsGroupView>

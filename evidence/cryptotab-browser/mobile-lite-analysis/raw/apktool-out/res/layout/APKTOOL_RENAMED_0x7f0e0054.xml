@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502d1" n0:id="@id/sheet_title" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f080075" n0:text="@string/APKTOOL_RENAMED_0x7f14025a" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f080075" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f080075" />
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/sheet_warning" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f080078" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f080075" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f080075" />
+    <SearchView n0:id="@id/all_passwords_search_view" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f080078" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080077" n0:iconifiedByDefault="false" n0:queryHint="@string/APKTOOL_RENAMED_0x7f140258" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f080078" />
+    <androidx.recyclerview.widget.RecyclerView n0:id="@id/sheet_item_list" n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_weight="1.0" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f080076" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f080076" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <org.chromium.chrome.browser.omnibox.status.StatusIconView n0:orientation="horizontal" n0:id="@id/location_bar_status_icon_view" n0:focusable="false" n0:visibility="visible" n0:layout_width="wrap_content" n0:layout_height="match_parent"
+      xmlns:n0="http://schemas.android.com/apk/res/android">
+        <FrameLayout n0:id="@id/location_bar_status_icon_frame" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080357" n0:layout_height="match_parent">
+            <View n0:layout_gravity="center" n0:id="@id/location_bar_status_icon_bg" n0:background="@drawable/APKTOOL_RENAMED_0x7f09052f" n0:visibility="invisible" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080358" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080358" />
+            <org.chromium.ui.widget.ChromeImageView n0:layout_gravity="center" n0:id="@id/location_bar_status_icon" n0:focusable="false" n0:visibility="visible" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f08066e" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08066e" n0:src="@android:color/transparent" n0:scaleType="center" style="@style/APKTOOL_RENAMED_0x7f1501b5" />
+        </FrameLayout>
+        <Space n0:id="@id/location_bar_status_icon_holding_space" n0:focusable="false" n0:visibility="gone" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080359" n0:layout_height="match_parent" />
+    </org.chromium.chrome.browser.omnibox.status.StatusIconView>
+</merge>

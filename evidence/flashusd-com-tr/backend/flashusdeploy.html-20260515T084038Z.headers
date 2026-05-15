@@ -1,0 +1,21 @@
+HTTP/2 302 
+date: Fri, 15 May 2026 08:40:41 GMT
+content-type: text/html
+location: https://flashusd.com.tr/flashusdeploy.php
+set-cookie: 
+set-cookie: 
+cache-control: no-cache, no-store, must-revalidate, max-age=0
+strict-transport-security: max-age=31536000; includeSubDomains
+content-security-policy: upgrade-insecure-requests
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: geolocation=(), camera=(), microphone=()
+alt-svc: h3=":443"; ma=86400
+x-turbo-charged-by: LiteSpeed
+cf-cache-status: DYNAMIC
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=v%2F0gnahkxcp%2Bf75RgreAqVIVwHBiTYqtv1jGxmEZkBR7Q1SzLs2aN487FysfOFqTMPzxDFaPaPqh5Gln%2BmK3WWvatDx0oRw1PlgGb5Lqv51oB%2FEfflRcU9oYaS1ycZ8yMMKimKYnS6KN1pUu2ws%3D"}]}
+server: cloudflare
+cf-ray: 9fc0d6dc2bcdd881-MRS
+

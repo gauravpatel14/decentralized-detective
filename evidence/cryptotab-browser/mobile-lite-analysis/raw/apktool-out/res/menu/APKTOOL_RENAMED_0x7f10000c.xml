@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <item n0:id="@id/cardboard_menu_option_use_another_device" n0:title="@string/APKTOOL_RENAMED_0x7f140e6f" />
+    <item n0:id="@id/cardboard_menu_option_product_safety" n0:title="@string/APKTOOL_RENAMED_0x7f1403b1" />
+</menu>

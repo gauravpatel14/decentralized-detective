@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item n0:state_enabled="true" n0:state_hovered="true"
+      xmlns:n0="http://schemas.android.com/apk/res/android">
+        <objectAnimator n0:interpolator="?APKTOOL_RENAMED_0x7f0503e5" n0:duration="?APKTOOL_RENAMED_0x7f0503db" n0:valueTo="@dimen/APKTOOL_RENAMED_0x7f0803ba" n0:valueType="floatType" n0:propertyName="translationZ" n0:startDelay="?APKTOOL_RENAMED_0x7f0503d8" />
+    </item>
+    <item n1:state_enabled="true" n2:APKTOOL_RENAMED_0x7f0504d1="true"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <objectAnimator n1:interpolator="?APKTOOL_RENAMED_0x7f0503e5" n1:duration="?APKTOOL_RENAMED_0x7f0503db" n1:valueTo="@dimen/APKTOOL_RENAMED_0x7f0803b4" n1:valueType="floatType" n1:propertyName="translationZ" n1:startDelay="?APKTOOL_RENAMED_0x7f0503d8" />
+    </item>
+    <item n3:state_enabled="true"
+      xmlns:n3="http://schemas.android.com/apk/res/android">
+        <objectAnimator n3:interpolator="?APKTOOL_RENAMED_0x7f0503e5" n3:duration="?APKTOOL_RENAMED_0x7f0503d5" n3:valueTo="0.0dp" n3:valueType="floatType" n3:propertyName="translationZ" />
+    </item>
+    <item>
+        <objectAnimator n4:duration="0" n4:valueTo="0.0dp" n4:valueType="floatType" n4:propertyName="translationZ"
+          xmlns:n4="http://schemas.android.com/apk/res/android" />
+    </item>
+</selector>

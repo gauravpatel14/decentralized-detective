@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.pwd_migration.ScrollablePasswordMigrationWarningContent n0:orientation="vertical" n0:id="@id/post_pwd_migration_sheet" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:layout_gravity="center_horizontal" n0:id="@id/drag_handlebar" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_alignParentTop="true" n0:layout_centerHorizontal="true" n0:importantForAccessibility="no" n0:layout_marginHorizontal="@dimen/APKTOOL_RENAMED_0x7f080736" n0:layout_marginVertical="6.0dp" n1:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f09018f"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <ScrollView n0:id="@id/post_pwd_migration_sheet_scroll_view" n0:clickable="false" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_below="@id/drag_handlebar">
+        <LinearLayout n0:orientation="vertical" n0:id="@id/sheet_item_list" n0:clipToPadding="false" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="24.0dp" n0:divider="@null" n0:layout_marginHorizontal="@dimen/APKTOOL_RENAMED_0x7f080736">
+            <ImageView n0:layout_gravity="center_horizontal" n0:id="@id/sheet_header_image" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080735" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080735" n0:importantForAccessibility="no" n0:layout_marginVertical="16.0dp" />
+            <androidx.appcompat.widget.DialogTitle n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150266" n0:layout_gravity="center_horizontal" n0:id="@id/sheet_title" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="16.0dp" n0:textAlignment="center" />
+            <org.chromium.ui.widget.TextViewWithLeading n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:layout_gravity="center_horizontal" n0:id="@id/sheet_subtitle" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080736" n0:textAlignment="center" />
+            <org.chromium.ui.widget.ButtonCompat n0:ellipsize="end" n0:layout_gravity="center_horizontal" n0:id="@id/acknowledge_button" n0:descendantFocusability="blocksDescendants" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080733" n0:text="@string/APKTOOL_RENAMED_0x7f14094e" n0:singleLine="true" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+        </LinearLayout>
+    </ScrollView>
+</org.chromium.chrome.browser.pwd_migration.ScrollablePasswordMigrationWarningContent>

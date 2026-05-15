@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.omnibox.UrlBarApi26 n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15032b" n0:gravity="center_vertical" n0:id="@id/url_bar" n0:background="@null" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:hint="@string/APKTOOL_RENAMED_0x7f14085c" n0:singleLine="true" n0:imeOptions="actionGo|flagNoFullscreen|flagNoExtractUi" n0:importantForAutofill="no"
+  xmlns:n0="http://schemas.android.com/apk/res/android" />

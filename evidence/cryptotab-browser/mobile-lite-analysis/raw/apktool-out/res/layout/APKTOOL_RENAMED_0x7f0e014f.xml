@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="match_parent" style="@android:style/Theme.Holo.Light"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <view n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:layout_gravity="center_vertical" n0:id="@id/find_query" n0:background="@null" n0:layout_width="0.0dp" n0:layout_height="match_parent" n0:hint="@string/APKTOOL_RENAMED_0x7f1405f3" n0:singleLine="true" n0:layout_weight="1.0" n0:imeOptions="actionSearch|flagNoExtractUi" n0:layout_marginStart="16.0dp" n0:layout_marginEnd="16.0dp" class="org.chromium.chrome.browser.findinpage.FindToolbar$FindQuery" />
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150344" n0:id="@id/find_status" n0:background="@null" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:singleLine="true" n0:layout_marginEnd="16.0dp" />
+    <View n0:id="@id/find_separator" n0:background="?APKTOOL_RENAMED_0x7f05016e" n0:layout_width="1.0dp" n0:layout_height="match_parent" n0:layout_marginTop="8.0dp" n0:layout_marginBottom="8.0dp" />
+    <org.chromium.ui.widget.ChromeImageButton n0:id="@id/find_prev_button" n0:layout_height="match_parent" n0:src="@drawable/APKTOOL_RENAMED_0x7f090241" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140175" n1:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129" style="@style/APKTOOL_RENAMED_0x7f150497"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.ui.widget.ChromeImageButton n0:id="@id/find_next_button" n0:layout_height="match_parent" n0:src="@drawable/APKTOOL_RENAMED_0x7f090242" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140174" n2:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129" style="@style/APKTOOL_RENAMED_0x7f150497"
+      xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.ui.widget.ChromeImageButton n0:id="@id/close_find_button" n0:layout_height="match_parent" n0:src="@drawable/APKTOOL_RENAMED_0x7f0900e8" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140422" n3:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129" style="@style/APKTOOL_RENAMED_0x7f150497"
+      xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

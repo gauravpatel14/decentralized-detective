@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector n0:height="131.0dp" n0:width="300.0dp" n0:viewportWidth="300.0" n0:viewportHeight="131.0"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <path n0:fillColor="#00000000" n0:pathData="M120,42L166,42A2,2 0,0 1,168 44L168,83A2,2 0,0 1,166 85L120,85A2,2 0,0 1,118 83L118,44A2,2 0,0 1,120 42z" n0:strokeColor="#5f6368" n0:strokeWidth="2.0" />
+    <path n0:fillColor="#00000000" n0:pathData="M132,42V42C133.1,42 134,42.9 134,44V45H168" n0:strokeColor="#5f6368" n0:strokeWidth="2.0" />
+    <path n0:fillColor="#5f6368" n0:pathData="M134.5,43.5h32v1h-32z" n0:strokeColor="#5f6368" n0:strokeWidth="1.0" />
+    <path n0:fillColor="#202124" n0:pathData="M127,49L173,49A2,2 0,0 1,175 51L175,90A2,2 0,0 1,173 92L127,92A2,2 0,0 1,125 90L125,51A2,2 0,0 1,127 49z" n0:strokeColor="#80868b" n0:strokeWidth="2.0" />
+    <path n0:fillColor="#00000000" n0:pathData="M139,49V49C140.1,49 141,49.9 141,51V52H175" n0:strokeColor="#80868b" n0:strokeWidth="2.0" />
+    <path n0:fillColor="#80868b" n0:pathData="M141,50h33v2h-33z" />
+    <path n0:fillColor="#202124" n0:pathData="M134,55.93L180,55.93A2,2 0,0 1,182 57.93L182,96.93A2,2 0,0 1,180 98.93L134,98.93A2,2 0,0 1,132 96.93L132,57.93A2,2 0,0 1,134 55.93z" n0:strokeColor="#bdc1c6" n0:strokeWidth="2.0" />
+    <path n0:fillColor="#00000000" n0:pathData="M146,55.93V55.93C147.1,55.93 148,56.83 148,57.93V58.93H182" n0:strokeColor="#bdc1c6" n0:strokeWidth="2.0" />
+    <path n0:fillColor="#bdc1c6" n0:pathData="M148,56.93h33v2h-33z" />
+    <path n0:fillColor="#fbbc04" n0:pathData="M154.67,81.33V93L164,76.67H159.33V65L150,81.33H154.67Z" />
+    <path n0:fillColor="#5f6368" n0:pathData="M57,102H92C88.28,96.58 81.83,93 74.5,93C67.17,93 60.72,96.58 57,102Z" />
+    <path n0:fillColor="#1967d2" n0:pathData="M197,47.29C197,38.84 203.85,32 212.29,32C218.17,32 223.28,35.32 225.84,40.19C226.59,39.98 227.4,39.86 228.23,39.86C232.7,39.86 236.31,43.19 236.31,47.29H220.15V47.29L197,47.29Z" />
+    <path n0:fillColor="#1967d2" n0:pathData="M69.26,63.64C69.26,56.66 63.5,51 56.39,51C51.48,51 47.22,53.69 45.05,57.66C44.64,57.59 44.22,57.55 43.79,57.55C40.04,57.55 37,60.28 37,63.64H43.52C43.52,63.64 43.52,63.63 43.52,63.64L69.26,63.64Z" />
+    <path n0:fillColor="#00000000" n0:pathData="M43,101L257,101" n0:strokeColor="#5f6368" n0:strokeWidth="2.0" />
+    <path n0:fillColor="#5f6368" n0:pathData="M221,88L231,102H211L221,88Z" />
+    <path n0:fillColor="#00000000" n0:pathData="M238.09,86.73L248.98,101H224.02L234.91,86.73C235.71,85.68 237.29,85.68 238.09,86.73Z" n0:strokeColor="#5f6368" n0:strokeWidth="2.0" />
+    <path n0:fillColor="#5f6368" n0:pathData="M243.37,92L251,102H222L229.63,92H243.37Z" n0:fillType="evenOdd" />
+</vector>

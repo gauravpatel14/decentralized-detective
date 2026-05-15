@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view n0:theme="@style/APKTOOL_RENAMED_0x7f15040a" n0:layout_gravity="bottom" n0:layout_width="match_parent" n0:layout_height="wrap_content" class="com.google.android.material.snackbar.SnackbarContentLayout"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502c1" n0:ellipsize="end" n0:layout_gravity="start|center" n0:id="@id/snackbar_text" n0:paddingLeft="@dimen/APKTOOL_RENAMED_0x7f0801f7" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f0801f8" n0:paddingRight="@dimen/APKTOOL_RENAMED_0x7f0801f7" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f0801f8" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:maxLines="@integer/APKTOOL_RENAMED_0x7f0c000a" n0:layout_weight="1.0" n0:textAlignment="viewStart" />
+    <Button n0:textColor="?APKTOOL_RENAMED_0x7f050134" n0:layout_gravity="end|center" n0:id="@id/snackbar_action" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginLeft="@dimen/APKTOOL_RENAMED_0x7f0801f4" n0:minWidth="48.0dp" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f0801f4" style="?APKTOOL_RENAMED_0x7f05007f" />
+</view>

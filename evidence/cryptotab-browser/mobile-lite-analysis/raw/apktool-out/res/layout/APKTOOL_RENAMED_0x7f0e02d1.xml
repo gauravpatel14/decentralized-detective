@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center" n0:orientation="horizontal" n0:id="@id/container" n0:background="@drawable/APKTOOL_RENAMED_0x7f09051f" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:paddingVertical="4.0dp"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:id="@id/price_tracked_icon" n0:layout_width="15.0dp" n0:layout_height="15.0dp" n0:src="@drawable/APKTOOL_RENAMED_0x7f09049b" n0:scaleType="centerInside" n0:importantForAccessibility="no" n0:layout_marginEnd="4.0dp" />
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/normal_price_text" n0:layout_width="wrap_content" n0:layout_height="wrap_content" />
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15032f" n0:id="@id/price_drop_text" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginEnd="4.0dp" />
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/original_price_text" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" />
+</LinearLayout>

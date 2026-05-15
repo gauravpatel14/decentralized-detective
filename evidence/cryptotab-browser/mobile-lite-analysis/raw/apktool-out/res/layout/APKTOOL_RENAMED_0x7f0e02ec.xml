@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <org.chromium.ui.widget.ChromeImageView n0:id="@id/background_view" n0:background="@drawable/APKTOOL_RENAMED_0x7f090537" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:layout_margin="@dimen/APKTOOL_RENAMED_0x7f080803" n0:importantForAccessibility="no"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <FrameLayout n1:id="@id/content_view" n1:layout_width="match_parent" n1:layout_height="match_parent"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <RelativeLayout n1:layout_gravity="center" n1:id="@id/card_view" n1:background="@drawable/APKTOOL_RENAMED_0x7f090537" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_margin="@dimen/APKTOOL_RENAMED_0x7f080803">
+            <ImageView n1:id="@id/tab_favicon" n1:layout_width="wrap_content" n1:layout_height="@dimen/APKTOOL_RENAMED_0x7f080802" n1:adjustViewBounds="true" n1:minWidth="@dimen/APKTOOL_RENAMED_0x7f080801" n1:importantForAccessibility="no" n2:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f090259"
+              xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <TextView n1:textAppearance="@style/APKTOOL_RENAMED_0x7f15035f" n1:ellipsize="none" n1:gravity="center_vertical" n1:id="@id/tab_title" n1:fadingEdgeLength="@dimen/APKTOOL_RENAMED_0x7f080808" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="@dimen/APKTOOL_RENAMED_0x7f080802" n1:singleLine="true" n1:requiresFadingEdge="horizontal" n1:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f080807" n1:layout_toEndOf="@id/tab_favicon" />
+            <org.chromium.chrome.browser.tab_ui.TabThumbnailView n1:gravity="center_horizontal" n1:id="@id/tab_thumbnail" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginLeft="@dimen/APKTOOL_RENAMED_0x7f080806" n1:layout_marginRight="@dimen/APKTOOL_RENAMED_0x7f080806" n1:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080806" n1:src="@color/APKTOOL_RENAMED_0x7f070574" n1:scaleType="fitCenter" n1:adjustViewBounds="false" n1:layout_below="@id/tab_title" n1:importantForAccessibility="no" n3:APKTOOL_RENAMED_0x7f05019a="@dimen/APKTOOL_RENAMED_0x7f080804" n3:APKTOOL_RENAMED_0x7f05019b="@dimen/APKTOOL_RENAMED_0x7f080804" n3:APKTOOL_RENAMED_0x7f05019c="@dimen/APKTOOL_RENAMED_0x7f080805" n3:APKTOOL_RENAMED_0x7f05019d="@dimen/APKTOOL_RENAMED_0x7f080805"
+              xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <org.chromium.chrome.browser.tasks.tab_management.PriceCardView n1:id="@id/price_info_box_outer" n1:background="@drawable/APKTOOL_RENAMED_0x7f090495" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="56.0dp" n1:layout_below="@id/tab_title" n1:layout_marginStart="4.0dp" />
+        </RelativeLayout>
+        <org.chromium.ui.widget.ChromeImageView n1:layout_gravity="end" n1:id="@id/action_button" n1:layout_width="@dimen/APKTOOL_RENAMED_0x7f08082d" n1:layout_height="@dimen/APKTOOL_RENAMED_0x7f08082d" n1:layout_margin="@dimen/APKTOOL_RENAMED_0x7f08082c" n1:scaleType="center" n1:tint="?APKTOOL_RENAMED_0x7f05014c" />
+    </FrameLayout>
+</merge>

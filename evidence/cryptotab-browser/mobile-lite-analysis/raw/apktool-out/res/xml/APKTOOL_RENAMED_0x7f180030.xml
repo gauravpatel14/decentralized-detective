@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n0:icon="@drawable/APKTOOL_RENAMED_0x7f09028e" n0:title="@string/APKTOOL_RENAMED_0x7f140233" n0:key="topics" n0:fragment="org.chromium.chrome.browser.privacy_sandbox.TopicsFragment" n1:APKTOOL_RENAMED_0x7f0502af="?APKTOOL_RENAMED_0x7f05014c" n1:APKTOOL_RENAMED_0x7f0505b4="Settings.PrivacySandbox.Topics.Opened"
+      xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n2:icon="@drawable/APKTOOL_RENAMED_0x7f09020c" n2:title="@string/APKTOOL_RENAMED_0x7f14022f" n2:key="fledge" n2:fragment="org.chromium.chrome.browser.privacy_sandbox.FledgeFragment" n3:APKTOOL_RENAMED_0x7f0502af="?APKTOOL_RENAMED_0x7f05014c" n3:APKTOOL_RENAMED_0x7f0505b4="Settings.PrivacySandbox.Fledge.Opened"
+      xmlns:n2="http://schemas.android.com/apk/res/android" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n4:icon="@drawable/APKTOOL_RENAMED_0x7f0901f0" n4:title="@string/APKTOOL_RENAMED_0x7f14022c" n4:key="ad_measurement" n4:fragment="org.chromium.chrome.browser.privacy_sandbox.AdMeasurementFragment" n5:APKTOOL_RENAMED_0x7f050031="false" n5:APKTOOL_RENAMED_0x7f0502af="?APKTOOL_RENAMED_0x7f05014c" n5:APKTOOL_RENAMED_0x7f0505b4="Settings.PrivacySandbox.AdMeasurement.Opened"
+      xmlns:n4="http://schemas.android.com/apk/res/android" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</PreferenceScreen>

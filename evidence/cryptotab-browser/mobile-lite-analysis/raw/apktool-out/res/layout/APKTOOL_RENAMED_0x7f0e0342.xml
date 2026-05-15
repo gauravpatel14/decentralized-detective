@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TextView n0:textAppearance="?android:textAppearanceMedium" n0:gravity="center" n0:id="@id/site_settings_zoom_empty_zoom_levels_message_text" n0:padding="@dimen/APKTOOL_RENAMED_0x7f080897" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:text="@string/APKTOOL_RENAMED_0x7f140d29"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <View n1:layout_gravity="bottom" n1:background="@drawable/APKTOOL_RENAMED_0x7f09040b" n1:layout_width="match_parent" n1:layout_height="@dimen/APKTOOL_RENAMED_0x7f080897" n1:scaleY="-1.0"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <org.chromium.ui.widget.ButtonCompat n2:id="@id/site_settings_zoom_clear_all_zoom_levels_button" n2:paddingTop="@dimen/APKTOOL_RENAMED_0x7f0801c5" n2:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f0801c5" n2:layout_width="match_parent" n2:layout_height="wrap_content" n2:text="@string/APKTOOL_RENAMED_0x7f140d26" n3:APKTOOL_RENAMED_0x7f0505b8="@dimen/APKTOOL_RENAMED_0x7f0807ad" style="@style/APKTOOL_RENAMED_0x7f15037f"
+      xmlns:n2="http://schemas.android.com/apk/res/android" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</merge>

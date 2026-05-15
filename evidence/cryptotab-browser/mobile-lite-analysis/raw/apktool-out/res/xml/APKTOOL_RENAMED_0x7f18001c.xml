@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n0:enabled="false" n0:key="homepage_switch" n0:summaryOn="@string/APKTOOL_RENAMED_0x7f140dd5" n0:summaryOff="@string/APKTOOL_RENAMED_0x7f140dd4"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <org.chromium.chrome.browser.homepage.settings.RadioButtonGroupHomepagePreference n1:visibility="gone" n1:selectable="false" n1:key="homepage_radio_group" n2:APKTOOL_RENAMED_0x7f05002f="true" n2:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</PreferenceScreen>

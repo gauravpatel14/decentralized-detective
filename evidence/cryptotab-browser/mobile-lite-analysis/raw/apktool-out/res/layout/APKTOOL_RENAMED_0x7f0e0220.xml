@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f0806a4" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingHorizontal="@dimen/APKTOOL_RENAMED_0x7f0806a4"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <include n0:id="@id/bottom_sheet_handlebar" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n1:APKTOOL_RENAMED_0x7f05030e="@id/handlebar_bottom_guideline" n1:APKTOOL_RENAMED_0x7f050314="parent" n1:APKTOOL_RENAMED_0x7f050328="parent" layout="@layout/APKTOOL_RENAMED_0x7f0e009a"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.Guideline n0:orientation="horizontal" n0:id="@id/handlebar_bottom_guideline" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n2:APKTOOL_RENAMED_0x7f050316="@dimen/APKTOOL_RENAMED_0x7f0806a3"
+      xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <TextView n0:gravity="center_vertical" n0:id="@id/sheet_title" n0:layout_width="wrap_content" n0:layout_height="0.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140c8e" n3:APKTOOL_RENAMED_0x7f05030f="@id/header_bottom_barrier" n3:APKTOOL_RENAMED_0x7f050328="parent" n3:APKTOOL_RENAMED_0x7f05032b="@id/handlebar_bottom_guideline" style="@style/APKTOOL_RENAMED_0x7f1502d1"
+      xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.Barrier n0:id="@id/header_bottom_barrier" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n4:APKTOOL_RENAMED_0x7f05006c="bottom" n4:APKTOOL_RENAMED_0x7f05006d="@dimen/APKTOOL_RENAMED_0x7f0806aa" n4:APKTOOL_RENAMED_0x7f05017d="handlebar_bottom_guideline"
+      xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.widget.RadioButtonLayout n0:id="@id/radio_buttons" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginHorizontal="@dimen/APKTOOL_RENAMED_0x7f0806b0" n5:APKTOOL_RENAMED_0x7f05032b="@id/header_bottom_barrier"
+      xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15036d" n0:id="@id/learn_more_text" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0806b9" n0:text="@string/APKTOOL_RENAMED_0x7f140c84" n6:APKTOOL_RENAMED_0x7f050314="parent" n6:APKTOOL_RENAMED_0x7f050328="parent" n6:APKTOOL_RENAMED_0x7f05032b="@id/radio_buttons"
+      xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.ui.widget.ButtonCompat n0:id="@id/accept_button" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0806b9" n0:text="@string/APKTOOL_RENAMED_0x7f140c8d" n7:APKTOOL_RENAMED_0x7f050314="parent" n7:APKTOOL_RENAMED_0x7f05032b="@id/learn_more_text" style="@style/APKTOOL_RENAMED_0x7f15016d"
+      xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.ui.widget.ButtonCompat n0:id="@id/cancel_button" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0806b9" n0:text="@android:string/cancel" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f0806b0" n8:APKTOOL_RENAMED_0x7f050315="@id/accept_button" n8:APKTOOL_RENAMED_0x7f05032b="@id/learn_more_text" style="@style/APKTOOL_RENAMED_0x7f15037f"
+      xmlns:n8="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

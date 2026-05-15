@@ -1,0 +1,9 @@
+"Chromium Shortcut" = "CryptoTab Browser-parancsikon";
+CFBundleGetInfoString = "CryptoTab Browser 127.0.6533.100, Copyright 2024 – A CryptoTab Browser szerzői. Minden jog fenntartva.";
+NSBluetoothAlwaysUsageDescription = "Miután hozzáférést biztosított a CryptoTab Browsernak, a webhelyek is hozzáférést kérhetnek.";
+NSBluetoothPeripheralUsageDescription = "Miután hozzáférést biztosított a CryptoTab Browsernak, a webhelyek is hozzáférést kérhetnek.";
+NSCameraUsageDescription = "Miután hozzáférést biztosított a CryptoTab Browsernak, a webhelyek is hozzáférést kérhetnek.";
+NSHumanReadableCopyright = "Copyright 2024 – A CryptoTab Browser szerzői. Minden jog fenntartva.";
+NSLocationUsageDescription = "Miután hozzáférést biztosított a CryptoTab Browsernak, a webhelyek is hozzáférést kérhetnek.";
+NSMicrophoneUsageDescription = "Miután hozzáférést biztosított a CryptoTab Browsernak, a webhelyek is hozzáférést kérhetnek.";
+NSWebBrowserPublicKeyCredentialUsageDescription = "Miután hozzáférést biztosított a CryptoTab Browsernak, a webhelyek is hozzáférést kérhetnek.";

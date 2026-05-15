@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n0:title="@string/APKTOOL_RENAMED_0x7f140c24" n0:key="ad_measurement_toggle" n0:summary="@string/APKTOOL_RENAMED_0x7f140c25" n1:APKTOOL_RENAMED_0x7f050031="false"
+      xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <PreferenceCategory n2:title="@string/APKTOOL_RENAMED_0x7f140c22" n2:key="ad_measurement_when_on"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <org.chromium.components.browser_ui.settings.TextMessagePreference n2:icon="@drawable/APKTOOL_RENAMED_0x7f0901f0" n2:key="ad_measurement_enabled_bullet_one" n2:summary="@string/APKTOOL_RENAMED_0x7f140c1f" n3:APKTOOL_RENAMED_0x7f050031="false"
+          xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.components.browser_ui.settings.TextMessagePreference n2:icon="@drawable/APKTOOL_RENAMED_0x7f0901ec" n2:key="ad_measurement_enabled_bullet_two" n2:summary="@string/APKTOOL_RENAMED_0x7f140c20" n4:APKTOOL_RENAMED_0x7f050031="false"
+          xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.components.browser_ui.settings.TextMessagePreference n2:icon="@drawable/APKTOOL_RENAMED_0x7f0901ee" n2:key="ad_measurement_enabled_bullet_three" n2:summary="@string/APKTOOL_RENAMED_0x7f140c21" n5:APKTOOL_RENAMED_0x7f050031="false"
+          xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </PreferenceCategory>
+    <PreferenceCategory n6:title="@string/APKTOOL_RENAMED_0x7f140c1e" n6:key="ad_measurement_things_to_consider"
+      xmlns:n6="http://schemas.android.com/apk/res/android">
+        <org.chromium.components.browser_ui.settings.TextMessagePreference n6:icon="@drawable/APKTOOL_RENAMED_0x7f090220" n6:key="ad_measurement_consider_bullet_one" n6:summary="@string/APKTOOL_RENAMED_0x7f140c1b" n7:APKTOOL_RENAMED_0x7f050031="false"
+          xmlns:n7="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.components.browser_ui.settings.TextMessagePreference n6:icon="@drawable/APKTOOL_RENAMED_0x7f09024e" n6:key="ad_measurement_consider_bullet_two" n6:summary="@string/APKTOOL_RENAMED_0x7f140c1c" n8:APKTOOL_RENAMED_0x7f050031="false"
+          xmlns:n8="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.components.browser_ui.settings.TextMessagePreference n6:icon="@drawable/APKTOOL_RENAMED_0x7f090225" n6:key="ad_measurement_consider_bullet_three" n6:summary="@string/APKTOOL_RENAMED_0x7f140c1d" n9:APKTOOL_RENAMED_0x7f050031="false"
+          xmlns:n9="http://schemas.android.com/apk/res-auto" />
+    </PreferenceCategory>
+</PreferenceScreen>

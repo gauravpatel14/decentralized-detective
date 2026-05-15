@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingEnd="8.0dp" style="@style/APKTOOL_RENAMED_0x7f1501e9"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:id="@id/title" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+    <Spinner n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:id="@id/spinner" n0:paddingTop="6.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+</LinearLayout>

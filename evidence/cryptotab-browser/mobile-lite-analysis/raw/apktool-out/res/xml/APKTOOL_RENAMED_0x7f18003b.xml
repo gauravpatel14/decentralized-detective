@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n0:key="page_description" n0:summary="@string/APKTOOL_RENAMED_0x7f140f39" n1:APKTOOL_RENAMED_0x7f0502ac="false"
+      xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n2:key="os_permissions_warning"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n3:key="os_permissions_warning_extra"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <Preference n4:layout="@layout/APKTOOL_RENAMED_0x7f0e0165" n4:selectable="false" n4:key="os_permissions_warning_divider"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n5:icon="@drawable/APKTOOL_RENAMED_0x7f0900ec" n5:title="@string/APKTOOL_RENAMED_0x7f140663" n5:key="intrusive_ads_info" n6:APKTOOL_RENAMED_0x7f0502af="?APKTOOL_RENAMED_0x7f05014c"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <Preference n7:layout="@layout/APKTOOL_RENAMED_0x7f0e0165" n7:selectable="false" n7:key="intrusive_ads_info_divider"
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+    <PreferenceCategory n8:title="@string/APKTOOL_RENAMED_0x7f140f3f" n8:key="site_heading"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n9:key="site_title"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+    <PreferenceCategory n10:title="@string/APKTOOL_RENAMED_0x7f140f59" n10:key="site_usage"
+      xmlns:n10="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.site_settings.ClearWebsiteStorage n11:title="@string/APKTOOL_RENAMED_0x7f140f6b" n11:key="clear_data" n11:widgetLayout="@layout/APKTOOL_RENAMED_0x7f0e00bd" n11:positiveButtonText="@string/APKTOOL_RENAMED_0x7f140f6a" n11:negativeButtonText="@string/APKTOOL_RENAMED_0x7f1403ae"
+      xmlns:n11="http://schemas.android.com/apk/res/android" />
+    <PreferenceCategory n12:title="@string/APKTOOL_RENAMED_0x7f140f3a" n12:key="related_sites_header"
+      xmlns:n12="http://schemas.android.com/apk/res/android" />
+    <PreferenceCategory n13:title="@string/APKTOOL_RENAMED_0x7f140f38" n13:key="site_permissions"
+      xmlns:n13="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ButtonPreference n14:key="reset_site_button"
+      xmlns:n14="http://schemas.android.com/apk/res/android" />
+</PreferenceScreen>

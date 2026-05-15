@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:layout_width="match_parent" n0:layout_height="match_parent" n0:paddingStart="24.0dp" n0:paddingEnd="24.0dp" n0:layout_marginStart="16.0dp" n0:layout_marginEnd="16.0dp"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:id="@android:id/message" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="16.0dp" />
+    <RelativeLayout n0:id="@id/signed_out" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="16.0dp" n0:layout_below="@android:id/message">
+        <ImageView n0:id="@id/signed_out_icon" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:src="@drawable/APKTOOL_RENAMED_0x7f09034d" n0:layout_centerVertical="true" n0:importantForAccessibility="no" />
+        <TextView n0:id="@id/signed_out_text" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_below="@android:id/message" n0:layout_marginStart="12.0dp" n0:layout_toEndOf="@id/signed_out_icon" />
+    </RelativeLayout>
+    <RelativeLayout n0:id="@id/offline" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="12.0dp" n0:layout_below="@id/signed_out">
+        <ImageView n0:id="@id/offline_icon" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:src="@drawable/APKTOOL_RENAMED_0x7f09033f" n0:layout_centerVertical="true" n0:importantForAccessibility="no" />
+        <TextView n0:id="@id/offline_text" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginStart="12.0dp" n0:layout_toEndOf="@id/offline_icon" />
+    </RelativeLayout>
+    <RelativeLayout n0:id="@id/ad_personalization" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="12.0dp" n0:layout_below="@id/offline">
+        <ImageView n0:id="@id/ad_personalization_icon" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:src="@drawable/APKTOOL_RENAMED_0x7f09021d" n0:layout_centerVertical="true" n0:importantForAccessibility="no" />
+        <TextView n0:id="@id/ad_personalization_text" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f140f61" n0:layout_marginStart="16.0dp" n0:layout_toEndOf="@id/ad_personalization_icon" />
+    </RelativeLayout>
+</RelativeLayout>

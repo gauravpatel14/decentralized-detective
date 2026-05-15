@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item n0:state_checkable="false" n0:state_pressed="true" n0:color="?APKTOOL_RENAMED_0x7f05013f" n0:alpha="@dimen/APKTOOL_RENAMED_0x7f080467"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <item n1:state_focused="true" n1:state_checkable="false" n1:color="?APKTOOL_RENAMED_0x7f05013f" n1:alpha="@dimen/APKTOOL_RENAMED_0x7f080465"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:state_checkable="false" n2:color="?APKTOOL_RENAMED_0x7f05013f" n2:alpha="@dimen/APKTOOL_RENAMED_0x7f080466" n2:state_hovered="true"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:state_checkable="false" n3:color="?APKTOOL_RENAMED_0x7f05013f" n3:alpha="@dimen/APKTOOL_RENAMED_0x7f08049d"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:state_checked="true" n4:state_pressed="true" n4:color="?APKTOOL_RENAMED_0x7f05014c" n4:alpha="@dimen/APKTOOL_RENAMED_0x7f080467"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:state_focused="true" n5:state_checked="true" n5:color="?APKTOOL_RENAMED_0x7f050149" n5:alpha="@dimen/APKTOOL_RENAMED_0x7f080465"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <item n6:state_checked="true" n6:color="?APKTOOL_RENAMED_0x7f050149" n6:alpha="@dimen/APKTOOL_RENAMED_0x7f080466" n6:state_hovered="true"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <item n7:state_checked="true" n7:color="?APKTOOL_RENAMED_0x7f050149" n7:alpha="@dimen/APKTOOL_RENAMED_0x7f08049d"
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+    <item n8:state_pressed="true" n8:color="?APKTOOL_RENAMED_0x7f050149" n8:alpha="@dimen/APKTOOL_RENAMED_0x7f080467"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+    <item n9:state_focused="true" n9:color="?APKTOOL_RENAMED_0x7f05014c" n9:alpha="@dimen/APKTOOL_RENAMED_0x7f080465"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+    <item n10:color="?APKTOOL_RENAMED_0x7f05014c" n10:alpha="@dimen/APKTOOL_RENAMED_0x7f080466" n10:state_hovered="true"
+      xmlns:n10="http://schemas.android.com/apk/res/android" />
+    <item n11:color="?APKTOOL_RENAMED_0x7f05014c" n11:alpha="@dimen/APKTOOL_RENAMED_0x7f08049d"
+      xmlns:n11="http://schemas.android.com/apk/res/android" />
+</selector>

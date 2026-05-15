@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector n0:height="45.0dp" n0:width="70.0dp" n0:viewportWidth="700.0" n0:viewportHeight="450.0"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <group n0:name="selected_card_background">
+        <path n0:fillColor="#e2e1e1" n0:pathData="                 M100,100 h200                 a20,20 0 0 1 20,20                 v200                 a20,20 0 0 1 -20,20                 h-200                 a20,20 0 0 1 -20,-20                 v-200                 a20,20 0 0 1 20,-20                 z" n0:strokeColor="#e2e1e1" n0:strokeWidth="3.0" />
+    </group>
+    <group n0:name="hovered_card" n0:pivotX="200.0" n0:pivotY="230.0">
+        <path n0:fillColor="#ffffff" n0:pathData="                 M100,100 h200                 a20,20 0 0 1 20,20                 v200                 a20,20 0 0 1 -20,20                 h-200                 a20,20 0 0 1 -20,-20                 v-200                 a20,20 0 0 1 20,-20                 z" n0:strokeColor="#e2e1e1" n0:strokeWidth="3.0" />
+    </group>
+    <group n0:name="selected_card" n0:pivotX="500.0" n0:pivotY="230.0">
+        <path n0:name="selected_card_rectangle" n0:fillColor="#ffffff" n0:pathData="                 M400,100 h200                 a20,20 0 0 1 20,20                 v200                 a20,20 0 0 1 -20,20                 h-200                 a20,20 0 0 1 -20,-20                 v-200                 a20,20 0 0 1 20,-20                 z" n0:strokeColor="#e2e1e1" n0:strokeWidth="3.0" />
+    </group>
+    <group n0:name="touch_point_background" n0:pivotX="470.0" n0:pivotY="200.0">
+        <path n0:name="touch_point_background_circle" n0:fillColor="@color/APKTOOL_RENAMED_0x7f070063" n0:pathData="                 M 470, 200                 m -40, 0                 a 40,40 0 1,0 80,0                 a 40,40 0 1,0 -80,0                 z                 " />
+    </group>
+    <group n0:name="touch_point" n0:pivotX="470.0" n0:pivotY="200.0">
+        <path n0:name="touch_point_circle" n0:fillColor="@color/APKTOOL_RENAMED_0x7f070063" n0:pathData="                 M 470, 200                 m -24, 0                 a 24,24 0 1,0 48,0                 a 24,24 0 1,0 -48,0                 z                 " />
+    </group>
+</vector>

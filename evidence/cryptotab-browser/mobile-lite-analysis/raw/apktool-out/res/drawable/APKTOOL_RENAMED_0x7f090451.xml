@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector n0:height="@dimen/APKTOOL_RENAMED_0x7f080615" n0:width="@dimen/APKTOOL_RENAMED_0x7f080616" n0:viewportWidth="@integer/APKTOOL_RENAMED_0x7f0c0053" n0:viewportHeight="@integer/APKTOOL_RENAMED_0x7f0c0052"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <path n0:name="outline" n0:pathData="@string/APKTOOL_RENAMED_0x7f1407e5" n0:strokeColor="?APKTOOL_RENAMED_0x7f050153" n0:strokeWidth="2.0" />
+</vector>

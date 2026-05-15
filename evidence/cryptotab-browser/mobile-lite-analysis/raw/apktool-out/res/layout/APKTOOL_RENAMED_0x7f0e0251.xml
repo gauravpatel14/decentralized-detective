@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center_vertical" n0:background="?android:selectableItemBackground" n0:paddingLeft="?android:listPreferredItemPaddingLeft" n0:paddingRight="?android:listPreferredItemPaddingRight" n0:clipToPadding="false" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:baselineAligned="false" n0:minHeight="?android:listPreferredItemHeightSmall" n0:paddingStart="?android:listPreferredItemPaddingStart" n0:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e016f" />
+    <RelativeLayout n0:paddingTop="16.0dp" n0:paddingBottom="16.0dp" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="1.0">
+        <TextView n0:textAppearance="?android:textAppearanceListItem" n0:ellipsize="marquee" n0:id="@android:id/title" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:singleLine="true" />
+        <TextView n0:textColor="?android:textColorSecondary" n0:layout_gravity="start" n0:id="@android:id/summary" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:maxLines="10" n0:layout_below="@android:id/title" n0:layout_alignLeft="@android:id/title" n0:textAlignment="viewStart" n0:layout_alignStart="@android:id/title" style="@style/APKTOOL_RENAMED_0x7f1501ec" />
+    </RelativeLayout>
+    <LinearLayout n0:gravity="end|center" n0:orientation="vertical" n0:id="@android:id/widget_frame" n0:paddingLeft="16.0dp" n0:paddingRight="0.0dp" n0:layout_width="wrap_content" n0:layout_height="match_parent" n0:paddingStart="16.0dp" n0:paddingEnd="0.0dp" />
+</LinearLayout>

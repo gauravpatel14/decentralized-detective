@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f080164" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f080164"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <FrameLayout n0:id="@id/menu_header_image_container" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f080162" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080157" n0:layout_marginEnd="16.0dp">
+        <View n0:id="@id/circle_background" n0:background="@drawable/APKTOOL_RENAMED_0x7f090169" n0:visibility="invisible" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f08015d" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08015d" n0:layout_margin="@dimen/APKTOOL_RENAMED_0x7f08015e" />
+        <ImageView n0:id="@id/menu_header_image" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f08015f" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08015f" n0:src="@color/APKTOOL_RENAMED_0x7f070574" n0:scaleType="centerInside" n0:importantForAccessibility="no" />
+    </FrameLayout>
+    <LinearLayout n0:layout_gravity="center_vertical" n0:orientation="vertical" n0:id="@id/title_and_url" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f080162" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f080157" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <org.chromium.ui.widget.TextViewWithLeading n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15036d" n0:ellipsize="end" n0:id="@id/menu_header_title" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:maxLines="1" n0:textAlignment="viewStart" n1:APKTOOL_RENAMED_0x7f05034b="@dimen/APKTOOL_RENAMED_0x7f080868"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.ui.widget.TextViewWithLeading n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n0:ellipsize="end" n0:id="@id/menu_header_url" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:maxLines="1" n0:textDirection="ltr" n0:textAlignment="viewStart" n2:APKTOOL_RENAMED_0x7f05034b="@dimen/APKTOOL_RENAMED_0x7f080868"
+          xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.tasks.tab_management.CustomMessageCardView n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_margin="@dimen/APKTOOL_RENAMED_0x7f080836"
+  xmlns:n0="http://schemas.android.com/apk/res/android" />

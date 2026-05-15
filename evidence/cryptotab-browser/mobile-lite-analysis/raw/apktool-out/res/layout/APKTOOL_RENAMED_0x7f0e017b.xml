@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:background="@color/APKTOOL_RENAMED_0x7f0704f3" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.ui.listmenu.ListMenuButton n0:layout_gravity="end" n0:id="@id/incognito_reauth_menu_button" n0:background="@null" n0:layout_width="48.0dp" n0:layout_height="48.0dp" n0:layout_marginTop="24.0dp" n1:APKTOOL_RENAMED_0x7f0503bf="@dimen/APKTOOL_RENAMED_0x7f080527" n1:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f0902ad" style="@style/APKTOOL_RENAMED_0x7f150497"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <Space n0:layout_width="0.0dp" n0:layout_height="0.0dp" n0:layout_weight="1.0" />
+    <org.chromium.ui.widget.ChromeImageView n0:layout_gravity="center" n0:id="@id/incognito_reauth_icon" n0:layout_width="72.0dp" n0:layout_height="72.0dp" n0:importantForAccessibility="no" n2:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f0903bd" n2:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f0704f4"
+      xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <Space n0:layout_width="0.0dp" n0:layout_height="0.0dp" n0:layout_weight="1.0" />
+    <LinearLayout n0:layout_gravity="center_horizontal" n0:orientation="vertical" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="24.0dp">
+        <org.chromium.ui.widget.ButtonCompat n0:id="@id/incognito_reauth_unlock_incognito_button" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f14064c" n0:backgroundTint="@color/APKTOOL_RENAMED_0x7f0701b5" n3:APKTOOL_RENAMED_0x7f0500a6="@color/APKTOOL_RENAMED_0x7f07014d" style="@style/APKTOOL_RENAMED_0x7f15016d"
+          xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <org.chromium.ui.widget.ButtonCompat n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15034a" n0:id="@id/incognito_reauth_see_other_tabs_label" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="16.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f14064b" n4:APKTOOL_RENAMED_0x7f0500a6="@color/APKTOOL_RENAMED_0x7f070111" style="@style/APKTOOL_RENAMED_0x7f15037f"
+          xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</LinearLayout>

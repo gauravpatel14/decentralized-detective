@@ -1,0 +1,119 @@
+CryptoTab Browser Lite Android - Network endpoints
+====================================================
+
+Source: strings extracted from `lib/arm64-v8a/libchrome.so` + `classes.dex`.
+Full unique-URL list: raw/all-urls.txt (1149 URLs).
+Full unique-host list: raw/hostnames.full.txt (518 hosts).
+
+Below: only the endpoints that are operationally meaningful for this case.
+
+------------------------------------------------------------
+[1] CryptoTab operator endpoints (CONFIRMED in this build)
+------------------------------------------------------------
+https://api.cryptobrowser.site/api/v2/fcm/register      (DEX: Qu1.java; reports FCM token + bid)
+https://api.cryptobrowser.site/api/v2/devices/register  (DEX: C0717gY.java; reports GAID + Firebase IDs + install referrer)
+https://cryptobrowser.site                              (root)
+https://cryptobrowser.site/affiliate/dashboard          (route table in lQ.java)
+https://cryptobrowser.site/affiliate/referrals
+https://cryptobrowser.site/affiliate/boost
+https://cryptobrowser.site/faq
+https://cryptobrowser.site/mobile/android                (the "Mining" page)
+https://cryptobrowser.site/mobile/android/tutorial
+https://cryptobrowser.site/mobile/android/default_browser_tutorial
+https://cryptobrowser.site/api/v1/browser/android/install
+https://cryptobrowser.site/login
+https://cryptobrowser.site/static/browser/images/external/cryptotab-browser_logo.png
+https://pool.cryptobrowser.site/landing                  (CT Pool external link from sidebar)
+https://search.cryptobrowser.site/?q={searchTerms}&f=cba&a={searchId}  (default search engine)
+https://search.cryptobrowser.site/api/suggestions/?...    (search suggestions)
+https://search.cryptobrowser.site/favicon.ico
+
+Internal Chromium WebUI schemes registered by CryptoTab:
+chrome://cryptotabdash/   (the dashboard - C++ handler at chrome/browser/ui/webui/cryptobrowser/webui_message_handler.cc)
+chrome://bot              (the "CB Game" mini-game; also in desktop build)
+
+------------------------------------------------------------
+[2] External wallet / partner
+------------------------------------------------------------
+https://ncwallet.net/benefits   (sidebar shortcut to "NC Wallet")
+
+(NCWallet appears in the desktop build at the JS-extension layer but is more prominently surfaced in the mobile sidebar as a first-class shortcut.)
+
+------------------------------------------------------------
+[3] Mining / WebSocket endpoints
+------------------------------------------------------------
+*** NONE ***
+
+Specifically:
+- No `wss://` URLs anywhere in the APK.
+- No `stratum+tcp://` or `stratum+ssl://` URLs.
+- No `wss://api.cryptobrowser.site/api/v2/ws` (the desktop's mining WebSocket).
+- No xmrig signatures, no Stratum protocol tokens.
+
+Mining is delivered as a web page (`cryptobrowser.site/mobile/android`) loaded inside the browser's own webview/tab. The native binary plays no role.
+
+------------------------------------------------------------
+[4] Telemetry / analytics
+------------------------------------------------------------
+
+Google / Firebase (standard, not CryptoTab-specific):
+https://app-measurement.com/a                            (Firebase Analytics ingest)
+https://firebaseinstallations.googleapis.com             (FIS - device IDs)
+https://firebaseperusertopics-pa.googleapis.com          (FCM topic subscriptions)
+https://fcm.googleapis.com                               (FCM push messaging)
+https://crashlytics.googleapis.com                       (in DEX strings; not in manifest meta-data, may be inert)
+https://clients2.google.com/cr/report                    (Chrome's standard crash upload)
+
+Third-party (declared via manifest meta-data):
+Tenjin SDK -> meta-data TENJIN_APP_STORE=googleplay  (Tenjin uses *.tenjin.com endpoints)
+
+Operator self-hosted analytics endpoints:
+*** NONE FOUND ***   (Desktop had `snt.cryptobrowser.site/19` Sentry; mobile does not.)
+
+------------------------------------------------------------
+[5] Self-hosted Safe Browsing
+------------------------------------------------------------
+*** NONE ***   (Desktop has `safebrowsing.cryptobrowser.today/v4`; mobile uses standard Google.)
+
+Standard Google Safe Browsing endpoints used by this build:
+https://safebrowsing.googleapis.com/v4
+https://sb-ssl.google.com/safebrowsing/clientreport/login
+https://sb-ssl.google.com/safebrowsing/clientreport/phishing
+https://safebrowsing.google.com/...
+
+------------------------------------------------------------
+[6] Search / monetization redirects
+------------------------------------------------------------
+https://search.yahoo.com/beacon/geop/p?s=1197812100&hspart=domaindev&hsimp=yhs-domaindev_ddc_extensions&traffic_source=yhs_domaindev_ddc_extensions_search&app_package_name={pkg}
+   Yahoo affiliate / "domaindev" distribution partner. Suggests Yahoo search revenue share.
+https://www.googleadservices.com/pagead/conversion/app/deeplink?id_type=adid&sdk_version=...
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://google.com/search?...
+https://www.google.com
+   (Used by Google Ads SDK for conversion attribution.)
+
+------------------------------------------------------------
+[7] Standard Chromium / Google
+------------------------------------------------------------
+~480 stock-Chromium hostnames extracted: Google APIs, Chromium update CDN (beacons*.gvt2.com / gvt3.com), gstatic, googlesource, autofill domain registry (the "fake-email-tld" cluster like *mail.com, dolohen.com, afffarm.com, brndrm.com, etc. -- these are NOT CryptoTab additions, they are Chromium's bundled spam-domain heuristics), Chromecast endpoints, etc.
+
+------------------------------------------------------------
+[8] Anything weird that didn't appear in desktop
+------------------------------------------------------------
+
+a) The `/api/v1/browser/android/install` path (in `lQ.java`'s route table) is mobile-specific.
+b) The `/mobile/android/default_browser_tutorial` route is mobile-specific.
+c) The `https://ncwallet.net/benefits` first-class sidebar shortcut is much more prominent than on desktop.
+d) Standard Google FCM/analytics pipeline replaces the desktop's self-hosted ones (cleartextTrafficPermitted=true is identical to desktop attitude, but the actual operator-controlled infrastructure footprint is much smaller).
+
+Did NOT find on mobile (present on desktop):
+- api.ct-access.pro
+- invite.ctnft.net
+- cryptotab.farm
+- safebrowsing.cryptobrowser.today
+- snt.cryptobrowser.site
+- FCM sender 752301524429
+- Boost extension ID kommlffgagciikldkpkedfjpmpofobch
+- xmrig source-typo "cant allocated randomx cache"
+- wss://api.cryptobrowser.site/api/v2/ws
+- Any `chrome.cryptobrowser.workStart / setJob / onHashFounded / onHashRateStats` JS API references

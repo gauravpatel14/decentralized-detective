@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:id="@id/recent_tabs_list_item_layout" n0:background="?APKTOOL_RENAMED_0x7f05048a" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080781" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f080783" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f080783"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:id="@id/recent_tabs_favicon" n0:layout_centerVertical="true" n0:layout_alignParentStart="true" style="@style/APKTOOL_RENAMED_0x7f150184" />
+    <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_centerVertical="true" n0:layout_toEndOf="@id/recent_tabs_favicon">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:ellipsize="end" n0:id="@id/title_row" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:singleLine="true" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:ellipsize="end" n0:id="@id/domain_row" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

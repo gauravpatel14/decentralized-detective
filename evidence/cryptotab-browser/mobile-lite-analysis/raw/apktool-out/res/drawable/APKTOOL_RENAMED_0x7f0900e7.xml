@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector n0:drawable="@drawable/APKTOOL_RENAMED_0x7f0900e6"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <target n0:name="icon_null" n0:animation="@anim/APKTOOL_RENAMED_0x7f020011" />
+    <target n0:name="box_outer_merged" n0:animation="@anim/APKTOOL_RENAMED_0x7f020010" />
+    <target n0:name="box_inner_merged" n0:animation="@anim/APKTOOL_RENAMED_0x7f02000f" />
+</animated-vector>

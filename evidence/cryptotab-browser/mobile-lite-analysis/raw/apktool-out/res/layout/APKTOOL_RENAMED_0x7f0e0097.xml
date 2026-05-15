@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.toolbar.bottom.ScrollingBottomViewResourceFrameLayout n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:id="@id/bottom_controls_wrapper" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <ImageView n0:id="@id/bottom_container_top_shadow" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0800ba" n0:src="@drawable/APKTOOL_RENAMED_0x7f09040b" n0:scaleType="fitXY" n0:scaleY="-1.0" />
+        <FrameLayout n0:layout_gravity="center" n0:id="@id/ad_view_container_non_web_app" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+        <ImageView n0:id="@id/bottom_container_separator" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0800b9" n0:src="@drawable/APKTOOL_RENAMED_0x7f09016d" n0:scaleType="fitXY" n0:scaleY="-1.0" />
+        <FrameLayout n0:id="@id/bottom_container_slot" n0:layout_width="match_parent" n0:layout_height="match_parent">
+            <ViewStub n0:layout_gravity="start|bottom" n0:id="@id/bottom_toolbar_stub" n0:layout="@layout/APKTOOL_RENAMED_0x7f0e009c" n0:inflatedId="@id/bottom_toolbar" n0:layout_width="match_parent" n0:layout_height="match_parent" />
+        </FrameLayout>
+    </LinearLayout>
+</org.chromium.chrome.browser.toolbar.bottom.ScrollingBottomViewResourceFrameLayout>

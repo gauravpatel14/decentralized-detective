@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:id="@id/touch_to_fill_footer" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0808ba" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f0808b5" n0:layout_alignParentBottom="true"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <View n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080217" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f0808b5" style="@style/APKTOOL_RENAMED_0x7f150178" />
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:gravity="start|center" n0:id="@id/touch_to_fill_sheet_use_passkeys_other_device" n0:background="?android:selectableItemBackground" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0808b4" n0:minHeight="48.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f140e0b" n0:textDirection="locale" n0:textAlignment="viewStart" n0:paddingHorizontal="@dimen/APKTOOL_RENAMED_0x7f0808ba" />
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:gravity="start|center" n0:id="@id/touch_to_fill_sheet_manage_passwords" n0:background="?android:selectableItemBackground" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0808b4" n0:minHeight="48.0dp" n0:textDirection="locale" n0:textAlignment="viewStart" n0:paddingHorizontal="@dimen/APKTOOL_RENAMED_0x7f0808ba" />
+</LinearLayout>

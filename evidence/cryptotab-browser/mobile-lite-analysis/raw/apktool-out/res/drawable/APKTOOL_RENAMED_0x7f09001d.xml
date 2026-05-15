@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set n0:ordering="sequentially"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <objectAnimator n0:interpolator="@android:interpolator/linear" n0:duration="0" n0:valueFrom="?APKTOOL_RENAMED_0x7f050155" n0:valueTo="?APKTOOL_RENAMED_0x7f050155" n0:propertyName="fillColor" />
+    <objectAnimator n0:interpolator="@android:interpolator/linear" n0:duration="@integer/APKTOOL_RENAMED_0x7f0c0010" n0:startOffset="@integer/APKTOOL_RENAMED_0x7f0c000f" n0:valueFrom="?APKTOOL_RENAMED_0x7f050155" n0:valueTo="@android:color/transparent" n0:propertyName="fillColor" />
+</set>

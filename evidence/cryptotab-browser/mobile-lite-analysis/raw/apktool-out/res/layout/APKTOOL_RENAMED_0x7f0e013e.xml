@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:id="@id/touch_to_fill_footer_item" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f080251" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080250"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:gravity="start|center" n0:id="@id/manage_payment_methods" n0:background="?android:selectableItemBackground" n0:focusable="true" n0:clickable="true" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0808b4" n0:text="@string/APKTOOL_RENAMED_0x7f1402a5" n0:drawablePadding="@dimen/APKTOOL_RENAMED_0x7f08024f" n0:textDirection="locale" n0:textAlignment="viewStart" n0:paddingHorizontal="@dimen/APKTOOL_RENAMED_0x7f080252" n1:APKTOOL_RENAMED_0x7f0501e6="@drawable/APKTOOL_RENAMED_0x7f0903c1" n1:APKTOOL_RENAMED_0x7f0501e7="@color/APKTOOL_RENAMED_0x7f070128"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

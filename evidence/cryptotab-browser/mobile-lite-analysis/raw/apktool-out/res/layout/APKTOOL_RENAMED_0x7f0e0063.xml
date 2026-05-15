@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150372" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0806f8" n0:text="@string/APKTOOL_RENAMED_0x7f1402bc" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f0806f6" n0:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f0806f6" n0:labelFor="@id/autofill_credit_card_editor_billing_address_spinner"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <androidx.appcompat.widget.AppCompatSpinner n1:id="@id/autofill_credit_card_editor_billing_address_spinner" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0806f8" n1:minHeight="@dimen/APKTOOL_RENAMED_0x7f080541" n1:textDirection="locale" n1:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f0806f6" n1:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f0806f6"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <View n2:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f0806f6" n2:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f0806f6" style="@style/APKTOOL_RENAMED_0x7f1501ea"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+</merge>

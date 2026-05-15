@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n0:title="@string/APKTOOL_RENAMED_0x7f140c42" n0:key="fledge_toggle" n0:summary="@string/APKTOOL_RENAMED_0x7f140c43"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n1:key="fledge_description" n1:summary="@string/APKTOOL_RENAMED_0x7f140c39" n2:APKTOOL_RENAMED_0x7f05002f="false"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.chrome.browser.privacy_sandbox.PreferenceCategoryWithClickableSummary n3:title="@string/APKTOOL_RENAMED_0x7f140c38" n3:key="fledge_heading" n3:summary="@string/APKTOOL_RENAMED_0x7f140c35"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <PreferenceCategory n4:layout="@layout/APKTOOL_RENAMED_0x7f0e0249" n4:key="current_fledge_sites"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n5:key="fledge_disabled" n5:summary="@string/APKTOOL_RENAMED_0x7f140c36"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n6:key="fledge_empty" n6:summary="@string/APKTOOL_RENAMED_0x7f140c37"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n7:title="@string/APKTOOL_RENAMED_0x7f140c40" n7:key="fledge_all_sites" n7:fragment="org.chromium.chrome.browser.privacy_sandbox.FledgeAllSitesFragment" n8:APKTOOL_RENAMED_0x7f0505b4="Settings.PrivacySandbox.Fledge.AllSitesOpened"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference n9:title="@string/APKTOOL_RENAMED_0x7f140c33" n9:key="fledge_blocked_sites" n9:fragment="org.chromium.chrome.browser.privacy_sandbox.FledgeBlockedSitesFragment" n10:APKTOOL_RENAMED_0x7f0505b4="Settings.PrivacySandbox.Fledge.BlockedSitesOpened"
+      xmlns:n9="http://schemas.android.com/apk/res/android" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.components.browser_ui.settings.ClickableSpansTextMessagePreference n11:key="fledge_page_footer" n11:summary="@string/APKTOOL_RENAMED_0x7f140c3a"
+      xmlns:n11="http://schemas.android.com/apk/res/android" />
+</PreferenceScreen>

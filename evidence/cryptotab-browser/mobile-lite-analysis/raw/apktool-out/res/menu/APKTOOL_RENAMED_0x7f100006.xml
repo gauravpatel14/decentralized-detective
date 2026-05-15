@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <group n0:id="@id/normal_menu_group"
+      xmlns:n0="http://schemas.android.com/apk/res/android">
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f0900ec" n0:id="@id/info_menu_id" n0:visible="false" n0:title="@string/APKTOOL_RENAMED_0x7f140cb9" n1:APKTOOL_RENAMED_0x7f05049e="ifRoom"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f090369" n0:id="@id/search_menu_id" n0:visible="false" n0:title="@string/APKTOOL_RENAMED_0x7f140bdd" n2:APKTOOL_RENAMED_0x7f0502af="@color/APKTOOL_RENAMED_0x7f070128" n2:APKTOOL_RENAMED_0x7f05049e="ifRoom"
+          xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <item n0:icon="@drawable/APKTOOL_RENAMED_0x7f0900e8" n0:id="@id/close_menu_id" n0:title="@string/APKTOOL_RENAMED_0x7f140422" n3:APKTOOL_RENAMED_0x7f0502af="@color/APKTOOL_RENAMED_0x7f070128" n3:APKTOOL_RENAMED_0x7f05049e="ifRoom"
+          xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </group>
+    <group n4:id="@id/selection_mode_menu_group" n4:visible="false"
+      xmlns:n4="http://schemas.android.com/apk/res/android">
+        <item n4:icon="@drawable/APKTOOL_RENAMED_0x7f090221" n4:id="@id/selection_mode_delete_menu_id" n4:title="@string/APKTOOL_RENAMED_0x7f140b25" n5:APKTOOL_RENAMED_0x7f0502af="@color/APKTOOL_RENAMED_0x7f070128" n5:APKTOOL_RENAMED_0x7f05049e="ifRoom"
+          xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <item n4:id="@id/selection_mode_open_in_new_tab" n4:title="@string/APKTOOL_RENAMED_0x7f140473" n6:APKTOOL_RENAMED_0x7f05049e="never"
+          xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <item n4:id="@id/selection_mode_open_in_incognito" n4:title="@string/APKTOOL_RENAMED_0x7f140471" n7:APKTOOL_RENAMED_0x7f05049e="never"
+          xmlns:n7="http://schemas.android.com/apk/res-auto" />
+        <item n4:id="@id/selection_mode_copy_link" n4:title="@string/APKTOOL_RENAMED_0x7f14049f" n8:APKTOOL_RENAMED_0x7f05049e="never"
+          xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    </group>
+</menu>

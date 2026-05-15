@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center" n0:orientation="horizontal" n0:id="@id/app_language_prompt_row" n0:layout_width="match_parent" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f150180"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <RadioButton n0:id="@id/app_language_prompt_radiobutton" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:paddingEnd="8.0dp" />
+    <LinearLayout n0:gravity="center" n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:importantForAccessibility="noHideDescendants">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:ellipsize="end" n0:id="@id/primary_language_name" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:singleLine="true" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:ellipsize="end" n0:id="@id/secondary_language_name" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

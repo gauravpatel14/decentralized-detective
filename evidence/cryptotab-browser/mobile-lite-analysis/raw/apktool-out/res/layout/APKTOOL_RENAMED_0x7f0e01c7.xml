@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f150013"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.ui.widget.ChromeImageView n0:gravity="center_vertical" n0:id="@id/menu_item_icon" n0:duplicateParentState="true" n0:layout_width="24.0dp" n0:layout_height="24.0dp" n0:tint="@color/APKTOOL_RENAMED_0x7f070128" n0:importantForAccessibility="no" n0:tintMode="src_in" />
+    <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:gravity="center_vertical" n0:id="@id/menu_item_text" n0:duplicateParentState="true" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:minHeight="?android:listPreferredItemHeightSmall" n0:singleLine="true" n0:paddingStart="12.0dp" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center_vertical" n0:id="@id/container" n0:background="@drawable/APKTOOL_RENAMED_0x7f0904fe" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f0802de" n0:layout_marginHorizontal="@dimen/APKTOOL_RENAMED_0x7f0802dc" n0:layout_marginVertical="@dimen/APKTOOL_RENAMED_0x7f0802e5" n0:paddingVertical="8.0dp"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <include n0:id="@id/folder_view" n0:importantForAccessibility="no" layout="@layout/APKTOOL_RENAMED_0x7f0e0173" />
+    <ImageView n0:id="@id/start_image" n0:background="@drawable/APKTOOL_RENAMED_0x7f090472" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0802e9" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0802e9" n0:scaleType="center" n0:importantForAccessibility="no" />
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e0174" />
+</LinearLayout>

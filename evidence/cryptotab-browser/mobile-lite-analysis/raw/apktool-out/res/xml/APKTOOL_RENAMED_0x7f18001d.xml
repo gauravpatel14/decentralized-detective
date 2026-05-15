@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference n0:persistent="false" n0:title="@string/APKTOOL_RENAMED_0x7f140635" n0:key="image_descriptions_switch" n0:summary="@string/APKTOOL_RENAMED_0x7f140634"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <org.chromium.chrome.browser.image_descriptions.RadioButtonGroupAccessibilityPreference n1:persistent="false" n1:key="image_descriptions_data_policy"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+</PreferenceScreen>

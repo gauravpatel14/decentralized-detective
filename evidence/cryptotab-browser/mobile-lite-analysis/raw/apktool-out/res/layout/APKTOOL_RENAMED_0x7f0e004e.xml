@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:orientation="vertical" n0:focusable="false" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:id="@id/header_image" n0:background="@color/APKTOOL_RENAMED_0x7f070535" n0:paddingTop="24.0dp" n0:paddingBottom="24.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:scaleType="center" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f140247" n1:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f0900b9"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

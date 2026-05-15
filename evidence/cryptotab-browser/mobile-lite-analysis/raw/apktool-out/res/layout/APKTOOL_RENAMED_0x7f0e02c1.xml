@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <View n0:id="@id/action_bar_bg" n0:background="?APKTOOL_RENAMED_0x7f050165" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0807b8"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <ViewStub n1:id="@id/action_bar_stub" n1:background="@color/APKTOOL_RENAMED_0x7f07012b" n1:inflatedId="@id/action_bar" n1:layout_width="match_parent" n1:layout_height="@dimen/APKTOOL_RENAMED_0x7f0807b8"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <FrameLayout n2:id="@id/list_content" n2:layout_width="match_parent" n2:layout_height="match_parent" n2:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0807b8"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <androidx.recyclerview.widget.RecyclerView n2:id="@id/selectable_list_recycler_view" n2:visibility="gone" n2:scrollbars="vertical" n2:clipToPadding="false" n2:layout_width="match_parent" n2:layout_height="match_parent" />
+        <ViewStub n2:layout_gravity="center" n2:id="@id/empty_state_view_stub" n2:padding="@dimen/APKTOOL_RENAMED_0x7f0800c8" n2:layout="@layout/APKTOOL_RENAMED_0x7f0e0134" n2:layout_width="match_parent" n2:layout_height="wrap_content" />
+        <org.chromium.components.browser_ui.widget.MaterialCardViewNoShadow n2:layout_gravity="center" n2:id="@id/empty_view_wrapper" n2:visibility="gone" n2:layout_width="match_parent" n2:layout_height="wrap_content" n2:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f0801cb" n2:layout_marginEnd="@dimen/APKTOOL_RENAMED_0x7f0801cb" style="@style/APKTOOL_RENAMED_0x7f1501a9">
+            <org.chromium.ui.widget.TextViewWithLeading n2:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n2:layout_gravity="center" n2:id="@id/empty_view" n2:padding="@dimen/APKTOOL_RENAMED_0x7f0800c8" n2:visibility="gone" n2:layout_width="match_parent" n2:layout_height="wrap_content" n2:textAlignment="center" n3:APKTOOL_RENAMED_0x7f05034b="@dimen/APKTOOL_RENAMED_0x7f080866"
+              xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </org.chromium.components.browser_ui.widget.MaterialCardViewNoShadow>
+        <org.chromium.ui.widget.LoadingView n2:layout_gravity="center" n2:id="@id/loading_view" n2:layout_width="wrap_content" n2:layout_height="wrap_content" />
+    </FrameLayout>
+    <org.chromium.components.browser_ui.widget.FadingShadowView n4:id="@id/shadow" n4:layout_width="match_parent" n4:layout_height="@dimen/APKTOOL_RENAMED_0x7f08006b" n4:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0807b8"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+</merge>

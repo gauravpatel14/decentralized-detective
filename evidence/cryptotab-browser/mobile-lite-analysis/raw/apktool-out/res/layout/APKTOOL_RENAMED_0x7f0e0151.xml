@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <TextView n0:textSize="16.0sp" n0:textColor="?android:textColorSecondary" n0:ellipsize="marquee" n0:id="@id/fingerprint_subtitle" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="8.0dp" n0:singleLine="true" n0:marqueeRepeatLimit="marquee_forever" n0:layout_marginStart="24.0dp" n0:layout_marginEnd="24.0dp" />
+        <TextView n0:textSize="16.0sp" n0:textColor="?android:textColorSecondary" n0:id="@id/fingerprint_description" n0:paddingTop="0.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:maxLines="4" n0:layout_marginStart="24.0dp" n0:layout_marginEnd="24.0dp" />
+        <ImageView n0:layout_gravity="center_horizontal" n0:id="@id/fingerprint_icon" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0802ac" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0802ac" n0:layout_marginTop="32.0dp" n0:scaleType="fitXY" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f1405a1" />
+        <TextView n0:textSize="14.0sp" n0:textColor="?android:textColorSecondary" n0:gravity="center_horizontal" n0:id="@id/fingerprint_error" n0:paddingTop="16.0dp" n0:paddingBottom="24.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f1405a2" n0:layout_marginStart="24.0dp" n0:layout_marginEnd="24.0dp" n0:accessibilityLiveRegion="polite" />
+    </LinearLayout>
+</ScrollView>

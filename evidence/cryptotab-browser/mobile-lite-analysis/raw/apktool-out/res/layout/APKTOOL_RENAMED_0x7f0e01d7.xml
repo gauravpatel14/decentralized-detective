@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:paddingLeft="@dimen/APKTOOL_RENAMED_0x7f080517" n0:paddingTop="@dimen/APKTOOL_RENAMED_0x7f080518" n0:paddingRight="@dimen/APKTOOL_RENAMED_0x7f080516" n0:paddingBottom="@dimen/APKTOOL_RENAMED_0x7f080515" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="32.0dp" n0:paddingStart="@dimen/APKTOOL_RENAMED_0x7f080517" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f080516"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:id="@id/mr_chooser_route_icon" n0:layout_width="24.0dp" n0:layout_height="24.0dp" n0:layout_marginRight="24.0dp" n0:layout_marginEnd="24.0dp" />
+    <ProgressBar n0:id="@id/mr_chooser_route_progress_bar" n0:visibility="gone" n0:layout_width="24.0dp" n0:layout_height="24.0dp" n0:layout_marginRight="24.0dp" n0:indeterminate="true" n0:layout_marginEnd="24.0dp" style="?android:progressBarStyle" />
+    <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="1.0dp">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15031b" n0:ellipsize="marquee" n0:gravity="start" n0:id="@id/mr_chooser_route_name" n0:layout_width="match_parent" n0:layout_height="32.0dp" n0:singleLine="true" n0:textAlignment="viewStart" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15031c" n0:ellipsize="marquee" n0:gravity="start" n0:id="@id/mr_chooser_route_desc" n0:layout_width="match_parent" n0:layout_height="24.0dp" n0:singleLine="true" n0:textAlignment="viewStart" />
+    </LinearLayout>
+</LinearLayout>

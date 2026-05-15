@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector n0:height="130.0dp" n0:width="130.0dp" n0:autoMirrored="true" n0:viewportWidth="130.0" n0:viewportHeight="130.0"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <path n0:fillColor="@color/APKTOOL_RENAMED_0x7f0701a2" n0:pathData="M63,50m-38,0a38,38 0,1 1,76 0a38,38 0,1 1,-76 0" />
+    <path n0:fillColor="@color/APKTOOL_RENAMED_0x7f0701a4" n0:pathData="M100.45,122L12.38,122C6.65,122 2,117.36 2,111.62L2,81.47C2,49.75 40.82,34.39 62.53,57.53L107.57,105.55C113.42,111.79 109,122 100.45,122Z" />
+    <path n0:pathData="M35,44V97.66C35,99.17 36.61,100.14 37.95,99.42L56.05,89.71C56.65,89.39 57.35,89.39 57.95,89.71L76.05,99.42C77.39,100.14 79,99.17 79,97.66V44C79,42.9 78.1,42 77,42H37C35.9,42 35,42.9 35,44Z" n0:strokeColor="@color/APKTOOL_RENAMED_0x7f0701a5" n0:strokeWidth="2.0" />
+    <path n0:pathData="M40,37H82C83.1,37 84,37.9 84,39V96" n0:strokeColor="@color/APKTOOL_RENAMED_0x7f0701a5" n0:strokeWidth="2.0" n0:strokeLineCap="round" n0:strokeLineJoin="round" />
+</vector>

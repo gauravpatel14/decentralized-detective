@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:orientation="vertical" n0:padding="@dimen/APKTOOL_RENAMED_0x7f0808cd" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.ui.widget.ChromeImageView n0:id="@id/secure_illustration_view" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:src="@drawable/APKTOOL_RENAMED_0x7f09059c" n0:layout_alignParentTop="true" n0:layout_centerHorizontal="true" n0:importantForAccessibility="no" />
+    <androidx.appcompat.widget.DialogTitle n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150266" n0:id="@id/dialog_title" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0808ce" n0:layout_below="@id/secure_illustration_view" />
+    <RelativeLayout n0:id="@id/card_container" n0:background="@drawable/APKTOOL_RENAMED_0x7f090100" n0:padding="@dimen/APKTOOL_RENAMED_0x7f0808c9" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0808ca" n0:layout_below="@id/dialog_title">
+        <include layout="@layout/APKTOOL_RENAMED_0x7f0e0067" />
+    </RelativeLayout>
+    <ScrollView n0:clickable="false" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0808ca" n0:layout_below="@id/card_container">
+        <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <TextView n0:id="@id/virtual_card_education" n0:layout_width="match_parent" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f150344" />
+            <TextView n0:id="@id/google_legal_message" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0808cc" />
+            <TextView n0:id="@id/issuer_legal_message" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f0808cb" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

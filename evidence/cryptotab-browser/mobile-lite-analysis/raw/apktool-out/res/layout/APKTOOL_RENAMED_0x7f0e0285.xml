@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:layout_gravity="center_horizontal" n0:orientation="vertical" n0:layout_width="wrap_content" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.ui.widget.TextViewWithLeading n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:layout_gravity="center_horizontal" n0:id="@id/migration_warning_sheet_subtitle" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080736" n0:textAlignment="center" />
+    <org.chromium.ui.widget.ButtonCompat n0:ellipsize="end" n0:layout_gravity="center_horizontal" n0:id="@id/acknowledge_password_migration_button" n0:descendantFocusability="blocksDescendants" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080734" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080733" n0:text="@string/APKTOOL_RENAMED_0x7f14094e" n0:singleLine="true" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+    <org.chromium.ui.widget.ButtonCompat n0:ellipsize="end" n0:layout_gravity="center_horizontal" n0:id="@id/password_migration_more_options_button" n0:descendantFocusability="blocksDescendants" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080736" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080733" n0:text="@string/APKTOOL_RENAMED_0x7f140953" n0:singleLine="true" style="@style/APKTOOL_RENAMED_0x7f15037f" />
+</LinearLayout>

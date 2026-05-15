@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:id="@id/list_content" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:id="@id/subtitle" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="8.0dp" n0:text="@string/APKTOOL_RENAMED_0x7f1406c6" n0:textDirection="locale" n0:layout_marginStart="24.0dp" n1:APKTOOL_RENAMED_0x7f05034b="@dimen/APKTOOL_RENAMED_0x7f080866" style="@style/APKTOOL_RENAMED_0x7f150355"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView n0:id="@id/app_language_prompt_content_recycler_view" n0:scrollbars="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent" />
+        <ImageView n0:layout_gravity="top" n0:id="@id/top_shadow" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080897" n0:src="@drawable/APKTOOL_RENAMED_0x7f09040b" n0:scaleType="fitXY" n0:importantForAccessibility="no" />
+        <ImageView n0:layout_gravity="bottom" n0:id="@id/bottom_shadow" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080897" n0:src="@drawable/APKTOOL_RENAMED_0x7f09040b" n0:scaleType="fitXY" n0:scaleY="-1.0" n0:importantForAccessibility="no" />
+    </FrameLayout>
+</LinearLayout>

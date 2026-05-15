@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector n0:name="circle_loader" n0:height="200.0dp" n0:width="200.0dp" n0:viewportWidth="200.0" n0:viewportHeight="200.0"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <group n0:name="circle" n0:translateX="100.0" n0:translateY="99.5">
+        <path n0:name="ellipse_path_1" n0:pathData="M 0.0,-80.0 c 44.182779984,0.0 80.0,35.817220016 80.0,80.0 c 0.0,44.182779984 -35.817220016,80.0 -80.0,80.0 c -44.182779984,0.0 -80.0,-35.817220016 -80.0,-80.0 c 0.0,-44.182779984 35.817220016,-80.0 80.0,-80.0 Z" n0:strokeColor="#ffe8eaec" n0:strokeWidth="4.0" />
+    </group>
+    <group n0:name="circlegreen" n0:rotation="-116.0" n0:translateX="100.0" n0:translateY="99.5">
+        <path n0:name="ellipse_path_2" n0:pathData="M 0.0,-80.0 c 44.182779984,0.0 80.0,35.817220016 80.0,80.0 c 0.0,44.182779984 -35.817220016,80.0 -80.0,80.0 c -44.182779984,0.0 -80.0,-35.817220016 -80.0,-80.0 c 0.0,-44.182779984 35.817220016,-80.0 80.0,-80.0 Z" n0:strokeColor="#ff33a752" n0:strokeWidth="4.0" n0:trimPathEnd="0.2" />
+    </group>
+    <group n0:name="circleyellow" n0:rotation="-84.0" n0:translateX="100.0" n0:translateY="99.5">
+        <path n0:name="ellipse_path_3" n0:pathData="M 0.0,-80.0 c 44.182779984,0.0 80.0,35.817220016 80.0,80.0 c 0.0,44.182779984 -35.817220016,80.0 -80.0,80.0 c -44.182779984,0.0 -80.0,-35.817220016 -80.0,-80.0 c 0.0,-44.182779984 35.817220016,-80.0 80.0,-80.0 Z" n0:strokeColor="#fffabb05" n0:strokeWidth="4.0" n0:trimPathEnd="0.2" />
+    </group>
+    <group n0:name="circlered" n0:rotation="-18.0" n0:translateX="100.0" n0:translateY="99.5">
+        <path n0:name="ellipse_path_4" n0:pathData="M 0.0,-80.0 c 44.182779984,0.0 80.0,35.817220016 80.0,80.0 c 0.0,44.182779984 -35.817220016,80.0 -80.0,80.0 c -44.182779984,0.0 -80.0,-35.817220016 -80.0,-80.0 c 0.0,-44.182779984 35.817220016,-80.0 80.0,-80.0 Z" n0:strokeColor="#ffea4334" n0:strokeWidth="4.0" n0:trimPathEnd="0.1" />
+    </group>
+    <group n0:name="circleblue" n0:translateX="100.0" n0:translateY="99.5">
+        <path n0:name="ellipse_path_5" n0:pathData="M 0.0,-80.0 c 44.182779984,0.0 80.0,35.817220016 80.0,80.0 c 0.0,44.182779984 -35.817220016,80.0 -80.0,80.0 c -44.182779984,0.0 -80.0,-35.817220016 -80.0,-80.0 c 0.0,-44.182779984 35.817220016,-80.0 80.0,-80.0 Z" n0:strokeColor="#ff4185f3" n0:strokeWidth="4.0" n0:trimPathEnd="0.1" />
+    </group>
+</vector>

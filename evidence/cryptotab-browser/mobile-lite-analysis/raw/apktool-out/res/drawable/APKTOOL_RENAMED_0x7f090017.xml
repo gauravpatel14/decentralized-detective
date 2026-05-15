@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector n0:tint="?APKTOOL_RENAMED_0x7f050155" n0:height="36.0dp" n0:width="36.0dp" n0:viewportWidth="36.0" n0:viewportHeight="36.0"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <group n0:name="container" n0:pivotX="18.0" n0:pivotY="18.0">
+        <path n0:name="arc" n0:fillColor="@android:color/transparent" n0:pathData="m 18,1 a 17,17 0 1,1 0,34 a 17,17 0 1,1 0,-34" n0:strokeColor="?APKTOOL_RENAMED_0x7f050155" n0:strokeWidth="2.0" n0:trimPathStart="0.0" n0:trimPathEnd="0.05" n0:trimPathOffset="0.0" n0:strokeLineCap="square" n0:strokeLineJoin="miter" />
+    </group>
+</vector>

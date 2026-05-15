@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.download.dialogs.DownloadLocationCustomView n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" style="@style/APKTOOL_RENAMED_0x7f150004">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502c5" n0:id="@id/title" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080221" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/subtitle" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080220" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:id="@id/incognito_warning" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="@dimen/APKTOOL_RENAMED_0x7f080220" n0:text="@string/APKTOOL_RENAMED_0x7f140509" />
+        <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <LinearLayout n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+                <org.chromium.ui.widget.ChromeImageView n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:importantForAccessibility="no" n1:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f090233" n1:APKTOOL_RENAMED_0x7f050573="?APKTOOL_RENAMED_0x7f05014c" style="@style/APKTOOL_RENAMED_0x7f150184"
+                  xmlns:n1="http://schemas.android.com/apk/res-auto" />
+                <org.chromium.components.browser_ui.widget.text.AlertDialogEditText n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:id="@id/file_name" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:singleLine="true" />
+            </LinearLayout>
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15036d" n0:id="@id/file_size" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f08021f" />
+        </LinearLayout>
+        <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <LinearLayout n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+                <org.chromium.ui.widget.ChromeImageView n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:src="@drawable/APKTOOL_RENAMED_0x7f090251" n0:importantForAccessibility="no" n2:APKTOOL_RENAMED_0x7f050573="?APKTOOL_RENAMED_0x7f05014c" style="@style/APKTOOL_RENAMED_0x7f150184"
+                  xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <Spinner n0:id="@id/file_location" n0:layout_width="match_parent" n0:layout_height="wrap_content" style="@android:style/Widget.EditText" />
+            </LinearLayout>
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15036d" n0:id="@id/location_available_space" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:maxLines="2" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f08021f" />
+        </LinearLayout>
+        <CheckBox n0:id="@id/show_again_checkbox" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f08021e" n0:text="@string/APKTOOL_RENAMED_0x7f140504" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f08021d" style="@style/APKTOOL_RENAMED_0x7f150162" />
+    </LinearLayout>
+</org.chromium.chrome.browser.download.dialogs.DownloadLocationCustomView>

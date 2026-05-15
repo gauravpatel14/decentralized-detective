@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:paddingBottom="16.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <ImageView n0:layout_gravity="center_horizontal" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="8.0dp" n0:layout_marginBottom="12.0dp" n0:importantForAccessibility="no" n1:APKTOOL_RENAMED_0x7f0504c2="@drawable/APKTOOL_RENAMED_0x7f09018f"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        <ViewFlipper n0:id="@id/account_picker_state_view_flipper" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:measureAllChildren="false">
+            <include n0:id="@id/account_picker_state_no_account" layout="@layout/APKTOOL_RENAMED_0x7f0e003a" />
+            <include n0:id="@id/account_picker_state_collapsed" layout="@layout/APKTOOL_RENAMED_0x7f0e0032" />
+            <include n0:id="@id/account_picker_state_expanded" layout="@layout/APKTOOL_RENAMED_0x7f0e0036" />
+            <include n0:id="@id/account_picker_state_signin_in_progress" layout="@layout/APKTOOL_RENAMED_0x7f0e003c" />
+            <include n0:id="@id/account_picker_state_general_error" layout="@layout/APKTOOL_RENAMED_0x7f0e0038" />
+            <include n0:id="@id/account_picker_state_auth_error" layout="@layout/APKTOOL_RENAMED_0x7f0e0030" />
+            <include n0:id="@id/account_picker_state_confirm_management" layout="@layout/APKTOOL_RENAMED_0x7f0e0034" />
+        </ViewFlipper>
+    </LinearLayout>
+</ScrollView>

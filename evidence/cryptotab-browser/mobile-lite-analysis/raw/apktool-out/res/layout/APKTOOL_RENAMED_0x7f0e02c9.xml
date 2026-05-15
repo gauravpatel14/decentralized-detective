@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout n0:background="?APKTOOL_RENAMED_0x7f050165" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout n0:theme="@style/APKTOOL_RENAMED_0x7f150494" n0:id="@id/app_bar_layout" n0:fitsSystemWindows="true" n0:layout_width="match_parent" n0:layout_height="wrap_content" n1:APKTOOL_RENAMED_0x7f05034c="true"
+      xmlns:n1="http://schemas.android.com/apk/res-auto">
+        <com.google.android.material.appbar.MaterialToolbar n0:id="@id/action_bar" n0:layout_width="match_parent" n0:layout_height="?APKTOOL_RENAMED_0x7f050005" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout n0:id="@id/content" n0:layout_width="match_parent" n0:layout_height="match_parent" n2:APKTOOL_RENAMED_0x7f050301="@string/APKTOOL_RENAMED_0x7f140282"
+      xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n0:id="@id/dialog_container" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="match_parent" />
+    <include layout="@layout/APKTOOL_RENAMED_0x7f0e0099" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

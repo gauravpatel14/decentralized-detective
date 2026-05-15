@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <org.chromium.components.browser_ui.settings.SpinnerPreference n0:persistent="false" n0:title="@string/APKTOOL_RENAMED_0x7f140408" n0:key="time_period_spinner" n1:APKTOOL_RENAMED_0x7f0504af="true"
+      xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.chrome.browser.browsing_data.ClearBrowsingDataCheckBoxPreference n2:persistent="false" n2:title="@string/APKTOOL_RENAMED_0x7f140412" n2:key="clear_history_checkbox" n2:summary="@string/APKTOOL_RENAMED_0x7f14040a"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <org.chromium.chrome.browser.browsing_data.ClearBrowsingDataCheckBoxPreference n3:persistent="false" n3:title="@string/APKTOOL_RENAMED_0x7f14040f" n3:key="clear_cookies_checkbox" n3:summary="@string/APKTOOL_RENAMED_0x7f14040d"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <org.chromium.chrome.browser.browsing_data.ClearBrowsingDataCheckBoxPreference n4:persistent="false" n4:title="@string/APKTOOL_RENAMED_0x7f14040c" n4:key="clear_cache_checkbox"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <org.chromium.chrome.browser.browsing_data.ClearBrowsingDataCheckBoxPreference n5:persistent="false" n5:title="@string/APKTOOL_RENAMED_0x7f140419" n5:key="clear_tabs_checkbox"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <org.chromium.chrome.browser.browsing_data.ClearBrowsingDataCheckBoxPreference n6:persistent="false" n6:title="@string/APKTOOL_RENAMED_0x7f140413" n6:key="clear_passwords_checkbox"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <org.chromium.chrome.browser.browsing_data.ClearBrowsingDataCheckBoxPreference n7:persistent="false" n7:title="@string/APKTOOL_RENAMED_0x7f140411" n7:key="clear_form_data_checkbox"
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+    <org.chromium.chrome.browser.browsing_data.ClearBrowsingDataCheckBoxPreference n8:persistent="false" n8:title="@string/APKTOOL_RENAMED_0x7f1409eb" n8:key="clear_site_settings_checkbox"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ClickableSpansTextMessagePreference n9:key="clear_google_data_text"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference n10:key="clear_search_history_non_google_text"
+      xmlns:n10="http://schemas.android.com/apk/res/android" />
+    <org.chromium.components.browser_ui.settings.ClickableSpansTextMessagePreference n11:key="sign_out_of_chrome_text"
+      xmlns:n11="http://schemas.android.com/apk/res/android" />
+</PreferenceScreen>

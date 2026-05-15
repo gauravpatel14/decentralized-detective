@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset n0:insetLeft="@dimen/APKTOOL_RENAMED_0x7f080012" n0:insetRight="@dimen/APKTOOL_RENAMED_0x7f080012" n0:insetTop="@dimen/APKTOOL_RENAMED_0x7f080013" n0:insetBottom="@dimen/APKTOOL_RENAMED_0x7f080013"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ripple n0:color="?android:colorControlHighlight">
+        <item>
+            <selector>
+                <item n0:state_enabled="false">
+                    <shape n0:shape="rectangle">
+                        <corners n0:radius="@dimen/APKTOOL_RENAMED_0x7f080018" />
+                        <solid n0:color="?android:colorButtonNormal" />
+                        <padding n0:left="@dimen/APKTOOL_RENAMED_0x7f080014" n0:top="@dimen/APKTOOL_RENAMED_0x7f080015" n0:right="@dimen/APKTOOL_RENAMED_0x7f080014" n0:bottom="@dimen/APKTOOL_RENAMED_0x7f080015" />
+                    </shape>
+                </item>
+                <item>
+                    <shape n0:shape="rectangle">
+                        <corners n0:radius="@dimen/APKTOOL_RENAMED_0x7f080018" />
+                        <solid n0:color="?android:colorAccent" />
+                        <padding n0:left="@dimen/APKTOOL_RENAMED_0x7f080014" n0:top="@dimen/APKTOOL_RENAMED_0x7f080015" n0:right="@dimen/APKTOOL_RENAMED_0x7f080014" n0:bottom="@dimen/APKTOOL_RENAMED_0x7f080015" />
+                    </shape>
+                </item>
+            </selector>
+        </item>
+    </ripple>
+</inset>

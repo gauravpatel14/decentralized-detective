@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:layout_gravity="start|bottom" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <View n0:id="@id/snackbar_shadow_top" n0:background="@drawable/APKTOOL_RENAMED_0x7f0903c7" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f0807eb" n0:layout_alignParentTop="true" n0:layout_toStartOf="@id/snackbar_shadow_right" n0:layout_toEndOf="@id/snackbar_shadow_left" />
+    <View n0:id="@id/snackbar_shadow_left" n0:background="@drawable/APKTOOL_RENAMED_0x7f0903c6" n0:visibility="gone" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0807eb" n0:layout_height="wrap_content" n0:layout_alignTop="@id/snackbar_shadow_top" n0:layout_alignBottom="@id/snackbar" n0:layout_alignParentStart="true" />
+    <View n0:id="@id/snackbar_shadow_right" n0:background="@drawable/APKTOOL_RENAMED_0x7f0903c6" n0:visibility="gone" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f0807eb" n0:layout_height="wrap_content" n0:layout_alignTop="@id/snackbar_shadow_top" n0:layout_alignBottom="@id/snackbar" n0:scaleX="-1.0" n0:layout_alignParentEnd="true" />
+    <LinearLayout n0:orientation="horizontal" n0:id="@id/snackbar" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f0807ea" n0:layout_below="@id/snackbar_shadow_top" n0:layout_toStartOf="@id/snackbar_shadow_right" n0:layout_toEndOf="@id/snackbar_shadow_left">
+        <ImageView n0:layout_gravity="center_vertical" n0:id="@id/snackbar_profile_image" n0:visibility="visible" n0:layout_width="24.0dp" n0:layout_height="24.0dp" n0:scaleType="fitCenter" n0:layout_marginStart="12.0dp" n0:layout_marginEnd="-12.0dp" />
+        <org.chromium.components.browser_ui.widget.text.TemplatePreservingTextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150353" n0:layout_gravity="start|center" n0:id="@id/snackbar_message" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_marginTop="14.0dp" n0:layout_marginBottom="14.0dp" n0:layout_weight="1.0" n0:textAlignment="viewStart" n0:layout_marginStart="@dimen/APKTOOL_RENAMED_0x7f0807ec" />
+        <org.chromium.ui.widget.ButtonCompat n0:layout_gravity="center_vertical" n0:id="@id/snackbar_button" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:paddingStart="24.0dp" n0:paddingEnd="24.0dp" style="@style/APKTOOL_RENAMED_0x7f15037f" />
+    </LinearLayout>
+</RelativeLayout>

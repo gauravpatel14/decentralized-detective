@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.tasks.tab_management.TabGroupRowView n0:gravity="center_vertical" n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="96.0dp"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n0:id="@id/tab_group_start_icon" n0:background="@drawable/APKTOOL_RENAMED_0x7f09053f" n0:layout_width="80.0dp" n0:layout_height="80.0dp" n0:layout_marginStart="16.0dp">
+        <include layout="@layout/APKTOOL_RENAMED_0x7f0e02f2" />
+        <include layout="@layout/APKTOOL_RENAMED_0x7f0e02f2" />
+        <include layout="@layout/APKTOOL_RENAMED_0x7f0e02f2" />
+        <include layout="@layout/APKTOOL_RENAMED_0x7f0e02f2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <Space n0:layout_width="24.0dp" n0:layout_height="match_parent" />
+    <LinearLayout n0:gravity="center_vertical" n0:orientation="vertical" n0:layout_width="0.0dp" n0:layout_height="match_parent" n0:layout_weight="1.0">
+        <LinearLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <View n0:id="@id/tab_group_color" n0:background="@drawable/APKTOOL_RENAMED_0x7f09053b" n0:layout_width="14.0dp" n0:layout_height="14.0dp" />
+            <Space n0:layout_width="8.0dp" n0:layout_height="wrap_content" />
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15033f" n0:ellipsize="end" n0:id="@id/tab_group_title" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:maxLines="1" n0:scrollHorizontally="true" />
+        </LinearLayout>
+        <Space n0:layout_width="match_parent" n0:layout_height="8.0dp" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f150355" n0:ellipsize="end" n0:id="@id/tab_group_subtitle" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:maxLines="1" n0:scrollHorizontally="true" />
+    </LinearLayout>
+    <Space n0:layout_width="14.0dp" n0:layout_height="match_parent" />
+    <org.chromium.ui.listmenu.ListMenuButton n0:id="@id/more" n0:background="@null" n0:layout_width="@dimen/APKTOOL_RENAMED_0x7f080541" n0:layout_height="match_parent" n0:src="@drawable/APKTOOL_RENAMED_0x7f0902ac" n1:APKTOOL_RENAMED_0x7f050573="@color/APKTOOL_RENAMED_0x7f070129"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+</org.chromium.chrome.browser.tasks.tab_management.TabGroupRowView>

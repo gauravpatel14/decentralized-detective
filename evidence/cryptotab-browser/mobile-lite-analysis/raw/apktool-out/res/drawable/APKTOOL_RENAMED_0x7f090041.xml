@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator n0:interpolator="?APKTOOL_RENAMED_0x7f0503e4" n0:duration="@integer/APKTOOL_RENAMED_0x7f0c0029" n0:valueFrom="0.6" n0:valueTo="1.0" n0:valueType="floatType" n0:propertyName="scaleY"
+  xmlns:n0="http://schemas.android.com/apk/res/android" />

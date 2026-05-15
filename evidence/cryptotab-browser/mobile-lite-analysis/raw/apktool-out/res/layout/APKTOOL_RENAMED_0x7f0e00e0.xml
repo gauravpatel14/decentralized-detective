@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.creator.CreatorToolbarView n0:orientation="vertical" n0:layoutDirection="locale"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.MaterialToolbar n0:id="@id/action_bar" n0:layout_width="match_parent" n0:layout_height="?APKTOOL_RENAMED_0x7f050005" style="@style/APKTOOL_RENAMED_0x7f150159">
+        <LinearLayout n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f1502d1" n0:layout_gravity="center_vertical" n0:id="@id/creator_title_toolbar" n0:visibility="gone" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:singleLine="true" n0:layout_weight="1.0" n0:paddingEnd="@dimen/APKTOOL_RENAMED_0x7f080193" />
+            <FrameLayout n0:layout_gravity="end" n0:id="@id/creator_all_buttons_toolbar" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080191">
+                <org.chromium.ui.widget.ButtonCompat n0:layout_gravity="center_vertical" n0:id="@id/creator_follow_button_toolbar" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080190" n0:text="@string/APKTOOL_RENAMED_0x7f140736" n0:drawableStart="@drawable/APKTOOL_RENAMED_0x7f0901a7" style="@style/APKTOOL_RENAMED_0x7f15015b" />
+                <org.chromium.ui.widget.ButtonCompat n0:layout_gravity="center_vertical" n0:id="@id/creator_following_button_toolbar" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080190" n0:text="@string/APKTOOL_RENAMED_0x7f140737" n0:drawableStart="@drawable/APKTOOL_RENAMED_0x7f0901a8" style="@style/APKTOOL_RENAMED_0x7f15015d" />
+            </FrameLayout>
+        </LinearLayout>
+    </com.google.android.material.appbar.MaterialToolbar>
+    <View n0:id="@id/creator_toolbar_bottom_border" n0:background="?APKTOOL_RENAMED_0x7f05027d" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08018f" n0:layout_alignParentBottom="true" />
+</org.chromium.chrome.browser.creator.CreatorToolbarView>

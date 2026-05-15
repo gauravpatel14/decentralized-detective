@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <ImageView n0:id="@id/bottom_bar_shadow" n0:background="@drawable/APKTOOL_RENAMED_0x7f09040b" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08006b" n0:layout_marginTop="@dimen/APKTOOL_RENAMED_0x7f08006c" n0:scaleY="-1.0" n0:importantForAccessibility="no"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/bottom_bar_button_container" n1:padding="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <org.chromium.ui.widget.ButtonCompat n1:id="@id/cancel_button" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/APKTOOL_RENAMED_0x7f1403ae" style="@style/APKTOOL_RENAMED_0x7f15037f" />
+        <View n1:visibility="invisible" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_weight="1.0" />
+        <org.chromium.ui.widget.ButtonCompat n1:id="@id/confirm_button" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/APKTOOL_RENAMED_0x7f140454" style="@style/APKTOOL_RENAMED_0x7f15016d" />
+    </LinearLayout>
+</merge>

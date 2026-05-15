@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <org.chromium.ui.widget.ChromeImageView n0:id="@id/check" n0:background="@drawable/APKTOOL_RENAMED_0x7f0903d6" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:scaleType="center" n1:APKTOOL_RENAMED_0x7f05033f="center" n1:APKTOOL_RENAMED_0x7f050573="?APKTOOL_RENAMED_0x7f05014d"
+      xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <org.chromium.ui.widget.ChromeImageView n2:layout_gravity="center" n2:id="@id/circle" n2:background="@null" n2:visibility="gone" n2:layout_width="match_parent" n2:layout_height="match_parent" n2:src="@drawable/APKTOOL_RENAMED_0x7f090147" n3:APKTOOL_RENAMED_0x7f050573="@null"
+      xmlns:n2="http://schemas.android.com/apk/res/android" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</merge>

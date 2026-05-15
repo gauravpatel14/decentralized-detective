@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n0:id="@id/follow_management_empty_state" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <org.chromium.components.browser_ui.widget.MaterialCardViewNoShadow n0:layout_gravity="center" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_margin="@dimen/APKTOOL_RENAMED_0x7f0802af" style="@style/APKTOOL_RENAMED_0x7f1501a9">
+        <TextView n0:gravity="center" n0:padding="@dimen/APKTOOL_RENAMED_0x7f0802af" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f1405b1" style="@style/APKTOOL_RENAMED_0x7f150355" />
+    </org.chromium.components.browser_ui.widget.MaterialCardViewNoShadow>
+</FrameLayout>

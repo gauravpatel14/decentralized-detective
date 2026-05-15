@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.keyboard_accessory.sheet_component.AccessorySheetView n0:layout_gravity="start|top" n0:orientation="vertical" n0:id="@id/keyboard_accessory_sheet_container" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:id="@id/sheet_header_shadow" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080897" n0:src="@drawable/APKTOOL_RENAMED_0x7f09040b" n0:scaleType="fitXY" n0:scaleY="-1.0" n0:importantForAccessibility="no" />
+    <LinearLayout n0:layout_gravity="start|bottom" n0:orientation="horizontal" n0:id="@id/sheet_header" n0:background="?APKTOOL_RENAMED_0x7f050165" n0:focusable="true" n0:visibility="gone" n0:clickable="true" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="@dimen/APKTOOL_RENAMED_0x7f080314" n0:importantForAccessibility="no">
+        <include layout="@layout/APKTOOL_RENAMED_0x7f0e001f" />
+    </LinearLayout>
+    <FrameLayout n0:layout_gravity="start|top" n0:id="@id/keyboard_accessory_sheet_frame" n0:paddingTop="0.0dp" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f08031d" n0:fillViewport="true">
+        <org.chromium.chrome.browser.keyboard_accessory.sheet_component.NoSwipeViewPager n0:id="@id/keyboard_accessory_sheet" n0:background="?APKTOOL_RENAMED_0x7f050165" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:fillViewport="true" />
+        <ImageView n0:id="@id/accessory_sheet_shadow" n0:visibility="invisible" n0:layout_width="match_parent" n0:layout_height="@dimen/APKTOOL_RENAMED_0x7f080319" n0:src="@drawable/APKTOOL_RENAMED_0x7f09040b" n0:scaleType="fitXY" n0:importantForAccessibility="no" />
+    </FrameLayout>
+</org.chromium.chrome.browser.keyboard_accessory.sheet_component.AccessorySheetView>

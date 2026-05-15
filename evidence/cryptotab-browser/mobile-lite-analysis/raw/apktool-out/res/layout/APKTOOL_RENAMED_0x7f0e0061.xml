@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="wrap_content" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ViewStub n0:id="@id/title_with_icon_stub" n0:inflatedId="@id/title_with_icon" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+    <RelativeLayout n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <LinearLayout n0:orientation="vertical" n0:id="@id/authenticator_selection_dialog_contents" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <TextView n0:id="@id/authenticator_selection_header" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f1402ab" style="@style/APKTOOL_RENAMED_0x7f150004" />
+            <androidx.recyclerview.widget.RecyclerView n0:orientation="vertical" n0:id="@id/authenticator_options_view" n0:layout_width="match_parent" n0:layout_height="wrap_content" n1:APKTOOL_RENAMED_0x7f0502fd="androidx.recyclerview.widget.LinearLayoutManager" style="@style/APKTOOL_RENAMED_0x7f150004"
+              xmlns:n1="http://schemas.android.com/apk/res-auto" />
+            <TextView n0:id="@id/authenticator_selection_footer" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f1402fc" style="@style/APKTOOL_RENAMED_0x7f150004" />
+        </LinearLayout>
+        <LinearLayout n0:gravity="center" n0:orientation="vertical" n0:id="@id/progress_bar_overlay" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_alignTop="@id/authenticator_selection_dialog_contents" n0:layout_alignBottom="@id/authenticator_selection_dialog_contents" n0:layout_alignStart="@id/authenticator_selection_dialog_contents" n0:layout_alignEnd="@id/authenticator_selection_dialog_contents">
+            <ProgressBar n0:id="@id/progress_bar" n0:layout_width="36.0dp" n0:layout_height="36.0dp" n0:layout_marginTop="16.0dp" n0:layout_marginBottom="8.0dp" />
+            <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15035a" n0:id="@id/progress_bar_message" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/APKTOOL_RENAMED_0x7f1402fe" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

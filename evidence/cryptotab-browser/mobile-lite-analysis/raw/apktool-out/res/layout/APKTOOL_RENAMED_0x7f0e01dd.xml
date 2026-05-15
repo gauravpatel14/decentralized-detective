@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:orientation="horizontal" n0:paddingLeft="24.0dp" n0:paddingRight="12.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:paddingStart="24.0dp" n0:paddingEnd="12.0dp"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageButton n0:id="@id/mr_control_playback_ctrl" n0:background="?APKTOOL_RENAMED_0x7f05048b" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginLeft="12.0dp" n0:layout_alignParentRight="true" n0:layout_centerVertical="true" n0:contentDescription="@string/APKTOOL_RENAMED_0x7f14079e" n0:layout_marginStart="12.0dp" n0:layout_alignParentEnd="true" />
+    <LinearLayout n0:orientation="vertical" n0:id="@id/mr_control_title_container" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_toLeftOf="@id/mr_control_playback_ctrl" n0:layout_alignParentLeft="true" n0:layout_centerVertical="true" n0:importantForAccessibility="no" n0:layout_toStartOf="@id/mr_control_playback_ctrl" n0:layout_alignParentStart="true">
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15031b" n0:id="@id/mr_control_title" n0:clickable="false" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:singleLine="true" />
+        <TextView n0:textAppearance="@style/APKTOOL_RENAMED_0x7f15031c" n0:id="@id/mr_control_subtitle" n0:clickable="false" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>
