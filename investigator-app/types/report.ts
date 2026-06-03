@@ -68,10 +68,12 @@ export interface SecondTokenInfo {
 
 export interface Transaction {
   id: string;
-  timestamp: string;
+  title: string;       
+  date: string;        
+  description: string; 
+  hash: string;        
   type: string;
   signature: string;
-  description?: string;
 }
 
 export interface Finding {
@@ -84,6 +86,8 @@ export interface Evidence {
   id: string;
   title: string;
   type: 'image' | 'text';
+  image: string;       
+  description: string; 
   path?: string;
   content?: string;
   analysis?: string;
